@@ -4,11 +4,11 @@ title: Unidad 3. Cajas, fuentes y placas base
 nav_order: 3
 ---
 
-# Tema 2. Cajas, fuentes y placa base
+# Unidad 3. Cajas, fuentes y placa base
 
-## 1. Cajas.
+## Cajas.
 
-La **caja** es la parte que sirve de soporte y de esqueleto para alojar las piezas básicas de un ordenador (placa, dispositivos de almacenamiento, ...). El tamaño ha de ser lo suficientemente grande para que aloje los  componentes del ordenador. 
+La **caja o chasis o carcasa** es la parte del ordenador que sirve de soporte y de esqueleto para alojar las piezas básicas de un ordenador (placa base, dispositivos de almacenamiento, fuente de alimentación, etc...). El tamaño ha de ser lo suficientemente grande para que albergue los diferentes componentes del ordenador. 
 
 El  material  con  el que están construidas es aluminio o aleaciones de aluminio, metacrilato o plástico, pudiendo ser cartón hasta fibra pasando por titanio, kevlar,.......
 
@@ -16,7 +16,7 @@ El  material  con  el que están construidas es aluminio o aleaciones de alumini
 
 ![](img/U33.png) ![](img/U34.png)
 
-# 1. Partes de la caja.
+## Partes de la caja.
 
 * **Chasis**   . Parte interna metálica (generalmente de aluminio) donde se fija la placa base.  
 
@@ -26,13 +26,13 @@ El  material  con  el que están construidas es aluminio o aleaciones de alumini
 
 * **Panel posterior**   . Donde saldrán al exterior todas las conexiones habituales para elementos externos, así como la salida de ventilación y corriente de la fuente de alimentación.
 
-•   **Bahías para unidades**   . Espacios para alojar las unidades de almacenamiento (DVD, ..) 
+* **Bahías para unidades**   . Espacios para alojar las unidades de almacenamiento (DVD, ..) 
 
 * **Interruptor, pulsador y luces**   . Conjunto de indicadores y botones que le alojan en el panel frontal  para su uso e información (encendido, reset, luz HDD, ...).
 
 ![](img/U35.png)
 
-Detalle anclajes para placa base
+Detalle de los anclajes para placa base
 
 ![](img/U36.png)
 
@@ -67,7 +67,7 @@ La clasificación se hace normalmente por su tamaño dependiendo de las placas b
 
 ![](img/U311.png)
 
-## 2-Instalación eléctrica
+## Instalación eléctrica
 
 ![](img/U312.png)
 
@@ -89,7 +89,7 @@ La clasificación se hace normalmente por su tamaño dependiendo de las placas b
 
 Se conoce **Reglamento Electrotécnico de Baja Tensión** o por sus siglas **REBT** al conjunto de normas o instrucciones técnicas complementarias (ITCs) que establecen la regulación en cuanto a instalaciones eléctricas de baja tensión en España se refiere. El cumplimiento del reglamento en cualquier instalación eléctrica de este tipo es obligatorio, ya que garantiza la seguridad y es requisito indispensable para su homologación, por lo que el conocimiento por parte del instalador es de vital importancia._
 
-## 2- Fuentes de alimentación.
+## Fuentes de alimentación.
 
 ### Tipos de cables y conectores 
 
@@ -115,7 +115,7 @@ _La fuente de alimentación es el dispositivo que proporciona al ordenador (o a 
 
 _Vatios (W) = Voltios (V) x Amperios (A)._
 
-_La fuente de alimentación de un ordenador de sobremesa se encuentra en el interior de la carcasa, es una caja metálica rectangular dotada, normalmente, de un ventilador. De ella sale un grupo de cables de colores que van a parar a los distintos dispositivos dentro de la carcasa. Los conectores que vienen incluidos en la fuente de alimentación están _  _normalizados_  _._
+La fuente de alimentación de un ordenador de sobremesa se encuentra en el interior de la carcasa, es una caja metálica rectangular dotada, normalmente, de un ventilador. De ella sale un grupo de cables de colores que van a parar a los distintos dispositivos dentro de la carcasa. Los conectores que vienen incluidos en la fuente de alimentación están _  _normalizados_  _._
 
 _Los componentes del interior de PC funcionan con corriente continua (DC) y la red eléctrica funciona con corriente alterna (AC) → La fuente de alimentación convierte la corriente alterna (230V AC) en continua (+12V, +5V y +3,3V DC) para que el PC pueda utilizarla._
 
@@ -195,7 +195,7 @@ _Este es el conector que más _  _se usaba hasta hace unos años para dar servic
 
 ![](img/U340.png)
 
-# 2. Conector de alimentación Floppy
+# Conector de alimentación Floppy
 
 _Floppy, también llamado FDD o Berg (compañía que los diseñó). _
 
@@ -205,31 +205,31 @@ _Su uso principal eran las disqueteras, y actualmente casi ningún componente lo
 
 ![](img/U341.png)
 
-# 2. Resumen
+# Resumen
 
 ![](img/U342.png)
 
-# 2. Fuentes de alimentación modulares.
+# Fuentes de alimentación modulares.
 
 _Estas fuentes, a diferencia de las convencionales, tienen la particularidad de que no sale un manojo  de  cables  para  alimentar  a  los  diferentes  dispositivos,  si  no  que  existen  una  serie  de  conectores  y  sólo  conectamos los cables que vamos a necesitar._
 
 ![](img/U343.png)
 
-# 2. Fuentes de alimentación redundantes.
+# Fuentes de alimentación redundantes.
 
 **Los  sistemas  redundantes  son  aquellos  que  repiten  el  hardware  por  su  carácter  crítico,  y  de  esta  manera  asegurarse  que  siga  funcionando  en  caso  de  un  fallo.  Hoy  en  día  los  servidores  llevan  dos  fuentes  de  alimentación redundantes que aseguran el suministro en caso de fallo de una de ellas.**
 
-**Hot Swap**  ** → Cambio en caliente de componentes. (Fuentes, discos duros)**
-
+**Concepto de Hot Swap** 
+Cambio en caliente de componentes (Fuentes, discos duros)
 ![](img/U344.png)
 
 ![](img/U345.png)
 
 ![](img/U346.png)
 
-# 2. Certificación 80 Plus
+# Certificación 80 Plus
 
-**Certifica la eficiencia energética de una fuente, en el caso de 80 Plus significa que de toda la potencia que llega a la fuente, al menos el 80% de ella se convierte en energía útil, mientras que el 20% restante se pierde como energía calorífica.**
+Certifica la eficiencia energética de una fuente, en el caso de 80 Plus significa que de toda la potencia que llega a la fuente, al menos el 80% de ella se convierte en energía útil, mientras que el 20% restante se pierde como energía calorífica.
 
 ![](img/U347.png)
 
@@ -249,7 +249,7 @@ Tiene 600 W.
 
 Su eficiencia es del 94%, así que entregará 564 W.
 
-# 2. ¿Qué fuente necesito?
+# ¿Qué fuente necesito?
 
 * Se necesitan los Vatios (W) suficientes para satisfacer las necesidades energéticas de los componentes del ordenador por separado, y dejar cierto margen.
 * _[https://www.profesionalreview.com/2020/05/07/calcular-potencia-fuente-alimentacion-pc/](https://www.profesionalreview.com/2020/05/07/calcular-potencia-fuente-alimentacion-pc/)_  ** **
@@ -257,15 +257,15 @@ Su eficiencia es del 94%, así que entregará 564 W.
   * _[https://www.coolermaster.com/la/es-la/power-supply-calculator/](https://www.coolermaster.com/la/es-la/power-supply-calculator/)_
   * _[https://www.geeknetic.es/calculadora-fuente-alimentacion/](https://www.geeknetic.es/calculadora-fuente-alimentacion/)_  ** **
 
-# 2. ¿Cómo mido los valores de la fuente?
+2. ¿Cómo se miden los valores de la fuente?
 
 **Multímetro / Polímetro /Tester**
 
 ![](img/U348.png)
 
-# 3. Definición de placa base
+## Placa base
 
-La placa base (mainboard) o placa madre (   _motherboard_   ) es el elemento principal del ordenador; a ella se conectan todos los demás dispositivos, como pueden ser el disco duro, la memoria o el microprocesador, y hace que todos estos componentes funcionen en equipo. De ella, dependerán los componentes que podremos instalar y las posibilidades de ampliación del ordenador.
+La placa base (mainboard) o placa madre (motherboard) es el elemento principal del ordenador; a ella se conectan todos los demás dispositivos, como pueden ser el disco duro, la memoria o el microprocesador, y hace que todos estos componentes funcionen en equipo. De ella, dependerán los componentes que podremos instalar y las posibilidades de ampliación del ordenador.
 
 Físicamente, es una placa de material sintético formada por un circuito impreso, en la que se halla un conjunto de chips, el chipset, la BIOS, los puertos del ratón y del teclado, los conectores IDE y SATA, el zócalo del microprocesador, los zócalos de memoria, los puertos paralelo, serie, USB.
 
@@ -273,40 +273,25 @@ Físicamente, es una placa de material sintético formada por un circuito impres
 
 ![](img/U350.png)
 
-**Placa base**
-
-# Tema 2.
-
-**Busca en Internet fabricantes de placas base, indicando la página web de cada uno de ellos.**
-
-| Marca | Web |
-| :-: | :-: |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-
-# 1. Factor de forma
+#### Factor de forma de placas base
 
 El factor de forma son los estándares que definen algunas características físicas de las placas base. Existen diferentes tamaños y tipos de placas base. El factor de forma de la placa base determina el tamaño y orientación de la placa con respecto a la caja, el tipo de fuente de alimentación necesaria y dicta los periféricos que pueden integrarse en la placa.
 
-Hasta la fecha se han definido (y comercializado) diversos  _form_  _ factor_ . Estos evolucionan a medida que los componentes tienen más requerimientos de interoperabilidad. Los más importantes son:
+Hasta la fecha se han definido (y comercializado) diversos  **form factor**. 
 
-**ATX y Micro-ATX, ** los más extendidos actualmente.  ** **
+Los más importantes son:
 
-**Mini-ITX** (compatible con ATX) **, Nano-ITX y Pico-ITX** . Formatos muy reducidos de VIA Technologies.
+* **ATX y Micro-ATX** los más extendidos actualmente
 
-**Extended ATX** . Factor de forma de mayor tamaño Están pensadas para configurar equipos de grandes prestaciones.
+* **Mini-ITX** (compatible con ATX) **, Nano-ITX y Pico-ITX** . Formatos muy reducidos de VIA Technologies.
 
-**ATX:**   (305 x 244 mm) Es el formato de placa base estándar del mercado del hardware. Se utiliza tanto en ordenadores destinados a trabajo, oficina o gaming
+* **Extended ATX** . Factor de forma de mayor tamaño Están pensadas para configurar equipos de grandes prestaciones.
 
-**Micro-ATX** : (244 x 244 mm) Una variante más compacta del ATX y con un volumen que es un 25% menor.
+* **ATX:**   (305 x 244 mm) Es el formato de placa base estándar del mercado del hardware. Se utiliza tanto en ordenadores destinados a trabajo, oficina o gaming
 
-**Extended ATX: **  (300 x 330 mm). Están pensadas para configurar equipos de grandes prestaciones como servidores dedicados a Datacenter, servidores compartidos, virtualizaciones y entornos profesionales en el sector audiovisual digital.
+* **Micro-ATX.** (244 x 244 mm) Una variante más compacta del ATX y con un volumen que es un 25% menor.
+
+* **Extended ATX.**  (300 x 330 mm). Están pensadas para configurar equipos de grandes prestaciones como servidores dedicados a Datacenter, servidores compartidos, virtualizaciones y entornos profesionales en el sector audiovisual digital.
 
 **Mini ITX** : (170 x 170 mm).  Ordenadores compactos
 
