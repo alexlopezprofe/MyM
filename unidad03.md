@@ -12,7 +12,7 @@ La **caja o chasis o carcasa** es la parte del ordenador que sirve de soporte y 
 
 El  material  con  el que están construidas es aluminio o aleaciones de aluminio, metacrilato o plástico, pudiendo ser cartón hasta fibra pasando por titanio, kevlar,.......
 
-![](assets/img/Unidad03/Unidad03Unidad03U31.png) ![](assets/img/Unidad03/U32.png)
+![](assets/img/Unidad03/Unidad03U31.png) ![](assets/img/Unidad03/U32.png)
 
 ![](assets/img/Unidad03/U33.png) ![](assets/img/Unidad03/U34.png)
 
