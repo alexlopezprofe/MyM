@@ -14,9 +14,11 @@ El  material  con  el que están construidas es aluminio o aleaciones de alumini
 
 ![](assets/img/Unidad03/Unidad03U31.png) ![](assets/img/Unidad03/U32.png)
 
-![](assets/img/Unidad03/U33.png) ![](assets/img/Unidad03/U34.png)
+![](assets/img/Unidad03/U33.png)
 
 ## Partes de la caja.
+
+ ![](assets/img/Unidad03/U34.png)
 
 * **Chasis**   . Parte interna metálica (generalmente de aluminio) donde se fija la placa base.  
 
@@ -25,22 +27,25 @@ El  material  con  el que están construidas es aluminio o aleaciones de alumini
 * **Panel frontal**   . Parte delantera de la caja (suele ser de plástico).
 
 * **Panel posterior**   . Donde saldrán al exterior todas las conexiones habituales para elementos externos, así como la salida de ventilación y corriente de la fuente de alimentación.
+  
+![](assets/img/Unidad03/U35.png)
 
 * **Bahías para unidades**   . Espacios para alojar las unidades de almacenamiento (DVD, ..) 
 
 * **Interruptor, pulsador y luces**   . Conjunto de indicadores y botones que le alojan en el panel frontal  para su uso e información (encendido, reset, luz HDD, ...).
 
-![](assets/img/Unidad03/U35.png)
 
-Detalle de los anclajes para placa base
+> Detalle de los anclajes para placa base:
 
 ![](assets/img/Unidad03/U36.png)
 
+> Separadores:
+
 ![](assets/img/Unidad03/U37.png)
 
- **Tornilleria**   :   _[https://hardzone.es/tutoriales/mantenimiento/tipos-tornillos-mantenimiento-pc/](https://hardzone.es/tutoriales/mantenimiento/tipos-tornillos-mantenimiento-pc/)_   
+ **Tornilleria utilizada en las cajas de los ordenadores:**  [https://hardzone.es/tutoriales/mantenimiento/tipos-tornillos-mantenimiento-pc/](https://hardzone.es/tutoriales/mantenimiento/tipos-tornillos-mantenimiento-pc/)_   
 
-![](assets/img/Unidad03/U38.png)
+
 
 ## Tipos de cajas.
 
@@ -56,14 +61,21 @@ La clasificación se hace normalmente por su tamaño dependiendo de las placas b
 
 * **Gran  torre (Full Tower.)** EATX. Entre 55-72cm. 
 
-* **Caja rack.** Usada para servidores industriales o para montar servidores en armarios rack (19”). 
+* **Caja rack.** Usada para servidores industriales o para montar servidores en armarios rack (19”).
+
+> Detalle de los diferentes formatos:
+
+![](assets/img/Unidad03/U38.png)
 
 > Una caja grande es capaz de alojar placas más pequeñas.
 
 ![](assets/img/Unidad03/U39.png)
 <br/>
-**Resumen de tipos de cajas:**
+> **Resumen de tipos de cajas:**
+
 ![Resumen de tipos de cajas](assets/img/Unidad03/U310.png)
+
+> **Comparación de tipos de cajas:**
 
 ![](assets/img/Unidad03/U311.png)
 
