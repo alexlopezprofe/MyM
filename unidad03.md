@@ -12,9 +12,9 @@ La **caja o chasis o carcasa** es la parte del ordenador que sirve de soporte y 
 
 El  material  con  el que están construidas es aluminio o aleaciones de aluminio, metacrilato o plástico, pudiendo ser cartón hasta fibra pasando por titanio, kevlar,.......
 
-![](/img/U31.png) ![](img/U32.png)
+![](assets/img/Unidad03/Unidad03Unidad03U31.png) ![](assets/img/Unidad03/U32.png)
 
-![](img/U33.png) ![](img/U34.png)
+![](assets/img/Unidad03/U33.png) ![](assets/img/Unidad03/U34.png)
 
 ## Partes de la caja.
 
@@ -30,17 +30,17 @@ El  material  con  el que están construidas es aluminio o aleaciones de alumini
 
 * **Interruptor, pulsador y luces**   . Conjunto de indicadores y botones que le alojan en el panel frontal  para su uso e información (encendido, reset, luz HDD, ...).
 
-![](img/U35.png)
+![](assets/img/Unidad03/U35.png)
 
 Detalle de los anclajes para placa base
 
-![](img/U36.png)
+![](assets/img/Unidad03/U36.png)
 
-![](img/U37.png)
+![](assets/img/Unidad03/U37.png)
 
  **Tornilleria**   :   _[https://hardzone.es/tutoriales/mantenimiento/tipos-tornillos-mantenimiento-pc/](https://hardzone.es/tutoriales/mantenimiento/tipos-tornillos-mantenimiento-pc/)_   
 
-![](img/U38.png)
+![](assets/img/Unidad03/U38.png)
 
 ## Tipos de cajas.
 
@@ -60,30 +60,30 @@ La clasificación se hace normalmente por su tamaño dependiendo de las placas b
 
 > Una caja grande es capaz de alojar placas más pequeñas.
 
-![](img/U39.png)
+![](assets/img/Unidad03/U39.png)
 <br/>
 **Resumen de tipos de cajas:**
-![Resumen de tipos de cajas](img/U310.png)
+![Resumen de tipos de cajas](assets/img/Unidad03/U310.png)
 
-![](img/U311.png)
+![](assets/img/Unidad03/U311.png)
 
 ## Instalación eléctrica
 
-![](img/U312.png)
+![](assets/img/Unidad03/U312.png)
 
-![](img/U313.png)
+![](assets/img/Unidad03/U313.png)
 
-![](img/U314.png)
+![](assets/img/Unidad03/U314.png)
 
-![](img/U315.png)
+![](assets/img/Unidad03/U315.png)
 
 <span style="color:#394649">Las medidas de los cables eléctricos se suelen categorizar en calibres si se habla del sistema AWG (American Wire Gauge), sin embargo es más común conocerlos dependiendo del   <span style="color:#394649"> **diámetro del cable**   <span style="color:#394649"> en el sistema métrico decimal y categorizarlos en milímetros cuadrados dependiendo del diámetro de la sección
 
-![](img/U316.png)
+![](assets/img/Unidad03/U316.png)
 
-![](img/U317.png)
+![](assets/img/Unidad03/U317.png)
 
-![](img/U318.png)
+![](assets/img/Unidad03/U318.png)
 
 [REBT - Reglamento electrotécnico para baja tensión.](https://www.boe.es/biblioteca_juridica/codigos/abrir_pdf.php?fich=326_Reglamento_electrotecnico_para_baja_tension_e_ITC.pdf)
 
@@ -97,17 +97,17 @@ Se conoce **Reglamento Electrotécnico de Baja Tensión** o por sus siglas **REB
 
 En un extremo tiene un conector macho _  _Schuko_  _ (tipo F) para conectarlo a la toma Schuko de pared y en el otro extremo tiene un conector hembra _  _IEC230C-13_  _ para conectarlo al dispositivo a alimentar.
 
-![](img/U319.png)
+![](assets/img/Unidad03/U319.png)
 
-![](img/U320.png)
+![](assets/img/Unidad03/U320.png)
 
 * **AK50242.** Permite  enchufar  alimentadores  externos,  transformadores,  fuentes  de alimentación reducida, ...En un extremo tiene un conector macho Schuko para conectarlo a la toma Schuko  de  la  pared  y  en  el  otro  extremo  tiene  un  conector  hembra  IEC320-C5 (trébol)  para  conectarlo  al  dispositivo  a  alimentar.
 
-![](img/U321.png)
+![](assets/img/Unidad03/U321.png)
 
 * **AK-5030.** Permite enchufar la salida de fuente de alimentación hembra a la entrada  de  alimentación  del  monitor.  Por  tanto,  en  un  extremo  tiene  un  conector  IEC320-C14  para  conectarlo  a  la  fuente de alimentación y en el otro extremo tiene un conector hembra IEC320-C13 para conectarlo al monitor.
 
-![](img/U322.png)
+![](assets/img/Unidad03/U322.png)
 
 [https://www.worldstandards.eu/es/electricidad/tipos-de-enchufes/](https://www.worldstandards.eu/es/electricidad/tipos-de-enchufes/)_   
 
@@ -119,43 +119,43 @@ La fuente de alimentación de un ordenador de sobremesa se encuentra en el inter
 
 _Los componentes del interior de PC funcionan con corriente continua (DC) y la red eléctrica funciona con corriente alterna (AC) → La fuente de alimentación convierte la corriente alterna (230V AC) en continua (+12V, +5V y +3,3V DC) para que el PC pueda utilizarla._
 
-![](img/U323.png)
+![](assets/img/Unidad03/U323.png)
 
-![](img/U324.png)
+![](assets/img/Unidad03/U324.png)
 
-![](img/U325.png)
+![](assets/img/Unidad03/U325.png)
 
-![](img/U326.png)
+![](assets/img/Unidad03/U326.png)
 
-![](img/U327.png)
+![](assets/img/Unidad03/U327.png)
 
 # 2. Conectores de energía fuente de alimentación.
 
 _Los conectores de energía_  _ sirven para conectar los cables de la fuente de alimentación a la placa base; de esta manera, la placa base suministrará la corriente a los componentes que se conectan a ella, como el microprocesador, la memoria, las tarjetas de expansión, los ventiladores, etc._
 
-![](img/U328.png)
+![](assets/img/Unidad03/U328.png)
 
 # 2. Conector de alimentación ATX de 24 pines (P1)
 
 <span style="color:#333333">Lleva la alimentación principal desde la fuente a la placa base. Suele estar compuesto por un conector principal de 20 pines y uno secundario de 4 pines
 
-![](img/U329.png)
+![](assets/img/Unidad03/U329.png)
 
-![](img/U330.png)
+![](assets/img/Unidad03/U330.png)
 
 # 2. Conector de alimentación EPS +12 V (P4)
 
-![](img/U331.png)
+![](assets/img/Unidad03/U331.png)
 
 **Este conector es el que lleva la alimentación directa al procesador. **
 
 **Generalmente lo podemos ver como un conector de 4 + 4 pines o bien uno de solo 4 pines (aunque la primera opción es la más habitual).**
 
-![](img/U332.png)
+![](assets/img/Unidad03/U332.png)
 
 # 2. Conector de alimentación PCI-E
 
-![](img/U333.png)
+![](assets/img/Unidad03/U333.png)
 
 _Se utiliza para proporcionar alimentación extra a las tarjetas gráficas cuando sus requerimientos de potencia son superiores a los 75 W que puede suministrar por sí mismo la ranura PCIe x16 en la que suele ir conectada._
 
@@ -165,7 +165,7 @@ _El conector de 6 pines es capaz de suministrar hasta 75 W de potencia extra a l
 
 _Es habitual que las fuentes de alimentación lleven más de uno de estos conectores (a mayor potencia de la fuente, mayor número de conectores PCIe llevan)._
 
-![](img/U334.png)
+![](assets/img/Unidad03/U334.png)
 
 # 2. Conector de alimentación SATA
 
@@ -175,25 +175,25 @@ _Se emplea para proporcionar alimentación desde la fuente a los dispositivos co
 
 _Tiene forma aplanada y su interior hace una especie de «L» tumbada, de manera que indica la correcta orientación del conector a la hora de ser conectado al dispositivo que se quiere alimentar._
 
-![](img/U335.png)
+![](assets/img/Unidad03/U335.png)
 
-![](img/U336.png)
+![](assets/img/Unidad03/U336.png)
 
 # 2. Conectores de energía. Ventiladores (Fan)
 
 **En ellos se conectan los ventiladores internos del chasis. Se suelen encontrar los siguientes: CPU-FAN, SYSTEM-FAN, CHA-FAN, POWER-FAN, NORTHBRIDGE-FAN, etc.**
 
-![](img/U337.png)
+![](assets/img/Unidad03/U337.png)
 
-![](img/U338.png)
+![](assets/img/Unidad03/U338.png)
 
 # 2. Conector de alimentación molex de 4 pines
 
 _Este es el conector que más _  _se usaba hasta hace unos años para dar servicio al resto de componentes del ordenador_  _, aunque ahora su uso ha quedado bastante relegado a tareas secundarias (de ahí que cada vez haya menos de ellos en las fuentes)_
 
-![](img/U339.png)
+![](assets/img/Unidad03/U339.png)
 
-![](img/U340.png)
+![](assets/img/Unidad03/U340.png)
 
 # Conector de alimentación Floppy
 
@@ -203,17 +203,17 @@ _Se trata, básicamente, de un conector equivalente al Molex en cuanto a su sali
 
 _Su uso principal eran las disqueteras, y actualmente casi ningún componente los usa (o ya ninguno, decimos «casi» porque desconocemos si hay algún controlador o periférico que sí lo necesite). Generalmente, las fuentes traen 1 y, afortunadamente, las más nuevas se limitan a incluir un adaptador Molex de 4 pines a Berg._
 
-![](img/U341.png)
+![](assets/img/Unidad03/U341.png)
 
 # Resumen
 
-![](img/U342.png)
+![](assets/img/Unidad03/U342.png)
 
 # Fuentes de alimentación modulares.
 
 _Estas fuentes, a diferencia de las convencionales, tienen la particularidad de que no sale un manojo  de  cables  para  alimentar  a  los  diferentes  dispositivos,  si  no  que  existen  una  serie  de  conectores  y  sólo  conectamos los cables que vamos a necesitar._
 
-![](img/U343.png)
+![](assets/img/Unidad03/U343.png)
 
 # Fuentes de alimentación redundantes.
 
@@ -221,17 +221,17 @@ _Estas fuentes, a diferencia de las convencionales, tienen la particularidad de 
 
 **Concepto de Hot Swap** 
 Cambio en caliente de componentes (Fuentes, discos duros)
-![](img/U344.png)
+![](assets/img/Unidad03/U344.png)
 
-![](img/U345.png)
+![](assets/img/Unidad03/U345.png)
 
-![](img/U346.png)
+![](assets/img/Unidad03/U346.png)
 
 # Certificación 80 Plus
 
 Certifica la eficiencia energética de una fuente, en el caso de 80 Plus significa que de toda la potencia que llega a la fuente, al menos el 80% de ella se convierte en energía útil, mientras que el 20% restante se pierde como energía calorífica.
 
-![](img/U347.png)
+![](assets/img/Unidad03/U347.png)
 
 <span style="color:#2C2F34">Una fuente de alimentación con certificación 80 Plus Silver.
 
@@ -261,7 +261,7 @@ Su eficiencia es del 94%, así que entregará 564 W.
 
 **Multímetro / Polímetro /Tester**
 
-![](img/U348.png)
+![](assets/img/Unidad03/U348.png)
 
 ## Placa base
 
@@ -269,9 +269,9 @@ La placa base (mainboard) o placa madre (motherboard) es el elemento principal d
 
 Físicamente, es una placa de material sintético formada por un circuito impreso, en la que se halla un conjunto de chips, el chipset, la BIOS, los puertos del ratón y del teclado, los conectores IDE y SATA, el zócalo del microprocesador, los zócalos de memoria, los puertos paralelo, serie, USB.
 
-![](img/U349.png)
+![](assets/img/Unidad03/U349.png)
 
-![](img/U350.png)
+![](assets/img/Unidad03/U350.png)
 
 #### Factor de forma de placas base
 
@@ -295,7 +295,7 @@ Los más importantes son:
 
 **Mini ITX** : (170 x 170 mm).  Ordenadores compactos
 
-![](img/U351.png)
+![](assets/img/Unidad03/U351.png)
 
 # Comparación de factor de forma
 
@@ -335,15 +335,15 @@ Puerto de red
 
 Northbridge (puente norte)
 
-![](img/U352.png)
+![](assets/img/Unidad03/U352.png)
 
-![](img/U353.png)
+![](assets/img/Unidad03/U353.png)
 
 # 2. Fabricación placa base
 
-![](img/U354.jpg)
+![](assets/img/Unidad03/U354.jpg)
 
-![](img/U355.jpg)
+![](assets/img/Unidad03/U355.jpg)
 
 # 3. El socket
 
@@ -357,15 +357,15 @@ Northbridge (puente norte)
 
 # 3 Socket PGA
 
-![](img/U356.png)
+![](assets/img/Unidad03/U356.png)
 
-![](img/U357.png)
+![](assets/img/Unidad03/U357.png)
 
 # 3. Socket LGA
 
-![](img/U358.png)
+![](assets/img/Unidad03/U358.png)
 
-![](img/U359.png)
+![](assets/img/Unidad03/U359.png)
 
 # 3. Sockets Intel
 
@@ -447,13 +447,13 @@ AMD sTRX4 Platform for 3rd Gen AMD Ryzen
 
 <span style="color:#616161"> **Puente sur (**   <span style="color:#616161">Southbrige  <span style="color:#616161"> **)**   <span style="color:#616161">. Se encuentra en la parte inferior (sur) de la placa, próximo a los slots de expansión y a las conexiones de E/S. Es el responsable de la conexión de la CPU con la controladora de discos IDE, puertos USB, FireWire, SATA, ranuras PCI, disquetera, LAN, PCI-Express 1x, etc. Es el encargado de comunicar el procesador con el resto de los periféricos.
 
-![](img/U360.png)
+![](assets/img/Unidad03/U360.png)
 
-![](img/U361.png)
+![](assets/img/Unidad03/U361.png)
 
-![](img/U362.png)
+![](assets/img/Unidad03/U362.png)
 
-![](img/U363.png)
+![](assets/img/Unidad03/U363.png)
 
 # 4. El chipset
 
@@ -461,7 +461,7 @@ AMD sTRX4 Platform for 3rd Gen AMD Ryzen
 
 # 4. El chipset vs procesador
 
-![](img/U364.png)
+![](assets/img/Unidad03/U364.png)
 
 # 4. Ejemplo de Chipset
 
@@ -487,19 +487,19 @@ _[Chipsets AMD](https://www.amd.com/en/products/chipsets-motherboards-desktop)_ 
 
 <span style="color:#202122">Cuando enciendes el ordenador lo primero que arranca es la BIOS. Este firmware entonces se encarga de iniciar, configurar y comprobar que se encuentre en buen estado el hardware del ordenador, incluyendo la memoria RAM, los discos duros, la placa base, la tarjeta gráfica.... Cuando termina selecciona el dispositivo de arranque (disco duro, CD, USB etcétera) y procede a iniciar el sistema operativo.
 
-![](img/U365.png)
+![](assets/img/Unidad03/U365.png)
 
 Fabricantes de BIOS más conocidos: PhoenixBIOS, Award, Amibios, MSI.
 
-![](img/U366.png)
+![](assets/img/Unidad03/U366.png)
 
-![](img/U367.png)
+![](assets/img/Unidad03/U367.png)
 
 # 5. La BIOS. UEFI
 
 Actualmente, el interface BIOS original ha sido sustituido por otro más elaborado y seguro,    **UEFI**    (Interfaz de Firmware Extensible Unificado). UEFI proporciona mejoras de seguridad en el arranque y aprovechamiento de las nuevas funcionalidades soportadas por las placas base modernas.
 
-![](img/U368.png)
+![](assets/img/Unidad03/U368.png)
 
  **Ventajas:** 
 
@@ -523,11 +523,11 @@ Extraer batería CMOS o pila un cierto tiempo.
 
 Utilizar jumper o botón de la placa base.
 
-![](img/U369.png)
+![](assets/img/Unidad03/U369.png)
 
-![](img/U370.png)
+![](assets/img/Unidad03/U370.png)
 
-![](img/U371.png)
+![](assets/img/Unidad03/U371.png)
 
 # 6. Los zócalos de la memoria.
 
@@ -547,21 +547,21 @@ _SO-DIMM_  _. Consisten en una versión compacta de los módulos DIMM convencion
 
 _Estas ranuras se agrupan en bancos de 1, 2, 4 o 6 zócalos, están numerados y normalmente se colocan abriendo los sujetadores ubicados en cada extremo de la ranura_
 
-![](img/U372.jpg)
+![](assets/img/Unidad03/U372.jpg)
 
-![](img/U373.png)
+![](assets/img/Unidad03/U373.png)
 
-![](img/U374.png)
+![](assets/img/Unidad03/U374.png)
 
-![](img/U375.png)
+![](assets/img/Unidad03/U375.png)
 
-![](img/U376.png)
+![](assets/img/Unidad03/U376.png)
 
-![](img/U377.png)
+![](assets/img/Unidad03/U377.png)
 
-![](img/U378.png)
+![](assets/img/Unidad03/U378.png)
 
-![](img/U379.png)
+![](assets/img/Unidad03/U379.png)
 
 Las memorias
 
@@ -575,7 +575,7 @@ Estas ranuras forman parte de un bus, a través del cual se comunican los distin
 
 En una placa base actual podemos encontrar ranuras PCI y ranuras PCI Express de distintas velocidades. Las primeras tienden a desaparecer y ser sustituidas por las PCI Express. 
 
-![](img/U380.png)
+![](assets/img/Unidad03/U380.png)
 
 # 7. Bus de expansión PCI
 
@@ -587,9 +587,9 @@ En una placa base actual podemos encontrar ranuras PCI y ranuras PCI Express de 
 * _Permite “Plug and Play” (identifica las tarjetas insertadas)_
 * _No permite la _  _[conexión en caliente](https://es.wikipedia.org/wiki/Conexi%C3%B3n_en_caliente)_  _ (Hot plug)_
 
-![](img/U381.png)
+![](assets/img/Unidad03/U381.png)
 
-![](img/U382.png)
+![](assets/img/Unidad03/U382.png)
 
 # 7. Bus de expansión AGP
 
@@ -604,13 +604,13 @@ En una placa base actual podemos encontrar ranuras PCI y ranuras PCI Express de 
 * _Se han quedado obsoletas dando paso a las PCIe._
 * .
 
-![](img/U383.png)
+![](assets/img/Unidad03/U383.png)
 
-![](img/U384.png)
+![](assets/img/Unidad03/U384.png)
 
 # 7. Buses de expansión PCI-Express
 
-![](img/U385.png)
+![](assets/img/Unidad03/U385.png)
 
 _El slot PCI-Express_  _, que también puede encontrarse como _  _PCI-E _  _o _  _PCle_
 
@@ -620,39 +620,39 @@ _Hereda la nomenclatura del AGP, y así podemos encontrarlo en x1, x2, x4, x8, x
 
 _Existen diferentes versiones de PCI-E_
 
-![](img/U386.jpg)
+![](assets/img/Unidad03/U386.jpg)
 
-![](img/U387.png)
+![](assets/img/Unidad03/U387.png)
 
-![](img/U388.jpg)
+![](assets/img/Unidad03/U388.jpg)
 
 # 7. Buses de expansión. Versiones PCI-Express
 
-![](img/U389.png)
+![](assets/img/Unidad03/U389.png)
 
-![](img/U390.png)
+![](assets/img/Unidad03/U390.png)
 
 # 8. Los conectores internos de la placa base
 
-![](img/U391.png)
+![](assets/img/Unidad03/U391.png)
 
 _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-gaming-z790-plus-wifi/](https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-gaming-z790-plus-wifi/)_
 
-![](img/U392.png)
+![](assets/img/Unidad03/U392.png)
 
 # 8. FDD (del inglés Floppy Disk Drive)
 
-![](img/U393.png)
+![](assets/img/Unidad03/U393.png)
 
-![](img/U394.png)
+![](assets/img/Unidad03/U394.png)
 
 <span style="color:#222222">Disquetera de 3.5” (Obsoleto)
 
 <span style="color:#222222">34 pines
 
-![](img/U395.png)
+![](assets/img/Unidad03/U395.png)
 
-![](img/U396.png)
+![](assets/img/Unidad03/U396.png)
 
 # 8. Conector IDE (o ATA paralelo)
 
@@ -664,17 +664,17 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 
 **40 pines**
 
-![](img/U397.png)
+![](assets/img/Unidad03/U397.png)
 
-![](img/U398.png)
+![](assets/img/Unidad03/U398.png)
 
 # 8. IDE vs Floppy
 
-![](img/U399.png)
+![](assets/img/Unidad03/U399.png)
 
-![](img/U3100.png)
+![](assets/img/Unidad03/U3100.png)
 
-![](img/U3101.png)
+![](assets/img/Unidad03/U3101.png)
 
 # 8. Serial ATA o SATA (Serial Advanced Technology Attachment)
 
@@ -682,73 +682,73 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 
 <span style="color:#222222">Reemplazan a los IDE
 
-![](img/U3102.png)
+![](assets/img/Unidad03/U3102.png)
 
-![](img/U3103.png)
+![](assets/img/Unidad03/U3103.png)
 
-![](img/U3104.png)
+![](assets/img/Unidad03/U3104.png)
 
 # 8. Conector USB interno
 
-![](img/U3105.png)
+![](assets/img/Unidad03/U3105.png)
 
 **Conector USB interno**
 
-![](img/U3106.png)
+![](assets/img/Unidad03/U3106.png)
 
-![](img/U3107.png)
+![](assets/img/Unidad03/U3107.png)
 
 # 8. Conector USB
 
-![](img/U3108.png)
+![](assets/img/Unidad03/U3108.png)
 
 **Conector USB interno**
 
-![](img/U3109.png)
+![](assets/img/Unidad03/U3109.png)
 
 # 8. Conector USB 3.2 Gen 2x2 interno
 
-![](img/U3110.png)
+![](assets/img/Unidad03/U3110.png)
 
-![](img/U3111.png)
+![](assets/img/Unidad03/U3111.png)
 
-![](img/U3112.png)
+![](assets/img/Unidad03/U3112.png)
 
 # 8. Nueva nomenclatura USB
 
-![](img/U3113.png)
+![](assets/img/Unidad03/U3113.png)
 
-![](img/U3114.png)
+![](assets/img/Unidad03/U3114.png)
 
-![](img/U3115.png)
+![](assets/img/Unidad03/U3115.png)
 
 # 8. Tipos de USB
 
-![](img/U3116.jpg)
+![](assets/img/Unidad03/U3116.jpg)
 
 # 8. Conector NVMe M.2
 
-![](img/U3117.png)
+![](assets/img/Unidad03/U3117.png)
 
  **Interfaz NVMe M.2**   : Discos duros SSD M2 y tarjetas WiFi
 
-![](img/U3118.png)
+![](assets/img/Unidad03/U3118.png)
 
-![](img/U3119.png)
+![](assets/img/Unidad03/U3119.png)
 
-![](img/U3120.png)
+![](assets/img/Unidad03/U3120.png)
 
-![](img/U3121.jpg)
+![](assets/img/Unidad03/U3121.jpg)
 
 # 8. Conectores de audio internos
 
 **Conectores para el audio frontal del ordenador. Con un cable se lleva el puerto de sonido hacia el exterior del chasis.**
 
-![](img/U3122.png)
+![](assets/img/Unidad03/U3122.png)
 
-![](img/U3123.png)
+![](assets/img/Unidad03/U3123.png)
 
-![](img/U3124.png)
+![](assets/img/Unidad03/U3124.png)
 
 # 8. Conectores del panel frontal.
 
@@ -760,17 +760,17 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 
 **HDD LED (H.D.D. LED) LED de funcionamiento de disco duro (+,-)**
 
-![](img/U3125.png)
+![](assets/img/Unidad03/U3125.png)
 
-![](img/U3126.png)
+![](assets/img/Unidad03/U3126.png)
 
-![](img/U3127.png)
+![](assets/img/Unidad03/U3127.png)
 
-![](img/U3128.png)
+![](assets/img/Unidad03/U3128.png)
 
 # 8. Q-connector
 
-![](img/U3129.png)
+![](assets/img/Unidad03/U3129.png)
 
 # 8. Pila
 
@@ -782,33 +782,33 @@ Tipo: CR2032 - 3V
 
 Si la batería se agota la BIOS a través de la pantalla puede mostrarnos información al respecto, siendo los más comunes los del tipo “CMOS Battery Failure”, “CMOS Read Error”, o “CMOS Checksum Error”.
 
-![](img/U3130.png)
+![](assets/img/Unidad03/U3130.png)
 
-![](img/U3131.png)
+![](assets/img/Unidad03/U3131.png)
 
-![](img/U3132.png)
+![](assets/img/Unidad03/U3132.png)
 
 # 9. Conectores externos de la placa base
 
-![](img/U3133.png)
+![](assets/img/Unidad03/U3133.png)
 
-![](img/U3134.png)
+![](assets/img/Unidad03/U3134.png)
 
-![](img/U3135.png)
+![](assets/img/Unidad03/U3135.png)
 
-![](img/U3136.png)
+![](assets/img/Unidad03/U3136.png)
 
-![](img/U3137.png)
+![](assets/img/Unidad03/U3137.png)
 
 # 10. VRM
 
 **VRM**  es un acrónimo de “Voltage Regulator Module” o “Modulo de regulación de voltaje” y es un componente electrónico que permite regular, con mayor o menor eficiencia, el voltaje que se suministra en un circuito electrónico y en el case de las placas base al procesador, memorias y resto de componentes.
 
-![](../../img/U3138.png)
+![](../../assets/assets/img/Unidad03/Unidad03U3138.png)
 
-![](img/U3139.png)
+![](assets/img/Unidad03/U3139.png)
 
-![](img/U3140.png)
+![](assets/img/Unidad03/U3140.png)
 
 # 11. Proceso de arranque de un ordenador
 
