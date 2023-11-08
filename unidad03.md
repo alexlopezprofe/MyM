@@ -296,7 +296,7 @@ Se necesitan los Vatios (W) suficientes para satisfacer las necesidades energét
 
 ![](assets/img/Unidad03/U348.png)
 
-## Placas base
+# Placas base
 
 La placa base (mainboard) o placa madre (motherboard) es el elemento principal del ordenador; a ella se conectan todos los demás dispositivos, como pueden ser el disco duro, la memoria o el microprocesador, y hace que todos estos componentes funcionen en equipo. De ella, dependerán los componentes que podremos instalar y las posibilidades de ampliación del ordenador.
 
