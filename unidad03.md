@@ -6,6 +6,12 @@ nav_order: 3
 
 # Unidad 3. Cajas, fuentes y placa base
 
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+
 ## Cajas.
 
 La **caja o chasis o carcasa** es la parte del ordenador que sirve de soporte y de esqueleto para alojar las piezas básicas de un ordenador (placa base, dispositivos de almacenamiento, fuente de alimentación, etc...). El tamaño ha de ser lo suficientemente grande para que albergue los diferentes componentes del ordenador. 
