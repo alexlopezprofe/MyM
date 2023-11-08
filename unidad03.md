@@ -25,7 +25,8 @@ El  material  con  el que están construidas es aluminio o aleaciones de alumini
 ![](assets/img/Unidad03/Unidad03U31.png) ![](assets/img/Unidad03/U32.png)
 
 ![](assets/img/Unidad03/U33.png)
-*caption*
+
+---
 
 ## Partes de la caja.
 
