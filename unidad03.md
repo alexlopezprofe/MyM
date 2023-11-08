@@ -169,7 +169,7 @@ _Los conectores de energía_  _ sirven para conectar los cables de la fuente de 
 
 ![](assets/img/Unidad03/U330.png)
 
-### Conector de alimentación EPS +12 V (P4)
+## Conector de alimentación EPS +12 V (P4)
 
 ![](assets/img/Unidad03/U331.png)
 
@@ -179,7 +179,7 @@ _Los conectores de energía_  _ sirven para conectar los cables de la fuente de 
 
 ![](assets/img/Unidad03/U332.png)
 
-### Conector de alimentación PCI-E
+## Conector de alimentación PCI-E
 
 ![](assets/img/Unidad03/U333.png)
 
@@ -193,7 +193,7 @@ _Es habitual que las fuentes de alimentación lleven más de uno de estos conect
 
 ![](assets/img/Unidad03/U334.png)
 
-### Conector de alimentación SATA
+## Conector de alimentación SATA
 
 _Este es el conector que ha sustituido en funcionalidad y número al conector molex._
 
@@ -205,7 +205,7 @@ _Tiene forma aplanada y su interior hace una especie de «L» tumbada, de manera
 
 ![](assets/img/Unidad03/U336.png)
 
-### Conectores de energía. Ventiladores (Fans)
+## Conectores de energía. Ventiladores (Fans)
 
 **En ellos se conectan los ventiladores internos del chasis. Se suelen encontrar los siguientes: CPU-FAN, SYSTEM-FAN, CHA-FAN, POWER-FAN, NORTHBRIDGE-FAN, etc.**
 
@@ -213,7 +213,7 @@ _Tiene forma aplanada y su interior hace una especie de «L» tumbada, de manera
 
 ![](assets/img/Unidad03/U338.png)
 
-### Conector de alimentación molex de 4 pines
+## Conector de alimentación molex de 4 pines
 
 _Este es el conector que más _  _se usaba hasta hace unos años para dar servicio al resto de componentes del ordenador_  _, aunque ahora su uso ha quedado bastante relegado a tareas secundarias (de ahí que cada vez haya menos de ellos en las fuentes)_
 
@@ -221,7 +221,7 @@ _Este es el conector que más _  _se usaba hasta hace unos años para dar servic
 
 ![](assets/img/Unidad03/U340.png)
 
-### Conector de alimentación Floppy
+## Conector de alimentación Floppy
 
 _Floppy, también llamado FDD o Berg (compañía que los diseñó).
 
@@ -231,11 +231,11 @@ _Su uso principal eran las disqueteras, y actualmente casi ningún componente lo
 
 ![](assets/img/Unidad03/U341.png)
 
-### Resumen
+## Resumen
 
 ![](assets/img/Unidad03/U342.png)
 
-### Fuentes de alimentación modulares.
+## Fuentes de alimentación modulares.
 
 _Estas fuentes, a diferencia de las convencionales, tienen la particularidad de que no sale un manojo  de  cables  para  alimentar  a  los  diferentes  dispositivos,  si  no  que  existen  una  serie  de  conectores  y  sólo  conectamos los cables que vamos a necesitar._
 
@@ -279,7 +279,7 @@ Certifica la eficiencia energética de una fuente, en el caso de 80 Plus signifi
 
 Su eficiencia a máxima carga es del 94%, así que entregará 564 W.
 
-#### ¿Qué fuente necesito?
+## ¿Qué fuente necesito?
 
 Se necesitan los Vatios (W) suficientes para satisfacer las necesidades energéticas de los componentes del ordenador por separado, y dejar cierto margen.
 
@@ -289,7 +289,7 @@ Se necesitan los Vatios (W) suficientes para satisfacer las necesidades energét
   * [https://www.coolermaster.com/la/es-la/power-supply-calculator/](https://www.coolermaster.com/la/es-la/power-supply-calculator/)_
   * [https://www.geeknetic.es/calculadora-fuente-alimentacion/](https://www.geeknetic.es/calculadora-fuente-alimentacion/)_  ** **
 
-#### ¿Cómo se miden los valores de la fuente?
+## ¿Cómo se miden los valores de la fuente?
 
 **Multímetro / Polímetro /Tester**
 
@@ -305,7 +305,7 @@ Físicamente, es una placa de material sintético formada por un circuito impres
 
 ![](assets/img/Unidad03/U350.png)
 
-### Factor de forma de placas base
+## Factor de forma de placas base
 
 El factor de forma son los estándares que definen algunas características físicas de las placas base. Existen diferentes tamaños y tipos de placas base. El factor de forma de la placa base determina el tamaño y orientación de la placa con respecto a la caja, el tipo de fuente de alimentación necesaria y dicta los periféricos que pueden integrarse en la placa.
 
@@ -326,7 +326,7 @@ Los más importantes son:
 >
 > ![](assets/img/Unidad03/U351.png)
 
-### La estructura de la placa base
+## La estructura de la placa base
 
 La placa base es un circuito impreso donde se conectan todos los componentes necesarios para que el ordenador funcione.
 
@@ -352,13 +352,13 @@ Ya hemos visto que el tamaño y la organización en una placa obedecen a su fact
 
 ![](assets/img/Unidad03/U353.png)
 
-### Fabricación de placas base
+## Fabricación de placas base
 
 ![](assets/img/Unidad03/U354.jpg)
 
 ![](assets/img/Unidad03/U355.jpg)
 
-### El socket
+## El socket
 
 El socket o zócalo es el conector de la placa base en el que se inserta el microprocesador, existen de varios tipos:
 
@@ -380,7 +380,7 @@ El socket o zócalo es el conector de la placa base en el que se inserta el micr
   
 ![image](https://github.com/alexlopezprofe/MyM/assets/148449360/154f27cc-8eb3-4cf8-9b51-1be93fdd032a)
 
-### Sockets Intel
+## Sockets Intel
 
 - Intel LGA 775: procesadores Pentium 4, Pentium D, Celeron, Celeron D, Pentium XE, Core 2 Duo, Core 2 Quad, Xeon.
 - Intel LGA 1156: procesadores Core ix series 500, 600, 700 y 800; Pentium G6000 y Celeron G1000.
@@ -395,7 +395,7 @@ El socket o zócalo es el conector de la placa base en el que se inserta el micr
 - LGA 1700: procesadores Alder Lake (Gen 12)
 - LGA 1800: Raptor Lake (Gen 13),
 
-### Sockets AMD
+## Sockets AMD
 
 - AMD 462: procesadores Athlon, Athlon XP, Athlon XP-M, Athlon MP, Duron y Sempron.
 - AMD 754: procesadores Athlon 64, Turion 64 y Sempron.
@@ -413,7 +413,7 @@ El socket o zócalo es el conector de la placa base en el que se inserta el micr
 - AMD FM2+: APU Kaveri y Godavari.
 - AMD sTRX4 Platform for 3rd Gen AMD Ryzen
 
-### El chipset
+## El chipset
 
 El  **chipset** es el centro de comunicaciones de la placa base de un ordenador, es el que controla y organiza los datos entre el procesador y el resto de componentes, como los discos duros, los discos SSD, la memoria RAM, la tarjeta gráfica, los puertos USB, el monitor, el teclado o el ratón, etc
 
@@ -423,7 +423,7 @@ El chipset de la placa base determina tres cosas principales:
 - Opciones de expansión (cuántas tarjetas PCI puedes usar)
 - Capacidad de overclock.
 
-#### El chipset clásico
+### El chipset clásico
 
 En placas base de hace unos añaos atrás encontrábamos el Northbridge y el Southbridge, que eran dos elementos de la placa base que realizaban todas estas comunicaciones.
 
@@ -438,20 +438,20 @@ En placas base de hace unos añaos atrás encontrábamos el Northbridge y el Sou
 
 ![](assets/img/Unidad03/U363.png)
 
-#### Chipset actual
+### Chipset actual
 
 Actualmente el chipset sólo consta de un solo chip.
 
-#### Comparación de chipset vs procesador
+### Comparación de chipset vs procesador
 
 ![](assets/img/Unidad03/U364.png)
 
-##### Ejemplos de Chipset
+### Ejemplos de Chipset
 
 - Intel [https://drive.google.com/file/d/16t_myK2dSw2pcTsRxOlqTOEom27D0dmU/view?usp=sharing](https://drive.google.com/file/d/16t_myK2dSw2pcTsRxOlqTOEom27D0dmU/view?usp=sharing)_
 - AMD  [https://drive.google.com/file/d/10T7bvcs9PT4JffLfdadWEe_Ut9ZO13no/view?usp=share_link](https://drive.google.com/file/d/10T7bvcs9PT4JffLfdadWEe_Ut9ZO13no/view?usp=share_link)_
 
-#### Listado de chipsets 
+### Listado de chipsets 
 
 Tanto AMD como Intel desarrollan varios chipsets por cada generación de procesadores, normalmente son 3 gamas por generación distinta
 
@@ -463,7 +463,7 @@ _[Chipsets Intel](https://ark.intel.com/content/www/us/en/ark.html#@Chipsets) //
 
 _[Chipsets AMD](https://www.amd.com/en/products/chipsets-motherboards-desktop) // [Lista de chipsets AMD en Wikipedia](https://en.wikipedia.org/wiki/List_of_AMD_chipsets)
 
-### La BIOS
+## La BIOS
 
  **BIOS**  es el acrónimo (Basic Input/Output System, Sistema Básico de Entrada/Salida) es un conjunto de programas, grabados en un chip de la placa base que se encarga de realizar las funciones necesarias para que el ordenador arranque.   <span style="color:#202122">Viene configurada de fábrica con los valores de la placa base por defecto, sin embargo, estos valores pueden ser modificados por el usuario según las necesidades.
 
@@ -477,7 +477,7 @@ Fabricantes de BIOS más conocidos: PhoenixBIOS, Award, Amibios, MSI.
 
 ![](assets/img/Unidad03/U367.png)
 
-### UEFI
+## UEFI
 
 Actualmente, el interface BIOS original ha sido sustituido por otro más elaborado y seguro, **UEFI** (Interfaz de Firmware Extensible Unificado). UEFI proporciona mejoras de seguridad en el arranque y aprovechamiento de las nuevas funcionalidades soportadas por las placas base modernas.
 
@@ -502,23 +502,20 @@ Actualmente, el interface BIOS original ha sido sustituido por otro más elabora
 >  - Utilizar jumper o botón de la placa base.
 > ![](assets/img/Unidad03/U371.png)
 
-###Los zócalos de la memoria.
+## Los zócalos de la memoria.
 
-_Estas ranuras constituyen los conectores para la memoria principal del ordenador, la memoria RAM (Random Access Memory). La memoria RAM está formada por varios chips soldados a una placa que recibe el nombre de módulo de memoria. Estos módulos han ido evolucionando en tamaño, capacidad y forma de conectarse a la placa base._
+Estas ranuras constituyen los conectores para la memoria principal del ordenador, la memoria RAM (Random Access Memory). La memoria RAM está formada por varios chips soldados a una placa que recibe el nombre de módulo de memoria. Estos módulos han ido evolucionando en tamaño, capacidad y forma de conectarse a la placa base.
 
-_Actualmente, los módulos más comunes son los módulos DIMM de 13,3 cm de largo, y existen:_
+Actualmente, los módulos más comunes son los módulos DIMM de 13,3 cm de largo, y existen:
 
-_DIMM de 184 pines, para memorias DDR,_
+ - DIMM de 184 pines, para memorias DDR,
+ - DIMM de 240 pines, para memorias DDR2 y DDR3
+ - DIMM de 288 pines, para DDR4 en placas con micros más recientes
+ - DIMM de 288 pines, para DDR5_
 
-_DIMM de 240 pines, para memorias DDR2 y DDR3_
+**SO-DIMM**. Consisten en una versión compacta de los módulos DIMM convencionales. Debido a su tamaño más compacto, estos módulos de memoria suelen emplearse en portátiles u ordenadores de dimensiones reducidas._
 
-_DIMM de 288 pines, para DDR4 en placas con micros más recientes_
-
-_DIMM de 288 pines, para DDR5_
-
-_SO-DIMM_  _. Consisten en una versión compacta de los módulos DIMM convencionales. Debido a su tamaño más compacto, estos módulos de memoria suelen emplearse en portátiles u ordenadores de dimensiones reducidas._
-
-_Estas ranuras se agrupan en bancos de 1, 2, 4 o 6 zócalos, están numerados y normalmente se colocan abriendo los sujetadores ubicados en cada extremo de la ranura_
+Los zócalos se agrupan en bancos de 1, 2, 4 o 6 zócalos, están numerados y normalmente se colocan abriendo los sujetadores ubicados en cada extremo de la ranura.
 
 ![](assets/img/Unidad03/U372.jpg)
 
@@ -540,7 +537,7 @@ _Estas ranuras se agrupan en bancos de 1, 2, 4 o 6 zócalos, están numerados y 
 {: .highlight }
 Las memorias NO son compatibles con zócalos de diferente tipo.
 
-### Buses de expansión.
+## Buses de expansión.
 
 Son unas ranuras de plástico o slots con conectores eléctricos en las que se insertan las tarjetas de expansión, como, por ejemplo, las tarjetas gráfica, de sonido, de red, etc. 
 
@@ -550,7 +547,7 @@ En una placa base actual podemos encontrar ranuras PCI y ranuras PCI Express de 
 
 ![](assets/img/Unidad03/U380.png)
 
-#### Bus de expansión PCI (Peripheral Components Interconnect)
+### Bus de expansión PCI (Peripheral Components Interconnect)
 
 Fue desarrollado por Intel a principios de los 90, y sus posibles usos eran: Tarjetas de vídeo, sonido, red, módem, puertos etc._
 Existen distintas versiones:
@@ -564,7 +561,7 @@ Permite “Plug and Play” (identifica las tarjetas insertadas)_
 ![](assets/img/Unidad03/U382.png)
 
 
-#### **Buses de expansión PCI-Express**
+### **Buses de expansión PCI-Express**
 
 ![](assets/img/Unidad03/U385.png)
 
@@ -582,14 +579,14 @@ Existen diferentes tipo de conectores PCI-E
 
 ![](assets/img/Unidad03/U38jpg)
 
-##### Versiones PCI-Express
+### Versiones PCI-Express
 
 ![](assets/img/Unidad03/U389.png)
 
 ![](assets/img/Unidad03/U390.png)
 
 
-### Los conectores internos de la placa base
+## Los conectores internos de la placa base
 
 ![](assets/img/Unidad03/U391.png)
 
@@ -597,7 +594,7 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 
 ![](assets/img/Unidad03/U392.png)
 
-#### FDD (Floppy Disk Drive)
+### FDD (Floppy Disk Drive)
 
 Dispone de 34 pines y era utilziado  para la disquetera de 3.5” (Obsoleto)
 
@@ -609,7 +606,7 @@ Dispone de 34 pines y era utilziado  para la disquetera de 3.5” (Obsoleto)
 
 ![](assets/img/Unidad03/U396.png)
 
-#### Conector IDE (Integrated device Electronics) (o ATA paralelo)
+### Conector IDE (Integrated device Electronics) (o ATA paralelo)
 
 Conector para dispositivos IDE como discos duros, CD-ROM, DVDs, etc. Se han quedado obsoletos.
 
@@ -629,7 +626,7 @@ Conector para dispositivos IDE como discos duros, CD-ROM, DVDs, etc. Se han qued
 
 ![](assets/img/Unidad03/U3101.png)
 
-#### Serial ATA o SATA (Serial Advanced Technology Attachment)
+### Serial ATA o SATA (Serial Advanced Technology Attachment)
 
 Conector para dispositivos SATA como discos duros, CD-ROM, DVD, BluRay, etc.
 Se puede decir que reemplazan a los IDE.
@@ -642,7 +639,7 @@ En cada puerto SATA de la placa se puede 1 dispositivo
 **Versiones de SATA:**
 ![](assets/img/Unidad03/U3104.png)
 
-#### Conector USB interno
+### Conector USB interno
 
 Se realiza una conexión en la placa base para extraer un puerto USB al exterior de la caja, normalmente al panel frontal
 
@@ -657,7 +654,7 @@ Se realiza una conexión en la placa base para extraer un puerto USB al exterior
 
 ![](assets/img/Unidad03/U3109.png)
 
-##### Conector USB 3.2 Gen 2x2 interno
+### Conector USB 3.2 Gen 2x2 interno
 
 ![](assets/img/Unidad03/U3110.png)
 
@@ -665,7 +662,7 @@ Se realiza una conexión en la placa base para extraer un puerto USB al exterior
 
 ![](assets/img/Unidad03/U3112.png)
 
-##### Nueva nomenclatura puertos USB
+### Nueva nomenclatura puertos USB
 
 ![](assets/img/Unidad03/U3113.png)
 
@@ -673,11 +670,11 @@ Se realiza una conexión en la placa base para extraer un puerto USB al exterior
 
 ![](assets/img/Unidad03/U3115.png)
 
-##### Tipos de USB
+### Tipos de USB
 
 ![](assets/img/Unidad03/U3116.jpg)
 
-#### Conector NVMe M.2
+### Conector NVMe M.2
 
 ![](assets/img/Unidad03/U3117.png)
 
@@ -691,7 +688,7 @@ Se realiza una conexión en la placa base para extraer un puerto USB al exterior
 
 ![](assets/img/Unidad03/U3121.jpg)
 
-#### Conectores de audio internos
+### Conectores de audio internos
 
 Conectores internos dotar de audio al panel frontal del ordenador. Con un cable se lleva el puerto de sonido hacia el exterior del chasis.**
 
@@ -701,7 +698,7 @@ Conectores internos dotar de audio al panel frontal del ordenador. Con un cable 
 
 ![](assets/img/Unidad03/U3124.png)
 
-#### Conectores del panel frontal.
+### Conectores del panel frontal.
 - **Power switch (POWER SW). Pulsador de encendido del equipo.**
 - **Reset switch (RESET SW). Pulsador de reset.**
 - **Power LED (POWER LED) LED de encendido (+,-)**
@@ -712,11 +709,11 @@ Conectores internos dotar de audio al panel frontal del ordenador. Con un cable 
 ![](assets/img/Unidad03/U3126.png)
 ![](assets/img/Unidad03/U3127.png)
 
-#### Q-connector
+### Q-connector
 ---
 ![](assets/img/Unidad03/U3129.png)
 
-#### Pila
+### Pila
 
 Mantiene la configuración básica de la BIOS cuando el ordenador no tiene un suministro de corriente
 
@@ -732,7 +729,7 @@ Si la batería se agota la BIOS a través de la pantalla puede mostrarnos inform
 
 ![](assets/img/Unidad03/U3132.png)
 
-### Conectores externos de la placa base
+## Conectores externos de la placa base
 
 ![](assets/img/Unidad03/U3133.png)
 
@@ -744,7 +741,7 @@ Si la batería se agota la BIOS a través de la pantalla puede mostrarnos inform
 
 ![](assets/img/Unidad03/U3137.png)
 
-### VRM
+## VRM
 
 **VRM**  es un acrónimo de “Voltage Regulator Module” o “Modulo de regulación de voltaje” y es un componente electrónico que permite regular, con mayor o menor eficiencia, el voltaje que se suministra en un circuito electrónico y en el case de las placas base al procesador, memorias y resto de componentes.
 
@@ -756,7 +753,7 @@ Si la batería se agota la BIOS a través de la pantalla puede mostrarnos inform
 
 
 
-## Bibliografía
+# Bibliografía
 
 _[https://sites.google.com/site/1ofpb1516manuel/6-los-zocalos-de-memoria](https://sites.google.com/site/1ofpb1516manuel/6-los-zocalos-de-memoria)_
 
