@@ -6,3 +6,5 @@ url: https://alexlopezprofe.github.io/MyM/
 
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+  markdown: kramdown
