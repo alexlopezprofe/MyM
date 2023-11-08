@@ -26,7 +26,7 @@ El  material  con  el que están construidas es aluminio o aleaciones de alumini
 
 ![](assets/img/Unidad03/U33.png)
 
-### Partes de la caja.
+## Partes de la caja.
 
  ![](assets/img/Unidad03/U34.png)
 
@@ -57,7 +57,7 @@ El  material  con  el que están construidas es aluminio o aleaciones de alumini
 
 
 
-### Tipos de cajas.
+## Tipos de cajas.
 
 La clasificación se hace normalmente por su tamaño dependiendo de las placas base que soportan. Las más usuales  son: 
 
@@ -89,9 +89,9 @@ La clasificación se hace normalmente por su tamaño dependiendo de las placas b
 
 ![](assets/img/Unidad03/U311.png)
 
-## Fuentes de alimentación.
+# Fuentes de alimentación.
 
-### Instalación eléctrica
+## Instalación eléctrica
 
 ![](assets/img/Unidad03/U312.png)
 
@@ -114,7 +114,7 @@ La clasificación se hace normalmente por su tamaño dependiendo de las placas b
 Se conoce **Reglamento Electrotécnico de Baja Tensión** o por sus siglas **REBT** al conjunto de normas o instrucciones técnicas complementarias (ITCs) que establecen la regulación en cuanto a instalaciones eléctricas de baja tensión en España se refiere. El cumplimiento del reglamento en cualquier instalación eléctrica de este tipo es obligatorio, ya que garantiza la seguridad y es requisito indispensable para su homologación, por lo que el conocimiento por parte del instalador es de vital importancia._
 
 
-### Tipos de cables y conectores 
+## Tipos de cables y conectores 
 
 * **AK-5012**. Permite enchufar el monitor, la fuente de la alimentación de la torre,etc
 
@@ -134,7 +134,7 @@ En un extremo tiene un conector macho _  _Schuko_  _ (tipo F) para conectarlo a 
 
 [https://www.worldstandards.eu/es/electricidad/tipos-de-enchufes/](https://www.worldstandards.eu/es/electricidad/tipos-de-enchufes/)_   
 
-###Fuente de alimentación
+## Fuente de alimentación
 
 La fuente de alimentación es el dispositivo que proporciona al ordenador (o a cualquier otro aparato electrónico) la energía que necesita para funcionar.
 
@@ -155,13 +155,13 @@ _Los componentes del interior de PC funcionan con corriente continua (DC) y la r
 
 ![](assets/img/Unidad03/U327.png)
 
-### Conectores de energía fuente de alimentación.
+## Conectores de energía fuente de alimentación.
 
 _Los conectores de energía_  _ sirven para conectar los cables de la fuente de alimentación a la placa base; de esta manera, la placa base suministrará la corriente a los componentes que se conectan a ella, como el microprocesador, la memoria, las tarjetas de expansión, los ventiladores, etc._
 
 ![](assets/img/Unidad03/U328.png)
 
-#### Conector de alimentación ATX de 24 pines (P1)
+## Conector de alimentación ATX de 24 pines (P1)
 
 <span style="color:#333333">Lleva la alimentación principal desde la fuente a la placa base. Suele estar compuesto por un conector principal de 20 pines y uno secundario de 4 pines
 
@@ -169,7 +169,7 @@ _Los conectores de energía_  _ sirven para conectar los cables de la fuente de 
 
 ![](assets/img/Unidad03/U330.png)
 
-#### Conector de alimentación EPS +12 V (P4)
+### Conector de alimentación EPS +12 V (P4)
 
 ![](assets/img/Unidad03/U331.png)
 
@@ -179,7 +179,7 @@ _Los conectores de energía_  _ sirven para conectar los cables de la fuente de 
 
 ![](assets/img/Unidad03/U332.png)
 
-#### 2. Conector de alimentación PCI-E
+### Conector de alimentación PCI-E
 
 ![](assets/img/Unidad03/U333.png)
 
@@ -193,7 +193,7 @@ _Es habitual que las fuentes de alimentación lleven más de uno de estos conect
 
 ![](assets/img/Unidad03/U334.png)
 
-#### Conector de alimentación SATA
+### Conector de alimentación SATA
 
 _Este es el conector que ha sustituido en funcionalidad y número al conector molex._
 
@@ -205,7 +205,7 @@ _Tiene forma aplanada y su interior hace una especie de «L» tumbada, de manera
 
 ![](assets/img/Unidad03/U336.png)
 
-#### Conectores de energía. Ventiladores (Fan)
+### Conectores de energía. Ventiladores (Fans)
 
 **En ellos se conectan los ventiladores internos del chasis. Se suelen encontrar los siguientes: CPU-FAN, SYSTEM-FAN, CHA-FAN, POWER-FAN, NORTHBRIDGE-FAN, etc.**
 
@@ -213,7 +213,7 @@ _Tiene forma aplanada y su interior hace una especie de «L» tumbada, de manera
 
 ![](assets/img/Unidad03/U338.png)
 
-#### Conector de alimentación molex de 4 pines
+### Conector de alimentación molex de 4 pines
 
 _Este es el conector que más _  _se usaba hasta hace unos años para dar servicio al resto de componentes del ordenador_  _, aunque ahora su uso ha quedado bastante relegado a tareas secundarias (de ahí que cada vez haya menos de ellos en las fuentes)_
 
@@ -221,7 +221,7 @@ _Este es el conector que más _  _se usaba hasta hace unos años para dar servic
 
 ![](assets/img/Unidad03/U340.png)
 
-#### Conector de alimentación Floppy
+### Conector de alimentación Floppy
 
 _Floppy, también llamado FDD o Berg (compañía que los diseñó).
 
@@ -231,7 +231,7 @@ _Su uso principal eran las disqueteras, y actualmente casi ningún componente lo
 
 ![](assets/img/Unidad03/U341.png)
 
-#### Resumen
+### Resumen
 
 ![](assets/img/Unidad03/U342.png)
 
@@ -241,7 +241,7 @@ _Estas fuentes, a diferencia de las convencionales, tienen la particularidad de 
 
 ![](assets/img/Unidad03/U343.png)
 
-### Fuentes de alimentación redundantes.
+## Fuentes de alimentación redundantes.
 
 Los  sistemas  redundantes  son  aquellos  que  repiten  el  hardware  por  su  carácter  crítico,  y  de  esta  manera  asegurarse  que  siga  funcionando  en  caso  de  un  fallo.  Hoy  en  día  los  servidores  llevan  dos  fuentes  de  alimentación redundantes que aseguran el suministro en caso de fallo de una de ellas.
 
@@ -257,7 +257,7 @@ Los  sistemas  redundantes  son  aquellos  que  repiten  el  hardware  por  su  
 
 ![](assets/img/Unidad03/U346.png)
 
-### Certificación 80 Plus
+## Certificación 80 Plus
 
 Certifica la eficiencia energética de una fuente, en el caso de 80 Plus significa que de toda la potencia que llega a la fuente, al menos el 80% de ella se convierte en energía útil, mientras que el 20% restante se pierde como energía calorífica.
 
