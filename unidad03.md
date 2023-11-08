@@ -243,10 +243,14 @@ _Estas fuentes, a diferencia de las convencionales, tienen la particularidad de 
 
 ### Fuentes de alimentación redundantes.
 
-**Los  sistemas  redundantes  son  aquellos  que  repiten  el  hardware  por  su  carácter  crítico,  y  de  esta  manera  asegurarse  que  siga  funcionando  en  caso  de  un  fallo.  Hoy  en  día  los  servidores  llevan  dos  fuentes  de  alimentación redundantes que aseguran el suministro en caso de fallo de una de ellas.**
+Los  sistemas  redundantes  son  aquellos  que  repiten  el  hardware  por  su  carácter  crítico,  y  de  esta  manera  asegurarse  que  siga  funcionando  en  caso  de  un  fallo.  Hoy  en  día  los  servidores  llevan  dos  fuentes  de  alimentación redundantes que aseguran el suministro en caso de fallo de una de ellas.
 
-**Concepto de Hot Swap** 
-Cambio en caliente de componentes (Fuentes, discos duros)
+
+{: .note-title }
+> Concepto de Hot Swap
+>
+> Cambio en caliente de componentes (Fuentes, discos duros)
+
 ![](assets/img/Unidad03/U344.png)
 
 ![](assets/img/Unidad03/U345.png)
@@ -259,14 +263,14 @@ Certifica la eficiencia energética de una fuente, en el caso de 80 Plus signifi
 
 ![](assets/img/Unidad03/U347.png)
 
-
+```markdown
 {: .note-title }
 > Ejemplo 1
 >
 > Una fuente de alimentación con certificación 80 Plus Silver. Tiene 600 W. ¿Cuánta potencia ofrecerá a máxima carga?
 > Su eficiencia es del 85%, por tanto podrá entrega 510 W.
 
-
+```markdown
 {: .note-title }
 > Ejemplo 2
 >
@@ -277,13 +281,15 @@ Su eficiencia a máxima carga es del 94%, así que entregará 564 W.
 
 #### ¿Qué fuente necesito?
 
-* Se necesitan los Vatios (W) suficientes para satisfacer las necesidades energéticas de los componentes del ordenador por separado, y dejar cierto margen.
-* _[https://www.profesionalreview.com/2020/05/07/calcular-potencia-fuente-alimentacion-pc/](https://www.profesionalreview.com/2020/05/07/calcular-potencia-fuente-alimentacion-pc/)_  ** **
-* **Calculadoras online**
-  * _[https://www.coolermaster.com/la/es-la/power-supply-calculator/](https://www.coolermaster.com/la/es-la/power-supply-calculator/)_
-  * _[https://www.geeknetic.es/calculadora-fuente-alimentacion/](https://www.geeknetic.es/calculadora-fuente-alimentacion/)_  ** **
+Se necesitan los Vatios (W) suficientes para satisfacer las necesidades energéticas de los componentes del ordenador por separado, y dejar cierto margen.
 
-####¿Cómo se miden los valores de la fuente?
+- [https://www.profesionalreview.com/2020/05/07/calcular-potencia-fuente-alimentacion-pc/](https://www.profesionalreview.com/2020/05/07/calcular-potencia-fuente-alimentacion-pc/)_  ** **
+
+* **Calculadoras online**
+  * [https://www.coolermaster.com/la/es-la/power-supply-calculator/](https://www.coolermaster.com/la/es-la/power-supply-calculator/)_
+  * [https://www.geeknetic.es/calculadora-fuente-alimentacion/](https://www.geeknetic.es/calculadora-fuente-alimentacion/)_  ** **
+
+#### ¿Cómo se miden los valores de la fuente?
 
 **Multímetro / Polímetro /Tester**
 
@@ -307,20 +313,14 @@ Hasta la fecha se han definido (y comercializado) diversos  **form factor**.
 
 Los más importantes son:
 
-* **ATX y Micro-ATX** los más extendidos actualmente
+* **ATX (305 x 244 mm) y Micro-ATX** ((244 x 244 mm)) los más extendidos actualmente
 
-* **Mini-ITX** (compatible con ATX) **, Nano-ITX y Pico-ITX** . Formatos muy reducidos de VIA Technologies.
+* **Mini-ITX** (170 x 170 mm) , Nano-ITX y Pico-ITX** . Formatos muy reducidos de VIA Technologies y compatibles con ATX.
 
-* **Extended ATX** . Factor de forma de mayor tamaño Están pensadas para configurar equipos de grandes prestaciones.
+* **Extended ATX** (300 x 330 mm) . Factor de forma de mayor tamaño Están pensadas para configurar equipos de grandes prestaciones.
 
-* **ATX:**   (305 x 244 mm) Es el formato de placa base estándar del mercado del hardware. Se utiliza tanto en ordenadores destinados a trabajo, oficina o gaming
 
-* **Micro-ATX.** (244 x 244 mm) Una variante más compacta del ATX y con un volumen que es un 25% menor.
-
-* **Extended ATX.**  (300 x 330 mm). Están pensadas para configurar equipos de grandes prestaciones como servidores dedicados a Datacenter, servidores compartidos, virtualizaciones y entornos profesionales en el sector audiovisual digital.
-
-**Mini ITX** : (170 x 170 mm).  Ordenadores compactos
-
+```markdown
 {: .note-title }
 > Comparación de factor de forma
 >
@@ -352,7 +352,7 @@ Ya hemos visto que el tamaño y la organización en una placa obedecen a su fact
 
 ![](assets/img/Unidad03/U353.png)
 
-### Fabricación placa base
+### Fabricación de placas base
 
 ![](assets/img/Unidad03/U354.jpg)
 
@@ -374,7 +374,9 @@ El socket o zócalo es el conector de la placa base en el que se inserta el micr
 ![](assets/img/Unidad03/U359.png)
 
 - **BGA** (Ball Grid Array): En este tipo de sockets se suelda el procesador a la placa base
-  > ampliamente utilizado en portátiles.
+
+```markdown
+> Ampliamente utilizado en portátiles.
   
 ![image](https://github.com/alexlopezprofe/MyM/assets/148449360/154f27cc-8eb3-4cf8-9b51-1be93fdd032a)
 
@@ -413,29 +415,24 @@ El socket o zócalo es el conector de la placa base en el que se inserta el micr
 
 ### El chipset
 
-<span style="color:#616161">El   <span style="color:#616161"> _chipset_   <span style="color:#616161"> es el centro de comunicaciones de la placa base de un ordenador, ese que controla y organiza los datos entre el procesador y el resto de componentes, como los discos duros, los discos SSD, la memoria RAM, la tarjeta gráfica, los puertos USB, el monitor, el teclado o el ratón.
+El  **chipset** es el centro de comunicaciones de la placa base de un ordenador, es el que controla y organiza los datos entre el procesador y el resto de componentes, como los discos duros, los discos SSD, la memoria RAM, la tarjeta gráfica, los puertos USB, el monitor, el teclado o el ratón, etc
 
-<span style="color:#616161">El chipset de la placa base determina tres cosas principales:
+El chipset de la placa base determina tres cosas principales:
 
-<span style="color:#616161">Compatibilidad de los componentes (qué CPU y RAM puedes usar)
-
-<span style="color:#616161">Opciones de expansión (cuántas tarjetas PCI puedes usar)
-
-<span style="color:#616161">capacidad de overclock.
+- Compatibilidad de los componentes (qué CPU y RAM puedes usar)
+- Opciones de expansión (cuántas tarjetas PCI puedes usar)
+- Capacidad de overclock.
 
 #### El chipset clásico
 
-<span style="color:#616161">En placas base de hace unos 10 años hacia atrás encontrábamos el northbridge y el southbridge, que eran dos elementos de la placa base que realizaban todas estas comunicaciones. Ahora, las placas base de hoy en día concentran todo en un único elemento que integra todas las comunicaciones, y resulta ser el   <span style="color:#616161"> **chipset.** 
+En placas base de hace unos añaos atrás encontrábamos el Northbridge y el Southbridge, que eran dos elementos de la placa base que realizaban todas estas comunicaciones.
 
-<span style="color:#616161"> **Chipset “clásico”:** 
-
-<span style="color:#616161"> **Puente norte (**   <span style="color:#616161">Northbridge  <span style="color:#616161"> **). **   <span style="color:#616161">Se ubica en la parte superior (norte) de la placa, de ahí su nombre. Está próximo al socket y a los zócalos de memoria. Se usa como puente de enlace entre el microprocesador, tarjeta gráfica y la memoria, es decir los componentes más rápidos del ordenador.
-
-<span style="color:#616161"> **Puente sur (**   <span style="color:#616161">Southbrige  <span style="color:#616161"> **)**   <span style="color:#616161">. Se encuentra en la parte inferior (sur) de la placa, próximo a los slots de expansión y a las conexiones de E/S. Es el responsable de la conexión de la CPU con la controladora de discos IDE, puertos USB, FireWire, SATA, ranuras PCI, disquetera, LAN, PCI-Express 1x, etc. Es el encargado de comunicar el procesador con el resto de los periféricos.
+- **Puente norte (**Northbridge**). Se ubica en la parte superior (norte) de la placa, de ahí su nombre. Está próximo al socket y a los zócalos de memoria. Se usa como puente de enlace entre el microprocesador, tarjeta gráfica y la memoria, es decir los componentes más rápidos del ordenador.
+- **Puente sur** (**Southbrige**). Se encuentra en la parte inferior (sur) de la placa, próximo a los slots de expansión y a las conexiones de E/S. Es el responsable de la conexión de la CPU con la controladora de discos IDE, puertos USB, FireWire, SATA, ranuras PCI, disquetera, LAN, PCI-Express 1x, etc. Es el encargado de comunicar el procesador con el resto de los periféricos.
 
 ![](assets/img/Unidad03/U360.png)
 
-![](assets/img/Unidad03/U361.png)
+![Esquema de un chipset clásico](assets/img/Unidad03/U361.png)
 
 ![](assets/img/Unidad03/U362.png)
 
@@ -445,31 +442,30 @@ El socket o zócalo es el conector de la placa base en el que se inserta el micr
 
 Actualmente el chipset sólo consta de un solo chip.
 
-#### El chipset vs procesador
+#### Comparación de chipset vs procesador
 
 ![](assets/img/Unidad03/U364.png)
 
-##### Ejemplo de Chipset
+##### Ejemplos de Chipset
 
-- Intel -  _[https://drive.google.com/file/d/16t_myK2dSw2pcTsRxOlqTOEom27D0dmU/view?usp=sharing](https://drive.google.com/file/d/16t_myK2dSw2pcTsRxOlqTOEom27D0dmU/view?usp=sharing)_
+- Intel [https://drive.google.com/file/d/16t_myK2dSw2pcTsRxOlqTOEom27D0dmU/view?usp=sharing](https://drive.google.com/file/d/16t_myK2dSw2pcTsRxOlqTOEom27D0dmU/view?usp=sharing)_
+- AMD  [https://drive.google.com/file/d/10T7bvcs9PT4JffLfdadWEe_Ut9ZO13no/view?usp=share_link](https://drive.google.com/file/d/10T7bvcs9PT4JffLfdadWEe_Ut9ZO13no/view?usp=share_link)_
 
- - AMD -  _[https://drive.google.com/file/d/10T7bvcs9PT4JffLfdadWEe_Ut9ZO13no/view?usp=share_link](https://drive.google.com/file/d/10T7bvcs9PT4JffLfdadWEe_Ut9ZO13no/view?usp=share_link)_
+#### Listado de chipsets 
 
-#### El chipset. Listado
+Tanto AMD como Intel desarrollan varios chipsets por cada generación de procesadores, normalmente son 3 gamas por generación distinta
 
-**Tanto AMD como Intel sacan varios chipsets por cada generación de procesadores, normalmente son 3 gamas por generación distinta**
+ - AMD denomina las gamas alta, media y baja mediante X, B y A, respectivamente, siendo esas las iniciales del chipset que luego irán acompañadas de tres números. También podemos encontrar el chipset sWRX8 y el TRX40.
 
-**AMD denomina las gamas alta, media y baja mediante X, B y A, respectivamente, siendo esas las iniciales del chipset que luego irán acompañadas de tres números. Tambi**  **én podemos encontrar el chipset sWRX8 y el TRX40.**
+ - Por su parte, en Intel, encontramos esta denominación mediante las letras Z, H, B, Q, W seguidas de otros tres números.
 
-**Por la parte de Intel, encontramos esta denominación mediante las letras Z, H, B, Q, W seguidas de otros tres números.**
+_[Chipsets Intel](https://ark.intel.com/content/www/us/en/ark.html#@Chipsets) // [Lista de chipsets Intel en Wikipedia](https://en.wikipedia.org/wiki/List_of_Intel_chipsets)
 
-_[Chipsets Intel](https://ark.intel.com/content/www/us/en/ark.html#@Chipsets)_  ** // **  _[Lista de chipsets Intel en Wikipedia](https://en.wikipedia.org/wiki/List_of_Intel_chipsets)_
-
-_[Chipsets AMD](https://www.amd.com/en/products/chipsets-motherboards-desktop)_  ** // **  _[Lista de chipsets AMD en Wikipedia](https://en.wikipedia.org/wiki/List_of_AMD_chipsets)_
+_[Chipsets AMD](https://www.amd.com/en/products/chipsets-motherboards-desktop) // [Lista de chipsets AMD en Wikipedia](https://en.wikipedia.org/wiki/List_of_AMD_chipsets)
 
 ### La BIOS
 
- **BIOS**    es el acrónimo (Basic Input/Output System, Sistema Básico de Entrada/Salida) es un conjunto de programas, grabados en un chip de la placa base que se encarga de realizar las funciones necesarias para que el ordenador arranque.   <span style="color:#202122">Viene configurada de fábrica con los valores de la placa base por defecto, sin embargo, estos valores pueden ser modificados por el usuario según las necesidades.
+ **BIOS**  es el acrónimo (Basic Input/Output System, Sistema Básico de Entrada/Salida) es un conjunto de programas, grabados en un chip de la placa base que se encarga de realizar las funciones necesarias para que el ordenador arranque.   <span style="color:#202122">Viene configurada de fábrica con los valores de la placa base por defecto, sin embargo, estos valores pueden ser modificados por el usuario según las necesidades.
 
 <span style="color:#202122">Cuando enciendes el ordenador lo primero que arranca es la BIOS. Este firmware entonces se encarga de iniciar, configurar y comprobar que se encuentre en buen estado el hardware del ordenador, incluyendo la memoria RAM, los discos duros, la placa base, la tarjeta gráfica.... Cuando termina selecciona el dispositivo de arranque (disco duro, CD, USB etcétera) y procede a iniciar el sistema operativo.
 
@@ -495,6 +491,7 @@ Actualmente, el interface BIOS original ha sido sustituido por otro más elabora
  - Puede conectarse a Internet para actualizarse.
  - Secure Boot. Se trata de un arranque seguro y que evita el inicio de sistemas operativos que no estén autenticados para protegerte de los bootkits, un malware que se ejecutan al iniciar Windows.
 
+```markdown
 {: .important-title }
 > ¿Cómo resetear la UEFI/BIOS?
 > Si tenemos algún problema en la configuración (disco mal configurado, overclocking) es posible resetear la BIOS. En el manual de las placas base indica como hacerlo, pero habitualmente:
@@ -535,15 +532,15 @@ _Estas ranuras se agrupan en bancos de 1, 2, 4 o 6 zócalos, están numerados y 
 
 ![](assets/img/Unidad03/U377.png)
 
-![](assets/img/Unidad03/U378.png)
+![](assets/img/Unidad03/U37png)
 
 ![](assets/img/Unidad03/U379.png)
 
-Las memorias
+```markdown
+{: .highlight }
+Las memorias NO son compatibles con zócalos de diferente tipo.
 
-NO son compatibles con zócalos de diferente tipo
-
-### Los buses de expansión.
+### Buses de expansión.
 
 Son unas ranuras de plástico o slots con conectores eléctricos en las que se insertan las tarjetas de expansión, como, por ejemplo, las tarjetas gráfica, de sonido, de red, etc. 
 
@@ -553,38 +550,37 @@ En una placa base actual podemos encontrar ranuras PCI y ranuras PCI Express de 
 
 ![](assets/img/Unidad03/U380.png)
 
-#### Bus de expansión PCI
+#### Bus de expansión PCI (Peripheral Components Interconnect)
 
-* _PCI (Peripheral Components Interconnect)_
-* _Fue desarrollado por Intel a principios de los 90, y sus posibles usos eran: Tarjetas de vídeo, sonido, red, módem, puertos etc._
-* _Existen distintas versiones:_
-  * _PCI: 32 bits a 33 MHz → 133 MB/s_
-  * _PCI 2.0: 64 bits a 66 MHz → 533MB/s_
-* _Permite “Plug and Play” (identifica las tarjetas insertadas)_
-* _No permite la _  _[conexión en caliente](https://es.wikipedia.org/wiki/Conexi%C3%B3n_en_caliente)_  _ (Hot plug)_
+Fue desarrollado por Intel a principios de los 90, y sus posibles usos eran: Tarjetas de vídeo, sonido, red, módem, puertos etc._
+Existen distintas versiones:
+  * PCI: 32 bits a 33 MHz → 133 MB/s_
+  * PCI 2.0: 64 bits a 66 MHz → 533MB/s_
+Permite “Plug and Play” (identifica las tarjetas insertadas)_
+* No permite la [conexión en caliente](https://es.wikipedia.org/wiki/Conexi%C3%B3n_en_caliente)_  _ (Hot plug)_
 
 ![](assets/img/Unidad03/U381.png)
 
 ![](assets/img/Unidad03/U382.png)
 
 
-#### Buses de expansión PCI-Express
+#### **Buses de expansión PCI-Express**
 
 ![](assets/img/Unidad03/U385.png)
 
-_El slot PCI-Express_  _, que también puede encontrarse como _  _PCI-E _  _o _  _PCle_
+El slot PCI-Express (PCI-E o PCle) es la evolución del slot PCI._
 
-_Es la evolución del slot PCI._
+Hereda la nomenclatura del AGP, y así podemos encontrarlo en x1, x2, x4, x8, x16 y x32, siendo en este caso la velocidad del bus de 133 MHz (el doble que la AGP).
 
-_Hereda la nomenclatura del AGP, y así podemos encontrarlo en x1, x2, x4, x8, x16 y x32, siendo en este caso la velocidad del bus de 133 MHz (el doble que la AGP)._
-
-_Existen diferentes versiones de PCI-E_
+Existen diferentes tipo de conectores PCI-E
 
 ![](assets/img/Unidad03/U386.jpg)
 
 ![](assets/img/Unidad03/U387.png)
 
-![](assets/img/Unidad03/U388.jpg)
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/41fecfff-532f-44fc-8f66-5bb7e0107b18)
+
+![](assets/img/Unidad03/U38jpg)
 
 ##### Versiones PCI-Express
 
@@ -603,33 +599,29 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 
 #### FDD (Floppy Disk Drive)
 
+Dispone de 34 pines y era utilziado  para la disquetera de 3.5” (Obsoleto)
+
 ![](assets/img/Unidad03/U393.png)
 
 ![](assets/img/Unidad03/U394.png)
-
-<span style="color:#222222">Disquetera de 3.5” (Obsoleto)
-
-<span style="color:#222222">34 pines
 
 ![](assets/img/Unidad03/U395.png)
 
 ![](assets/img/Unidad03/U396.png)
 
-#### Conector IDE (o ATA paralelo)
+#### Conector IDE (Integrated device Electronics) (o ATA paralelo)
 
-<span style="color:#222222">Conector para dispositivos IDE como discos duros, CD-ROM, DVDs, etc.   <span style="color:#222222"> _Se han quedado obsoletos_   <span style="color:#222222">.
+Conector para dispositivos IDE como discos duros, CD-ROM, DVDs, etc. Se han quedado obsoletos.
 
-**Hasta 2 dispositivos por puerto IDE**
-
-**Hasta 133 MB/s**
-
-**40 pines**
+- Hasta 2 dispositivos por puerto IDE, es decir en cada puerto IDE de la placa se pueden conectar hasta dos dispositivos IDE (Maestro-Esclavo).
+- Hasta 133 MB/s**.
+- 40 pines**.
 
 ![](assets/img/Unidad03/U397.png)
 
-![](assets/img/Unidad03/U398.png)
+![](assets/img/Unidad03/U39png)
 
-#### IDE vs Floppy
+**Comparación IDE vs Floppy**
 
 ![](assets/img/Unidad03/U399.png)
 
@@ -639,31 +631,29 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 
 #### Serial ATA o SATA (Serial Advanced Technology Attachment)
 
-<span style="color:#222222">Conector para dispositivos SATA como discos duros, CD-ROM, DVD, BluRay, etc.
-
-<span style="color:#222222">Reemplazan a los IDE
+Conector para dispositivos SATA como discos duros, CD-ROM, DVD, BluRay, etc.
+Se puede decir que reemplazan a los IDE.
+En cada puerto SATA de la placa se puede 1 dispositivo 
 
 ![](assets/img/Unidad03/U3102.png)
 
 ![](assets/img/Unidad03/U3103.png)
 
+**Versiones de SATA:**
 ![](assets/img/Unidad03/U3104.png)
 
 #### Conector USB interno
 
-![](assets/img/Unidad03/U3105.png)
+Se realiza una conexión en la placa base para extraer un puerto USB al exterior de la caja, normalmente al panel frontal
 
-**Conector USB interno**
+![](assets/img/Unidad03/U3105.png)
 
 ![](assets/img/Unidad03/U3106.png)
 
 ![](assets/img/Unidad03/U3107.png)
 
-#### 8. Conector USB
 
 ![](assets/img/Unidad03/U3108.png)
-
-**Conector USB interno**
 
 ![](assets/img/Unidad03/U3109.png)
 
@@ -675,7 +665,7 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 
 ![](assets/img/Unidad03/U3112.png)
 
-##### Nueva nomenclatura USB
+##### Nueva nomenclatura puertos USB
 
 ![](assets/img/Unidad03/U3113.png)
 
@@ -683,7 +673,7 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 
 ![](assets/img/Unidad03/U3115.png)
 
-###### Tipos de USB
+##### Tipos de USB
 
 ![](assets/img/Unidad03/U3116.jpg)
 
@@ -703,7 +693,7 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 
 #### Conectores de audio internos
 
-**Conectores para el audio frontal del ordenador. Con un cable se lleva el puerto de sonido hacia el exterior del chasis.**
+Conectores internos dotar de audio al panel frontal del ordenador. Con un cable se lleva el puerto de sonido hacia el exterior del chasis.**
 
 ![](assets/img/Unidad03/U3122.png)
 
@@ -712,18 +702,18 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 ![](assets/img/Unidad03/U3124.png)
 
 #### Conectores del panel frontal.
-
 - **Power switch (POWER SW). Pulsador de encendido del equipo.**
-  ![](assets/img/Unidad03/U3125.png)
 - **Reset switch (RESET SW). Pulsador de reset.**
-  ![](assets/img/Unidad03/U3126.png)
 - **Power LED (POWER LED) LED de encendido (+,-)**
-![](assets/img/Unidad03/U3127.png)
 - **HDD LED (H.D.D. LED) LED de funcionamiento de disco duro (+,-)**
+
+![](assets/img/Unidad03/U3125.png)
 ![](assets/img/Unidad03/U3128.png)
+![](assets/img/Unidad03/U3126.png)
+![](assets/img/Unidad03/U3127.png)
 
 #### Q-connector
-
+---
 ![](assets/img/Unidad03/U3129.png)
 
 #### Pila
@@ -766,7 +756,7 @@ Si la batería se agota la BIOS a través de la pantalla puede mostrarnos inform
 
 
 
-## Bobliografía
+## Bibliografía
 
 _[https://sites.google.com/site/1ofpb1516manuel/6-los-zocalos-de-memoria](https://sites.google.com/site/1ofpb1516manuel/6-los-zocalos-de-memoria)_
 
