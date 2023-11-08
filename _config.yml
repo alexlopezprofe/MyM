@@ -1,4 +1,4 @@
-title: Montaje y Mantenimiento de Equipos
+title: Just the Docs Template
 description: Recursos para el módulo Montaje y Mantenimiento de Equipos de SMR
 theme: just-the-docs
 
@@ -7,5 +7,5 @@ url: https://alexlopezprofe.github.io/MyM/
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
 
-plugins:
+  plugins:
   - jekyll-default-layout
