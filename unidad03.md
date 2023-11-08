@@ -207,7 +207,7 @@ _Tiene forma aplanada y su interior hace una especie de «L» tumbada, de manera
 
 ## Conectores de energía. Ventiladores (Fans)
 
-**En ellos se conectan los ventiladores internos del chasis. Se suelen encontrar los siguientes: CPU-FAN, SYSTEM-FAN, CHA-FAN, POWER-FAN, NORTHBRIDGE-FAN, etc.**
+En ellos se conectan los ventiladores internos del chasis. Se suelen encontrar los siguientes: CPU-FAN, SYSTEM-FAN, CHA-FAN, POWER-FAN, NORTHBRIDGE-FAN, etc.
 
 ![](assets/img/Unidad03/U337.png)
 
@@ -215,7 +215,7 @@ _Tiene forma aplanada y su interior hace una especie de «L» tumbada, de manera
 
 ## Conector de alimentación molex de 4 pines
 
-_Este es el conector que más _  _se usaba hasta hace unos años para dar servicio al resto de componentes del ordenador_  _, aunque ahora su uso ha quedado bastante relegado a tareas secundarias (de ahí que cada vez haya menos de ellos en las fuentes)_
+Este es el conector que más se usaba hasta hace unos años para dar servicio al resto de componentes del ordenador, aunque ahora su uso ha quedado bastante relegado a tareas secundarias (de ahí que cada vez haya menos de ellos en las fuentes)
 
 ![](assets/img/Unidad03/U339.png)
 
@@ -223,15 +223,15 @@ _Este es el conector que más _  _se usaba hasta hace unos años para dar servic
 
 ## Conector de alimentación Floppy
 
-_Floppy, también llamado FDD o Berg (compañía que los diseñó).
+Floppy, también llamado FDD o Berg (compañía que los diseñó).
 
-_Se trata, básicamente, de un conector equivalente al Molex en cuanto a su salida de pines pero con un tamaño más pequeño._
+Se trata, básicamente, de un conector equivalente al Molex en cuanto a su salida de pines pero con un tamaño más pequeño.
 
-_Su uso principal eran las disqueteras, y actualmente casi ningún componente los usa (o ya ninguno, decimos «casi» porque desconocemos si hay algún controlador o periférico que sí lo necesite). Generalmente, las fuentes traen 1 y, afortunadamente, las más nuevas se limitan a incluir un adaptador Molex de 4 pines a Berg._
+Su uso principal eran las disqueteras, y actualmente casi ningún componente los usa (o ya ninguno, decimos «casi» porque desconocemos si hay algún controlador o periférico que sí lo necesite). Generalmente, las fuentes traen 1 y, afortunadamente, las más nuevas se limitan a incluir un adaptador Molex de 4 pines a Berg.
 
 ![](assets/img/Unidad03/U341.png)
 
-## Resumen
+## Resumen de conectores
 
 ![](assets/img/Unidad03/U342.png)
 
