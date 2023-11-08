@@ -26,7 +26,7 @@ El  material  con  el que están construidas es aluminio o aleaciones de alumini
 
 ![](assets/img/Unidad03/U33.png)
 
-## Partes de la caja.
+### Partes de la caja.
 
  ![](assets/img/Unidad03/U34.png)
 
@@ -57,7 +57,7 @@ El  material  con  el que están construidas es aluminio o aleaciones de alumini
 
 
 
-## Tipos de cajas.
+### Tipos de cajas.
 
 La clasificación se hace normalmente por su tamaño dependiendo de las placas base que soportan. Las más usuales  son: 
 
@@ -89,7 +89,9 @@ La clasificación se hace normalmente por su tamaño dependiendo de las placas b
 
 ![](assets/img/Unidad03/U311.png)
 
-## Instalación eléctrica
+## Fuentes de alimentación.
+
+### Instalación eléctrica
 
 ![](assets/img/Unidad03/U312.png)
 
@@ -111,7 +113,6 @@ La clasificación se hace normalmente por su tamaño dependiendo de las placas b
 
 Se conoce **Reglamento Electrotécnico de Baja Tensión** o por sus siglas **REBT** al conjunto de normas o instrucciones técnicas complementarias (ITCs) que establecen la regulación en cuanto a instalaciones eléctricas de baja tensión en España se refiere. El cumplimiento del reglamento en cualquier instalación eléctrica de este tipo es obligatorio, ya que garantiza la seguridad y es requisito indispensable para su homologación, por lo que el conocimiento por parte del instalador es de vital importancia._
 
-## Fuentes de alimentación.
 
 ### Tipos de cables y conectores 
 
@@ -133,8 +134,11 @@ En un extremo tiene un conector macho _  _Schuko_  _ (tipo F) para conectarlo a 
 
 [https://www.worldstandards.eu/es/electricidad/tipos-de-enchufes/](https://www.worldstandards.eu/es/electricidad/tipos-de-enchufes/)_   
 
-La fuente de alimentación es el dispositivo que proporciona al ordenador (o a cualquier otro aparato electrónico) la energía que necesita.
+###Fuente de alimentación
 
+La fuente de alimentación es el dispositivo que proporciona al ordenador (o a cualquier otro aparato electrónico) la energía que necesita para funcionar.
+
+{: .highlight }
 Vatios (W) = Voltios (V) x Amperios (A).
 
 La fuente de alimentación de un ordenador de sobremesa se encuentra en el interior de la carcasa, es una caja metálica rectangular dotada, normalmente, de un ventilador. De ella sale un grupo de cables de colores que van a parar a los distintos dispositivos dentro de la carcasa. Los conectores que vienen incluidos en la fuente de alimentación están _  _normalizados_  _._
@@ -151,13 +155,13 @@ _Los componentes del interior de PC funcionan con corriente continua (DC) y la r
 
 ![](assets/img/Unidad03/U327.png)
 
-# 2. Conectores de energía fuente de alimentación.
+### Conectores de energía fuente de alimentación.
 
 _Los conectores de energía_  _ sirven para conectar los cables de la fuente de alimentación a la placa base; de esta manera, la placa base suministrará la corriente a los componentes que se conectan a ella, como el microprocesador, la memoria, las tarjetas de expansión, los ventiladores, etc._
 
 ![](assets/img/Unidad03/U328.png)
 
-# 2. Conector de alimentación ATX de 24 pines (P1)
+#### Conector de alimentación ATX de 24 pines (P1)
 
 <span style="color:#333333">Lleva la alimentación principal desde la fuente a la placa base. Suele estar compuesto por un conector principal de 20 pines y uno secundario de 4 pines
 
@@ -165,7 +169,7 @@ _Los conectores de energía_  _ sirven para conectar los cables de la fuente de 
 
 ![](assets/img/Unidad03/U330.png)
 
-# 2. Conector de alimentación EPS +12 V (P4)
+#### Conector de alimentación EPS +12 V (P4)
 
 ![](assets/img/Unidad03/U331.png)
 
@@ -175,7 +179,7 @@ _Los conectores de energía_  _ sirven para conectar los cables de la fuente de 
 
 ![](assets/img/Unidad03/U332.png)
 
-# 2. Conector de alimentación PCI-E
+#### 2. Conector de alimentación PCI-E
 
 ![](assets/img/Unidad03/U333.png)
 
@@ -189,7 +193,7 @@ _Es habitual que las fuentes de alimentación lleven más de uno de estos conect
 
 ![](assets/img/Unidad03/U334.png)
 
-# 2. Conector de alimentación SATA
+#### Conector de alimentación SATA
 
 _Este es el conector que ha sustituido en funcionalidad y número al conector molex._
 
@@ -201,7 +205,7 @@ _Tiene forma aplanada y su interior hace una especie de «L» tumbada, de manera
 
 ![](assets/img/Unidad03/U336.png)
 
-# 2. Conectores de energía. Ventiladores (Fan)
+#### Conectores de energía. Ventiladores (Fan)
 
 **En ellos se conectan los ventiladores internos del chasis. Se suelen encontrar los siguientes: CPU-FAN, SYSTEM-FAN, CHA-FAN, POWER-FAN, NORTHBRIDGE-FAN, etc.**
 
@@ -209,7 +213,7 @@ _Tiene forma aplanada y su interior hace una especie de «L» tumbada, de manera
 
 ![](assets/img/Unidad03/U338.png)
 
-# 2. Conector de alimentación molex de 4 pines
+#### Conector de alimentación molex de 4 pines
 
 _Este es el conector que más _  _se usaba hasta hace unos años para dar servicio al resto de componentes del ordenador_  _, aunque ahora su uso ha quedado bastante relegado a tareas secundarias (de ahí que cada vez haya menos de ellos en las fuentes)_
 
@@ -217,9 +221,9 @@ _Este es el conector que más _  _se usaba hasta hace unos años para dar servic
 
 ![](assets/img/Unidad03/U340.png)
 
-# Conector de alimentación Floppy
+#### Conector de alimentación Floppy
 
-_Floppy, también llamado FDD o Berg (compañía que los diseñó). _
+_Floppy, también llamado FDD o Berg (compañía que los diseñó).
 
 _Se trata, básicamente, de un conector equivalente al Molex en cuanto a su salida de pines pero con un tamaño más pequeño._
 
@@ -227,17 +231,17 @@ _Su uso principal eran las disqueteras, y actualmente casi ningún componente lo
 
 ![](assets/img/Unidad03/U341.png)
 
-# Resumen
+#### Resumen
 
 ![](assets/img/Unidad03/U342.png)
 
-# Fuentes de alimentación modulares.
+### Fuentes de alimentación modulares.
 
 _Estas fuentes, a diferencia de las convencionales, tienen la particularidad de que no sale un manojo  de  cables  para  alimentar  a  los  diferentes  dispositivos,  si  no  que  existen  una  serie  de  conectores  y  sólo  conectamos los cables que vamos a necesitar._
 
 ![](assets/img/Unidad03/U343.png)
 
-# Fuentes de alimentación redundantes.
+### Fuentes de alimentación redundantes.
 
 **Los  sistemas  redundantes  son  aquellos  que  repiten  el  hardware  por  su  carácter  crítico,  y  de  esta  manera  asegurarse  que  siga  funcionando  en  caso  de  un  fallo.  Hoy  en  día  los  servidores  llevan  dos  fuentes  de  alimentación redundantes que aseguran el suministro en caso de fallo de una de ellas.**
 
@@ -249,29 +253,29 @@ Cambio en caliente de componentes (Fuentes, discos duros)
 
 ![](assets/img/Unidad03/U346.png)
 
-# Certificación 80 Plus
+### Certificación 80 Plus
 
 Certifica la eficiencia energética de una fuente, en el caso de 80 Plus significa que de toda la potencia que llega a la fuente, al menos el 80% de ella se convierte en energía útil, mientras que el 20% restante se pierde como energía calorífica.
 
 ![](assets/img/Unidad03/U347.png)
 
-<span style="color:#2C2F34">Una fuente de alimentación con certificación 80 Plus Silver.
 
-<span style="color:#2C2F34">Tiene 600 W.
+{: .note-title }
+> Ejemplo 1
+>
+> Una fuente de alimentación con certificación 80 Plus Silver. Tiene 600 W. ¿Cuánta potencia ofrecerá a máxima carga?
+> Su eficiencia es del 85%, por tanto podrá entrega 510 W.
 
-<span style="color:#2C2F34">¿Cuánta potencia ofrecerá máxima carga?
 
-<span style="color:#2C2F34">Su eficiencia es del 85%, por tanto podrá entrega 510 W.
+{: .note-title }
+> Ejemplo 2
+>
+> Una fuente de alimentación con certificación 80 Plus Titanium.
+> Su eficiencia es del 85%, por tanto podrá entrega 510 W. Tiene 600 W. ¿Cuánta potencia ofrecerá a máxima carga?
 
-Fuente de alimentación con certificación 80 Plus Titanium.
+Su eficiencia a máxima carga es del 94%, así que entregará 564 W.
 
-Tiene 600 W.
-
-¿Cuánta potencia ofrecerá a máxima carga?
-
-Su eficiencia es del 94%, así que entregará 564 W.
-
-# ¿Qué fuente necesito?
+#### ¿Qué fuente necesito?
 
 * Se necesitan los Vatios (W) suficientes para satisfacer las necesidades energéticas de los componentes del ordenador por separado, y dejar cierto margen.
 * _[https://www.profesionalreview.com/2020/05/07/calcular-potencia-fuente-alimentacion-pc/](https://www.profesionalreview.com/2020/05/07/calcular-potencia-fuente-alimentacion-pc/)_  ** **
@@ -279,13 +283,13 @@ Su eficiencia es del 94%, así que entregará 564 W.
   * _[https://www.coolermaster.com/la/es-la/power-supply-calculator/](https://www.coolermaster.com/la/es-la/power-supply-calculator/)_
   * _[https://www.geeknetic.es/calculadora-fuente-alimentacion/](https://www.geeknetic.es/calculadora-fuente-alimentacion/)_  ** **
 
-2. ¿Cómo se miden los valores de la fuente?
+####¿Cómo se miden los valores de la fuente?
 
 **Multímetro / Polímetro /Tester**
 
 ![](assets/img/Unidad03/U348.png)
 
-## Placa base
+## Placas base
 
 La placa base (mainboard) o placa madre (motherboard) es el elemento principal del ordenador; a ella se conectan todos los demás dispositivos, como pueden ser el disco duro, la memoria o el microprocesador, y hace que todos estos componentes funcionen en equipo. De ella, dependerán los componentes que podremos instalar y las posibilidades de ampliación del ordenador.
 
@@ -295,7 +299,7 @@ Físicamente, es una placa de material sintético formada por un circuito impres
 
 ![](assets/img/Unidad03/U350.png)
 
-#### Factor de forma de placas base
+### Factor de forma de placas base
 
 El factor de forma son los estándares que definen algunas características físicas de las placas base. Existen diferentes tamaños y tipos de placas base. El factor de forma de la placa base determina el tamaño y orientación de la placa con respecto a la caja, el tipo de fuente de alimentación necesaria y dicta los periféricos que pueden integrarse en la placa.
 
@@ -319,75 +323,59 @@ Los más importantes son:
 
 ![](assets/img/Unidad03/U351.png)
 
-# Comparación de factor de forma
+### Comparación de factor de forma
 
-# 2. La estructura de la placa base
+### La estructura de la placa base
 
 La placa base es un circuito impreso donde se conectan todos los componentes necesarios para que el ordenador funcione.
 
 Ya hemos visto que el tamaño y la organización en una placa obedecen a su factor de forma y también que existen diversos factores de forma. Sin embargo, la mayoría de las placas base deberán constar de las siguientes partes:
 
-Batería CMOS (RAM CMOS)
-
-Southbridge (puente sur)
-
-Conector de alimentación ATX
-
-Conector SATA.
-
-Botón de encendido y reseteo
-
-Basic Input/Output System (BIOS) - UEFI
-
-Socket o zócalo de la CPU (procesador)
-
-Ranuras de memoria RAM (memoria DDR)
-
-Ranuras de expansión: PCI Express y PCI
-
-Conectores de almacenamiento
-
-Conectores PS/2 para teclado y ratón
-
-Conectores gráficos (para monitores)
-
-Puertos USB
-
-Puerto de red
-
-Northbridge (puente norte)
-
+- Batería CMOS (RAM CMOS)
+- Chipset
+- Conector de alimentación ATX
+- Conectores SATA.
+- Conectores M.2
+- Pins de encendido, reset, HDD Led Y Power Led
+- Basic Input/Output System (BIOS) - UEFI
+- Socket o zócalo de la CPU (procesador)
+- Ranuras de memoria RAM (memoria DDR)
+- Ranuras de expansión: PCI Express y PCI
+- Conectores de almacenamiento
+- Conectores USB
+- Puerto de red
+- Conectores de Audio
+- Conectores gráficos
+  
 ![](assets/img/Unidad03/U352.png)
 
 ![](assets/img/Unidad03/U353.png)
 
-# 2. Fabricación placa base
+### Fabricación placa base
 
 ![](assets/img/Unidad03/U354.jpg)
 
 ![](assets/img/Unidad03/U355.jpg)
 
-# 3. El socket
+#### El socket
 
-<span style="color:#3A3A3A">El socket o zócalo es el conector de la placa base en el que se inserta el microprocesador, existen de varios tipos:
+El socket o zócalo es el conector de la placa base en el que se inserta el microprocesador, existen de varios tipos:
 
-<span style="color:#3A3A3A"> **PGA**   <span style="color:#3A3A3A"> (Pin Grid Array): Es el que usa en la actualidad   _[AMD](https://www.amd.com/es)_  <span style="color:#3A3A3A">, el socket solo tiene taladros mientras que, los pines, se encuentran en el procesador.
-
-<span style="color:#3A3A3A"> **LGA**   <span style="color:#3A3A3A"> (Land Grid Array): Los   <span style="color:#3A3A3A"> **socket LGA **   <span style="color:#3A3A3A">es el que lleva usando  _[ Intel](https://www.intel.es/content/www/es/es/products/processors.html)_  <span style="color:#3A3A3A"> desde que lanzó  el LGA775 y en él los pines se encuentran en la placa base.
-
-<span style="color:#3A3A3A"> **BGA**   <span style="color:#3A3A3A"> (Ball Grid Array): Este simplemente consiste en soldar el procesador a la placa base  <span style="color:#3A3A3A">,  <span style="color:#3A3A3A"> ampliamente utilizado en portátiles.
-
-# 3 Socket PGA
-
+- **PGA** (Pin Grid Array): el socket solo tiene taladros mientras que, los pines, se encuentran en el procesador.
 ![](assets/img/Unidad03/U356.png)
 
 ![](assets/img/Unidad03/U357.png)
 
-# 3. Socket LGA
+- **LGA** (Land Grid Array): Los pines se encuentran en la placa base. Intel siempre utiliza sockets LGA
 
 ![](assets/img/Unidad03/U358.png)
 
 ![](assets/img/Unidad03/U359.png)
+
+- **BGA** (Ball Grid Array): En este tipo de sockets se suelda el procesador a la placa base
+  > ampliamente utilizado en portátiles.
+  > 
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/154f27cc-8eb3-4cf8-9b51-1be93fdd032a)
 
 # 3. Sockets Intel
 
