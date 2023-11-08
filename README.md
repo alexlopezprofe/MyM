@@ -1,4 +1,4 @@
-# Mantenimiento y Montaje de Equipos
+# Montaje y Mantenimiento de Equipos
 
 Sitio web para el módulo Mantenimiento y Montaje de equipos de 1º de SMR
 
