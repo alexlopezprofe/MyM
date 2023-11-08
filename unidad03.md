@@ -321,9 +321,10 @@ Los más importantes son:
 
 **Mini ITX** : (170 x 170 mm).  Ordenadores compactos
 
-![](assets/img/Unidad03/U351.png)
-
-### Comparación de factor de forma
+{: .note-title }
+> Comparación de factor de forma
+>
+> ![](assets/img/Unidad03/U351.png)
 
 ### La estructura de la placa base
 
@@ -357,7 +358,7 @@ Ya hemos visto que el tamaño y la organización en una placa obedecen a su fact
 
 ![](assets/img/Unidad03/U355.jpg)
 
-#### El socket
+### El socket
 
 El socket o zócalo es el conector de la placa base en el que se inserta el microprocesador, existen de varios tipos:
 
@@ -374,68 +375,43 @@ El socket o zócalo es el conector de la placa base en el que se inserta el micr
 
 - **BGA** (Ball Grid Array): En este tipo de sockets se suelda el procesador a la placa base
   > ampliamente utilizado en portátiles.
-  > 
+  
 ![image](https://github.com/alexlopezprofe/MyM/assets/148449360/154f27cc-8eb3-4cf8-9b51-1be93fdd032a)
 
-# 3. Sockets Intel
+### Sockets Intel
 
-Intel LGA 775: procesadores Pentium 4, Pentium D, Celeron, Celeron D, Pentium XE, Core 2 Duo, Core 2 Quad, Xeon.
+- Intel LGA 775: procesadores Pentium 4, Pentium D, Celeron, Celeron D, Pentium XE, Core 2 Duo, Core 2 Quad, Xeon.
+- Intel LGA 1156: procesadores Core ix series 500, 600, 700 y 800; Pentium G6000 y Celeron G1000.
+- Intel LGA 1155: procesadores Sandy Bridge, Ivy Bridge, Xeon E3 1200.
+- Intel LGA 1150: procesadores Haswell, Haswell Refresh y Broadwell.
+- Intel LGA 1151: procesadores Skylake, Kaby Lake y Coffee Lake.
+- Intel LGA 1366: Core i7 serie 900, Xeon series 3500, 3600, 5500 y 5600.
+- Intel LGA 2011: procesadores Sandy Bridge-E, Ivy Bridge-E, Xeon E5-2000 / 4000.
+- Intel LGA 2011-v3: procesadores Haswell-E.
+- Intel LGA 2066: procesadores Skylake-X y Kaby Lake-X.
+- LGA 1200: procesadores Intel de (Gen 10 y 11) processors. Comet Lake-S.
+- LGA 1700: procesadores Alder Lake (Gen 12)
+- LGA 1800: Raptor Lake (Gen 13),
 
-Intel LGA 1156: procesadores Core ix series 500, 600, 700 y 800; Pentium G6000 y Celeron G1000.
+### Sockets AMD
 
-Intel LGA 1155: procesadores Sandy Bridge, Ivy Bridge, Xeon E3 1200.
+- AMD 462: procesadores Athlon, Athlon XP, Athlon XP-M, Athlon MP, Duron y Sempron.
+- AMD 754: procesadores Athlon 64, Turion 64 y Sempron.
+- AMD 940: procesadores Opteron y Athlon 64 FX.
+- AMD 939: procesadores Athlon 64, Athlon 64 FX, Athlon 64 X2, Opteron.
+- AMD AM1: procesadores Athlon y Sempron.
+- AMD AM2: procesadores Athlon 64 y Athlon 64 X2.
+- AMD AM2+: procesadores Athlon 64, Athlon X2, Phenom, Phenom II.
+- AMD AM3: procesadores Phenom II, Athlon II, Sempron y Opteron serie 1300.
+- AMD AM3+: procesadores Phenom II, Athlon II, FX Vishera, FX Zambezi, Sempron.
+- AMD AM4: procesadores Ryzen y APU Bristol Ridge y Raven Ridge.
+- AMD TR4: procesadores Threadripper.
+- AMD FM1: APU Llano.
+- AMD FM2: APU Trinity.
+- AMD FM2+: APU Kaveri y Godavari.
+- AMD sTRX4 Platform for 3rd Gen AMD Ryzen
 
-Intel LGA 1150: procesadores Haswell, Haswell Refresh y Broadwell.
-
-Intel LGA 1151: procesadores Skylake, Kaby Lake y Coffee Lake.
-
-Intel LGA 1366: Core i7 serie 900, Xeon series 3500, 3600, 5500 y 5600.
-
-Intel LGA 2011: procesadores Sandy Bridge-E, Ivy Bridge-E, Xeon E5-2000 / 4000.
-
-Intel LGA 2011-v3: procesadores Haswell-E.
-
-Intel LGA 2066: procesadores Skylake-X y Kaby Lake-X.
-
-LGA 1200: procesadores Intel de (Gen 10 y 11) processors. Comet Lake-S.
-
-LGA 1700: procesadores Alder Lake (Gen 12)
-
-LGA 1800: Raptor Lake (Gen 13),
-
-# 3. Sockets AMD
-
-AMD 462: procesadores Athlon, Athlon XP, Athlon XP-M, Athlon MP, Duron y Sempron.
-
-AMD 754: procesadores Athlon 64, Turion 64 y Sempron.
-
-AMD 940: procesadores Opteron y Athlon 64 FX.
-
-AMD 939: procesadores Athlon 64, Athlon 64 FX, Athlon 64 X2, Opteron.
-
-AMD AM1: procesadores Athlon y Sempron.
-
-AMD AM2: procesadores Athlon 64 y Athlon 64 X2.
-
-AMD AM2+: procesadores Athlon 64, Athlon X2, Phenom, Phenom II.
-
-AMD AM3: procesadores Phenom II, Athlon II, Sempron y Opteron serie 1300.
-
-AMD AM3+: procesadores Phenom II, Athlon II, FX Vishera, FX Zambezi, Sempron.
-
-AMD AM4: procesadores Ryzen y APU Bristol Ridge y Raven Ridge.
-
-AMD TR4: procesadores Threadripper.
-
-AMD FM1: APU Llano.
-
-AMD FM2: APU Trinity.
-
-AMD FM2+: APU Kaveri y Godavari.
-
-AMD sTRX4 Platform for 3rd Gen AMD Ryzen
-
-# 4. El chipset
+### El chipset
 
 <span style="color:#616161">El   <span style="color:#616161"> _chipset_   <span style="color:#616161"> es el centro de comunicaciones de la placa base de un ordenador, ese que controla y organiza los datos entre el procesador y el resto de componentes, como los discos duros, los discos SSD, la memoria RAM, la tarjeta gráfica, los puertos USB, el monitor, el teclado o el ratón.
 
@@ -447,7 +423,7 @@ AMD sTRX4 Platform for 3rd Gen AMD Ryzen
 
 <span style="color:#616161">capacidad de overclock.
 
-# 4. El chipset clásico
+#### El chipset clásico
 
 <span style="color:#616161">En placas base de hace unos 10 años hacia atrás encontrábamos el northbridge y el southbridge, que eran dos elementos de la placa base que realizaban todas estas comunicaciones. Ahora, las placas base de hoy en día concentran todo en un único elemento que integra todas las comunicaciones, y resulta ser el   <span style="color:#616161"> **chipset.** 
 
@@ -465,21 +441,21 @@ AMD sTRX4 Platform for 3rd Gen AMD Ryzen
 
 ![](assets/img/Unidad03/U363.png)
 
-# 4. El chipset
+#### Chipset actual
 
-<span style="color:#333333">Actualmente se ha   <span style="color:#333333"> **re**   <span style="color:#333333"> **diseñado**   <span style="color:#333333"> ** el chipset**   <span style="color:#333333">, consiguiendo que el puente norte desaparezca y las conexiones que antes se hacían desde él ahora se hagan directamente desde el procesador.
+Actualmente el chipset sólo consta de un solo chip.
 
-# 4. El chipset vs procesador
+#### El chipset vs procesador
 
 ![](assets/img/Unidad03/U364.png)
 
-# 4. Ejemplo de Chipset
+##### Ejemplo de Chipset
 
-Intel -  _[https://drive.google.com/file/d/16t_myK2dSw2pcTsRxOlqTOEom27D0dmU/view?usp=sharing](https://drive.google.com/file/d/16t_myK2dSw2pcTsRxOlqTOEom27D0dmU/view?usp=sharing)_
+- Intel -  _[https://drive.google.com/file/d/16t_myK2dSw2pcTsRxOlqTOEom27D0dmU/view?usp=sharing](https://drive.google.com/file/d/16t_myK2dSw2pcTsRxOlqTOEom27D0dmU/view?usp=sharing)_
 
-AMD -  _[https://drive.google.com/file/d/10T7bvcs9PT4JffLfdadWEe_Ut9ZO13no/view?usp=share_link](https://drive.google.com/file/d/10T7bvcs9PT4JffLfdadWEe_Ut9ZO13no/view?usp=share_link)_
+ - AMD -  _[https://drive.google.com/file/d/10T7bvcs9PT4JffLfdadWEe_Ut9ZO13no/view?usp=share_link](https://drive.google.com/file/d/10T7bvcs9PT4JffLfdadWEe_Ut9ZO13no/view?usp=share_link)_
 
-# 4. El chipset. Listado
+#### El chipset. Listado
 
 **Tanto AMD como Intel sacan varios chipsets por cada generación de procesadores, normalmente son 3 gamas por generación distinta**
 
@@ -491,7 +467,7 @@ _[Chipsets Intel](https://ark.intel.com/content/www/us/en/ark.html#@Chipsets)_  
 
 _[Chipsets AMD](https://www.amd.com/en/products/chipsets-motherboards-desktop)_  ** // **  _[Lista de chipsets AMD en Wikipedia](https://en.wikipedia.org/wiki/List_of_AMD_chipsets)_
 
-# 5. La BIOS
+### La BIOS
 
  **BIOS**    es el acrónimo (Basic Input/Output System, Sistema Básico de Entrada/Salida) es un conjunto de programas, grabados en un chip de la placa base que se encarga de realizar las funciones necesarias para que el ordenador arranque.   <span style="color:#202122">Viene configurada de fábrica con los valores de la placa base por defecto, sin embargo, estos valores pueden ser modificados por el usuario según las necesidades.
 
@@ -505,41 +481,31 @@ Fabricantes de BIOS más conocidos: PhoenixBIOS, Award, Amibios, MSI.
 
 ![](assets/img/Unidad03/U367.png)
 
-# 5. La BIOS. UEFI
+### UEFI
 
-Actualmente, el interface BIOS original ha sido sustituido por otro más elaborado y seguro,    **UEFI**    (Interfaz de Firmware Extensible Unificado). UEFI proporciona mejoras de seguridad en el arranque y aprovechamiento de las nuevas funcionalidades soportadas por las placas base modernas.
+Actualmente, el interface BIOS original ha sido sustituido por otro más elaborado y seguro, **UEFI** (Interfaz de Firmware Extensible Unificado). UEFI proporciona mejoras de seguridad en el arranque y aprovechamiento de las nuevas funcionalidades soportadas por las placas base modernas.
 
 ![](assets/img/Unidad03/U368.png)
 
  **Ventajas:** 
 
-Proporciona una interfaz de teclado y ratón completa, interactiva.
+ - Proporciona una interfaz de teclado y ratón completa, interactiva.
+ - Añade arranque de red en el 100% de las placas.
+ - Permite arrancar HDD y SSD de más de 2 TB utilizando  el l modo de arranque del sistema operativo.
+ - Puede conectarse a Internet para actualizarse.
+ - Secure Boot. Se trata de un arranque seguro y que evita el inicio de sistemas operativos que no estén autenticados para protegerte de los bootkits, un malware que se ejecutan al iniciar Windows.
 
-Añade arranque de red en el 100% de las placas.
+{: .important-title }
+> ¿Cómo resetear la UEFI/BIOS?
+> Si tenemos algún problema en la configuración (disco mal configurado, overclocking) es posible resetear la BIOS. En el manual de las placas base indica como hacerlo, pero habitualmente:
+>  - Accediendo a la BIOS/UEFI
+>    ![](assets/img/Unidad03/U369.png)
+>  - Extraer batería CMOS o pila un cierto tiempo.
+>  ![](assets/img/Unidad03/U370.png)
+>  - Utilizar jumper o botón de la placa base.
+> ![](assets/img/Unidad03/U371.png)
 
-Permite arrancar HDD y SSD de más de 2 TB utilizando  el l modo de arranque del sistema operativo.
-
-Puede conectarse a Internet para    _actualizarse._ 
-
-Secure Boot. Se trata de un arranque seguro y que evita el inicio de sistemas operativos que no estén autenticados para protegerte de los bootkits, un malware que se ejecutan al iniciar Windows.
-
-# 5. Resetear BIOS/UEFI
-
-Si tenemos algún problema en la configuración (disco mal configurado, overclocking) es posible resetear la BIOS. En el manual de las placas base indica como hacerlo, pero habitualmente:
-
-Accediendo a la BIOS/UEFI.
-
-Extraer batería CMOS o pila un cierto tiempo.
-
-Utilizar jumper o botón de la placa base.
-
-![](assets/img/Unidad03/U369.png)
-
-![](assets/img/Unidad03/U370.png)
-
-![](assets/img/Unidad03/U371.png)
-
-# 6. Los zócalos de la memoria.
+###Los zócalos de la memoria.
 
 _Estas ranuras constituyen los conectores para la memoria principal del ordenador, la memoria RAM (Random Access Memory). La memoria RAM está formada por varios chips soldados a una placa que recibe el nombre de módulo de memoria. Estos módulos han ido evolucionando en tamaño, capacidad y forma de conectarse a la placa base._
 
@@ -577,7 +543,7 @@ Las memorias
 
 NO son compatibles con zócalos de diferente tipo
 
-# 7. Los buses de expansión.
+### Los buses de expansión.
 
 Son unas ranuras de plástico o slots con conectores eléctricos en las que se insertan las tarjetas de expansión, como, por ejemplo, las tarjetas gráfica, de sonido, de red, etc. 
 
@@ -587,7 +553,7 @@ En una placa base actual podemos encontrar ranuras PCI y ranuras PCI Express de 
 
 ![](assets/img/Unidad03/U380.png)
 
-# 7. Bus de expansión PCI
+#### Bus de expansión PCI
 
 * _PCI (Peripheral Components Interconnect)_
 * _Fue desarrollado por Intel a principios de los 90, y sus posibles usos eran: Tarjetas de vídeo, sonido, red, módem, puertos etc._
@@ -601,24 +567,8 @@ En una placa base actual podemos encontrar ranuras PCI y ranuras PCI Express de 
 
 ![](assets/img/Unidad03/U382.png)
 
-# 7. Bus de expansión AGP
 
-* _AGP (Accelerated Graphics Port)_
-* _Diseñado por Intel en 1996, se utilizaba para tarjetas gráficas._
-* _ Es un bus de 32 bits con varias versiones:_
-  * _AGP 1x: 66 MHz y 256 MB/s_
-  * _AGP 2x: 133 MHz y 528 MB/s._
-  * _AGP 4x: 266 MHz y 1 GB/s._
-  * _AGP 8x: 533 MHz y 2 GB/s._
-* _Suele estar situada junto a las ranuras PCI._
-* _Se han quedado obsoletas dando paso a las PCIe._
-* .
-
-![](assets/img/Unidad03/U383.png)
-
-![](assets/img/Unidad03/U384.png)
-
-# 7. Buses de expansión PCI-Express
+#### Buses de expansión PCI-Express
 
 ![](assets/img/Unidad03/U385.png)
 
@@ -636,13 +586,14 @@ _Existen diferentes versiones de PCI-E_
 
 ![](assets/img/Unidad03/U388.jpg)
 
-# 7. Buses de expansión. Versiones PCI-Express
+##### Versiones PCI-Express
 
 ![](assets/img/Unidad03/U389.png)
 
 ![](assets/img/Unidad03/U390.png)
 
-# 8. Los conectores internos de la placa base
+
+### Los conectores internos de la placa base
 
 ![](assets/img/Unidad03/U391.png)
 
@@ -650,7 +601,7 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 
 ![](assets/img/Unidad03/U392.png)
 
-# 8. FDD (del inglés Floppy Disk Drive)
+#### FDD (Floppy Disk Drive)
 
 ![](assets/img/Unidad03/U393.png)
 
@@ -664,7 +615,7 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 
 ![](assets/img/Unidad03/U396.png)
 
-# 8. Conector IDE (o ATA paralelo)
+#### Conector IDE (o ATA paralelo)
 
 <span style="color:#222222">Conector para dispositivos IDE como discos duros, CD-ROM, DVDs, etc.   <span style="color:#222222"> _Se han quedado obsoletos_   <span style="color:#222222">.
 
@@ -678,7 +629,7 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 
 ![](assets/img/Unidad03/U398.png)
 
-# 8. IDE vs Floppy
+#### IDE vs Floppy
 
 ![](assets/img/Unidad03/U399.png)
 
@@ -686,7 +637,7 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 
 ![](assets/img/Unidad03/U3101.png)
 
-# 8. Serial ATA o SATA (Serial Advanced Technology Attachment)
+#### Serial ATA o SATA (Serial Advanced Technology Attachment)
 
 <span style="color:#222222">Conector para dispositivos SATA como discos duros, CD-ROM, DVD, BluRay, etc.
 
@@ -698,7 +649,7 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 
 ![](assets/img/Unidad03/U3104.png)
 
-# 8. Conector USB interno
+#### Conector USB interno
 
 ![](assets/img/Unidad03/U3105.png)
 
@@ -708,7 +659,7 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 
 ![](assets/img/Unidad03/U3107.png)
 
-# 8. Conector USB
+#### 8. Conector USB
 
 ![](assets/img/Unidad03/U3108.png)
 
@@ -716,7 +667,7 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 
 ![](assets/img/Unidad03/U3109.png)
 
-# 8. Conector USB 3.2 Gen 2x2 interno
+##### Conector USB 3.2 Gen 2x2 interno
 
 ![](assets/img/Unidad03/U3110.png)
 
@@ -724,7 +675,7 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 
 ![](assets/img/Unidad03/U3112.png)
 
-# 8. Nueva nomenclatura USB
+##### Nueva nomenclatura USB
 
 ![](assets/img/Unidad03/U3113.png)
 
@@ -732,11 +683,11 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 
 ![](assets/img/Unidad03/U3115.png)
 
-# 8. Tipos de USB
+###### Tipos de USB
 
 ![](assets/img/Unidad03/U3116.jpg)
 
-# 8. Conector NVMe M.2
+#### Conector NVMe M.2
 
 ![](assets/img/Unidad03/U3117.png)
 
@@ -750,7 +701,7 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 
 ![](assets/img/Unidad03/U3121.jpg)
 
-# 8. Conectores de audio internos
+#### Conectores de audio internos
 
 **Conectores para el audio frontal del ordenador. Con un cable se lleva el puerto de sonido hacia el exterior del chasis.**
 
@@ -760,29 +711,22 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 
 ![](assets/img/Unidad03/U3124.png)
 
-# 8. Conectores del panel frontal.
+#### Conectores del panel frontal.
 
-**Power switch (POWER SW). Pulsador de encendido del equipo.**
-
-**Reset switch (RESET SW). Pulsador de reset.**
-
-**Power LED (POWER LED) LED de encendido (+,-)**
-
-**HDD LED (H.D.D. LED) LED de funcionamiento de disco duro (+,-)**
-
-![](assets/img/Unidad03/U3125.png)
-
-![](assets/img/Unidad03/U3126.png)
-
+- **Power switch (POWER SW). Pulsador de encendido del equipo.**
+  ![](assets/img/Unidad03/U3125.png)
+- **Reset switch (RESET SW). Pulsador de reset.**
+  ![](assets/img/Unidad03/U3126.png)
+- **Power LED (POWER LED) LED de encendido (+,-)**
 ![](assets/img/Unidad03/U3127.png)
-
+- **HDD LED (H.D.D. LED) LED de funcionamiento de disco duro (+,-)**
 ![](assets/img/Unidad03/U3128.png)
 
-# 8. Q-connector
+#### Q-connector
 
 ![](assets/img/Unidad03/U3129.png)
 
-# 8. Pila
+#### Pila
 
 Mantiene la configuración básica de la BIOS cuando el ordenador no tiene un suministro de corriente
 
@@ -798,7 +742,7 @@ Si la batería se agota la BIOS a través de la pantalla puede mostrarnos inform
 
 ![](assets/img/Unidad03/U3132.png)
 
-# 9. Conectores externos de la placa base
+### Conectores externos de la placa base
 
 ![](assets/img/Unidad03/U3133.png)
 
@@ -810,7 +754,7 @@ Si la batería se agota la BIOS a través de la pantalla puede mostrarnos inform
 
 ![](assets/img/Unidad03/U3137.png)
 
-# 10. VRM
+### VRM
 
 **VRM**  es un acrónimo de “Voltage Regulator Module” o “Modulo de regulación de voltaje” y es un componente electrónico que permite regular, con mayor o menor eficiencia, el voltaje que se suministra en un circuito electrónico y en el case de las placas base al procesador, memorias y resto de componentes.
 
@@ -820,11 +764,9 @@ Si la batería se agota la BIOS a través de la pantalla puede mostrarnos inform
 
 ![](assets/img/Unidad03/U3140.png)
 
-# 11. Proceso de arranque de un ordenador
 
-**1. Inicialización de la fuente de alimentación. ** En el momento en que apretamos el botón de arranque de la caja, se cierra un contacto. Este contacto se recibe como señal de arranque por parte de la placa base, la cual manda orden a la fuente de alimentación para que se active.
 
-# Fuentes
+## Bobliografía
 
 _[https://sites.google.com/site/1ofpb1516manuel/6-los-zocalos-de-memoria](https://sites.google.com/site/1ofpb1516manuel/6-los-zocalos-de-memoria)_
 
