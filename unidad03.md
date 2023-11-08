@@ -5,7 +5,9 @@ nav_order: 3
 ---
 
 # Unidad 3. Cajas, fuentes y placa base
+{: .no_toc }
 
+## Contenidos
 {: .no_toc .text-delta }
 
 1. TOC
