@@ -5,17 +5,16 @@ nav_order: 3
 ---
 
 # Unidad 3. Cajas, fuentes y placa base
+{: .no_toc }
 
 <details open markdown="block">
   <summary>
-    Table of contents
+    Contenidos
   </summary>
   {: .text-delta }
 1. TOC
 {:toc}
 </details>
-
-
 
 ## Cajas.
 
@@ -134,9 +133,9 @@ En un extremo tiene un conector macho _  _Schuko_  _ (tipo F) para conectarlo a 
 
 [https://www.worldstandards.eu/es/electricidad/tipos-de-enchufes/](https://www.worldstandards.eu/es/electricidad/tipos-de-enchufes/)_   
 
-_La fuente de alimentación es el dispositivo que proporciona al ordenador (o a cualquier otro aparato electrónico) la energía que necesita. → Intensidad (A), Voltaje (V), Vatios(W)_
+La fuente de alimentación es el dispositivo que proporciona al ordenador (o a cualquier otro aparato electrónico) la energía que necesita.
 
-_Vatios (W) = Voltios (V) x Amperios (A)._
+Vatios (W) = Voltios (V) x Amperios (A).
 
 La fuente de alimentación de un ordenador de sobremesa se encuentra en el interior de la carcasa, es una caja metálica rectangular dotada, normalmente, de un ventilador. De ella sale un grupo de cables de colores que van a parar a los distintos dispositivos dentro de la carcasa. Los conectores que vienen incluidos en la fuente de alimentación están _  _normalizados_  _._
 
