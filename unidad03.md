@@ -561,11 +561,11 @@ Permite “Plug and Play” (identifica las tarjetas insertadas)_
 ![](assets/img/Unidad03/U382.png)
 
 
-### **Buses de expansión PCI-Express**
+### Bus de expansión PCI-Express
 
 ![](assets/img/Unidad03/U385.png)
 
-El slot PCI-Express (PCI-E o PCle) es la evolución del slot PCI._
+El slot PCI-Express (PCI-E o PCle) es la evolución del slot PCI.
 
 Hereda la nomenclatura del AGP, y así podemos encontrarlo en x1, x2, x4, x8, x16 y x32, siendo en este caso la velocidad del bus de 133 MHz (el doble que la AGP).
 
