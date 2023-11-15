@@ -283,6 +283,8 @@ Certifica la eficiencia energética de una fuente, en el caso de 80 Plus signifi
 
 Su eficiencia a máxima carga es del 94%, así que entregará 564 W.
 
+> ## ¿Qué son los certificados Cybenetics ETA y LAMBDA?
+
 ## ¿Qué fuente necesito?
 
 Se necesitan los Vatios (W) suficientes para satisfacer las necesidades energéticas de los componentes del ordenador por separado, y dejar cierto margen.
