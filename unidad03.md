@@ -1,11 +1,4 @@
----
-layout: default
-title: Unidad 3. Cajas, fuentes y placas base
-nav_order: 3
----
-
 # Unidad 3. Cajas, fuentes y placa base
-{: .no_toc }
 
 <details open markdown="block">
   <summary>
@@ -16,9 +9,14 @@ nav_order: 3
 {:toc}
 </details>
 
-# Cajas.
+# Cajas
 
-----
+<pre>
+  <code>
+    const value = 3;
+    let result = value * 4;
+  </code>
+</pre>
 
 La **caja o chasis o carcasa** es la parte del ordenador que sirve de soporte y de esqueleto para alojar las piezas básicas de un ordenador (placa base, dispositivos de almacenamiento, fuente de alimentación, etc...). El tamaño ha de ser lo suficientemente grande para que albergue los diferentes componentes del ordenador. 
 
@@ -27,8 +25,6 @@ El  material  con  el que están construidas es aluminio o aleaciones de alumini
 ![](assets/img/Unidad03/Unidad03U31.png) ![](assets/img/Unidad03/U32.png)
 
 ![](assets/img/Unidad03/U33.png)
-
----
 
 ## Partes de la caja.
 
