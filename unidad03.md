@@ -51,7 +51,7 @@ El  material  con  el que están construidas es aluminio o aleaciones de alumini
 </figure>
 
 ## Tornilleria utilizada en las cajas de los ordenadores
-[![image](https://github.com/alexlopezprofe/MyM/assets/148449360/283bb5be-9303-445b-bb28-9daf30a446db)](https://hardzone.es/tutoriales/mantenimiento/tipos-tornillos-mantenimiento-pc/]
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/283bb5be-9303-445b-bb28-9daf30a446db)](https://hardzone.es/tutoriales/mantenimiento/tipos-tornillos-mantenimiento-pc/
 
 
 ## Tipos de cajas.
