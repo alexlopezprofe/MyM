@@ -70,13 +70,18 @@ La clasificación se hace normalmente por su tamaño dependiendo de las placas b
 
 * **Caja rack.** Usada para servidores industriales o para montar servidores en armarios rack (19”).
 
-> Detalle de los diferentes formatos:
 
-![](assets/img/Unidad03/U38.png)
+<figure>
+    <center><img src="assets/img/Unidad03/U38.png" alt="FActores de forma"/></center>
+    <center><figcaption>Detalle de los diferentes factores de forma.</figcaption></center>
+</figure>
 
-> Una caja grande es capaz de alojar placas más pequeñas.
 
-![](assets/img/Unidad03/U39.png)
+<figure>
+    <center><img src="assets/img/Unidad03/U39.png" alt="Cajas"/></center>
+    <center><figcaption>Una caja grande es capaz de alojar placas más pequeñas.</figcaption></center>
+</figure>
+
 <br/>
 > **Resumen de tipos de cajas:**
 
