@@ -9,6 +9,8 @@
 {:toc}
 </details>
 
+[[_TOC_]]
+
 # Cajas
 
 <pre>
@@ -44,16 +46,9 @@ El  material  con  el que están construidas es aluminio o aleaciones de alumini
 
 * **Interruptor, pulsador y luces**   . Conjunto de indicadores y botones que le alojan en el panel frontal  para su uso e información (encendido, reset, luz HDD, ...).
 
-
-> **Detalle de los anclajes para placa base:**
-
-![](assets/img/Unidad03/U36.png)
-
-
-
 <figure>
     <img src="assets/img/Unidad03/U36.png" alt="Detalle de los anclajes para placa base"/>
-    <figcaption>Detalle de los anclajes para placa base.</figcaption>
+    <figcaption>**Detalle de los anclajes para placa base.**</figcaption>
 </figure>
 
 > **Separadores:**
