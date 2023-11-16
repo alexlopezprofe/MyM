@@ -49,6 +49,13 @@ El  material  con  el que están construidas es aluminio o aleaciones de alumini
 
 ![](assets/img/Unidad03/U36.png)
 
+
+
+<figure>
+    <img src="assets/img/Unidad03/U36.png" alt="Detalle de los anclajes para placa base"/>
+    <figcaption>Detalle de los anclajes para placa base.</figcaption>
+</figure>
+
 > **Separadores:**
 
 ![](assets/img/Unidad03/U37.png)
