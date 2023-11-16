@@ -45,8 +45,6 @@ El  material  con  el que están construidas es aluminio o aleaciones de alumini
     <center><figcaption>Detalle de los anclajes de la caja para la placa base.</figcaption></center>
 </figure>
 
-> **Separadores:**
-
 <figure>
     <center><img src="assets/img/Unidad03/U37.png" alt="Separadores"/></center>
     <center><figcaption>Separadores entre la caja y la placa</figcaption></center>
