@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 
 # Unidad 3. Cajas, fuentes y placa base
 
