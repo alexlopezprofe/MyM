@@ -47,9 +47,10 @@ El  material  con  el que están construidas es aluminio o aleaciones de alumini
 
 > **Separadores:**
 
-![](assets/img/Unidad03/U37.png)
-
-<center><img src="assets/img/Unidad03/U36.png" alt="Detalle de los anclajes para placa base"/></center>
+<figure>
+    <center><img src="assets/img/Unidad03/U37.png" alt="Separadores"/></center>
+    <center><figcaption>Separadores entre la caja y la placa</figcaption></center>
+</figure>
 
 
 > **Tornilleria utilizada en las cajas de los ordenadores:**  [https://hardzone.es/tutoriales/mantenimiento/tipos-tornillos-mantenimiento-pc/](https://hardzone.es/tutoriales/mantenimiento/tipos-tornillos-mantenimiento-pc/)_   
