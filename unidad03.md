@@ -18,6 +18,8 @@
 
 <p style="text-align:center">Este texto estará centrado.</p>
 
+> :warning: **Aviso**: Este es un mensaje de aviso.
+
 La **caja o chasis o carcasa** es la parte del ordenador que sirve de soporte y de esqueleto para alojar las piezas básicas de un ordenador (placa base, dispositivos de almacenamiento, fuente de alimentación, etc...). El tamaño ha de ser lo suficientemente grande para que albergue los diferentes componentes del ordenador. 
 
 El  material  con  el que están construidas es aluminio o aleaciones de aluminio, metacrilato o plástico, pudiendo ser cartón hasta fibra pasando por titanio, kevlar,.......
