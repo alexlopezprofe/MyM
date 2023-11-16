@@ -1,5 +1,3 @@
-
-
 # Unidad 3. Cajas, fuentes y placa base
 
 <details open markdown="block">
