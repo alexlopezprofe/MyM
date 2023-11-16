@@ -267,14 +267,14 @@ Certifica la eficiencia energética de una fuente, en el caso de 80 Plus signifi
 
 ![](assets/img/Unidad03/U347.png)
 
-```markdown
+
 {: .note-title }
 > Ejemplo 1
 >
 > Una fuente de alimentación con certificación 80 Plus Silver. Tiene 600 W. ¿Cuánta potencia ofrecerá a máxima carga?
 > Su eficiencia es del 85%, por tanto podrá entrega 510 W.
 
-```markdown
+
 {: .note-title }
 > Ejemplo 2
 >
@@ -326,7 +326,7 @@ Los más importantes son:
 * **Extended ATX** (300 x 330 mm) . Factor de forma de mayor tamaño Están pensadas para configurar equipos de grandes prestaciones.
 
 
-```markdown
+
 {: .note-title }
 > Comparación de factor de forma
 >
@@ -381,7 +381,7 @@ El socket o zócalo es el conector de la placa base en el que se inserta el micr
 
 - **BGA** (Ball Grid Array): En este tipo de sockets se suelda el procesador a la placa base
 
-```markdown
+
 > Ampliamente utilizado en portátiles.
   
 ![image](https://github.com/alexlopezprofe/MyM/assets/148449360/154f27cc-8eb3-4cf8-9b51-1be93fdd032a)
@@ -497,7 +497,7 @@ Actualmente, el interface BIOS original ha sido sustituido por otro más elabora
  - Puede conectarse a Internet para actualizarse.
  - Secure Boot. Se trata de un arranque seguro y que evita el inicio de sistemas operativos que no estén autenticados para protegerte de los bootkits, un malware que se ejecutan al iniciar Windows.
 
-```markdown
+
 {: .important-title }
 > ¿Cómo resetear la UEFI/BIOS?
 > Si tenemos algún problema en la configuración (disco mal configurado, overclocking) es posible resetear la BIOS. En el manual de las placas base indica como hacerlo, pero habitualmente:
@@ -539,7 +539,7 @@ Los zócalos se agrupan en bancos de 1, 2, 4 o 6 zócalos, están numerados y no
 
 ![](assets/img/Unidad03/U379.png)
 
-```markdown
+
 {: .highlight }
 Las memorias NO son compatibles con zócalos de diferente tipo.
 
