@@ -41,8 +41,8 @@ El  material  con  el que están construidas es aluminio o aleaciones de alumini
 * **Interruptor, pulsador y luces**   . Conjunto de indicadores y botones que le alojan en el panel frontal  para su uso e información (encendido, reset, luz HDD, ...).
 
 <figure>
-    <img src="assets/img/Unidad03/U36.png" alt="Detalle de los anclajes para placa base"/>
-    <figcaption>Detalle de los anclajes de la caja para la placa base.</figcaption>
+    <center><img src="assets/img/Unidad03/U36.png" alt="Detalle de los anclajes para placa base"/></center>
+    <center><figcaption>Detalle de los anclajes de la caja para la placa base.</figcaption></center>
 </figure>
 
 > **Separadores:**
