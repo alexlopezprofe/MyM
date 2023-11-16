@@ -12,11 +12,11 @@
 # Cajas
 
 <pre>
-  Test
+  <p style="text-align:center">Este texto estará centrado.</p>
 </pre>
 
 
-<p style="text-align:center">Este texto estará centrado.</p>
+
 
 > :warning: **Aviso**: Este es un mensaje de aviso.
 
