@@ -50,13 +50,10 @@ El  material  con  el que están construidas es aluminio o aleaciones de alumini
     <center><figcaption>Separadores utilizados entre la caja y la placa</figcaption></center>
 </figure>
 
+## Tornilleria utilizada en las cajas de los ordenadores:**
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/283bb5be-9303-445b-bb28-9daf30a446db)(https://hardzone.es/tutoriales/mantenimiento/tipos-tornillos-mantenimiento-pc/](https://hardzone.es/tutoriales/mantenimiento/tipos-tornillos-mantenimiento-pc/)
 
-|![](assets/img/Unidad03/U34.png)|
-|:-:|
-|text-1|
-
-
-> **Tornilleria utilizada en las cajas de los ordenadores:**  [https://hardzone.es/tutoriales/mantenimiento/tipos-tornillos-mantenimiento-pc/](https://hardzone.es/tutoriales/mantenimiento/tipos-tornillos-mantenimiento-pc/)_   
+ [https://hardzone.es/tutoriales/mantenimiento/tipos-tornillos-mantenimiento-pc/](https://hardzone.es/tutoriales/mantenimiento/tipos-tornillos-mantenimiento-pc/)_   
 
 
 
