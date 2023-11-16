@@ -9,18 +9,12 @@
 {:toc}
 </details>
 
-[[_TOC_]]
 
 # Cajas
 
 <pre>
   <p style="text-align:center">Este texto estará centrado.</p>
 </pre>
-
-
-
-
-> :warning: **Aviso**: Este es un mensaje de aviso.
 
 La **caja o chasis o carcasa** es la parte del ordenador que sirve de soporte y de esqueleto para alojar las piezas básicas de un ordenador (placa base, dispositivos de almacenamiento, fuente de alimentación, etc...). El tamaño ha de ser lo suficientemente grande para que albergue los diferentes componentes del ordenador. 
 
@@ -48,12 +42,15 @@ El  material  con  el que están construidas es aluminio o aleaciones de alumini
 
 <figure>
     <img src="assets/img/Unidad03/U36.png" alt="Detalle de los anclajes para placa base"/>
-    <figcaption>**Detalle de los anclajes para placa base.**</figcaption>
+    <figcaption>Detalle de los anclajes de la caja para la placa base.</figcaption>
 </figure>
 
 > **Separadores:**
 
 ![](assets/img/Unidad03/U37.png)
+
+<center><img src="assets/img/Unidad03/U36.png" alt="Detalle de los anclajes para placa base"/></center>
+
 
 > **Tornilleria utilizada en las cajas de los ordenadores:**  [https://hardzone.es/tutoriales/mantenimiento/tipos-tornillos-mantenimiento-pc/](https://hardzone.es/tutoriales/mantenimiento/tipos-tornillos-mantenimiento-pc/)_   
 
