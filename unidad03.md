@@ -168,7 +168,7 @@ _Los conectores de energía_  _ sirven para conectar los cables de la fuente de 
 
 ![](assets/img/Unidad03/U328.png)
 
-## Conector de alimentación ATX de 24 pines (P1)
+## Conector de alimentación ATX de 24 pines
 
 <span style="color:#333333">Lleva la alimentación principal desde la fuente a la placa base. Suele estar compuesto por un conector principal de 20 pines y uno secundario de 4 pines
 
@@ -176,13 +176,13 @@ _Los conectores de energía_  _ sirven para conectar los cables de la fuente de 
 
 ![](assets/img/Unidad03/U330.png)
 
-## Conector de alimentación EPS +12 V (P4)
+## Conector de alimentación EPS12V
 
 ![](assets/img/Unidad03/U331.png)
 
-**Este conector es el que lleva la alimentación directa al procesador. **
+ - El conector EPS12V proporciona la alimentación directa al procesador y su controlador de voltaje (VRM).**
 
-**Generalmente lo podemos ver como un conector de 4 + 4 pines o bien uno de solo 4 pines (aunque la primera opción es la más habitual).**
+ - Generalmente lo podemos ver como un conector de 4 + 4 pines o bien uno de solo 4 pines en equipos antoguos.
 
 ![](assets/img/Unidad03/U332.png)
 
@@ -190,23 +190,18 @@ _Los conectores de energía_  _ sirven para conectar los cables de la fuente de 
 
 ![](assets/img/Unidad03/U333.png)
 
-_Se utiliza para proporcionar alimentación extra a las tarjetas gráficas cuando sus requerimientos de potencia son superiores a los 75 W que puede suministrar por sí mismo la ranura PCIe x16 en la que suele ir conectada._
-
-_Generalmente estos conectores suelen tener una configuración de 6 + 2 pines porque hay tarjetas gráficas que solo requieren del conector de 6 pines, mientras que otras requieren de los 8 pines._
-
-_El conector de 6 pines es capaz de suministrar hasta 75 W de potencia extra a la gráfica. _
-
-_Es habitual que las fuentes de alimentación lleven más de uno de estos conectores (a mayor potencia de la fuente, mayor número de conectores PCIe llevan)._
+- Se utiliza para proporcionar alimentación extra a las tarjetas gráficas cuando sus requerimientos de potencia son superiores a los 75 W que puede suministrar por sí mismo la ranura PCIe x16 en la que suele ir conectada.
+- Generalmente estos conectores suelen tener una configuración de 6 + 2 pines porque hay tarjetas gráficas que solo requieren del conector de 6 pines, mientras que otras requieren de los 8 pines.
+- El conector de 6 pines es capaz de suministrar hasta 75 W de potencia extra a la gráfica.
+- Es habitual que las fuentes de alimentación lleven más de uno de estos conectores (a mayor potencia de la fuente, mayor número de conectores PCIe llevan).
 
 ![](assets/img/Unidad03/U334.png)
 
 ## Conector de alimentación SATA
 
-_Este es el conector que ha sustituido en funcionalidad y número al conector molex._
-
-_Se emplea para proporcionar alimentación desde la fuente a los dispositivos como los dispositivos de almacenamiento o a las controladoras de ventiladores cuando se encuentran incluidas en la propia caja._
-
-_Tiene forma aplanada y su interior hace una especie de «L» tumbada, de manera que indica la correcta orientación del conector a la hora de ser conectado al dispositivo que se quiere alimentar._
+- Este es el conector que ha sustituido en funcionalidad y número al conector molex
+- Se emplea para proporcionar alimentación desde la fuente a los dispositivos como los dispositivos de almacenamiento (discos duros, SSD, unidadades de DVD/Blue Ray) o a las controladoras de ventiladores cuando se encuentran incluidas en la propia caja.
+- Tiene forma aplanada y su interior hace una especie de «L» tumbada, de manera que indica la correcta orientación del conector a la hora de ser conectado al dispositivo que se quiere alimentar.
 
 ![](assets/img/Unidad03/U335.png)
 
@@ -214,7 +209,7 @@ _Tiene forma aplanada y su interior hace una especie de «L» tumbada, de manera
 
 ## Conectores de energía. Ventiladores (Fans)
 
-En ellos se conectan los ventiladores internos del chasis. Se suelen encontrar los siguientes: CPU-FAN, SYSTEM-FAN, CHA-FAN, POWER-FAN, NORTHBRIDGE-FAN, etc.
+Situados en la placa base en ellos se conectan los ventiladores internos del chasis. Se suelen encontrar los siguientes: CPU-FAN, SYSTEM-FAN, CHA-FAN, POWER-FAN,etc.
 
 ![](assets/img/Unidad03/U337.png)
 
@@ -222,7 +217,7 @@ En ellos se conectan los ventiladores internos del chasis. Se suelen encontrar l
 
 ## Conector de alimentación molex de 4 pines
 
-Este es el conector que más se usaba hasta hace unos años para dar servicio al resto de componentes del ordenador, aunque ahora su uso ha quedado bastante relegado a tareas secundarias (de ahí que cada vez haya menos de ellos en las fuentes)
+- Este es el conector que más se usaba hasta hace unos años para dar servicio al resto de componentes del ordenador, aunque ahora su uso ha quedado bastante relegado a tareas secundarias (de ahí que cada vez haya menos de ellos en las fuentes)
 
 ![](assets/img/Unidad03/U339.png)
 
@@ -230,11 +225,9 @@ Este es el conector que más se usaba hasta hace unos años para dar servicio al
 
 ## Conector de alimentación Floppy
 
-Floppy, también llamado FDD o Berg (compañía que los diseñó).
-
-Se trata, básicamente, de un conector equivalente al Molex en cuanto a su salida de pines pero con un tamaño más pequeño.
-
-Su uso principal eran las disqueteras, y actualmente casi ningún componente los usa (o ya ninguno, decimos «casi» porque desconocemos si hay algún controlador o periférico que sí lo necesite). Generalmente, las fuentes traen 1 y, afortunadamente, las más nuevas se limitan a incluir un adaptador Molex de 4 pines a Berg.
+- Floppy, también llamado FDD o Berg (compañía que los diseñó).
+- Se trata, básicamente, de un conector equivalente al Molex en cuanto a su salida de pines pero con un tamaño más pequeño.
+- Su uso principal eran las disqueteras, y actualmente casi ningún componente los usa (o ya ninguno, decimos «casi» porque desconocemos si hay algún controlador o periférico que sí lo necesite). Generalmente, las fuentes traen 1 y, afortunadamente, las más nuevas se limitan a incluir un adaptador Molex de 4 pines a Berg.
 
 ![](assets/img/Unidad03/U341.png)
 
@@ -244,7 +237,7 @@ Su uso principal eran las disqueteras, y actualmente casi ningún componente los
 
 ## Fuentes de alimentación modulares.
 
-_Estas fuentes, a diferencia de las convencionales, tienen la particularidad de que no sale un manojo  de  cables  para  alimentar  a  los  diferentes  dispositivos,  si  no  que  existen  una  serie  de  conectores  y  sólo  conectamos los cables que vamos a necesitar._
+Estas fuentes, a diferencia de las convencionales, tienen la particularidad de que no sale un manojo  de  cables  para  alimentar  a  los  diferentes  dispositivos,  si  no  que  existen  una  serie  de  conectores  y  sólo  conectamos los cables que vamos a necesitar.
 
 ![](assets/img/Unidad03/U343.png)
 
