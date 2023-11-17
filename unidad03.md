@@ -142,8 +142,9 @@ En un extremo tiene un conector macho **Schuko (tipo F)** para conectarlo a la t
 
 <figure>
     <center><img src="assets/img/Unidad03/U322.png" alt="Cpnectores"/></center>
-    <center><figcaption>Diferentes tipos de conectores eléctricos [https://www.worldstandards.eu/es/electricidad/tipos-de-enchufes/](https://www.worldstandards.eu/es/electricidad/tipos-de-enchufes/)</figcaption></center>
+    <center><figcaption>Diferentes tipos de conectores eléctricos</figcaption></center>
 </figure>
+<center> [https://www.worldstandards.eu/es/electricidad/tipos-de-enchufes/](https://www.worldstandards.eu/es/electricidad/tipos-de-enchufes/)</center>
 
 
 
