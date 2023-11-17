@@ -1,5 +1,7 @@
-<link href="assets/css/style.css" rel="stylesheet"></link>
-
+<style>figcaption {
+  font-weight: bold;
+}
+</style>
 # Unidad 3. Cajas, fuentes y placa base
 
 <details open markdown="block">
