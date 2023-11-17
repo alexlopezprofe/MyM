@@ -76,7 +76,7 @@ La clasificación se hace normalmente por su tamaño dependiendo de las placas b
 
 <figure>
     <center><img src="assets/img/Unidad03/U38.png" alt="FActores de forma"/></center>
-    <center><figcaption>Detalle de los diferentes factores de forma.</figcaption></center>
+    <center><figcaption>Comparación de los diferentes factores de forma vistos en un chassis.</figcaption></center>
 </figure>
 
 
@@ -85,14 +85,16 @@ La clasificación se hace normalmente por su tamaño dependiendo de las placas b
     <center><figcaption>Una caja grande es capaz de alojar placas más pequeñas.</figcaption></center>
 </figure>
 
-<br/>
-> **Resumen de tipos de cajas:**
+<figure>
+    <center><img src="assets/img/Unidad03/U311.png" alt="Cajas"/></center>
+    <center><figcaption>Comparación de tipos de cajas</figcaption></center>
+</figure>
 
-![Resumen de tipos de cajas](assets/img/Unidad03/U310.png)
+<figure>
+    <center><img src="assets/img/Unidad03/U310.png" alt="Cajas"/></center>
+    <center><figcaption>Resumen de tipos de cajas</figcaption></center>
+</figure>
 
-> **Comparación de tipos de cajas:**
-
-![](assets/img/Unidad03/U311.png)
 
 # Fuentes de alimentación.
 
