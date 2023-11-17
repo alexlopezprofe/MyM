@@ -123,23 +123,29 @@ Se conoce **Reglamento Electrotécnico de Baja Tensión** o por sus siglas **REB
 
 ## Tipos de cables y conectores 
 
-* **AK-5012**. Permite enchufar el monitor, la fuente de la alimentación de la torre,etc
+* **AK-5012**. Permite enchufar el monitor, la fuente de la alimentación de la torre, etc
 
-En un extremo tiene un conector macho _  _Schuko_  _ (tipo F) para conectarlo a la toma Schuko de pared y en el otro extremo tiene un conector hembra _  _IEC230C-13_  _ para conectarlo al dispositivo a alimentar.
+En un extremo tiene un conector macho **Schuko (tipo F)** para conectarlo a la toma Schuko de pared y en el otro extremo tiene un conector hembra **IEC230C-13** para conectarlo al dispositivo a alimentar.
 
 ![](assets/img/Unidad03/U319.png)
 
 ![](assets/img/Unidad03/U320.png)
 
-* **AK50242.** Permite  enchufar  alimentadores  externos,  transformadores,  fuentes  de alimentación reducida, ...En un extremo tiene un conector macho Schuko para conectarlo a la toma Schuko  de  la  pared  y  en  el  otro  extremo  tiene  un  conector  hembra  IEC320-C5 (trébol)  para  conectarlo  al  dispositivo  a  alimentar.
+* **AK50242.** Permite  enchufar  alimentadores  externos,  transformadores,  fuentes  de alimentación reducida. En un extremo tiene un conector macho Schuko para conectarlo a la toma Schuko  de  la  pared  y  en  el  otro  extremo  tiene  un  conector  hembra  **IEC320-C5 (trébol)**  para  conectarlo  al  dispositivo  a  alimentar.
 
 ![](assets/img/Unidad03/U321.png)
 
-* **AK-5030.** Permite enchufar la salida de fuente de alimentación hembra a la entrada  de  alimentación  del  monitor.  Por  tanto,  en  un  extremo  tiene  un  conector  IEC320-C14  para  conectarlo  a  la  fuente de alimentación y en el otro extremo tiene un conector hembra IEC320-C13 para conectarlo al monitor.
+* **AK-5030.** Permite enchufar la salida de fuente de alimentación hembra a la entrada  de  alimentación  del  monitor.  Por  tanto,  en  un  extremo  tiene  un  conector  **IEC320-C14** para conectarlo a la fuente de alimentación y en el otro extremo tiene un conector hembra **IEC320-C13** para conectarlo al monitor.
 
 ![](assets/img/Unidad03/U322.png)
 
-[https://www.worldstandards.eu/es/electricidad/tipos-de-enchufes/](https://www.worldstandards.eu/es/electricidad/tipos-de-enchufes/)_   
+
+<figure>
+    <center><img src="assets/img/Unidad03/U322.png" alt="Cpnectores"/></center>
+    <center><figcaption>Diferentes tipos de conectores eléctricos [https://www.worldstandards.eu/es/electricidad/tipos-de-enchufes/](https://www.worldstandards.eu/es/electricidad/tipos-de-enchufes/)</figcaption></center>
+</figure>
+
+
 
 ## Fuente de alimentación
 
