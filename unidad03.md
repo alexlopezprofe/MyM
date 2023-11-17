@@ -1,3 +1,5 @@
+<link href="assets/css/style.css" rel="stylesheet"></link>
+
 # Unidad 3. Cajas, fuentes y placa base
 
 <details open markdown="block">
