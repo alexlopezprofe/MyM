@@ -245,6 +245,12 @@ Situados en la placa base en ellos se conectan los ventiladores internos del cha
 
 ![image](https://github.com/alexlopezprofe/MyM/assets/148449360/9d297e6c-c1ff-407f-b739-cedb133b161b)
 
+- **ATX:** el estándar actual, con unas dimensiones de 150 x 150 x 86 mm, aunque son igualmente ATX fuentes que tengan mayor longitud siempre y cuando se respeten los 86 mm de alto y 150 mm de ancho.
+- **SFX:** las dimensiones son más reducidas, pues están diseñadas para sistemas de factor de forma pequeño. Miden 100 x 125 x 63,5 mm, y necesitan un adaptador para poder instalarlas en cajas ATX estándar.
+- **SFX-L:** es una variante de las fuentes SFX que permiten instalar un ventilador de mayor tamaño. Miden 130 x 125 x 63,5 mm.
+- **TFX:** tienen unas dimensiones de 85 x 65 x 185 mm, y generalmente están pensadas para equipos especiales y servidores.
+- **Flex ATX:** son una variante también usada en servidores y equipos especiales que tiene la particularidad de permitir «plug and play» en caliente, es decir, en sistemas con dos fuentes redundantes se puede quitar una e instalar otra sin apagar el sistema. Miden 150 x 81,5 x 40,5 mm.
+
 ## Fuentes de alimentación modulares.
 
 Estas fuentes, a diferencia de las convencionales, tienen la particularidad de que no sale un manojo  de  cables  para  alimentar  a  los  diferentes  dispositivos,  si  no  que  existen  una  serie  de  conectores  y  sólo  conectamos los cables que vamos a necesitar.
@@ -306,6 +312,13 @@ Se necesitan los Vatios (W) suficientes para satisfacer las necesidades energét
 **Multímetro / Polímetro /Tester**
 
 ![](assets/img/Unidad03/U348.png)
+
+## Fuentes de alimentación ordenadores portátiles
+
+Una fuente de alimentación de portátil es lo que comúnmente conocemos como cargador de portátil, ya que se utiliza para cargar su batería cuando está enchufado, pero también sirve para proporcionar directamente al portátil la energía necesaria para funcionar. Prueba de ello es que podemos utilizar un portátil con la batería extraída sin ningún problema, mientras tengamos la fuente de alimentación conectada al mismo.
+
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/0b958e15-6c91-4379-9e4b-9d7af6603250)
+
 
 # Placas base
 
