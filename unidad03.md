@@ -150,14 +150,13 @@ En un extremo tiene un conector macho **Schuko (tipo F)** para conectarlo a la t
 
 ## Fuente de alimentación
 
-La fuente de alimentación es el dispositivo que proporciona al ordenador (o a cualquier otro aparato electrónico) la energía que necesita para funcionar.
+La fuente de alimentación o Power Supply (PS) es el dispositivo que proporciona al ordenador (o a cualquier otro aparato electrónico) la energía que necesita para funcionar.
 
 {: .highlight }
 Vatios (W) = Voltios (V) x Amperios (A).
 
-La fuente de alimentación de un ordenador de sobremesa se encuentra en el interior de la carcasa, es una caja metálica rectangular dotada, normalmente, de un ventilador. De ella sale un grupo de cables de colores que van a parar a los distintos dispositivos dentro de la carcasa. Los conectores que vienen incluidos en la fuente de alimentación están _  _normalizados_  _._
-
-_Los componentes del interior de PC funcionan con corriente continua (DC) y la red eléctrica funciona con corriente alterna (AC) → La fuente de alimentación convierte la corriente alterna (230V AC) en continua (+12V, +5V y +3,3V DC) para que el PC pueda utilizarla._
+La fuente de alimentación de un ordenador de sobremesa se encuentra en el interior de la carcasa, es una caja metálica rectangular dotada, normalmente, de un ventilador. De ella sale un grupo de cables de colores que van a parar a los distintos dispositivos dentro de la carcasa. Los conectores que vienen incluidos en la fuente de alimentación están **normalizados.**
+Los componentes del interior de PC funcionan con corriente continua (DC) y la red eléctrica funciona con corriente alterna (AC) → La fuente de alimentación convierte la corriente alterna (230V AC) en continua (+12V, +5V y +3,3V DC) para que el PC pueda utilizarla.
 
 ![](assets/img/Unidad03/U323.png)
 
@@ -171,13 +170,13 @@ _Los componentes del interior de PC funcionan con corriente continua (DC) y la r
 
 ## Conectores de energía fuente de alimentación.
 
-_Los conectores de energía_  _ sirven para conectar los cables de la fuente de alimentación a la placa base; de esta manera, la placa base suministrará la corriente a los componentes que se conectan a ella, como el microprocesador, la memoria, las tarjetas de expansión, los ventiladores, etc._
+Los conectores de energía sirven para conectar los cables de la fuente de alimentación a la placa base; de esta manera, la placa base suministrará la corriente a los componentes que se conectan a ella, como el microprocesador, la memoria, las tarjetas de expansión, los ventiladores, etc.
 
 ![](assets/img/Unidad03/U328.png)
 
 ## Conector de alimentación ATX de 24 pines
 
-<span style="color:#333333">Lleva la alimentación principal desde la fuente a la placa base. Suele estar compuesto por un conector principal de 20 pines y uno secundario de 4 pines
+- Lleva la alimentación principal desde la fuente de alimentación a la placa base. Suele estar compuesto por un conector principal de 20 pines y uno secundario de 4 pines
 
 ![](assets/img/Unidad03/U329.png)
 
@@ -242,6 +241,10 @@ Situados en la placa base en ellos se conectan los ventiladores internos del cha
 
 ![](assets/img/Unidad03/U342.png)
 
+## Factor de forma
+
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/9d297e6c-c1ff-407f-b739-cedb133b161b)
+
 ## Fuentes de alimentación modulares.
 
 Estas fuentes, a diferencia de las convencionales, tienen la particularidad de que no sale un manojo  de  cables  para  alimentar  a  los  diferentes  dispositivos,  si  no  que  existen  una  serie  de  conectores  y  sólo  conectamos los cables que vamos a necesitar.
@@ -254,7 +257,7 @@ Los  sistemas  redundantes  son  aquellos  que  repiten  el  hardware  por  su  
 
 
 {: .note-title }
-> Concepto de Hot Swap
+> Concepto de **Hot Swap**
 >
 > Cambio en caliente de componentes (Fuentes, discos duros)
 
