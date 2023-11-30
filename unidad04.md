@@ -77,29 +77,31 @@ Por ejemplo una CPU con una velocidad de reloj de 3\,2 GHz ejecuta 3\.200 millon
 
 ## 3.3 Transistores.
 
+Los procesadores actuales están compuestos por millones de transistores.
+
 ### Número de transistores
 
-**Ley de **  _[Moore](https://es.wikipedia.org/wiki/Gordon_Moore)_  ** \(1965\)\.  ** El número de transistores por unidad de superficie en circuitos integrado se duplicará cada año
+**Ley de [Moore](https://es.wikipedia.org/wiki/Gordon_Moore)(1965)**. El número de transistores por unidad de superficie en circuitos integrado se duplicará cada año
 
 ![](assets/img/Unidad04/u49.png)
 
-![](assets/img/Unidad04/u410.jpg)
+Falta video ![](assets/img/Unidad04/u410.jpg)
 
-# 3.3 Evolución de transistores. Tamaño.
+### Litografía
+
+El proceso de fabricación o  **litografía**  se mide en  **nanómetros**  \(para poneros en perspectiva de lo pequeño que es esto\, un nanómetro son 10^-7 centímetros, o lo que es lo mismo\, 0,0000001 centímetros), y es precisamente  **el tamaño de los transistores** \. Así pues\, un proceso de 14 nm significa que cada transistor mide 14 x 10^-7 centímetros.
+
+Esto significa que en comparación, en el proceso de 7 nm se puede meter literalmente el doble de transistores que con el proceso de 14 nm en la misma unidad de superficie\. EL efecto de poder meter un mayor número de transistores en el mismo espacio repercute en el rendimiento y en la eficiencia energética, así que tener una litografía menor implica que el procesador será  **más potente y más eficiente** \.
 
 ![](assets/img/Unidad04/u411.png)
 
-## 3.3 Evolución de transistores.
 
-Procesador será más potente y más eficiente
 
-![](assets/img/Unidad04/u412.jpg)
+Falta video ![](assets/img/Unidad04/u412.jpg)
 
-![](assets/img/Unidad04/u413.jpg)
+Falta video ![](assets/img/Unidad04/u413.jpg)
 
-El proceso de fabricación o  **litografía**  se mide en  **nanómetros**  \(para poneros en perspectiva de lo pequeño que es esto\, un nanómetro son 10\-7 centímetros \(10\-9 metros\)\)\, o lo que es lo mismo\, 0\,0000001 centímetros\)\, y es precisamente  **el tamaño de los transistores** \. Así pues\, un proceso de 14 nm significa que cada transistor mide 14 x 10\-7 centímetros\, o 0\,0000014 cm\.
 
-Esto significa que\, en comparación\, en el proceso de 7 nm se puede meter literalmente el doble de transistores que con el proceso de 14 nm en el mismo espacio\. Poder meter un mayor número de transistores en el mismo espacio repercute en el rendimiento y en la eficiencia energética\, así que tener una litografía menor implica que el procesador será  **más potente y más eficiente** \.
 
 ![](assets/img/Unidad04/u414.png)
 
