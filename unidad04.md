@@ -2,6 +2,8 @@
 
 [TOCM]
 
+[TOC]
+
 1\. Definición
 
 2\. Diagrama de bloques
