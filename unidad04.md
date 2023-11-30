@@ -53,19 +53,16 @@ En las CPU actuales pueden ser de varios núcleos y  se añaden\, con respecto a
 
 Los procesadores antiguos eran  **single core** \, en los microprocesadores modernos suelen existir más de un núcleo \( **core** \) de procesamiento\. Cada núcleo es un pequeño microprocesador independiente dentro del mismo microprocesador\.
 
-Cada núcleo se compone de su propia Unidad de Control \(UC\)\, Unidad Aritmético\-lógica \(UAL\)\, Unidad de Punto Flotante \(UPF\)\, Registros y los primeros niveles de Memoria Caché \(L1 y L2\)\.
+Cada núcleo se compone de su propia Unidad de Control (UC)\, Unidad Aritmético-lógica(ALU), Unidad de Punto Flotante (UPF)\, Registros y los primeros niveles de Memoria Caché (L1 y L2).
 
 Gracias a los núcleos\, el microprocesador será capaz de realizar a la vez una tarea \(ciclo de instrucción\) por cada núcleo que posea\. De esta manera el sistema responderá de manera más cómoda aunque una tarea monopolice uno de los núcleos\. Como regla general\, a mayor número de núcleos\, los microprocesadores presentan mejores prestaciones\.
 
-¿Núcleo físico VS núcleo lógico? →
+> ¿Núcleo físico VS núcleo lógico?
+> _[Simultaneous Multi Threading \(SMT\) de AMD vs  Hyper Threading de Intel](https://hardzone.es/reportajes/comparativas/intel-hyperthreading-amd-smt/)_
+> _[https://hardzone\.es/2018/08/11/importante\-no\-confundir\-hilos\-nucleos/](https://hardzone.es/2018/08/11/importante-no-confundir-hilos-nucleos/)_
 
-_[Simultaneous Multi Threading \(SMT\) de AMD vs  Hyper Threading de Intel](https://hardzone.es/reportajes/comparativas/intel-hyperthreading-amd-smt/)_
+_**No confundir varios cores con sistemas multiprocesador**_
 
-_[https://hardzone\.es/2018/08/11/importante\-no\-confundir\-hilos\-nucleos/](https://hardzone.es/2018/08/11/importante-no-confundir-hilos-nucleos/)_
-
-_No confundir varios cores con sistemas multiprocesador_
-
-No confundir varios cores con sistemas multiprocesador
 
 ![](assets/img/Unidad04/u46.png)
 
