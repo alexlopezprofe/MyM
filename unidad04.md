@@ -4,6 +4,8 @@
 
 [TOC]
 
+<abbr title="Hyper Text Markup Language">HTML</abbr>
+
 1\. Definición
 
 2\. Diagrama de bloques
