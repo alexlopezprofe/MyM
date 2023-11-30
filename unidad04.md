@@ -1,4 +1,4 @@
-![](assets/img/Unidad04/U40.png)
+![](assets/img/Unidad04/u40.png)
 
 # Unidad 4. PROCESADORES
 
@@ -35,13 +35,13 @@ Es el componente principal del ordenador\, dirige y controla el resto de compone
 
 No solo se encuentra en ordenadores\, también se encuentra en teléfonos móviles\, electrodomésticos\, consolas\, etc\.
 
-![](assets/img/Unidad04/U41.png)
+![](assets/img/Unidad04/u41.png)
 
-![](assets/img/Unidad04/U42.png)
+![](assets/img/Unidad04/u42.png)
 
-![](assets/img/Unidad04/U43.png)
+![](assets/img/Unidad04/u43.png)
 
-![](assets/img/Unidad04/U44.png)
+![](assets/img/Unidad04/u44.png)
 
 # 2. Diagrama de bloques CPU
 
@@ -51,7 +51,7 @@ __Unidad de coma flotante\, FPU__  \(Floating Point Unit\)\. Se le conoce como c
 
 __La caché del procesador__  \(L1\, L2 y L3\)
 
-![](assets/img/Unidad04/U45.png)
+![](assets/img/Unidad04/u45.png)
 
 # 3. Características de la CPU
 
@@ -91,11 +91,11 @@ _No confundir varios cores con sistemas multiprocesador_
 
 No confundir varios cores con sistemas multiprocesador
 
-![](assets/img/Unidad04/U46.png)
+![](assets/img/Unidad04/u46.png)
 
 # 3.2 Velocidad de reloj
 
-![](assets/img/Unidad04/U47.png)
+![](assets/img/Unidad04/u47.png)
 
 También llamada frecuencia de funcionamiento\, se refiere al número de operaciones que la CPU puede realizar en un solo segundo\.
 
@@ -111,7 +111,7 @@ Externa\, \(bus del sistema\) es la velocidad a la que el micro se comunica con 
 
 V\. Interna = V\. Externa x Multiplicador
 
-![](assets/img/Unidad04/U48.png)
+![](assets/img/Unidad04/u48.png)
 
 Velocidad externa o de bus
 
@@ -123,27 +123,27 @@ Factor multiplicador
 
 __Ley de __  _[Moore](https://es.wikipedia.org/wiki/Gordon_Moore)_  __ \(1965\)\.  __ El número de transistores por unidad de superficie en circuitos integrado se duplicará cada año
 
-![](assets/img/Unidad04/U49.png)
+![](assets/img/Unidad04/u49.png)
 
-![](assets/img/Unidad04/U410.jpg)
+![](assets/img/Unidad04/u410.jpg)
 
 # 3.3 Evolución de transistores. Tamaño.
 
-![](assets/img/Unidad04/U411.png)
+![](assets/img/Unidad04/u411.png)
 
 # 3.3 Evolución de transistores.
 
 Procesador será más potente y más eficiente
 
-![](assets/img/Unidad04/U412.jpg)
+![](assets/img/Unidad04/u412.jpg)
 
-![](assets/img/Unidad04/U413.jpg)
+![](assets/img/Unidad04/u413.jpg)
 
 El proceso de fabricación o  __litografía__  se mide en  __nanómetros__  \(para poneros en perspectiva de lo pequeño que es esto\, un nanómetro son 10\-7 centímetros \(10\-9 metros\)\)\, o lo que es lo mismo\, 0\,0000001 centímetros\)\, y es precisamente  __el tamaño de los transistores__ \. Así pues\, un proceso de 14 nm significa que cada transistor mide 14 x 10\-7 centímetros\, o 0\,0000014 cm\.
 
 Esto significa que\, en comparación\, en el proceso de 7 nm se puede meter literalmente el doble de transistores que con el proceso de 14 nm en el mismo espacio\. Poder meter un mayor número de transistores en el mismo espacio repercute en el rendimiento y en la eficiencia energética\, así que tener una litografía menor implica que el procesador será  __más potente y más eficiente__ \.
 
-![](assets/img/Unidad04/U414.png)
+![](assets/img/Unidad04/u414.png)
 
 # 3.4 Buses del sistema. Front Side Bus
 
@@ -157,7 +157,7 @@ Se trata de un bus paralelo\, bidireccional\, compartido\.
 
 La velocidad del FSB se mide en MHz\.
 
-![](assets/img/Unidad04/U415.png)
+![](assets/img/Unidad04/u415.png)
 
 # 3.4 Buses del sistema. HyperTransport
 
@@ -171,7 +171,7 @@ Controlador de memoria integrado \(IMC\)
 
 La velocidad se mide en GigaTransferences/second \(GT/s\)
 
-![](assets/img/Unidad04/U416.png)
+![](assets/img/Unidad04/u416.png)
 
 # 3.4 Buses del sistema. QuickPath Interconnect
 
@@ -185,13 +185,13 @@ Dos buses separados entre la CPU y el chipset lo que permite leer y escribir dat
 
 La velocidad se mide en GigaTransferences/second \(GT/s\)
 
-![](assets/img/Unidad04/U417.png)
+![](assets/img/Unidad04/u417.png)
 
-![](assets/img/Unidad04/U418.png)
+![](assets/img/Unidad04/u418.png)
 
 # 3.4 Buses del sistema. FSB vs QPI
 
-![](assets/img/Unidad04/U419.png)
+![](assets/img/Unidad04/u419.png)
 
 # 3.4 Buses del sistema. DMI - Direct Media Interface
 
@@ -205,9 +205,9 @@ Originariamente para conectar en northbridge con el southbridge\.
 
 2 GT/s
 
-![](assets/img/Unidad04/U420.png)
+![](assets/img/Unidad04/u420.png)
 
-![](assets/img/Unidad04/U421.png)
+![](assets/img/Unidad04/u421.png)
 
 __DMI v2__
 
@@ -217,7 +217,7 @@ Conecta procesador con PCH
 
 2 GB/s with a ×4 link
 
-![](assets/img/Unidad04/U422.png)
+![](assets/img/Unidad04/u422.png)
 
 __DMI v3__
 
@@ -227,7 +227,7 @@ Conecta procesador con PCH
 
 3\.96 GB/s with a ×4 link
 
-![](assets/img/Unidad04/U423.png)
+![](assets/img/Unidad04/u423.png)
 
 __DMI v4__
 
@@ -239,7 +239,7 @@ Intel Gen 12th
 
 # 3.4 Buses del sistema.
 
-![](assets/img/Unidad04/U424.png)
+![](assets/img/Unidad04/u424.png)
 
 __SPI \- Serial Peripheral Interface\.__
 
@@ -265,7 +265,7 @@ El TDP no es una medida directa de cuánta potencia consumirá un componente\, p
 
 # Actividad - 2. Die Shot - Die Map
 
-![](assets/img/Unidad04/U425.png)
+![](assets/img/Unidad04/u425.png)
 
 # Die Shot - Die Map
 
@@ -303,7 +303,7 @@ Una CPU de hace cinco años con una velocidad de reloj más alta puede ser super
 
 Cuando hablamos de 32 y 64 bits no solo se refieren al tipo CPU sino también al sistema operativo\, los drivers y el software\. Todos ellos tiene que utilizar una misma arquitectura\. De esta manera todos los componentes hablan "el mismo idioma"\, y pueden funcionar correctamente los unos con los otros\.
 
-![](assets/img/Unidad04/U426.png)
+![](assets/img/Unidad04/u426.png)
 
 32 bit  → X86
 
@@ -333,11 +333,11 @@ __T__  __union__ : Temperatura que en cada momento se registra en el núcleo del
 
 __T__  __case__  __:__  Temperatura que se mide en el  _[IHS](https://hardzone.es/reportajes/que-es/ihs-procesador-cpu/)_  del procesador\, es decir en su encapsulado\, que siempre va a ser inferior a la que se marca dentro de un núcleo \(Tunion\)\.
 
-![](assets/img/Unidad04/U427.png)
+![](assets/img/Unidad04/u427.png)
 
-![](assets/img/Unidad04/U428.png)
+![](assets/img/Unidad04/u428.png)
 
-![](assets/img/Unidad04/U429.png)
+![](assets/img/Unidad04/u429.png)
 
 # 4. Refrigeración, disipación de calor CPU
 
@@ -373,19 +373,19 @@ __IHS\.__  El IHS o Integrated Heat Spreader\, es el encapsulado de la CPU\. Aqu
 
 Está fabricado normalmente en cobre electrolítico con un baño de níquel\, y algunos procesadores puede estar directamente  _[soldado](https://www.google.com/search?q=ihs+soldado&ei=jV3JY6r0HJjYkwXo_4HgAQ&ved=0ahUKEwjq7v-99dP8AhUY7KQKHeh_ABwQ4dUDCA8&uact=5&oq=ihs+soldado&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCCEQoAEyBQghEKABMgUIIRCgAToKCAAQRxDWBBCwAzoHCAAQgAQQEzoICAAQFhAeEBM6CggAEBYQHhAKEBM6CQgAEIAEEAoQEzoLCC4QxwEQ0QMQgAQ6BQgAEIAEOgsILhCABBDHARCvAToKCC4QxwEQ0QMQQzoECAAQQzoKCAAQsQMQgwEQQzoRCC4QgAQQsQMQgwEQxwEQrwE6BQguEIAEOgsILhCABBDHARDRAzoGCAAQFhAeOgkIABAWEB4Q8QRKBAhBGABKBAhGGABQjwZYliRg1CVoAnABeACAAYABiAGnDZIBBDUuMTGYAQCgAQHIAQLAAQE&sclient=gws-wiz-serp)_  al DIE para eliminar la resistencia térmica al mínimo\.
 
-![](assets/img/Unidad04/U430.png)
+![](assets/img/Unidad04/u430.png)
 
-![](assets/img/Unidad04/U431.png)
+![](assets/img/Unidad04/u431.png)
 
 # 4.1 Refrigeración. Pasta térmica
 
 __Pasta térmica\. __ Es __ __ el elemento que mayor resistencia térmica hace en el conjunto del disipador\. Es muy importante tener una buena pasta térmica en chips potentes\, ya que su  _conductividad _ será mayor\. La función de la pasta térmica es mejorar todo lo posible\, la unión entre el IHS y DIE \(difícil\) y entre  el IHS bloque frío del disipador\(fácil\)
 
-![](assets/img/Unidad04/U432.png)
+![](assets/img/Unidad04/u432.png)
 
-![](assets/img/Unidad04/U433.png)
+![](assets/img/Unidad04/u433.png)
 
-![](assets/img/Unidad04/U434.png)
+![](assets/img/Unidad04/u434.png)
 
 __C__  __onductividad __  __térmica:__
 
@@ -393,9 +393,9 @@ Se mide en W/mK → Watios/metro\- kelvin
 
 La conductividad térmica de una pasta de cierta calidad es de 8\,5 W/mK\, la conductividad térmica del cobre es de 385 W/mK o la del aluminio es de 205 W/mK\. Según estos números las pastas térmicas no son muy buenas conductoras del calor\, razón por la que es recomendable poner una capa lo más fina posible\, pues su objetivo es meramente rellenar las micro imperfecciones de las superficies del IHS y el disipador\.
 
-![](assets/img/Unidad04/U435.png)
+![](assets/img/Unidad04/u435.png)
 
-![](assets/img/Unidad04/U436.png)
+![](assets/img/Unidad04/u436.png)
 
 _[https://www\.youtube\.com/watch?v=j5yXDIno51I](https://www.youtube.com/watch?v=j5yXDIno51I)_  __ __
 
@@ -403,7 +403,7 @@ _[https://www\.youtube\.com/watch?v=j5yXDIno51I](https://www.youtube.com/watch?v
 
 __Bloque frio\. __ El bloque frío es la base del disipador\, la que entra en contacto con la pasta térmica\. Normalmente es más grande que el propio IHS\, para asegurar la máxima recepción y transferencia de calor\.
 
-![](assets/img/Unidad04/U437.png)
+![](assets/img/Unidad04/u437.png)
 
 __Heat Pipes\. __ Son tuberías de un material de alta conductividad que encierra en su interior un líquido con unas propiedades muy concretas\, cuya finalidad es lógicamente disipar el calor mediante una transferencia por conductividad térmica\, o lo que es igual\, traspasar el calor generado del componente electrónico y disiparlo en un radiador de aletas de aluminio\.
 
@@ -415,17 +415,17 @@ El líquido evaporado asciende hasta la sección de condensación\, que será do
 
 El fluido activo vuelve hacia la zona de evaporación debido a la gravedad\.
 
-![](assets/img/Unidad04/U438.png)
+![](assets/img/Unidad04/u438.png)
 
-![](assets/img/Unidad04/U439.png)
+![](assets/img/Unidad04/u439.png)
 
 __Radiador de aletas\. __ Hablamos del disipador propiamente dicho y suelen estar hechos de aluminio\.
 
-![](assets/img/Unidad04/U440.png)
+![](assets/img/Unidad04/u440.png)
 
 __Ventilador\. __ Crean un flujo de aire a gran velocidad para que la convección\, en lugar de ser natural\, sea forzada y elimine más calor del metal\. Es el único dispositivo  __activo__  del conjunto y debe de ir conectado a la alimentación\.
 
-![](assets/img/Unidad04/U441.png)
+![](assets/img/Unidad04/u441.png)
 
 # 4. Tipos de disipadores por aire
 
@@ -437,11 +437,11 @@ __Disipador de torre\. __ Los que hemos revisado\.
 
 __Disipador de perfil bajo\.__  Para cajas estrechas y espacios reducidos
 
-![](assets/img/Unidad04/U442.png)
+![](assets/img/Unidad04/u442.png)
 
-![](assets/img/Unidad04/U443.png)
+![](assets/img/Unidad04/u443.png)
 
-![](assets/img/Unidad04/U444.png)
+![](assets/img/Unidad04/u444.png)
 
 # 4.2 Refrigeración líquida
 
@@ -453,13 +453,13 @@ __Sistemas compactos \(All In One \- AIO\)__ \. También conocidos como todo en 
 
 __Sistema avanzados o personalizables \(Custom\)__ \. Incorporan más elementos\, más caros y su instalación es más laboriosa\, pero pueden ofrecernos una mayor capacidad refrigerante
 
-![](assets/img/Unidad04/U445.png)
+![](assets/img/Unidad04/u445.png)
 
-![](assets/img/Unidad04/U446.png)
+![](assets/img/Unidad04/u446.png)
 
 __Bloque de agua o placa refrigerante: __ es el elemento que va colocado directamente sobre la pasta térmica de nuestro ordenador\. Incorpora un disipador\, habitualmente de aluminio o cobre debido a su elevado índice de termoconductividad\, y por su interior circula el líquido refrigerante\. La transferencia de la energía térmica del disipador integrado en el microprocesador al disipador del bloque de agua se efectúa mediante el mecanismo de conducción\. Y el transporte del calor desde este último disipador al líquido refrigerante que circula por el interior del bloque de agua se lleva a cabo mediante el efecto de convección\.
 
-![](assets/img/Unidad04/U447.png)
+![](assets/img/Unidad04/u447.png)
 
 __Bomba: __ es el componente que se responsabiliza de suministrar al líquido refrigerante la presión necesaria para propiciar que éste se desplace a lo largo de todo el circuito de refrigeración\.
 
@@ -467,29 +467,29 @@ __Depósito:__  recipiente que contiene buena parte del volumen del líquido de 
 
 Con frecuencia la bomba y el depósito están adosados\, dando forma a un único componente\.
 
-![](assets/img/Unidad04/U448.png)
+![](assets/img/Unidad04/u448.png)
 
 __Líquido refrigerante: __ es el fluido en estado líquido que se encarga de transportar la energía térmica a lo largo del circuito\. Su composición puede variar si comparamos el líquido de varias marcas\, pero muchas de ellas suelen usar etilenglicol\, que es un compuesto químico orgánico utilizado con frecuencia como anticongelante\, y un aditivo que le da color para evitar que pueda ser bebido por accidente\. Además\, el aditivo tiene una función decorativa porque da al líquido un color que puede encajar bien con los tonos de la iluminación LED instalada en la caja y el sistema de refrigeración\.
 
-![](assets/img/Unidad04/U449.png)
+![](assets/img/Unidad04/u449.png)
 
 __Radiador__ : elemento metálico \(normalmente de aluminio\) por cuyo interior circula el líquido refrigerante y a cuya superficie están adosados uno o varios ventiladores\. El movimiento de las palas de estos últimos desplaza el caudal de aire necesario para provocar la transferencia de energía térmica desde el líquido refrigerante que circula por el interior del radiador al aire mediante convección\. Como resultado de este proceso la temperatura del líquido refrigerante se reduce y la del aire circundante se incrementa\, por lo que debe ser expulsado fuera del chasis del PC\.
 
-![](assets/img/Unidad04/U450.png)
+![](assets/img/Unidad04/u450.png)
 
 __Tubos y manguitos \(Tubing\): __ son los conductos\, normalmente de policloruro de vinilo \(PVC\) u otro derivado del plástico\, por cuyo interior circula el líquido refrigerante a lo largo de todo el circuito\. Pueden ser flexibles o rígidos\. Los primeros son más fáciles de instalar que los segundos\, pero también suelen ser menos duraderos\.
 
 __Racores__ \. Se colocan en las entradas y salidas de los diferentes componentes del circuito y son los que se emplean para asegurar el tubing a dichos componentes\.
 
-![](assets/img/Unidad04/U451.png)
+![](assets/img/Unidad04/u451.png)
 
-![](assets/img/Unidad04/U452.png)
+![](assets/img/Unidad04/u452.png)
 
 __Ventilador: __ va adosado sobre la superficie del radiador con el propósito de desplazar el caudal de aire necesario para optimizar el intercambio de energía térmica entre el líquido refrigerante y el aire\.
 
-![](assets/img/Unidad04/U453.png)
+![](assets/img/Unidad04/u453.png)
 
-![](assets/img/Unidad04/U454.jpg)
+![](assets/img/Unidad04/u454.jpg)
 
 # 5. Generaciones procesadores Intel
 
@@ -507,7 +507,7 @@ _[https://en\.wikipedia\.org/wiki/Intel\_Core](https://en.wikipedia.org/wiki/Int
 
 # 5. Identificación procesadores Intel
 
-![](assets/img/Unidad04/U455.png)
+![](assets/img/Unidad04/u455.png)
 
 _[https://www\.intel\.la/content/www/xl/es/processors/processor\-numbers\.html](https://www.intel.la/content/www/xl/es/processors/processor-numbers.html)_
 
@@ -627,7 +627,7 @@ _[Athlon 64 X2](https://en.wikipedia.org/wiki/Athlon_64_X2)_  \( _Manchester_ \)
     * Beema \(notebooks\)
     * Mullins \(tablets\)
 
-![](assets/img/Unidad04/U456.png)
+![](assets/img/Unidad04/u456.png)
 
 __Zen core architecture \(2017\-actualidad\)__
 
@@ -669,13 +669,13 @@ _Cezanne_  [Ryzen 5000 series](https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_m
 
 Milan  _[Epyc](https://en.wikipedia.org/wiki/Epyc)_  \(server\)
 
-![](assets/img/Unidad04/U457.png)
+![](assets/img/Unidad04/u457.png)
 
 _[https://en\.wikipedia\.org/wiki/Epyc](https://en.wikipedia.org/wiki/Epyc)_
 
 _[https://en\.wikipedia\.org/wiki/Table\_of\_AMD\_processors](https://en.wikipedia.org/wiki/Table_of_AMD_processors)_
 
-![](assets/img/Unidad04/U458.png)
+![](assets/img/Unidad04/u458.png)
 
 __Zen core architecture \(2017\-actualidad\)__
 
@@ -717,9 +717,9 @@ _Cezanne_  [Ryzen 5000 series](https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_m
 
 Milan  _[Epyc](https://en.wikipedia.org/wiki/Epyc)_  \(server\)
 
-![](assets/img/Unidad04/U459.png)
+![](assets/img/Unidad04/u459.png)
 
-![](assets/img/Unidad04/U460.png)
+![](assets/img/Unidad04/u460.png)
 
 _[https://en\.wikipedia\.org/wiki/Epyc](https://en.wikipedia.org/wiki/Epyc)_
 
@@ -731,9 +731,9 @@ _[https://glennsqlperformance\.com/2020/07/22/understanding\-amd\-processor\-nam
 
 _[https://www\.profesionalreview\.com/2019/08/26/procesador\-amd\-modelos/](https://www.profesionalreview.com/2019/08/26/procesador-amd-modelos/)_
 
-![](assets/img/Unidad04/U461.png)
+![](assets/img/Unidad04/u461.png)
 
-![](assets/img/Unidad04/U462.png)
+![](assets/img/Unidad04/u462.png)
 
 # 7. Procesador Apple
 
@@ -744,9 +744,9 @@ _[https://www\.profesionalreview\.com/2019/08/26/procesador\-amd\-modelos/](http
 | M1 PRO | Q3’21 | 5 nm | 3.2 | 10 (8+2) | 16 | 60 |  |
 | M1  MAX | Q3’21 | 5 nm | 3.2 | 10 (8+2) | 32 | 60 |  |
 
-![](assets/img/Unidad04/U463.png)
+![](assets/img/Unidad04/u463.png)
 
-![](assets/img/Unidad04/U464.png)
+![](assets/img/Unidad04/u464.png)
 
 Microarquitectura:"Firestorm" and"Icestorm"
 
@@ -754,11 +754,11 @@ Instrucciones: AArch64; ARMv8\-A
 
 GPU integrada
 
-![](assets/img/Unidad04/U465.png)
+![](assets/img/Unidad04/u465.png)
 
 # 8. Gráficos del procesador - Intel
 
-![](assets/img/Unidad04/U466.png)
+![](assets/img/Unidad04/u466.png)
 
 Gráficos del procesador hace referencia a gráficos que están físicamente en el encapsulado del procesador o integrados en la pieza del procesador\.
 
@@ -776,17 +776,17 @@ Gen 10:  _[UHD Intel® 630](https://www.intel.es/content/www/es/es/support/produ
 
 El término APU \(Accelerated Processing Unit\) hace referencia a una clase de procesadores de AMD\, en los que se incorpora núcleos gráficos a los núcleos de computación\.
 
-![](assets/img/Unidad04/U467.png)
+![](assets/img/Unidad04/u467.png)
 
-![](assets/img/Unidad04/U468.png)
+![](assets/img/Unidad04/u468.png)
 
 # 9. Identificar CPU por línea de comandos
 
 Windows: CMD → wmic cpu get caption\, deviceid\, name\, numberofcores\, maxclockspeed\, status
 
-![](assets/img/Unidad04/U469.png)
+![](assets/img/Unidad04/u469.png)
 
-![](assets/img/Unidad04/U470.png)
+![](assets/img/Unidad04/u470.png)
 
 Linux: Terminal→ $ cat /proc/cpuinfo
 
