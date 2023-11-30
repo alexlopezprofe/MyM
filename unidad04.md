@@ -73,7 +73,7 @@ Viene dada por la velocidad del reloj y se mide en megahercios o gigahercios \(1
 
 Por ejemplo una CPU con una velocidad de reloj de 3\,2 GHz ejecuta 3\.200 millones de ciclos por segundo.
 
-¿Es más rápido en ejecutar una instrucción un procesador de 10GHz que uno de 5 GHz?
+> **¿Es más rápido en ejecutar una instrucción un procesador de 10GHz que uno de 5 GHz?**
 
 ## 3.3 Transistores.
 
@@ -147,7 +147,7 @@ El conjunto de instrucciones que un procesador soporta definirá qué aplicacion
 * TSX\. Creadas por Intel permiten gestionar de forma más eficiente los recursos compartidos entre los distintos procesos que tienes a la vez funcionando en un PC\. Están pensadas para sacar el mayor provecho posible al incremento en el número de núcleos que encuentras en el procesador\.
 * ARM
 
-**¿Es más rápido en ejecutar una instrucción un procesador de 10GHz que uno de 5 GHz?**
+> **¿Es más rápido en ejecutar una instrucción un procesador de 10GHz que uno de 5 GHz?**
 
 Una CPU de hace cinco años con una velocidad de reloj más alta puede ser superada por una nueva CPU con una velocidad de reloj más baja\, ya que la nueva arquitectura maneja las instrucciones con mayor eficacia\. Un procesador Intel® serie X puede superar a un procesador serie K con una velocidad de reloj más alta\, ya que divide las tareas entre más núcleos y posee una caché de CPU mayor\. Pero dentro de la misma generación de CPU\, un procesador con una velocidad de reloj más alta por lo general superará en muchas aplicaciones a un procesador con una velocidad de reloj más baja\. Por eso es importante comparar procesadores de la misma marca y generación\.
 
