@@ -36,33 +36,14 @@ No solo se encuentra en ordenadores\, también se encuentra en teléfonos móvil
 
 En las CPU actuales pueden ser de varios núcleos y  se añaden\, con respecto a la arquitectura Von Neumann\, los siguientes elementos:
 
-**Unidad de coma flotante\, FPU**  \(Floating Point Unit\)\. Se le conoce como coprocesador matemático\. Realiza las operaciones en  _[coma flotante](https://es.wikipedia.org/wiki/Coma_flotante)_  \(también lo podemos encontrar como  **punto flotante** \)
-
-**La caché del procesador**  \(L1\, L2 y L3\)
+* **Unidad de coma flotante\, FPU**  \(Floating Point Unit\)\. Se le conoce como coprocesador matemático\. Realiza las operaciones en  _[coma flotante](https://es.wikipedia.org/wiki/Coma_flotante)_  \(también lo podemos encontrar como  **punto flotante** \)
+* **La caché del procesador**  \(L1\, L2 y L3\)
 
 ![](assets/img/Unidad04/u45.png)
 
 # 3. Características de la CPU
 
-3\.1 Núcleos
-
-3\.2 Velocidad
-
-3\.3 Evolución transistores
-
-3\.4 Buses del sistema
-
-3\.5 TDP
-
-3\.6 Memoria caché
-
-3\.7 Conjunto de instrucciones
-
-3\.8 Arquitectura de 32 y 64 bits
-
-3\.9 Temperatura
-
-# 3.1 Núcleos
+## 3.1 Núcleos
 
 Los procesadores antiguos eran  **single core** \, en los microprocesadores modernos suelen existir más de un núcleo \( **core** \) de procesamiento\. Cada núcleo es un pequeño microprocesador independiente dentro del mismo microprocesador\.
 
@@ -82,7 +63,7 @@ No confundir varios cores con sistemas multiprocesador
 
 ![](assets/img/Unidad04/u46.png)
 
-# 3.2 Velocidad de reloj
+## 3.2 Velocidad de reloj
 
 ![](assets/img/Unidad04/u47.png)
 
@@ -90,25 +71,13 @@ También llamada frecuencia de funcionamiento\, se refiere al número de operaci
 
 Viene dada por la velocidad del reloj y se mide en megahercios o gigahercios \(1 GHz = 1000 MHz\)\.
 
-Por ejemplo una CPU con una velocidad de reloj de 3\,2 GHz ejecuta 3\.200 millones de ciclos por segundo
-
-Distinguimos dos velocidades:
-
-Interna: es la velocidad a la que funciona el micro internamente
-
-Externa\, \(bus del sistema\) es la velocidad a la que el micro se comunica con la placa base\, es decir Es la frecuencia \(velocidad\) a la que viajan los datos por el bus principal\(FSB\, QPI o HT\)
-
-V\. Interna = V\. Externa x Multiplicador
-
-![](assets/img/Unidad04/u48.png)
-
-Velocidad externa o de bus
-
-Factor multiplicador
+Por ejemplo una CPU con una velocidad de reloj de 3\,2 GHz ejecuta 3\.200 millones de ciclos por segundo.
 
 ¿Es más rápido en ejecutar una instrucción un procesador de 10GHz que uno de 5 GHz?
 
-# 3.3 Evolución de transistores. Número
+## 3.3 Transistores.
+
+### Número de transistores
 
 **Ley de **  _[Moore](https://es.wikipedia.org/wiki/Gordon_Moore)_  ** \(1965\)\.  ** El número de transistores por unidad de superficie en circuitos integrado se duplicará cada año
 
@@ -120,7 +89,7 @@ Factor multiplicador
 
 ![](assets/img/Unidad04/u411.png)
 
-# 3.3 Evolución de transistores.
+## 3.3 Evolución de transistores.
 
 Procesador será más potente y más eficiente
 
