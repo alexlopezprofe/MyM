@@ -1,15 +1,4 @@
-![](assets/img/Unidad04/u40.png)
-
 # Unidad 4. PROCESADORES
-
-# MONTAJE Y MANTENIMIENTO DE EQUIPOS
-
-# 1º Ciclo Formativo de Grado Medio de  
-Sistemas Microinformáticos y Redes
-
-# Curso 2022/2023
-
-# Tema - 4. Procesador
 
 1\. Definición
 
@@ -47,9 +36,9 @@ No solo se encuentra en ordenadores\, también se encuentra en teléfonos móvil
 
 En las CPU actuales pueden ser de varios núcleos y  se añaden\, con respecto a la arquitectura Von Neumann\, los siguientes elementos:
 
-__Unidad de coma flotante\, FPU__  \(Floating Point Unit\)\. Se le conoce como coprocesador matemático\. Realiza las operaciones en  _[coma flotante](https://es.wikipedia.org/wiki/Coma_flotante)_  \(también lo podemos encontrar como  __punto flotante__ \)
+**Unidad de coma flotante\, FPU**  \(Floating Point Unit\)\. Se le conoce como coprocesador matemático\. Realiza las operaciones en  _[coma flotante](https://es.wikipedia.org/wiki/Coma_flotante)_  \(también lo podemos encontrar como  **punto flotante** \)
 
-__La caché del procesador__  \(L1\, L2 y L3\)
+**La caché del procesador**  \(L1\, L2 y L3\)
 
 ![](assets/img/Unidad04/u45.png)
 
@@ -75,7 +64,7 @@ __La caché del procesador__  \(L1\, L2 y L3\)
 
 # 3.1 Núcleos
 
-Los procesadores antiguos eran  __single core__ \, en los microprocesadores modernos suelen existir más de un núcleo \( __core__ \) de procesamiento\. Cada núcleo es un pequeño microprocesador independiente dentro del mismo microprocesador\.
+Los procesadores antiguos eran  **single core** \, en los microprocesadores modernos suelen existir más de un núcleo \( **core** \) de procesamiento\. Cada núcleo es un pequeño microprocesador independiente dentro del mismo microprocesador\.
 
 Cada núcleo se compone de su propia Unidad de Control \(UC\)\, Unidad Aritmético\-lógica \(UAL\)\, Unidad de Punto Flotante \(UPF\)\, Registros y los primeros niveles de Memoria Caché \(L1 y L2\)\.
 
@@ -121,7 +110,7 @@ Factor multiplicador
 
 # 3.3 Evolución de transistores. Número
 
-__Ley de __  _[Moore](https://es.wikipedia.org/wiki/Gordon_Moore)_  __ \(1965\)\.  __ El número de transistores por unidad de superficie en circuitos integrado se duplicará cada año
+**Ley de **  _[Moore](https://es.wikipedia.org/wiki/Gordon_Moore)_  ** \(1965\)\.  ** El número de transistores por unidad de superficie en circuitos integrado se duplicará cada año
 
 ![](assets/img/Unidad04/u49.png)
 
@@ -139,17 +128,17 @@ Procesador será más potente y más eficiente
 
 ![](assets/img/Unidad04/u413.jpg)
 
-El proceso de fabricación o  __litografía__  se mide en  __nanómetros__  \(para poneros en perspectiva de lo pequeño que es esto\, un nanómetro son 10\-7 centímetros \(10\-9 metros\)\)\, o lo que es lo mismo\, 0\,0000001 centímetros\)\, y es precisamente  __el tamaño de los transistores__ \. Así pues\, un proceso de 14 nm significa que cada transistor mide 14 x 10\-7 centímetros\, o 0\,0000014 cm\.
+El proceso de fabricación o  **litografía**  se mide en  **nanómetros**  \(para poneros en perspectiva de lo pequeño que es esto\, un nanómetro son 10\-7 centímetros \(10\-9 metros\)\)\, o lo que es lo mismo\, 0\,0000001 centímetros\)\, y es precisamente  **el tamaño de los transistores** \. Así pues\, un proceso de 14 nm significa que cada transistor mide 14 x 10\-7 centímetros\, o 0\,0000014 cm\.
 
-Esto significa que\, en comparación\, en el proceso de 7 nm se puede meter literalmente el doble de transistores que con el proceso de 14 nm en el mismo espacio\. Poder meter un mayor número de transistores en el mismo espacio repercute en el rendimiento y en la eficiencia energética\, así que tener una litografía menor implica que el procesador será  __más potente y más eficiente__ \.
+Esto significa que\, en comparación\, en el proceso de 7 nm se puede meter literalmente el doble de transistores que con el proceso de 14 nm en el mismo espacio\. Poder meter un mayor número de transistores en el mismo espacio repercute en el rendimiento y en la eficiencia energética\, así que tener una litografía menor implica que el procesador será  **más potente y más eficiente** \.
 
 ![](assets/img/Unidad04/u414.png)
 
 # 3.4 Buses del sistema. Front Side Bus
 
-__FSB \(Front Side Bus\)__
+**FSB \(Front Side Bus\)**
 
-Es el bus que usaron los micros Intel desde finales de los años 90 hasta la arquitectura Core\. __ __
+Es el bus que usaron los micros Intel desde finales de los años 90 hasta la arquitectura Core\. ** **
 
 Se encarga de comunicar el procesador con el North Bridge\.
 
@@ -161,7 +150,7 @@ La velocidad del FSB se mide en MHz\.
 
 # 3.4 Buses del sistema. HyperTransport
 
-__Tecnología HT__ : \(“HyperTransport”\)\.
+**Tecnología HT** : \(“HyperTransport”\)\.
 
 Tecnología desarrollada por AMD® en 2001 en sustitución del FSB clásico\.
 
@@ -175,7 +164,7 @@ La velocidad se mide en GigaTransferences/second \(GT/s\)
 
 # 3.4 Buses del sistema. QuickPath Interconnect
 
-__Tecnología QuickPath Interconnect \(QPI\)\. 2008__
+**Tecnología QuickPath Interconnect \(QPI\)\. 2008**
 
 Respuesta de Intel a AMD frente a HyperTransport\.
 
@@ -209,7 +198,7 @@ Originariamente para conectar en northbridge con el southbridge\.
 
 ![](assets/img/Unidad04/u421.png)
 
-__DMI v2__
+**DMI v2**
 
 2011
 
@@ -219,7 +208,7 @@ Conecta procesador con PCH
 
 ![](assets/img/Unidad04/u422.png)
 
-__DMI v3__
+**DMI v3**
 
 2015
 
@@ -229,7 +218,7 @@ Conecta procesador con PCH
 
 ![](assets/img/Unidad04/u423.png)
 
-__DMI v4__
+**DMI v4**
 
 2021
 
@@ -241,7 +230,7 @@ Intel Gen 12th
 
 ![](assets/img/Unidad04/u424.png)
 
-__SPI \- Serial Peripheral Interface\.__
+**SPI \- Serial Peripheral Interface\.**
 
 El bus SPI o bus de interfaz de periféricos serie\, es un estándar utilizado para transferir información entre dispositivos electrónicos en modo full\-duplex
 
@@ -275,7 +264,7 @@ _[https://en\.wikichip\.org/wiki/WikiChip](https://en.wikichip.org/wiki/WikiChip
 
 El conjunto de instrucciones que un procesador soporta definirá qué aplicaciones entiende y por tanto cuales puede llegar a ejecutar\.
 
-__Tipos:__
+**Tipos:**
 
 x86\. Es la mínima necesaria para ser capaz de ejecutar el sistema operativo Windows\. En concreto estas instrucciones trabajan con datos de 32 bits\. También es conocido como IA\-32\.
 
@@ -295,7 +284,7 @@ TSX\. Creadas por Intel permiten gestionar de forma más eficiente los recursos 
 
 ARM
 
-__¿Es más rápido en ejecutar una instrucción un procesador de 10GHz que uno de 5 GHz?__
+**¿Es más rápido en ejecutar una instrucción un procesador de 10GHz que uno de 5 GHz?**
 
 Una CPU de hace cinco años con una velocidad de reloj más alta puede ser superada por una nueva CPU con una velocidad de reloj más baja\, ya que la nueva arquitectura maneja las instrucciones con mayor eficacia\. Un procesador Intel® serie X puede superar a un procesador serie K con una velocidad de reloj más alta\, ya que divide las tareas entre más núcleos y posee una caché de CPU mayor\. Pero dentro de la misma generación de CPU\, un procesador con una velocidad de reloj más alta por lo general superará en muchas aplicaciones a un procesador con una velocidad de reloj más baja\. Por eso es importante comparar procesadores de la misma marca y generación\.
 
@@ -313,7 +302,7 @@ Un procesador de 32 bits puede leer\, mantener y operar con 32 bits de datos a l
 
 Las arquitecturas de 64 bits son capaces de manejar mucha más memoria RAM que las de 32\.
 
-__Buscar limitación de memoria en Windows 32 y 64 bits__
+**Buscar limitación de memoria en Windows 32 y 64 bits**
 
 # 3.9. Temperatura
 
@@ -321,17 +310,17 @@ El procesador debe mantenerse siempre a una buena temperatura\. Esto no solo pro
 
 Temperaturas habituales\*:
 
-__Reposo \(idle\)__ : entre 30 y 40ºC
+**Reposo \(idle\)** : entre 30 y 40ºC
 
-__Uso normal__ : entre 40 y 55ºC
+**Uso normal** : entre 40 y 55ºC
 
-__Máximo rendimiento:__  entre  55 y 65ºC
+**Máximo rendimiento:**  entre  55 y 65ºC
 
-__T__  __Max__  __\(AMD\) o T__  __Junction__  __\(Intel\) \(__ temperatura máxima de la unión\): Hace referencia a la máxima temperatura que un procesador puede alcanzar en sus núcleos de procesamiento\(DIE\)\. Si se alcanzara esta temperatura entraría en acción el mecanismo de control térmico interno \( _[Thermal Throttling](https://hardzone.es/2018/06/17/thermal-throttling-solucion/)_ \) para reducir la potencia y limitar la temperatura\.
+**T**  **Max**  **\(AMD\) o T**  **Junction**  **\(Intel\) \(** temperatura máxima de la unión\): Hace referencia a la máxima temperatura que un procesador puede alcanzar en sus núcleos de procesamiento\(DIE\)\. Si se alcanzara esta temperatura entraría en acción el mecanismo de control térmico interno \( _[Thermal Throttling](https://hardzone.es/2018/06/17/thermal-throttling-solucion/)_ \) para reducir la potencia y limitar la temperatura\.
 
-__T__  __union__ : Temperatura que en cada momento se registra en el núcleo del procesador\. Esta temperatura es la que nosotros debemos de conocer siempre que estemos trabajando en nuestro equipo y queramos monitorizar nuestra CPU\.
+**T**  **union** : Temperatura que en cada momento se registra en el núcleo del procesador\. Esta temperatura es la que nosotros debemos de conocer siempre que estemos trabajando en nuestro equipo y queramos monitorizar nuestra CPU\.
 
-__T__  __case__  __:__  Temperatura que se mide en el  _[IHS](https://hardzone.es/reportajes/que-es/ihs-procesador-cpu/)_  del procesador\, es decir en su encapsulado\, que siempre va a ser inferior a la que se marca dentro de un núcleo \(Tunion\)\.
+**T**  **case**  **:**  Temperatura que se mide en el  _[IHS](https://hardzone.es/reportajes/que-es/ihs-procesador-cpu/)_  del procesador\, es decir en su encapsulado\, que siempre va a ser inferior a la que se marca dentro de un núcleo \(Tunion\)\.
 
 ![](assets/img/Unidad04/u427.png)
 
@@ -343,17 +332,17 @@ __T__  __case__  __:__  Temperatura que se mide en el  _[IHS](https://hardzone.e
 
 El objetivo primordial del sistema de refrigeración instalado en un ordenador es conseguir que los componentes\, como la CPU o el procesador gráfico\, trabajen en todo momento dentro de su rango admisible de temperatura\.
 
-__Conducción__ : es el fenómeno mediante el cual un cuerpo sólido más caliente pasa su calor a otro más frío que esté en contacto con él\.
+**Conducción** : es el fenómeno mediante el cual un cuerpo sólido más caliente pasa su calor a otro más frío que esté en contacto con él\.
 
-__Convección__ : la convección es otro fenómeno de transferencia de calor que se produce solamente en fluidos\, agua\, aire o vapor\.
+**Convección** : la convección es otro fenómeno de transferencia de calor que se produce solamente en fluidos\, agua\, aire o vapor\.
 
 IHS
 
 Pasta térmica o TIM \(Thermal Interface Material\)
 
-__Tipos de refrigeración CPU__
+**Tipos de refrigeración CPU**
 
-* __Refrigeración líquida__
+* **Refrigeración líquida**
   * Bloque de agua o placa refrigerante
   * Bomba
   * Líquido refrigerante
@@ -361,7 +350,7 @@ __Tipos de refrigeración CPU__
   * Tubos\, manguitos y racores
   * Ventilador
 
-* __Refrigeración por aire__
+* **Refrigeración por aire**
   * Bloque frío
   * Heat pipes
   * Radiador de aletas
@@ -369,7 +358,7 @@ __Tipos de refrigeración CPU__
 
 # 4.1 Refrigeración
 
-__IHS\.__  El IHS o Integrated Heat Spreader\, es el encapsulado de la CPU\. Aquí comienza todo\, ya que es el primer elemento que está en contacto con los núcleos del procesador\, los que realmente generan el calor del componente electrónico\.
+**IHS\.**  El IHS o Integrated Heat Spreader\, es el encapsulado de la CPU\. Aquí comienza todo\, ya que es el primer elemento que está en contacto con los núcleos del procesador\, los que realmente generan el calor del componente electrónico\.
 
 Está fabricado normalmente en cobre electrolítico con un baño de níquel\, y algunos procesadores puede estar directamente  _[soldado](https://www.google.com/search?q=ihs+soldado&ei=jV3JY6r0HJjYkwXo_4HgAQ&ved=0ahUKEwjq7v-99dP8AhUY7KQKHeh_ABwQ4dUDCA8&uact=5&oq=ihs+soldado&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCCEQoAEyBQghEKABMgUIIRCgAToKCAAQRxDWBBCwAzoHCAAQgAQQEzoICAAQFhAeEBM6CggAEBYQHhAKEBM6CQgAEIAEEAoQEzoLCC4QxwEQ0QMQgAQ6BQgAEIAEOgsILhCABBDHARCvAToKCC4QxwEQ0QMQQzoECAAQQzoKCAAQsQMQgwEQQzoRCC4QgAQQsQMQgwEQxwEQrwE6BQguEIAEOgsILhCABBDHARDRAzoGCAAQFhAeOgkIABAWEB4Q8QRKBAhBGABKBAhGGABQjwZYliRg1CVoAnABeACAAYABiAGnDZIBBDUuMTGYAQCgAQHIAQLAAQE&sclient=gws-wiz-serp)_  al DIE para eliminar la resistencia térmica al mínimo\.
 
@@ -379,7 +368,7 @@ Está fabricado normalmente en cobre electrolítico con un baño de níquel\, y 
 
 # 4.1 Refrigeración. Pasta térmica
 
-__Pasta térmica\. __ Es __ __ el elemento que mayor resistencia térmica hace en el conjunto del disipador\. Es muy importante tener una buena pasta térmica en chips potentes\, ya que su  _conductividad _ será mayor\. La función de la pasta térmica es mejorar todo lo posible\, la unión entre el IHS y DIE \(difícil\) y entre  el IHS bloque frío del disipador\(fácil\)
+**Pasta térmica\. ** Es ** ** el elemento que mayor resistencia térmica hace en el conjunto del disipador\. Es muy importante tener una buena pasta térmica en chips potentes\, ya que su  _conductividad _ será mayor\. La función de la pasta térmica es mejorar todo lo posible\, la unión entre el IHS y DIE \(difícil\) y entre  el IHS bloque frío del disipador\(fácil\)
 
 ![](assets/img/Unidad04/u432.png)
 
@@ -387,7 +376,7 @@ __Pasta térmica\. __ Es __ __ el elemento que mayor resistencia térmica hace e
 
 ![](assets/img/Unidad04/u434.png)
 
-__C__  __onductividad __  __térmica:__
+**C**  **onductividad **  **térmica:**
 
 Se mide en W/mK → Watios/metro\- kelvin
 
@@ -397,15 +386,15 @@ La conductividad térmica de una pasta de cierta calidad es de 8\,5 W/mK\, la co
 
 ![](assets/img/Unidad04/u436.png)
 
-_[https://www\.youtube\.com/watch?v=j5yXDIno51I](https://www.youtube.com/watch?v=j5yXDIno51I)_  __ __
+_[https://www\.youtube\.com/watch?v=j5yXDIno51I](https://www.youtube.com/watch?v=j5yXDIno51I)_  ** **
 
 # 4.1 Refrigeración por aire
 
-__Bloque frio\. __ El bloque frío es la base del disipador\, la que entra en contacto con la pasta térmica\. Normalmente es más grande que el propio IHS\, para asegurar la máxima recepción y transferencia de calor\.
+**Bloque frio\. ** El bloque frío es la base del disipador\, la que entra en contacto con la pasta térmica\. Normalmente es más grande que el propio IHS\, para asegurar la máxima recepción y transferencia de calor\.
 
 ![](assets/img/Unidad04/u437.png)
 
-__Heat Pipes\. __ Son tuberías de un material de alta conductividad que encierra en su interior un líquido con unas propiedades muy concretas\, cuya finalidad es lógicamente disipar el calor mediante una transferencia por conductividad térmica\, o lo que es igual\, traspasar el calor generado del componente electrónico y disiparlo en un radiador de aletas de aluminio\.
+**Heat Pipes\. ** Son tuberías de un material de alta conductividad que encierra en su interior un líquido con unas propiedades muy concretas\, cuya finalidad es lógicamente disipar el calor mediante una transferencia por conductividad térmica\, o lo que es igual\, traspasar el calor generado del componente electrónico y disiparlo en un radiador de aletas de aluminio\.
 
 El extremo del cilindro con el fluido\, reposa sobre un generador de calor\.
 
@@ -419,11 +408,11 @@ El fluido activo vuelve hacia la zona de evaporación debido a la gravedad\.
 
 ![](assets/img/Unidad04/u439.png)
 
-__Radiador de aletas\. __ Hablamos del disipador propiamente dicho y suelen estar hechos de aluminio\.
+**Radiador de aletas\. ** Hablamos del disipador propiamente dicho y suelen estar hechos de aluminio\.
 
 ![](assets/img/Unidad04/u440.png)
 
-__Ventilador\. __ Crean un flujo de aire a gran velocidad para que la convección\, en lugar de ser natural\, sea forzada y elimine más calor del metal\. Es el único dispositivo  __activo__  del conjunto y debe de ir conectado a la alimentación\.
+**Ventilador\. ** Crean un flujo de aire a gran velocidad para que la convección\, en lugar de ser natural\, sea forzada y elimine más calor del metal\. Es el único dispositivo  **activo**  del conjunto y debe de ir conectado a la alimentación\.
 
 ![](assets/img/Unidad04/u441.png)
 
@@ -431,11 +420,11 @@ __Ventilador\. __ Crean un flujo de aire a gran velocidad para que la convecció
 
 Tipos de refrigeración por aire:
 
-__Disipadores de serie\. __ Los que traen de serie los procesadores\.
+**Disipadores de serie\. ** Los que traen de serie los procesadores\.
 
-__Disipador de torre\. __ Los que hemos revisado\.
+**Disipador de torre\. ** Los que hemos revisado\.
 
-__Disipador de perfil bajo\.__  Para cajas estrechas y espacios reducidos
+**Disipador de perfil bajo\.**  Para cajas estrechas y espacios reducidos
 
 ![](assets/img/Unidad04/u442.png)
 
@@ -449,43 +438,43 @@ La refrigeración líquida o watercooling es una técnica de enfriamiento que ut
 
 Tipos de sistemas:
 
-__Sistemas compactos \(All In One \- AIO\)__ \. También conocidos como todo en uno\, ocupan menos espacio dentro de la caja\, son más baratos y también resultan más fáciles de instalar\, pero a cambio\, su eficacia refrigerante suele ser menor\.
+**Sistemas compactos \(All In One \- AIO\)** \. También conocidos como todo en uno\, ocupan menos espacio dentro de la caja\, son más baratos y también resultan más fáciles de instalar\, pero a cambio\, su eficacia refrigerante suele ser menor\.
 
-__Sistema avanzados o personalizables \(Custom\)__ \. Incorporan más elementos\, más caros y su instalación es más laboriosa\, pero pueden ofrecernos una mayor capacidad refrigerante
+**Sistema avanzados o personalizables \(Custom\)** \. Incorporan más elementos\, más caros y su instalación es más laboriosa\, pero pueden ofrecernos una mayor capacidad refrigerante
 
 ![](assets/img/Unidad04/u445.png)
 
 ![](assets/img/Unidad04/u446.png)
 
-__Bloque de agua o placa refrigerante: __ es el elemento que va colocado directamente sobre la pasta térmica de nuestro ordenador\. Incorpora un disipador\, habitualmente de aluminio o cobre debido a su elevado índice de termoconductividad\, y por su interior circula el líquido refrigerante\. La transferencia de la energía térmica del disipador integrado en el microprocesador al disipador del bloque de agua se efectúa mediante el mecanismo de conducción\. Y el transporte del calor desde este último disipador al líquido refrigerante que circula por el interior del bloque de agua se lleva a cabo mediante el efecto de convección\.
+**Bloque de agua o placa refrigerante: ** es el elemento que va colocado directamente sobre la pasta térmica de nuestro ordenador\. Incorpora un disipador\, habitualmente de aluminio o cobre debido a su elevado índice de termoconductividad\, y por su interior circula el líquido refrigerante\. La transferencia de la energía térmica del disipador integrado en el microprocesador al disipador del bloque de agua se efectúa mediante el mecanismo de conducción\. Y el transporte del calor desde este último disipador al líquido refrigerante que circula por el interior del bloque de agua se lleva a cabo mediante el efecto de convección\.
 
 ![](assets/img/Unidad04/u447.png)
 
-__Bomba: __ es el componente que se responsabiliza de suministrar al líquido refrigerante la presión necesaria para propiciar que éste se desplace a lo largo de todo el circuito de refrigeración\.
+**Bomba: ** es el componente que se responsabiliza de suministrar al líquido refrigerante la presión necesaria para propiciar que éste se desplace a lo largo de todo el circuito de refrigeración\.
 
-__Depósito:__  recipiente que contiene buena parte del volumen del líquido de refrigeración\.
+**Depósito:**  recipiente que contiene buena parte del volumen del líquido de refrigeración\.
 
 Con frecuencia la bomba y el depósito están adosados\, dando forma a un único componente\.
 
 ![](assets/img/Unidad04/u448.png)
 
-__Líquido refrigerante: __ es el fluido en estado líquido que se encarga de transportar la energía térmica a lo largo del circuito\. Su composición puede variar si comparamos el líquido de varias marcas\, pero muchas de ellas suelen usar etilenglicol\, que es un compuesto químico orgánico utilizado con frecuencia como anticongelante\, y un aditivo que le da color para evitar que pueda ser bebido por accidente\. Además\, el aditivo tiene una función decorativa porque da al líquido un color que puede encajar bien con los tonos de la iluminación LED instalada en la caja y el sistema de refrigeración\.
+**Líquido refrigerante: ** es el fluido en estado líquido que se encarga de transportar la energía térmica a lo largo del circuito\. Su composición puede variar si comparamos el líquido de varias marcas\, pero muchas de ellas suelen usar etilenglicol\, que es un compuesto químico orgánico utilizado con frecuencia como anticongelante\, y un aditivo que le da color para evitar que pueda ser bebido por accidente\. Además\, el aditivo tiene una función decorativa porque da al líquido un color que puede encajar bien con los tonos de la iluminación LED instalada en la caja y el sistema de refrigeración\.
 
 ![](assets/img/Unidad04/u449.png)
 
-__Radiador__ : elemento metálico \(normalmente de aluminio\) por cuyo interior circula el líquido refrigerante y a cuya superficie están adosados uno o varios ventiladores\. El movimiento de las palas de estos últimos desplaza el caudal de aire necesario para provocar la transferencia de energía térmica desde el líquido refrigerante que circula por el interior del radiador al aire mediante convección\. Como resultado de este proceso la temperatura del líquido refrigerante se reduce y la del aire circundante se incrementa\, por lo que debe ser expulsado fuera del chasis del PC\.
+**Radiador** : elemento metálico \(normalmente de aluminio\) por cuyo interior circula el líquido refrigerante y a cuya superficie están adosados uno o varios ventiladores\. El movimiento de las palas de estos últimos desplaza el caudal de aire necesario para provocar la transferencia de energía térmica desde el líquido refrigerante que circula por el interior del radiador al aire mediante convección\. Como resultado de este proceso la temperatura del líquido refrigerante se reduce y la del aire circundante se incrementa\, por lo que debe ser expulsado fuera del chasis del PC\.
 
 ![](assets/img/Unidad04/u450.png)
 
-__Tubos y manguitos \(Tubing\): __ son los conductos\, normalmente de policloruro de vinilo \(PVC\) u otro derivado del plástico\, por cuyo interior circula el líquido refrigerante a lo largo de todo el circuito\. Pueden ser flexibles o rígidos\. Los primeros son más fáciles de instalar que los segundos\, pero también suelen ser menos duraderos\.
+**Tubos y manguitos \(Tubing\): ** son los conductos\, normalmente de policloruro de vinilo \(PVC\) u otro derivado del plástico\, por cuyo interior circula el líquido refrigerante a lo largo de todo el circuito\. Pueden ser flexibles o rígidos\. Los primeros son más fáciles de instalar que los segundos\, pero también suelen ser menos duraderos\.
 
-__Racores__ \. Se colocan en las entradas y salidas de los diferentes componentes del circuito y son los que se emplean para asegurar el tubing a dichos componentes\.
+**Racores** \. Se colocan en las entradas y salidas de los diferentes componentes del circuito y son los que se emplean para asegurar el tubing a dichos componentes\.
 
 ![](assets/img/Unidad04/u451.png)
 
 ![](assets/img/Unidad04/u452.png)
 
-__Ventilador: __ va adosado sobre la superficie del radiador con el propósito de desplazar el caudal de aire necesario para optimizar el intercambio de energía térmica entre el líquido refrigerante y el aire\.
+**Ventilador: ** va adosado sobre la superficie del radiador con el propósito de desplazar el caudal de aire necesario para optimizar el intercambio de energía térmica entre el líquido refrigerante y el aire\.
 
 ![](assets/img/Unidad04/u453.png)
 
@@ -513,27 +502,27 @@ _[https://www\.intel\.la/content/www/xl/es/processors/processor\-numbers\.html](
 
 _[https://www\.muycomputer\.com/2020/04/09/catalogo\-de\-procesadores\-intel/](https://www.muycomputer.com/2020/04/09/catalogo-de-procesadores-intel/)_
 
-* __Marca y modelo__ : Intel \(Core\, Pentium\, Celeron\.\.\.\)
-* __Modificador de marca__ : \(i9\, i7\, i5\, i3\)
-* __Indicador de generación:__  el número 9 que corresponde a la novena generación de procesadores Core
-* __Dígitos numéricos SKU:__  \(Stock\-keeping unit o número de referencia\)\. Identificador usado para el seguimiento de un producto\. Un mayor número suele reflejar mayores prestaciones\.
-* __Sufijos opcionales__ : representan la línea \(serie\) de procesadores y se colocan al final\. Hay unos cuantos en cada generación\. El sufijo en los procesadores de Intel es uniforme en todas las generaciones de procesadores\, si bien no todas las generaciones los han utilizado\.
-  * __G1\-G7:__  Nivel de gráficos \(procesadores solo con nueva tecnología gráfica integrada\)
-  * __ X__ : Extreme\. Máximo rendimiento\. Son las CPUs más potentes\, pero también las más caras\.
-  * __K__ : indica que este procesador tiene el multiplicador desbloqueado\, y que por lo tanto es apto para overclock\. Están pensados para gaming\.
-  * __ F__ : No tiene gráficos integrados\.
-  * __ HF__ : estos procesadores para portátiles tienen especificaciones de gama alta\, pero no disponen de iGPU\.
-  * __T__ : Procesador optimizado para dar prioridad a la potencia
-  * __H \(Portátil\)__ : Gráficos de alto rendimiento
-  * __HK \(Portátil\):__  Gráficos de alto rendimiento sin bloqueo de velocidad
-  * __HQ \(Portátil\)__ : Gráficos de alto rendimiento con cuatro núcleos
-  * __Y \(Portátil\):__  Consumo muy bajo \(por tanto\, menos potentes\)
-  * __ U \(Portátil\):__  Consumo ultra bajo\, no requiere ventiladores
-  * __M:__  viene de «mobile» \(portátil\, no móvil en este caso\) y fue muy utilizado en los primeros procesadores para portátiles de la marca\, aunque ahora mismo ya han dejado de utilizarlo salvo en algunos procesadores Xeon\.
+* **Marca y modelo** : Intel \(Core\, Pentium\, Celeron\.\.\.\)
+* **Modificador de marca** : \(i9\, i7\, i5\, i3\)
+* **Indicador de generación:**  el número 9 que corresponde a la novena generación de procesadores Core
+* **Dígitos numéricos SKU:**  \(Stock\-keeping unit o número de referencia\)\. Identificador usado para el seguimiento de un producto\. Un mayor número suele reflejar mayores prestaciones\.
+* **Sufijos opcionales** : representan la línea \(serie\) de procesadores y se colocan al final\. Hay unos cuantos en cada generación\. El sufijo en los procesadores de Intel es uniforme en todas las generaciones de procesadores\, si bien no todas las generaciones los han utilizado\.
+  * **G1\-G7:**  Nivel de gráficos \(procesadores solo con nueva tecnología gráfica integrada\)
+  * ** X** : Extreme\. Máximo rendimiento\. Son las CPUs más potentes\, pero también las más caras\.
+  * **K** : indica que este procesador tiene el multiplicador desbloqueado\, y que por lo tanto es apto para overclock\. Están pensados para gaming\.
+  * ** F** : No tiene gráficos integrados\.
+  * ** HF** : estos procesadores para portátiles tienen especificaciones de gama alta\, pero no disponen de iGPU\.
+  * **T** : Procesador optimizado para dar prioridad a la potencia
+  * **H \(Portátil\)** : Gráficos de alto rendimiento
+  * **HK \(Portátil\):**  Gráficos de alto rendimiento sin bloqueo de velocidad
+  * **HQ \(Portátil\)** : Gráficos de alto rendimiento con cuatro núcleos
+  * **Y \(Portátil\):**  Consumo muy bajo \(por tanto\, menos potentes\)
+  * ** U \(Portátil\):**  Consumo ultra bajo\, no requiere ventiladores
+  * **M:**  viene de «mobile» \(portátil\, no móvil en este caso\) y fue muy utilizado en los primeros procesadores para portátiles de la marca\, aunque ahora mismo ya han dejado de utilizarlo salvo en algunos procesadores Xeon\.
 
 # 6. Generaciones procesadores AMD (x86-64)
 
-__K8 core architecture__
+**K8 core architecture**
 
 [Opteron](https://en.wikipedia.org/wiki/Opteron) \( _SledgeHammer_ \) \(2003\)
 
@@ -583,7 +572,7 @@ _[Athlon 64 X2](https://en.wikipedia.org/wiki/Athlon_64_X2)_  \( _Manchester_ \)
 
 [Mobile Sempron](https://en.wikipedia.org/wiki/Sempron)
 
-* __K10 core architecture \(2007–2013\)__
+* **K10 core architecture \(2007–2013\)**
   * [Opteron](https://en.wikipedia.org/wiki/Opteron) \( _[Barcelona](https://en.wikipedia.org/wiki/AMD_K10)_ \) \(10 September 2007\)
   * [Phenom FX](https://en.wikipedia.org/wiki/AMD_Phenom) \( _[Agena FX](https://en.wikipedia.org/wiki/Beta_Centauri)_ \) \(Q1 2008\)
   * [Phenom X4 \(9\-series\)](https://en.wikipedia.org/wiki/AMD_Phenom#Phenom_X4) \( _Agena_ \) \(19 November 2007[\[1\]](https://en.wikipedia.org/wiki/List_of_AMD_processors#cite_note-anandtech-1)\)
@@ -601,8 +590,8 @@ _[Athlon 64 X2](https://en.wikipedia.org/wiki/Athlon_64_X2)_  \( _Manchester_ \)
 
 # 6. Generaciones procesadores AMD
 
-* __Bulldozer architecture; Bulldozer\, Piledriver\, Steamroller\, Excavator \(2011–2017\)__
-* __[Bulldozer Series CPUs](https://en.wikipedia.org/wiki/Bulldozer_(microarchitecture))__
+* **Bulldozer architecture; Bulldozer\, Piledriver\, Steamroller\, Excavator \(2011–2017\)**
+* **[Bulldozer Series CPUs](https://en.wikipedia.org/wiki/Bulldozer_(microarchitecture))**
 * Concrete products codenamed  _Zambezi_  and  _Vishera_ : [List of AMD FX microprocessors](https://en.wikipedia.org/wiki/List_of_AMD_FX_microprocessors)
   * _Zambezi_  \( _[Bulldozer](https://en.wikipedia.org/wiki/Bulldozer_(microarchitecture))_  core\) \(Q4 2011\)
   * _Vishera_  \( _[Piledriver](https://en.wikipedia.org/wiki/Piledriver_(microarchitecture))_  core\) \(Q4 2012\)
@@ -613,25 +602,25 @@ _[Athlon 64 X2](https://en.wikipedia.org/wiki/Athlon_64_X2)_  \( _Manchester_ \)
   * _Carrizo_  \( _[Excavator](https://en.wikipedia.org/wiki/Excavator_(microarchitecture))_  core\) \(2015\)
   * _Bristol Ridge_  \( _Excavator_  core supporting DDR4\) \(2016\) \(and  _Stoney Ridge_  implements Zen microarchitecture but utilizes the same Socket\.\)
 
-* __Bajo consumo architecture; Bobcat\, Jaguar\, Puma \(2011–Actualidad\)__
+* **Bajo consumo architecture; Bobcat\, Jaguar\, Puma \(2011–Actualidad\)**
 * All products are listed in [List of AMD accelerated processing unit microprocessors](https://en.wikipedia.org/wiki/List_of_AMD_accelerated_processing_unit_microprocessors)\.
-  * __[Bobcat series APUs](https://en.wikipedia.org/wiki/Bobcat_(microarchitecture))__  \(2011–\):
+  * **[Bobcat series APUs](https://en.wikipedia.org/wiki/Bobcat_(microarchitecture))**  \(2011–\):
     * Ontario \( _[Bobcat](https://en.wikipedia.org/wiki/Bobcat_(microarchitecture))_  cores \+  _[Cedar](https://en.wikipedia.org/wiki/Evergreen_(GPU_family)#Radeon_HD_5400)_ \-class GPU\) \(launch Q1 2011\)
     * Zacate \( _[Bobcat](https://en.wikipedia.org/wiki/Bobcat_(microarchitecture))_  cores \+  _[Cedar](https://en.wikipedia.org/wiki/Evergreen_(GPU_family)#Radeon_HD_5400)_ \-class GPU\) \(launch Q1 2011\)
-  * __[Jaguar series APUs](https://en.wikipedia.org/wiki/Jaguar_(microarchitecture))__  \(2013–\)
+  * **[Jaguar series APUs](https://en.wikipedia.org/wiki/Jaguar_(microarchitecture))**  \(2013–\)
     * Kabini \(notebooks\)
     * Temash \(tablets\)
     * Kyoto \(micro\-servers\)
     * G\-Series \(embedded\)
-  * __[Puma series APUs](https://en.wikipedia.org/wiki/Puma_(microarchitecture))__  \(2014–\)
+  * **[Puma series APUs](https://en.wikipedia.org/wiki/Puma_(microarchitecture))**  \(2014–\)
     * Beema \(notebooks\)
     * Mullins \(tablets\)
 
 ![](assets/img/Unidad04/u456.png)
 
-__Zen core architecture \(2017\-actualidad\)__
+**Zen core architecture \(2017\-actualidad\)**
 
-__[Zen](https://en.wikipedia.org/wiki/Zen_(microarchitecture))__  __ series CPUs and APUs__  \(released 2017\)
+**[Zen](https://en.wikipedia.org/wiki/Zen_(microarchitecture))**  ** series CPUs and APUs**  \(released 2017\)
 
 _Summit Ridge_  [Ryzen 1000 series](https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_microprocessors) \(desktop\)
 
@@ -641,7 +630,7 @@ _Raven Ridge_  [Ryzen 2000 APU series with RX Vega](https://en.wikipedia.org/wik
 
 _Naples_  [EPYC](https://en.wikipedia.org/wiki/EPYC) \(server\)
 
-__[Zen\+](https://en.wikipedia.org/wiki/Zen%2B)__  __ series CPUs and APUs__  \(released 2018\)
+**[Zen\+](https://en.wikipedia.org/wiki/Zen%2B)**  ** series CPUs and APUs**  \(released 2018\)
 
 _Pinnacle Ridge_  [Ryzen 2000 series](https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_microprocessors) \(desktop\)
 
@@ -649,7 +638,7 @@ _Colfax_  [Ryzen Threadripper 2000 series](https://en.wikipedia.org/wiki/List_of
 
 _Picasso_  [Ryzen 3000 APU series with RX Vega](https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_microprocessors) \(desktop & laptop\)
 
-__[Zen 2](https://en.wikipedia.org/wiki/Zen_2)__  __ series CPUs and APUs__  \(released 2019\)
+**[Zen 2](https://en.wikipedia.org/wiki/Zen_2)**  ** series CPUs and APUs**  \(released 2019\)
 
 _Matisse_  [Ryzen 3000 series](https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_microprocessors) \(desktop\)
 
@@ -661,7 +650,7 @@ _Lucienne_  [Ryzen 5000 APU series](https://en.wikipedia.org/wiki/List_of_AMD_Ry
 
 _Rome_  [EPYC](https://en.wikipedia.org/wiki/EPYC) \(server\)
 
-__[Zen 3](https://en.wikipedia.org/wiki/Zen_3)__  __ series CPUs and APUs__  \(released 2020\)
+**[Zen 3](https://en.wikipedia.org/wiki/Zen_3)**  ** series CPUs and APUs**  \(released 2020\)
 
 _Vermeer_  [Ryzen 5000 series](https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_microprocessors#Vermeer) \(desktop\)
 
@@ -677,9 +666,9 @@ _[https://en\.wikipedia\.org/wiki/Table\_of\_AMD\_processors](https://en.wikiped
 
 ![](assets/img/Unidad04/u458.png)
 
-__Zen core architecture \(2017\-actualidad\)__
+**Zen core architecture \(2017\-actualidad\)**
 
-__[Zen](https://en.wikipedia.org/wiki/Zen_(microarchitecture))__  __ series CPUs and APUs__  \(released 2017\)
+**[Zen](https://en.wikipedia.org/wiki/Zen_(microarchitecture))**  ** series CPUs and APUs**  \(released 2017\)
 
 _Summit Ridge_  [Ryzen 1000 series](https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_microprocessors) \(desktop\)
 
@@ -689,7 +678,7 @@ _Raven Ridge_  [Ryzen 2000 APU series with RX Vega](https://en.wikipedia.org/wik
 
 _Naples_  [EPYC](https://en.wikipedia.org/wiki/EPYC) \(server\)
 
-__[Zen\+](https://en.wikipedia.org/wiki/Zen%2B)__  __ series CPUs and APUs__  \(released 2018\)
+**[Zen\+](https://en.wikipedia.org/wiki/Zen%2B)**  ** series CPUs and APUs**  \(released 2018\)
 
 _Pinnacle Ridge_  [Ryzen 2000 series](https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_microprocessors) \(desktop\)
 
@@ -697,7 +686,7 @@ _Colfax_  [Ryzen Threadripper 2000 series](https://en.wikipedia.org/wiki/List_of
 
 _Picasso_  [Ryzen 3000 APU series with RX Vega](https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_microprocessors) \(desktop & laptop\)
 
-__[Zen 2](https://en.wikipedia.org/wiki/Zen_2)__  __ series CPUs and APUs__  \(released 2019\)
+**[Zen 2](https://en.wikipedia.org/wiki/Zen_2)**  ** series CPUs and APUs**  \(released 2019\)
 
 _Matisse_  [Ryzen 3000 series](https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_microprocessors) \(desktop\)
 
@@ -709,7 +698,7 @@ _Lucienne_  [Ryzen 5000 APU series](https://en.wikipedia.org/wiki/List_of_AMD_Ry
 
 _Rome_  [EPYC](https://en.wikipedia.org/wiki/EPYC) \(server\)
 
-__[Zen 3](https://en.wikipedia.org/wiki/Zen_3)__  __ series CPUs and APUs__  \(released 2020\)
+**[Zen 3](https://en.wikipedia.org/wiki/Zen_3)**  ** series CPUs and APUs**  \(released 2020\)
 
 _Vermeer_  [Ryzen 5000 series](https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_microprocessors#Vermeer) \(desktop\)
 
