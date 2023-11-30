@@ -1,10 +1,5 @@
 # Unidad 4. PROCESADORES
 
-[TOCM]
-
-[TOC]
-
-<abbr title="Hyper Text Markup Language">HTML</abbr>
 
 1\. Definición
 
