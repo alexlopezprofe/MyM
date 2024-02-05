@@ -58,7 +58,7 @@ Los fabricantes tienen que fabricar los módulos de memoria siguiendo los están
 
 * **Bank (Bancos de memoria).** Son los componentes físicos encargados de almacenar los registros de memoria. Lo forman chips de circuitos integrados(IC) que están compuestos en su interior por transistores y capacitores que forman celdas de almacenamiento lo que permite almacenar bits de información dentro de ellos. Un chip contiene varios bancos, cada banco está distribuido en filas y columnas y la intersección de estas son los bits.
 
-* **Rank (Rango de memoria).** El término rango (Rank) fue creado y definido por el JEDEC y es un conjunto de chips conectados entre sí que son accedidos por el controlador de memoria al mismo tiempo formando un bloque o área de datos. El tamaño de un rango es de 64 bits (si tiene ECC se añaden 8 bits más)
+* **Rank (Rango de memoria).** El término rango (Rank) fue creado y definido por el JEDEC y es un conjunto de chips conectados entre sí que son accedidos por el controlador de memoria al mismo tiempo formando un bloque o área de datos. El tamaño de un rango es de 64 bits (si tiene ECC se añaden 8 bits más hasta DDR o 2x8=16 bits en DDR5)
 
 ![](assets/img/Unidad05/Unidad512.png)
 
@@ -68,16 +68,11 @@ Los fabricantes tienen que fabricar los módulos de memoria siguiendo los están
 
 ![](assets/img/Unidad05/Unidad515.png)
 
-# Rank
+### Rank
 
 ![](assets/img/Unidad05/Unidad516.png)
 
-No todas las memorias tienen el mismo número de chips ni la misma capacidad, es decir, su wide o ancho de bus no es el mismo. En las memorias DDR actuales podemos encontrar chips con un ancho de bus individual de 4, 8 o 16 bits (nomenclaturas de X4, X8 o X16).
-
-* Hasta DDR4 **La interfaz de comunicación de la RAM con el IMC de la CPU es de 64 bits**
-
-* Cada Rank es un conjunto de chips que forman 64 bits (4 chips de 16 bits, 8 chips de 8 bits o 16 chips de 4 bits)
-* En DDR5 **La interfaz de comunicación de la RAM con el IMC de la CPU es de 2x32 bits**
+No todas las memorias tienen el mismo número de chips ni la misma capacidad, es decir, su wide o ancho de bus no es el mismo. En las memorias DDR actuales podemos encontrar chips con un ancho de bus individual de 4, 8 o 16 bits (nomenclaturas de X4, X8 o X16). Cada Rank es un conjunto de chips que forman 64 bits (4 chips de 16 bits, 8 chips de 8 bits o 16 chips de 4 bits)
 
 ## Single vs Dual vs Quad Rank 
 
@@ -87,7 +82,7 @@ No todas las memorias tienen el mismo número de chips ni la misma capacidad, es
 
 <span style="color:#2C2F34"> Quad Rank:   <span style="color:#2C2F34">   <span style="color:#2C2F34">Si un módulo tiene 4 buses de datos de 64 bits  <span style="color:#2C2F34">. (4R) → 4Rx8 o 4Rx16
 
-<span style="color:#2C2F34"> _No da pistas claras de la capacidad del módulo de memoria_   <span style="color:#2C2F34">, ya que los chips pueden ser de 512 MB, 1 GB, 2 GB o incluso más. Claro que sabiendo los rangos que tiene y la capacidad, podremos adivinar el bus y capacidad individual de ellos.
+> El **Rank** no da pistas claras de la capacidad del módulo de memoria, ya que los chips pueden ser de 512 MB, 1 GB, 2 GB, 4GB o incluso más. Claro que sabiendo los ranks que dispone un módulo y la capacidad, podremos calcular el bus y la capacidad individual de ellos.
 
 ![](assets/img/Unidad05/Unidad517.png)
 
@@ -95,13 +90,22 @@ No todas las memorias tienen el mismo número de chips ni la misma capacidad, es
 
 ![](assets/img/Unidad05/Unidad519.png)
 
-# 2. Comunicación memoria-procesador → IMC
+# Comunicación memoria-procesador → IMC
 
-IMC → Circuito digital que controla el flujo de datos que va y viene entre el propio procesador y la memoria RAM
+**IMC (Integrated Memory Controller)**.  Es el circuito digital situado en el procesador que controla el flujo de datos entre el procesador y la memoria RAM.
+
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/3a93f5f0-6242-49b7-ad93-c8ab1579ade0)
+
 
 Los controladores de memoria contienen la lógica necesaria para leer y escribir en la memoria RAM
 
-Podemos encontrar IMCs que disponen de dos controladores de memoria funcionando en paralelo. Son posicionados en dos “buses” separados llamados también _canales_   . Esto permite que haya varias operaciones de lectura y escritura a la vez. La ventaja de esto es que en teoría la totalidad del ancho de banda se duplica. 
+* Hasta DDR4 la comunicacción entre el procesador y la memoria es a traves de un bus de 64 bits
+* EN DDR5 la comunicacción entre el procesador y la memoria es a traves de un bus de 2x32 bits.
+
+  ![image](https://github.com/alexlopezprofe/MyM/assets/148449360/779af08a-80a2-4844-9cf1-21b5e869f53e)
+
+
+
 
 ![](assets/img/Unidad05/Unidad520.png)
 
