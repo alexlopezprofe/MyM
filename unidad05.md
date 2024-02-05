@@ -10,7 +10,7 @@ Se denominan «de acceso aleatorio» porque se puede leer o escribir en una posi
 
 Físicamente es un conjunto de chips soldados sobre una PCB, a este conjunto de chips, se le denomina _módulo_ de memoria RAM.
 
-Los fabricantes tienen que fabricar los módulos de memoria siguiendo los estándares marcados por   _[JEDEC](https://www.jedec.org/)_  ( Joint Electron Device Engineering Council)
+Los fabricantes tienen que fabricar los módulos de memoria siguiendo los estándares marcados por _[JEDEC](https://www.jedec.org/_ (Joint Electron Device Engineering Council)
 
 ![](assets/img/Unidad05/Unidad51.png)
 
@@ -72,11 +72,14 @@ Los fabricantes tienen que fabricar los módulos de memoria siguiendo los están
 
 ![](assets/img/Unidad05/Unidad516.png)
 
-No todas las memorias tienen el mismo número de chips ni la misma capacidad, es decir, su wide o ancho de bus no es el mismo. En las memorias DDR4 actuales podemos encontrar chips con un ancho de bus individual de 4, 8 o 16 bits (nomenclaturas de X4, X8 o X16).
+No todas las memorias tienen el mismo número de chips ni la misma capacidad, es decir, su wide o ancho de bus no es el mismo. En las memorias DDR actuales podemos encontrar chips con un ancho de bus individual de 4, 8 o 16 bits (nomenclaturas de X4, X8 o X16).
 
-La interfaz de comunicación de la RAM con la CPU es de 64 bits → _Cada Rank es un conjunto de chips que forman 64 bits_ (4 chips de 16 bits, 8 chips de 8 bits o 16 chips de 4 bits)
+* Hasta DDR4 **La interfaz de comunicación de la RAM con el IMC de la CPU es de 64 bits**
 
-  Single vs Dual vs Quad Rank 
+* Cada Rank es un conjunto de chips que forman 64 bits (4 chips de 16 bits, 8 chips de 8 bits o 16 chips de 4 bits)
+* En DDR5 **La interfaz de comunicación de la RAM con el IMC de la CPU es de 2x32 bits**
+
+## Single vs Dual vs Quad Rank 
 
 <span style="color:#2C2F34"> Single Rank   <span style="color:#2C2F34">: Memoria RAM con un solo bus de datos de 64 bits será determinada como Single Rank o 1R. Un módulo Single Rank tendrá una nomenclatura similar a alguna de estas → 1Rx4, 1Rx8 o 1Rx16. 
 
@@ -89,8 +92,6 @@ La interfaz de comunicación de la RAM con la CPU es de 64 bits → _Cada Rank e
 ![](assets/img/Unidad05/Unidad517.png)
 
 ![](assets/img/Unidad05/Unidad518.png)
-
-# 2. Estructura interna
 
 ![](assets/img/Unidad05/Unidad519.png)
 
