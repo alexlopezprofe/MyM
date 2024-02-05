@@ -93,100 +93,103 @@ No todas las memorias tienen el mismo número de chips ni la misma capacidad, es
 # Comunicación memoria-procesador → IMC
 
 **IMC (Integrated Memory Controller)**.  Es el circuito digital situado en el procesador que controla el flujo de datos entre el procesador y la memoria RAM.
+![](assets/img/Unidad05/Unidad520.png)
 
 ![image](https://github.com/alexlopezprofe/MyM/assets/148449360/3a93f5f0-6242-49b7-ad93-c8ab1579ade0)
-
 
 Los controladores de memoria contienen la lógica necesaria para leer y escribir en la memoria RAM
 
 * Hasta DDR4 la comunicacción entre el procesador y la memoria es a traves de un bus de 64 bits
-* EN DDR5 la comunicacción entre el procesador y la memoria es a traves de un bus de 2x32 bits.
+![](assets/img/Unidad05/Unidad521.png)
+  
+* En DDR5 la comunicacción entre el procesador y la memoria es a traves de un bus de 2x32 bits.
 
   ![image](https://github.com/alexlopezprofe/MyM/assets/148449360/779af08a-80a2-4844-9cf1-21b5e869f53e)
 
 
-
-
-![](assets/img/Unidad05/Unidad520.png)
-
-![](assets/img/Unidad05/Unidad521.png)
-
-# 2. Single Channel vs Dual Channel
-
-Single Channel describe cualquier configuración en la que su CPU solo tiene acceso a un solo bus de 64 bits de ancho (en DDR4) para acceder a la memoria.
-
-La tecnología Dual-Channel o Doble canal es una tecnología que aumenta el rendimiento porque se permite el paso simultáneo a los 2 módulos de memoria RAM duplicando (teóricamente*) el ancho de banda entre la memoria y la CPU pero en n la práctica no pasa de un 20 a 45%.
-
-Para disponer de Dual-Channel, la placa base lo debe soportar. Además hay que instalar 2 módulos de memoria idénticos: mismos timings, capacidad, etc.
+# Single Channel vs Dual Channel
 
 ![](assets/img/Unidad05/Unidad522.png)
 
+**Single Channel** describe cualquier configuración en la que la CPU solo tiene acceso a un solo bus de 64 bits de ancho en DDR4 o 2x32 en DDR5 para acceder a la memoria.
+
+La tecnología **Dual-Channel** o doble canal es una tecnología que aumenta el rendimiento porque se permite el paso simultáneo a los 2 módulos de memoria RAM duplicando (teóricamente*) el ancho de banda entre la memoria y la CPU pero que en la práctica no pasa de un 20 a 45%.
+
+Para disponer de Dual-Channel, la placa base lo debe soportar. Además hay que instalar 2 módulos de memoria idénticos: mismos timings, capacidad, etc.
+
+
 ![](assets/img/Unidad05/Unidad523.png)
-
 ![](assets/img/Unidad05/Unidad524.png)
-
+![](assets/img/Unidad05/Unidad526.png)
 ![](assets/img/Unidad05/Unidad525.png)
 
-![](assets/img/Unidad05/Unidad526.png)
 
-# 3.1. Capacidad
+# Características de la memoria RAM
+## Capacidad
 
-Capacidad hace referencia a la cantidad de datos que se pueden almacenar en la RAM. La memoria RAM es un almacén de datos y lógicamente una característica importante es cuántos datos puede almacenar. 
+La  capacidad hace referencia a la cantidad de datos que se pueden almacenar en la RAM. La memoria RAM es un almacén de datos y lógicamente una característica importante es cuántos datos puede almacenar. 
 
 Los transistores del interior de los bancos de memoria tienen un determinado tamaño, con lo cual a menor tamaño de transistor mayor densidad de celdas lo que implica más capacidad.
 
-Esta capacidad se mide actualmente en los módulos DDR en GB (GigaBytes).
+Esta capacidad se mide actualmente en los módulos DDR en **GB (GigaBytes)**.
 
 La cantidad de memoria estará directamente relacionada con el uso que hagas del equipo. Cada uso requiere una cantidad de RAM diferente. No se necesita la misma memoria RAM para navegar, que para jugar o editar vídeo o fotos.
 
 ![](assets/img/Unidad05/Unidad527.png)
 
-# 3.2. Velocidad o frecuencia de reloj
+## Velocidad o frecuencia de reloj
 
 * Los chips de memoria integrados en cada módulo de memoria funcionan a una frecuencia de trabajo determinada.
 * Este valor se mide en MHz, por lo tanto, a mayor cantidad de Megahercios, mayor velocidad tendrá el módulo.
-  * En las memorias de tipo DDR (DOUBLE data rate) se realizan 2 operaciones por cada ciclo de reloj  y no una como en las SDR, por tanto  los 3200 MHz anunciados serían en realidad 3200 MT/s (millones de transferencias por segundo) y la frecuencia real sería la mitad, es decir 1600MHz.
-  * Por ejemplo, 3200 MHz significa que se tardan 1/3200MHz = 0,3125 nanosegundos por cada ciclo de reloj.
-  * Al elegir la memoria RAM, hay que asegurarse de que la placa base soporta la frecuencia de trabajo de la memoria RAM.
+* En las memorias de tipo DDR (DOUBLE data rate) se realizan 2 operaciones por cada ciclo de reloj  y no una como en las SDR, por tanto  los 3200 MHz anunciados serían en realidad 3200 MT/s (millones de transferencias por segundo) y la frecuencia real sería la mitad, es decir 1600MHz.
+* Por ejemplo, 3200 MHz significa que se tardan 1/3200MHz = 0,3125 nanosegundos por cada ciclo de reloj.
+* Al elegir la memoria RAM, hay que asegurarse de que la placa base soporta la frecuencia de trabajo de la memoria RAM.
 * Al instalar algunos módulos de memoria, la placa puede configurarlos para que trabajen a una frecuencia inferior a la que el fabricante prometía. En ese caso se tendrá que configurar la frecuencia de la memoria RAM manualmente desde la BIOS o UEFI para subir el multiplicador de sus frecuencias y hacer que funcionen a la velocidad correcta.
 
-![](assets/img/Unidad05/Unidad528.png)
-
-Crucial DDR4   _2400_   PC4-  <span style="color:#00FF00">19200   4GB →
-
- La tasa de transferencia de datos se refiere a cuántos bits puede transferir un módulo en un tiempo concreto.
-
-Tasa de transferencia de datos=  _2400Hz_  *8B=  <span style="color:#00FF00">19200  MB/s
-
-# 3.2. SDR vs DDR
+* SDR vs DDR
 
 ![](assets/img/Unidad05/Unidad529.png)
 
-# 3.2. Ancho de banda
+![](assets/img/Unidad05/Unidad528.png)
 
-El ancho de banda máximo de memoria es la velocidad máxima a la cual el procesador puede leer o almacenar datos en una memoria(en GB/s).
 
-El ancho de banda máximo teórico de la memoria se puede calcular multiplicando la frecuencia de la memoria multiplicado por el número de bytes de ancho y multiplicado por el número de canales (o interfaces) compatibles con el  procesador.
+## Tasa de transferencia de datos
+
+La **tasa de transferencia de datos** se refiere a cuántos bytes puede transferir un módulo en un tiempo concreto.
+
+POr ejeCrucial DDR4   _2400_   PC4-  <span style="color:#00FF00">19200   4GB →
+
+
+
+Tasa de transferencia de datos= 2400Hz*8B = 19200  MB/s
+
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/071f4c6e-ba48-4f69-b4d6-2dbcc14c9494)
+
+
+## Ancho de banda
+
+El **ancho de banda máximo de memoria** o **BW (BandWidth)** es la velocidad máxima a la cual el procesador puede leer o almacenar datos en una memoria. Actualmente se mide en GB/s.
+
+El ancho de banda máximo teórico de la memoria se puede calcular multiplicando la frecuencia real de la memoria multiplicado por el número de bytes de ancho (64) y multiplicado por el número de canales (o interfaces) compatibles con el  procesador.
 
 La frecuencia de reloj DRAM de la RAM -> Dato de fabricante/2
 
-Ancho Bus de la memoria -> actualmente y desde hace años es de _64 bits por canal (32*2 en DDR5)_   ,
+* Ancho Bus de la memoria -> actualmente y desde hace años es de 64 bits por canal (32*2 en DDR5) 
 
-Número ciclo de reloj -> SDR=1 (1 operación por ciclo) y _DDR_   =2 (2 operaciones por ciclo )
+* Número ciclo de reloj -> SDR=1 (1 operación por ciclo) y DDR =2 (2 operaciones por ciclo )
 
-Número de canales (Interfaces) -> o lo que es igual, el número de canales máximos de memoria que pueden funcionar al mismo tiempo. Esto lo determina la plataforma en sí misma, donde actualmente en escritorio tenemos(Single-Channel = 1) (Dual-Channel = 2) o (Quad-Channel= 4 ) disponibles.
+* Número de canales (Interfaces) -> o lo que es igual, el número de canales máximos de memoria que pueden funcionar al mismo tiempo. Esto lo determina la plataforma en sí misma, donde actualmente en escritorio tenemos(Single-Channel = 1) (Dual-Channel = 2) disponibles.
 
- BW = FrecuenciaReal*64*Número de ciclos de reloj*Canales  
+BW = FrecuenciaReal*64*Número de ciclos de reloj*Canales  
 
- _Team Group Delta White RGB DDR4 _ _3200_ _ PC4-25600_  → Frecuencia=3200Mhz/2=1600Mhz 
+> Ejemplo:
+Team Group Delta White RGB DDR4 3200 PC4-25600  → Frecuencia real=3200Mhz/2=1600Mhz 
 
-BW(Dual-Channel)=160000000*64*2*  _2_   = 409.600.000.000 bits por segundo = 51,2 GB/s 
+BW(Dual-Channel)=160000000*64*2*2= 409.600.000.000 bits por segundo
+Divimos entre 8 para pasar a bytes 
+BW= 51,2 GB/s 
 
-BW(Quad-Channel)=160000000*64*2*  _4_
-
- BW = FrecuenciaReal*64*Número de ciclos de reloj*Canales  
-
-# 3.3. Latencia
+## Latencia
 
 La estructura interna de la memoria RAM es como la de un tablero de ajedrez tridimensional en el que cada cuadro del tablero es una celda en la que se escriben los datos que se almacenan.
 
