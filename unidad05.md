@@ -1,4 +1,4 @@
-# T5. Memoria RAM
+# Unidad 5. Memoria RAM
 
 # Definición de memoria RAM
 
@@ -205,9 +205,10 @@ _[https://pcpro.es/guias/latencia-memoria-ram-que-es-y-tipos/](https://pcpro.es/
 
 ![](assets/img/Unidad05/Unidad532.png)
 
-*  Timings.  Suelen visualizarse en formato numérico: 9-9-9-24 es un ejemplo de tiempos o timings de una memoria DDR.
-*  ¿Qué significa cada uno de los cuatro números? 
-* <span style="color:#58585A"> Latencia CAS (Column Address Strobe) (CL):   <span style="color:#58585A">   Ciclos de reloj que pasan desde que se realiza una petición para leer o escribir un dato hasta que dicha información está disponible, o los ciclos de reloj que transcurre entre que el controlador de memoria envía una petición para leer una posición de memoria y el momento en que los datos son enviados a los pines de salida del módulo.  _Es el dato más importante de esta lista de números._ 
+**Timings.**  Suelen visualizarse en formato numérico: 9-9-9-24 es un ejemplo de tiempos o timings de una memoria DDR.
+
+¿Qué significa cada uno de los cuatro números? 
+* Latencia CAS (Column Address Strobe) (CL):   <span style="color:#58585A">   Ciclos de reloj que pasan desde que se realiza una petición para leer o escribir un dato hasta que dicha información está disponible, o los ciclos de reloj que transcurre entre que el controlador de memoria envía una petición para leer una posición de memoria y el momento en que los datos son enviados a los pines de salida del módulo.  _Es el dato más importante de esta lista de números._ 
   * Los tipos de memoria nueva suelen tener una latencia CAS mucho más alta que sus modelos comparables más antiguos.
 * _[https://www.crucial.es/articles/about-memory/difference-between-speed-and-latency](https://www.crucial.es/articles/about-memory/difference-between-speed-and-latency)_   
 * <span style="color:#58585A"> Retardo de columna y fila (tRCD o Time RAS to CAS Delay)   <span style="color:#58585A">: Número mínimo de ciclos de reloj necesarios para abrir una fila y acceder a una columna. Se puede considerar el tiempo mínimo que tarda la RAM en llegar a la nueva dirección. El tiempo para leer el primer bit de memoria de una DRAM sin ninguna fila activa seria tRCD + CL
@@ -232,7 +233,7 @@ Latencia real= 0.75nsx18=  <span style="color:#0000FF">13.5ns
 
 ![](assets/img/Unidad05/Unidad534.png)
 
-# 3.4. Voltaje
+## Voltaje
 
 El voltaje es el valor de tensión a la que el módulo de memoria RAM trabaja.
 
@@ -242,7 +243,7 @@ Disminuye a la vez que la tecnología avanza, es decir el consumo de los módulo
 
 ![](assets/img/Unidad05/Unidad536.png)
 
-# 4. Tipos de memoria RAM
+## Tipos de memoria RAM
 
 * Static RAM (SRAM).
   * Comenzó a utilizarse en 1990 y a día de hoy sigue presente en cámaras digitales, routers o impresoras.
@@ -259,7 +260,7 @@ Disminuye a la vez que la tecnología avanza, es decir el consumo de los módulo
   * <span style="color:#333333">Se estandarizó a partir del año 2000.
   * <span style="color:#333333">Opera de la misma manera que la SDR SDRAM solo que el doble de rápido, es decir, es capaz de realizar dos instrucciones de lectura y dos de escritura por cada ciclo de reloj del procesador.
 
-# 4. Tipos de DDR SDRAM
+### Tipos de DDR SDRAM
 
  Memoria RAM DDR: 
 
@@ -271,21 +272,20 @@ Disminuye a la vez que la tecnología avanza, es decir el consumo de los módulo
 
  Memoria RAM DDR5: 
 
-# 5. Formato
+## Factor de forma
 
- DIMM: <span style="color:#333333">El término   <span style="color:#333333"> DIMM   <span style="color:#333333"> es el acrónimo de la expresión “Dual In-line Memory Module”
-
- SO-DIMM: SO-DIMM se llama así por las siglas en inglés de “Small Outline Dual In-line Memory Module”, y es precisamente esas palabras «Small Outline» lo que las diferencia de los módulos DIMM habituales. La diferencia es meramente física, ocupan un menor espacio y así se pueden instalar en equipos de tamaño reducido como los portátiles.
+* **DIMM:** <span style="color:#333333">El término   <span style="color:#333333"> DIMM   <span style="color:#333333"> es el acrónimo de la expresión “Dual In-line Memory Module”
+* **SO-DIMM:** “Small Outline Dual In-line Memory Module”, y es precisamente esas palabras «Small Outline» lo que las diferencia de los módulos DIMM habituales. La diferencia es meramente física, ocupan un menor espacio y así se pueden instalar en equipos de tamaño reducido como los portátiles.
 
 ![](assets/img/Unidad05/Unidad537.png)
 
-# 5.1 Tipos de DDR SDRAM en formato DIMM
+### Tipos de DDR SDRAM en formato DIMM
 
 ![](assets/img/Unidad05/Unidad538.png)
 
  Longitud: 133,35 mm
 
- Pines: 
+Pines: 
 
 DDR:  184 pines
 
@@ -313,7 +313,7 @@ DDR5: 288 pines
 
 _[Detalle de la muesca](https://upload.wikimedia.org/wikipedia/commons/9/95/Laptop_SODIMM_DDR_Memory_Comparison_V2.svg)_
 
-# 7. RAM ECC
+## RAM ECC
 
 <span style="color:#58585A">En la memoria principal, los contenidos son almacenados en forma de código binario, en otras palabras, están compuestos por unos y ceros para que el ordenador pueda procesarlos. Los dígitos binarios se conocen como bits. Factores como (fluctuaciones del voltaje, overclocking, módulos de memoria defectuosos y viejos, o radiación de alta energía) pueden generar un error de bit. Estos fallos de bit se presentan cuando un bit toma el valor falso, es decir “1” en vez de “0” y viceversa. En muchas aplicaciones, las consecuencias de estos fallos son apenas perceptibles, pero en otros ámbitos esos fallos no son asumibles
 
@@ -339,7 +339,7 @@ _Cuando no está presente esta tecnología puede venir indicado como _  _Non-ECC
 
 ![](assets/img/Unidad05/Unidad543.png)
 
-# 7. RAM Buffered/Registered
+## RAM Buffered/Registered
 
 La Memoria RAM “Buffered” o Memoria “Registered” tiene un registro situado entre la DRAM y el Controlador de Memoria del Sistema. Esto hace que haya menos carga eléctrica en el Controlador de Memoria y permite que sistemas con muchos módulos de memoria permanezcan estables, de otra forma esto no sería posible. 
 
@@ -353,7 +353,7 @@ Cuando se fabrica como un módulo de memoria dual en línea (DIMM), un módulo d
 
 ![](assets/img/Unidad05/Unidad545.png)
 
-# 7. Perfiles
+## Perfiles
 
 * La memoria está preparada para trabajar a diferentes frecuencias y diferentes latencias. Cada configuración de frecuencias, latencias y voltaje se conoce como perfil, y el fabricante asegura que el rendimiento es óptimo con esos perfiles. Estos perfiles se almacenan en el circuito SPD de la memoria.
 * Existen dos tipos de perfiles, dentro de cada tipo, el fabricante puede configurar diferentes variantes.
@@ -364,11 +364,11 @@ Cuando se fabrica como un módulo de memoria dual en línea (DIMM), un módulo d
 
 ![](assets/img/Unidad05/Unidad546.png)
 
-# 7. Identificación de RAM
+# Identificación de RAM
 
 _[https://www.kingston.com/spain/es/memory/memory-part-number-decoder](https://www.kingston.com/spain/es/memory/memory-part-number-decoder)_   
 
-# 7. Etiquetas
+## Etiquetas
 
  KVR32N22D8/16 (  _[http://www.kingston.com/dataSheets/KVR32N22D8_16.pdf](http://www.kingston.com/dataSheets/KVR32N22D8_16.pdf)_   )
 
@@ -460,13 +460,13 @@ CMK. Corsair
 
 ![](assets/img/Unidad05/Unidad551.png)
 
-# 7. ¿Cómo saber qué memoria tengo instalada?
+# ¿Cómo saber qué memoria tengo instalada?
 
 ¿Cómo saber qué memoria tengo instalada? Podemos usar software de terceros o acceder al símbolo de sistema (Windows+r→cmd→y ejecutar “wmic memorychip”
 
 ![](assets/img/Unidad05/Unidad552.png)
 
-# 8. VRAM
+# VRAM
 
 <span style="color:#58585A">Video Ram o memoria de vídeo está presente en todas las tarjetas gráficas, es un tipo de memoria diseñada especialmente para llevar a cabo un tipo concreto de tareas en aplicaciones gráficas y videojuegos.
 
