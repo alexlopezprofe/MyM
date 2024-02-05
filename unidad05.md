@@ -12,25 +12,25 @@
 
 <span style="color:#000000">Los fabricantes tienen que fabricar los módulos de memoria siguiendo los estándares marcados por </span>  _[JEDEC](https://www.jedec.org/)_  <span style="color:#000000">\( Joint Electron Device Engineering Council\)</span>
 
-![](assets/img/Unidad04/Unidad51.png)
+![](assets/img/Unidad05/Unidad51.png)
 
-![](assets/img/Unidad04/Unidad52.png)
+![](assets/img/Unidad05/Unidad52.png)
 
 # 1. Estructura módulo memoria RAM
 
-![](assets/img/Unidad04/Unidad53.png)
+![](assets/img/Unidad05/Unidad53.png)
 
-![](assets/img/Unidad04/Unidad54.png)
+![](assets/img/Unidad05/Unidad54.png)
 
-![](assets/img/Unidad04/Unidad55.png)
+![](assets/img/Unidad05/Unidad55.png)
 
-![](assets/img/Unidad04/Unidad56.png)
+![](assets/img/Unidad05/Unidad56.png)
 
 # 1. SPD. Serial Presence Detect chip
 
-![](assets/img/Unidad04/Unidad57.png)
+![](assets/img/Unidad05/Unidad57.png)
 
-![](assets/img/Unidad04/Unidad58.png)
+![](assets/img/Unidad05/Unidad58.png)
 
 <span style="color:#000000"> __Circuito SPD__ </span>  <span style="color:#000000"> \(Serial Presence Detect chip\): Es el encargado de almacenar datos relativos al módulo de memoria RAM\, como el tamaño de la memoria\, el tiempo de acceso\, la velocidad y el tipo de memoria\. De esta forma el ordenador conocerá que memoria RAM tiene instalada de manera automática sin intervención del usuario\.</span>
 
@@ -44,13 +44,13 @@ Chip situado en el centro de las memorias DDR5 y se encarga de gestionar la ener
 
 Permite\, entre otras cosas\, la implementación de una tecnología de sincronización multifásica\. Una novedad que permite realizar transmisiones a un voltaje más bajo o más alto si es necesario\. Ahora será siempre gestionado desde el propio módulo de memoria DDR5\.
 
-![](assets/img/Unidad04/Unidad59.png)
+![](assets/img/Unidad05/Unidad59.png)
 
-![](assets/img/Unidad04/Unidad510.png)
+![](assets/img/Unidad05/Unidad510.png)
 
 # 1. Making Memory Chips – Process Steps
 
-![](assets/img/Unidad04/Unidad511.jpg)
+![](assets/img/Unidad05/Unidad511.jpg)
 
 _[https://www\.crucial\.es/articles/about\-memory/how\-is\-memory\-made](https://www.crucial.es/articles/about-memory/how-is-memory-made)_
 
@@ -60,17 +60,17 @@ _[https://www\.crucial\.es/articles/about\-memory/how\-is\-memory\-made](https:/
 
 <span style="color:#000000"> __Rank \(Rango de memoria\)\. __ </span>  <span style="color:#000000">El término rango \(Rank\) fue creado y definido por el JEDEC y es un conjunto de chips conectados entre sí que son accedidos por el controlador de memoria al mismo tiempo formando un bloque o área de datos\. El tamaño de un rango es de 64 bits \(si tiene ECC se añaden 8 bits más\)</span>
 
-![](assets/img/Unidad04/Unidad512.png)
+![](assets/img/Unidad05/Unidad512.png)
 
-![](assets/img/Unidad04/Unidad513.png)
+![](assets/img/Unidad05/Unidad513.png)
 
-![](assets/img/Unidad04/Unidad514.png)
+![](assets/img/Unidad05/Unidad514.png)
 
-![](assets/img/Unidad04/Unidad515.png)
+![](assets/img/Unidad05/Unidad515.png)
 
 # 2. Rank
 
-![](assets/img/Unidad04/Unidad516.png)
+![](assets/img/Unidad05/Unidad516.png)
 
 <span style="color:#000000">No todas las memorias tienen el mismo número de chips ni la misma capacidad\, es decir\, su </span>  <span style="color:#000000"> __wide o ancho de bus __ </span>  <span style="color:#000000">no es el mismo\. En las memorias DDR4 actuales podemos encontrar chips con un ancho de bus individual de 4\, 8 o 16 bits \(nomenclaturas de X4\, X8 o X16\)\.</span>
 
@@ -86,13 +86,13 @@ _[https://www\.crucial\.es/articles/about\-memory/how\-is\-memory\-made](https:/
 
 <span style="color:#2C2F34"> _No da pistas claras de la capacidad del módulo de memoria_ </span>  <span style="color:#2C2F34">\, ya que los chips pueden ser de 512 MB\, 1 GB\, 2 GB o incluso más\. Claro que sabiendo los rangos que tiene y la capacidad\, podremos adivinar el bus y capacidad individual de ellos\.</span>
 
-![](assets/img/Unidad04/Unidad517.png)
+![](assets/img/Unidad05/Unidad517.png)
 
-![](assets/img/Unidad04/Unidad518.png)
+![](assets/img/Unidad05/Unidad518.png)
 
 # 2. Estructura interna
 
-![](assets/img/Unidad04/Unidad519.png)
+![](assets/img/Unidad05/Unidad519.png)
 
 # 2. Comunicación memoria-procesador → IMC
 
@@ -102,9 +102,9 @@ _[https://www\.crucial\.es/articles/about\-memory/how\-is\-memory\-made](https:/
 
 <span style="color:#000000">Podemos encontrar IMCs que disponen de dos controladores de memoria funcionando en paralelo\. Son posicionados en dos “buses” separados llamados también </span>  <span style="color:#000000"> _canales_ </span>  <span style="color:#000000">\. Esto permite que haya varias operaciones de lectura y escritura a la vez\. La ventaja de esto es que en teoría la totalidad del ancho de banda se duplica\. </span>
 
-![](assets/img/Unidad04/Unidad520.png)
+![](assets/img/Unidad05/Unidad520.png)
 
-![](assets/img/Unidad04/Unidad521.png)
+![](assets/img/Unidad05/Unidad521.png)
 
 # 2. Single Channel vs Dual Channel
 
@@ -114,15 +114,15 @@ _[https://www\.crucial\.es/articles/about\-memory/how\-is\-memory\-made](https:/
 
 <span style="color:#000000">Para disponer de Dual\-Channel\, la placa base lo debe soportar\. Además hay que instalar 2 módulos de memoria idénticos: mismos timings\, capacidad\, etc\.</span>
 
-![](assets/img/Unidad04/Unidad522.png)
+![](assets/img/Unidad05/Unidad522.png)
 
-![](assets/img/Unidad04/Unidad523.png)
+![](assets/img/Unidad05/Unidad523.png)
 
-![](assets/img/Unidad04/Unidad524.png)
+![](assets/img/Unidad05/Unidad524.png)
 
-![](assets/img/Unidad04/Unidad525.png)
+![](assets/img/Unidad05/Unidad525.png)
 
-![](assets/img/Unidad04/Unidad526.png)
+![](assets/img/Unidad05/Unidad526.png)
 
 # 3.1. Capacidad
 
@@ -134,7 +134,7 @@ _[https://www\.crucial\.es/articles/about\-memory/how\-is\-memory\-made](https:/
 
 <span style="color:#000000">La cantidad de memoria estará directamente relacionada con el uso que hagas del equipo\. Cada uso requiere una cantidad de RAM diferente\. No se necesita la misma memoria RAM para navegar\, que para jugar o editar vídeo o fotos\.</span>
 
-![](assets/img/Unidad04/Unidad527.png)
+![](assets/img/Unidad05/Unidad527.png)
 
 # 3.2. Velocidad o frecuencia de reloj
 
@@ -145,7 +145,7 @@ _[https://www\.crucial\.es/articles/about\-memory/how\-is\-memory\-made](https:/
   * <span style="color:#000000">Al elegir la memoria RAM\, hay que asegurarse de que la placa base soporta la frecuencia de trabajo de la memoria RAM\.</span>
 * <span style="color:#000000">Al instalar algunos módulos de memoria\, la placa puede configurarlos para que trabajen a una frecuencia inferior a la que el fabricante prometía\. En ese caso se tendrá que configurar la frecuencia de la memoria RAM manualmente desde la BIOS o UEFI para subir el multiplicador de sus frecuencias y hacer que funcionen a la velocidad correcta\.</span>
 
-![](assets/img/Unidad04/Unidad528.png)
+![](assets/img/Unidad05/Unidad528.png)
 
 <span style="color:#000000">Crucial DDR4 </span>  _2400_  <span style="color:#000000"> PC4\-</span>  <span style="color:#00FF00">19200 </span>  <span style="color:#000000">4GB →</span>
 
@@ -155,7 +155,7 @@ _[https://www\.crucial\.es/articles/about\-memory/how\-is\-memory\-made](https:/
 
 # 3.2. SDR vs DDR
 
-![](assets/img/Unidad04/Unidad529.png)
+![](assets/img/Unidad05/Unidad529.png)
 
 # 3.2. Ancho de banda
 
@@ -189,13 +189,13 @@ __BW\(Quad\-Channel\)=160000000\*64\*2\*__  _4_
 
 <span style="color:#000000">Por lo tanto\, a igualdad de frecuencias de reloj para un módulo de memoria RAM\, es preferible elegir una memoria RAM con una latencia baja\.</span>
 
-![](assets/img/Unidad04/Unidad530.png)
+![](assets/img/Unidad05/Unidad530.png)
 
 _[https://pcpro\.es/guias/latencia\-memoria\-ram\-que\-es\-y\-tipos/](https://pcpro.es/guias/latencia-memoria-ram-que-es-y-tipos/)_
 
-![](assets/img/Unidad04/Unidad531.png)
+![](assets/img/Unidad05/Unidad531.png)
 
-![](assets/img/Unidad04/Unidad532.png)
+![](assets/img/Unidad05/Unidad532.png)
 
 * <span style="color:#000000"> __Timings\.  __ </span>  <span style="color:#000000">Suelen visualizarse en formato numérico: 9\-9\-9\-24 es un ejemplo de tiempos o timings de una memoria DDR\.</span>
 * <span style="color:#000000"> __¿Qué significa cada uno de los cuatro números?__ </span>
@@ -206,7 +206,7 @@ _[https://pcpro\.es/guias/latencia\-memoria\-ram\-que\-es\-y\-tipos/](https://pc
 * <span style="color:#58585A"> __Tiempo de precarga de fila \(tRP o Time RAS Precharge\):__ </span>  <span style="color:#58585A"> Tiempo que tarda la memoria en tener lista una fila nueva para usar datos\. Significa básicamente el tiempo que tarda en hacer un salto de línea es decir estoy leyendo la fila "5" y paso a la fila "6" el TRP mide el tiempo que tardó en hacer ese cambio de fila "5" a fila "6"\.</span>
 * <span style="color:#58585A"> __Tiempo activo de fila \(tRAS\):__ </span>  <span style="color:#58585A"> Número mínimo de ciclos para los que debe estar activa una fila para garantizar que tengamos tiempo suficiente para acceder a la información que contiene\.</span>
 
-![](assets/img/Unidad04/Unidad533.png)
+![](assets/img/Unidad05/Unidad533.png)
 
 _[Corsair Value Select DDR4 2666Mhz PC4\-21300 8GB CL18](https://www.memoryc.com/24306-8gb-corsair-valueselect-ddr4-2666mhz-cl18-memory-module.html)_
 
@@ -222,7 +222,7 @@ _[Corsair Value Select DDR4 2666Mhz PC4\-21300 8GB CL18](https://www.memoryc.com
 
 <span style="color:#000000">Latencia real= 0\.75nsx18=</span>  <span style="color:#0000FF">13\.5ns</span>
 
-![](assets/img/Unidad04/Unidad534.png)
+![](assets/img/Unidad05/Unidad534.png)
 
 # 3.4. Voltaje
 
@@ -230,9 +230,9 @@ _[Corsair Value Select DDR4 2666Mhz PC4\-21300 8GB CL18](https://www.memoryc.com
 
 <span style="color:#000000">Disminuye a la vez que la tecnología avanza\, es decir el consumo de los módulos DDR5 es inferior al de los módulos DDR4\.</span>
 
-![](assets/img/Unidad04/Unidad535.png)
+![](assets/img/Unidad05/Unidad535.png)
 
-![](assets/img/Unidad04/Unidad536.png)
+![](assets/img/Unidad05/Unidad536.png)
 
 # 4. Tipos de memoria RAM
 
@@ -269,11 +269,11 @@ _[Corsair Value Select DDR4 2666Mhz PC4\-21300 8GB CL18](https://www.memoryc.com
 
 <span style="color:#000000"> __SO\-DIMM:__ </span>  <span style="color:#000000"> SO\-DIMM se llama así por las siglas en inglés de “Small Outline Dual In\-line Memory Module”\, y es precisamente esas palabras «Small Outline» lo que las diferencia de los módulos DIMM habituales\. La diferencia es meramente física\, ocupan un menor espacio y así se pueden instalar en equipos de tamaño reducido como los portátiles\.</span>
 
-![](assets/img/Unidad04/Unidad537.png)
+![](assets/img/Unidad05/Unidad537.png)
 
 # 5.1 Tipos de DDR SDRAM en formato DIMM
 
-![](assets/img/Unidad04/Unidad538.png)
+![](assets/img/Unidad05/Unidad538.png)
 
 <span style="color:#000000"> __Longitud: __ </span>  <span style="color:#000000">133\,35 mm</span>
 
@@ -289,9 +289,9 @@ _[Corsair Value Select DDR4 2666Mhz PC4\-21300 8GB CL18](https://www.memoryc.com
 
 <span style="color:#000000">DDR5: 288 pines </span>
 
-![](assets/img/Unidad04/Unidad539.png)
+![](assets/img/Unidad05/Unidad539.png)
 
-![](assets/img/Unidad04/Unidad540.png)
+![](assets/img/Unidad05/Unidad540.png)
 
 | Tipo | Pines | Longitud |
 | :-: | :-: | :-: |
@@ -301,7 +301,7 @@ _[Corsair Value Select DDR4 2666Mhz PC4\-21300 8GB CL18](https://www.memoryc.com
 | SO-DIMM DDR4 | 260 | 69.6 mm |
 | SO-DIMM DDR5 | 262 |  |
 
-![](assets/img/Unidad04/Unidad541.png)
+![](assets/img/Unidad05/Unidad541.png)
 
 _[Detalle de la muesca](https://upload.wikimedia.org/wikipedia/commons/9/95/Laptop_SODIMM_DDR_Memory_Comparison_V2.svg)_
 
@@ -327,9 +327,9 @@ _[Detalle de la muesca](https://upload.wikimedia.org/wikipedia/commons/9/95/Lapt
 
 _Cuando no está presente esta tecnología puede venir indicado como _  _Non\-ECC_  _\._
 
-![](assets/img/Unidad04/Unidad542.png)
+![](assets/img/Unidad05/Unidad542.png)
 
-![](assets/img/Unidad04/Unidad543.png)
+![](assets/img/Unidad05/Unidad543.png)
 
 # 7. RAM Buffered/Registered
 
@@ -341,9 +341,9 @@ _Cuando no está presente esta tecnología puede venir indicado como _  _Non\-EC
 
 <span style="color:#222222">Cuando no poseen esta característica nos puede venir indicado como </span>  <span style="color:#222222"> _Unbuffered o Unregistered_ </span>  <span style="color:#222222">\.</span>
 
-![](assets/img/Unidad04/Unidad544.png)
+![](assets/img/Unidad05/Unidad544.png)
 
-![](assets/img/Unidad04/Unidad545.png)
+![](assets/img/Unidad05/Unidad545.png)
 
 # 7. Perfiles
 
@@ -354,7 +354,7 @@ _Cuando no está presente esta tecnología puede venir indicado como _  _Non\-EC
   * _[https://www\.asus\.com/latin/support/FAQ/1042256/](https://www.asus.com/latin/support/FAQ/1042256/)_
 * <span style="color:#000000">Por defecto la placa base sólo funciona con perfiles JEDEC\, detectando automáticamente el perfil que mejor rendimiento tenga\. Si la placa base está preparada para admitir perfiles XMP o </span> DOCP/EXPO <span style="color:#000000">\, estos se podrán configurar desde la BIOS/</span> UEFI <span style="color:#000000">\.</span>
 
-![](assets/img/Unidad04/Unidad546.png)
+![](assets/img/Unidad05/Unidad546.png)
 
 # 7. Identificación de RAM
 
@@ -378,7 +378,7 @@ _[https://www\.kingston\.com/spain/es/memory/memory\-part\-number\-decoder](http
 
 <span style="color:#000000">16\. Capacidad del módulo \(16GB\)</span>
 
-![](assets/img/Unidad04/Unidad547.png)
+![](assets/img/Unidad05/Unidad547.png)
 
 <span style="color:#000000"> __KVR16N11K2/16 __ </span>  <span style="color:#000000">\(</span>  _[http://www\.kingston\.com/dataSheets/KVR16N11K2\_16\.pdf](http://www.kingston.com/dataSheets/KVR16N11K2_16.pdf)_  <span style="color:#000000"> \)</span>
 
@@ -394,9 +394,9 @@ _[https://www\.kingston\.com/spain/es/memory/memory\-part\-number\-decoder](http
 
 <span style="color:#000000">16\. Capacidad del módulo \(16GB\)</span>
 
-![](assets/img/Unidad04/Unidad548.png)
+![](assets/img/Unidad05/Unidad548.png)
 
-![](assets/img/Unidad04/Unidad549.png)
+![](assets/img/Unidad05/Unidad549.png)
 
 <span style="color:#000000"> __KVR26S19S8/16__ </span>  <span style="color:#000000"> \(</span>  _[http://www\.kingston\.com/dataSheets/KVR26S19S8\_16\.pdf](http://www.kingston.com/dataSheets/KVR26S19S8_16.pdf)_  <span style="color:#000000"> \)</span>
 
@@ -426,7 +426,7 @@ _[https://www\.kingston\.com/spain/es/memory/memory\-part\-number\-decoder](http
 
 <span style="color:#000000">M\. compatible con MAC</span>
 
-![](assets/img/Unidad04/Unidad550.png)
+![](assets/img/Unidad05/Unidad550.png)
 
 <span style="color:#000000"> __CT32G4DFD8266__ </span>  <span style="color:#000000"> \(</span>  _[https://www\.crucial\.es/memory/ddr4/ct32g4dfd8266](https://www.crucial.es/memory/ddr4/ct32g4dfd8266)_  <span style="color:#000000"> \)</span>
 
@@ -450,13 +450,13 @@ _[https://www\.kingston\.com/spain/es/memory/memory\-part\-number\-decoder](http
 
 <span style="color:#000000">18\. Latencia \(CAS\)\.</span>
 
-![](assets/img/Unidad04/Unidad551.png)
+![](assets/img/Unidad05/Unidad551.png)
 
 # 7. ¿Cómo saber qué memoria tengo instalada?
 
 <span style="color:#000000">¿Cómo saber qué memoria tengo instalada? Podemos usar software de terceros o acceder al símbolo de sistema \(Windows\+r→cmd→y ejecutar “wmic memorychip”</span>
 
-![](assets/img/Unidad04/Unidad552.png)
+![](assets/img/Unidad05/Unidad552.png)
 
 # 8. VRAM
 
@@ -464,9 +464,9 @@ _[https://www\.kingston\.com/spain/es/memory/memory\-part\-number\-decoder](http
 
 <span style="color:#58585A">GDDR SDRAM\, es el tipo de RAM de gráficos más popular\, y es lo que encontrará en la gran mayoría de las GPUs actuales\. La abreviatura significa Graphics Double Data Rate Synchronous Dynamic Random\-Access Memory</span>
 
-![](assets/img/Unidad04/Unidad553.png)
+![](assets/img/Unidad05/Unidad553.png)
 
-![](assets/img/Unidad04/Unidad554.png)
+![](assets/img/Unidad05/Unidad554.png)
 
 <span style="color:#58585A">HBM\(High Bandwidth Memory\)\, tipo de memoria gráfica que tiene un ancho de banda mucho mayor que GDDR6\, alto coste \(HBM\, </span>  _[HBM2](https://www.pccomponentes.com/amd-radeon-pro-wx-9100-16gb-gddr5-hbm2)_  <span style="color:#58585A">\, </span>  _[HBM2E](https://hardzone.es/tutoriales/rendimiento/memoria-hbm2e-caracteristicas-especificaciones/)_  <span style="color:#58585A">\)</span>
 
