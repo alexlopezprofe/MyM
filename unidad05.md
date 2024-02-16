@@ -1,4 +1,4 @@
-# Unidad 5. Memoria RAM
+Ftipos# Unidad 5. Memoria RAM
 
 # Definición de memoria RAM
 
@@ -248,34 +248,9 @@ Disminuye a la vez que la tecnología avanza, es decir el consumo de los módulo
 
 ![](assets/img/Unidad05/Unidad536.png)
 
-## Tipos de memoria RAM
+## Tipos de memoria RAM DDR
 
-* Static RAM (SRAM).
-  * Comenzó a utilizarse en 1990 y a día de hoy sigue presente en cámaras digitales, routers o impresoras.
-  * Las ventajas de este tipo de memoria es que consume muy poca energía y tiene unos tiempos de acceso muy bajos. Las desventajas incluyen que tienen unas capacidades muy bajas, y unos costes de fabricación bastante elevados.
-  * Capaz de mantener los datos, mientras siga alimentada, sin necesidad de circuito de refresco.
-* <span style="color:#333333"> Dynamic RAM (DRAM) 
-  * <span style="color:#333333">Puede aceptar una orden de lectura antes de haber terminado de procesar una de escritura (pipelining) lo que posibilita la ejecución de varias instrucciones simultáneamente.
-  * <span style="color:#333333">Basada en condensadores, los cuales pierden su carga progresivamente, necesitando de un circuito dinámico de refresco cada cierto período
-* <span style="color:#333333"> Synchronous Dynamic RAM (SDRAM) 
-  * <span style="color:#333333">Variante mejorada de la memoria SDRAM que mejora la manera en la que procesa la información de lectura y escritura. «Single Data Rate» significa que se ejecuta una instrucción de lectura y otra de escritura por cada ciclo de reloj del procesador.
-* <span style="color:#333333"> Single Data Rate Synchronous Dynamic RAM (SDR SDRAM) 
-  * <span style="color:#333333">Segunda generación de memoria SDRAM.
-* <span style="color:#333333"> Double Data Rate Synchronous Dynamic RAM (DDR SDRAM) 
-  * <span style="color:#333333">Se estandarizó a partir del año 2000.
-  * <span style="color:#333333">Opera de la misma manera que la SDR SDRAM solo que el doble de rápido, es decir, es capaz de realizar dos instrucciones de lectura y dos de escritura por cada ciclo de reloj del procesador.
-
-### Tipos de DDR SDRAM
-
- Memoria RAM DDR: 
-
- Memoria RAM DDR2: 
-
- Memoria RAM DDR3   :
-
- Memoria RAM DDR4: 
-
- Memoria RAM DDR5: 
+![](assets/img/Unidad05/Unidad538.png)
 
 ## Factor de forma
 
@@ -284,26 +259,9 @@ Disminuye a la vez que la tecnología avanza, es decir el consumo de los módulo
 
 ![](assets/img/Unidad05/Unidad537.png)
 
-### Tipos de DDR SDRAM en formato DIMM
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/15094c21-30ad-4f5d-9b0a-d85c3fbf072f)
 
-![](assets/img/Unidad05/Unidad538.png)
 
-Longitud: 133,35 mm
-
-Pines: 
-* DDR:  184 pines
-
-DDR2: 240 pines 
-
-DDR3: 240 pines 
-
-DDR4: 288 pines
-
-DDR5: 288 pines 
-
-![](assets/img/Unidad05/Unidad539.png)
-
-![](assets/img/Unidad05/Unidad540.png)
 
 | Tipo | Pines | Longitud |
 | :-: | :-: | :-: |
@@ -315,7 +273,7 @@ DDR5: 288 pines
 
 ![](assets/img/Unidad05/Unidad541.png)
 
-_[Detalle de la muesca](https://upload.wikimedia.org/wikipedia/commons/9/95/Laptop_SODIMM_DDR_Memory_Comparison_V2.svg)_
+[Detalle de la muesca](https://upload.wikimedia.org/wikipedia/commons/9/95/Laptop_SODIMM_DDR_Memory_Comparison_V2.svg)
 
 ## RAM ECC
 
