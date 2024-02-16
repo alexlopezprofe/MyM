@@ -157,11 +157,9 @@ La cantidad de memoria estará directamente relacionada con el uso que hagas del
 
 La **tasa de transferencia de datos** se refiere a cuántos bytes puede transferir un módulo en un tiempo concreto.
 
-POr ejeCrucial DDR4   _2400_   PC4-  <span style="color:#00FF00">19200   4GB →
+Por ejempo: Crucial DDR4 2400 PC4-19200 4GB →
 
-
-
-Tasa de transferencia de datos= 2400Hz*8B = 19200  MB/s
+Tasa de transferencia de datos= 2400Hz*8B = 19200 MB/s
 
 ![image](https://github.com/alexlopezprofe/MyM/assets/148449360/071f4c6e-ba48-4f69-b4d6-2dbcc14c9494)
 
@@ -174,18 +172,21 @@ El ancho de banda máximo teórico de la memoria se puede calcular multiplicando
 
 La frecuencia de reloj DRAM de la RAM -> Dato de fabricante/2
 
-* Ancho Bus de la memoria -> actualmente y desde hace años es de 64 bits por canal (32*2 en DDR5) 
+* Ancho Bus de la memoria -> actualmente y desde hace años es de 64 bits por canal (32 bits x 2 en DDR5) 
 
-* Número ciclo de reloj -> SDR=1 (1 operación por ciclo) y DDR =2 (2 operaciones por ciclo )
+* Número ciclo de reloj -> SDR=1 (1 operación por ciclo) y DDR=2 (2 operaciones por ciclo )
 
-* Número de canales (Interfaces) -> o lo que es igual, el número de canales máximos de memoria que pueden funcionar al mismo tiempo. Esto lo determina la plataforma en sí misma, donde actualmente en escritorio tenemos(Single-Channel = 1) (Dual-Channel = 2) disponibles.
+* Número de canales (Interfaces) -> o lo que es igual, el número de canales máximos de memoria que pueden funcionar al mismo tiempo. Esto lo determina la plataforma en sí misma, donde actualmente en escritorio tenemos(Single-Channel = 1) o (Dual-Channel = 2) disponibles.
 
-BW = FrecuenciaReal*64*Número de ciclos de reloj*Canales  
+BW = FrecuenciaReal x 64 bits x Número de ciclos de reloj x Canales  
 
-> Ejemplo:
-Team Group Delta White RGB DDR4 3200 PC4-25600  → Frecuencia real=3200Mhz/2=1600Mhz 
+### Ejemplo:
+**Team Group Delta White RGB DDR4 3200 PC4-25600**   → Frecuencia real=3200Mhz/2=1600Mhz 
 
-BW(Dual-Channel)=160000000*64*2*2= 409.600.000.000 bits por segundo
+**BW(Dual-Channel)** = 160000000Hz X 64 bits X 2 X 2= 409.600.000.000 bits por segundo
+
+> Recordamos que Hz=1/s
+
 Divimos entre 8 para pasar a bytes 
 BW= 51,2 GB/s 
 
@@ -215,6 +216,8 @@ _[https://pcpro.es/guias/latencia-memoria-ram-que-es-y-tipos/](https://pcpro.es/
 * <span style="color:#58585A"> Tiempo de precarga de fila (tRP o Time RAS Precharge):   <span style="color:#58585A"> Tiempo que tarda la memoria en tener lista una fila nueva para usar datos. Significa básicamente el tiempo que tarda en hacer un salto de línea es decir estoy leyendo la fila "5" y paso a la fila "6" el TRP mide el tiempo que tardó en hacer ese cambio de fila "5" a fila "6".
 * <span style="color:#58585A"> Tiempo activo de fila (tRAS):   <span style="color:#58585A"> Número mínimo de ciclos para los que debe estar activa una fila para garantizar que tengamos tiempo suficiente para acceder a la información que contiene.
 
+### Cálculo de latencia real
+
 ![](assets/img/Unidad05/Unidad533.png)
 
 _[Corsair Value Select DDR4 2666Mhz PC4-21300 8GB CL18](https://www.memoryc.com/24306-8gb-corsair-valueselect-ddr4-2666mhz-cl18-memory-module.html)_
@@ -225,11 +228,13 @@ _[Corsair Value Select DDR4 2666Mhz PC4-21300 8GB CL18](https://www.memoryc.com/
 
 <span style="color:#58585A">Latencia real   <span style="color:#58585A">(ns)  <span style="color:#58585A"> = tiempo de ciclo de reloj   <span style="color:#58585A">(ns)  <span style="color:#58585A"> x números de ciclos de reloj(CAS)
 
-Frecuencia real: 2666(MT/s) /2 =  <span style="color:#FF00FF">1333MHz
+* **Frecuencia real=** 2666(MT/s) /2 = 1333MHz
 
-Ciclo de reloj=1/1333x10  6  Hz  = 0.75x10  -9  s=  <span style="color:#FF0000">0.75ns
+* **Ciclo de reloj=** 1/1333x10^6Hz = 0.75x10^-9s = 0.75ns
 
-Latencia real= 0.75nsx18=  <span style="color:#0000FF">13.5ns
+> Recordamos que Hz=1/s
+
+**Latencia real=** 0.75ns x 18 = 13.5ns
 
 ![](assets/img/Unidad05/Unidad534.png)
 
@@ -283,11 +288,10 @@ Disminuye a la vez que la tecnología avanza, es decir el consumo de los módulo
 
 ![](assets/img/Unidad05/Unidad538.png)
 
- Longitud: 133,35 mm
+Longitud: 133,35 mm
 
 Pines: 
-
-DDR:  184 pines
+* DDR:  184 pines
 
 DDR2: 240 pines 
 
