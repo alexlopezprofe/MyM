@@ -1,10 +1,20 @@
+
+<style>
+img {
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+
 # Unidad 6. Dispositivos de almacenamiento
 
 # Definición
 
 Los dispositivos de almacenamiento de un equipo microinformático\, también conocidos como memoria secundaria\, es el lugar donde se almacenan permanentemente los programas y datos con los que se trabaja en el mismo\. Se caracteriza por tener gran capacidad de almacenamiento\, ser no volátil y por un tiempo de acceso más lento que el acceso a la memoria principal\.
 
-![](assets/img/Unidad06/Unidad062.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad062.png)
 
 # Unidad de almacenamiento principal
 
@@ -16,72 +26,65 @@ Sus características principales son:
 + No volátil\.
 + Acceso más lento que la memoria principal(RAM)\.
 
-![](assets/img/Unidad06/Unidad063.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad063.png)
 
-![](assets/img/Unidad06/Unidad064.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad064.png)
 
-![](assets/img/Unidad06/Unidad065.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad065.png)
 
 ## Disco duro magnético. Estructura mecánica
 
-![](assets/img/Unidad06/Unidad066.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad066.png)
 
-Un disco duro magnético está formado por uno o varios  **discos** (o **platos**\)\, normalmente de aluminio\, que en su superficie se almacena la información ya que están recubiertos con un material **magnetizable**\.
-
-Estos platos están fijados en el centro a un eje donde hay un **motor de rotación** cuya misión es hacerlos girar al unísono a gran velocidad \(**rpm**\)\.
-
-Sobre los discos existen unos **brazos** encargados de moverse sobre toda la superficie del disco gracias a otro motor diferente\.
-
-En los extremos de estos brazos se instalan las **cabezas \(heads\)**   que son las que realizan las funciones de **lectura y escritura\**.
-
-Las cabezas se mueven a través de la superficie de los platos por la acción del **impulsor de cabeza**\.
-
-La **controladora** es una placa electrónica  encargada de sincronizar todas las acciones para conseguir la lectura/escritura\, y comunicarse con el resto del sistema a través del **interfaz**\.
-
- **Caché**\.  Las unidades actuales tienen un chip de memoria integrada en el circuito electrónico\. Éste hace las veces de puente de intercambio de información desde los platos físicos hasta la memoria RAM\.  Es como un búfer dinámico para aligerar el acceso a la información física y suele ser de 64 MB\.
-
-Todos los elementos anteriores se aglutinan en una caja sellada\, para evitar la entrada de polvo y suciedad
-
-## Disco duro magnético. Estructura física
+* Un disco duro magnético está formado por uno o varios  **discos** (o **platos**\)\, normalmente de aluminio\, que en su superficie se almacena la información ya que están recubiertos con un material **magnetizable**\.
+* Estos platos están fijados en el centro a un eje donde hay un **motor de rotación** cuya misión es hacerlos girar al unísono a gran velocidad \(**rpm**\)\.
+* Sobre los discos existen unos **brazos** encargados de moverse sobre toda la superficie del disco gracias a otro motor diferente\.
+* En los extremos de estos brazos se instalan las **cabezas \(heads\)**   que son las que realizan las funciones de **lectura y escritura\**.
+* Las cabezas se mueven a través de la superficie de los platos por la acción del **impulsor de cabeza**\.
+* La **controladora** es una placa electrónica  encargada de sincronizar todas las acciones para conseguir la lectura/escritura\, y comunicarse con el resto del sistema a través del **interfaz**\.
+* **Caché**\.  Las unidades actuales tienen un chip de memoria integrada en el circuito electrónico\. Éste hace las veces de puente de intercambio de información desde los platos físicos hasta la memoria RAM\.  Es como un búfer dinámico para aligerar el acceso a la información física y suele ser de 64 MB\.
+* Todos los elementos anteriores se aglutinan en una **caja sellada**, para evitar la entrada de polvo y suciedad
 
 ### Disco o platos magnetizables
 
-![](assets/img/Unidad06/Unidad067.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad067.png)
 
 ### Brazos
 
-![](assets/img/Unidad06/Unidad068.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad068.png)
 
 ### Motor
 
-![](assets/img/Unidad06/Unidad069.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad069.png)
 
 El motor gira a una determinadas **RPM: revoluciones por minuto**
 
-![](assets/img/Unidad06/Unidad0610.png) ![](assets/img/Unidad06/Unidad0611.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0610.png)
+
+![](assets%5Cimg%5CUnidad06%5CUnidad0611.png)
 
 
 
 
 ### Cabezas
 
-![](assets/img/Unidad06/Unidad0612.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0612.png)
 
 ### Cabezas lecto/escritoras
 
-![](assets/img/Unidad06/Unidad0613.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0613.png)
 
-![](assets/img/Unidad06/Unidad0614.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0614.png)
 
 ### Controladora de disco
 
-![](assets/img/Unidad06/Unidad0615.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0615.png)
 
-![](assets/img/Unidad06/Unidad0616.jpg)
+![](assets%5Cimg%5CUnidad06%5CUnidad0616.jpg)
 
 ## Estructura física
 
-![](assets/img/Unidad06/Unidad0617.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0617.png)
 
 * **Pistas\.** Son los distintos anillos concéntricos invisibles a lo largo de los cuales se graban los pulsos magnéticos\.
 * **Sectores\.** Las distintas partes en las que se subdivide cada pista\. En el caso de los discos duros el número oscila entre los 15 y los 63 sectores\. El tamaño físico de un sector es de **512 bytes**\.
@@ -89,11 +92,11 @@ El motor gira a una determinadas **RPM: revoluciones por minuto**
 * **Clúster\.** Conjunto contiguo de sectores que componen la unidad más pequeña de almacenamiento de un disco\. 
   > Los archivos se almacenan en uno o varios clústeres\, dependiendo de su tamaño\. 
 
-  > En Windows se  [Tamaño de asignación](https://www.xataka.com/basics/tamano-unidad-asignacion-disco-duro-que-cual-mejor-escoger)
+  > En Windows &rarr; [Tamaño de asignación](https://www.xataka.com/basics/tamano-unidad-asignacion-disco-duro-que-cual-mejor-escoger)
 
 Tamaño de la unidad de asignación en Windows →  Tamaño lógico del cluster
 
-![](assets/img/Unidad06/Unidad0618.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0618.png)
 
 [Tamaño predeterminado del tamaño de asignación en Windows](https://support.microsoft.com/es-es/topic/tama%C3%B1o-de-cl%C3%BAster-predeterminado-para-ntfs-fat-y-exfat-9772e6f1-e31a-00d7-e18f-73169155af95)
 
@@ -105,7 +108,7 @@ Los brazos que poseen las cabezas se mueven todos al unísono hacia el interior 
 
 Las cabezas\, gracias al mismo aire que provoca el giro de los platos\, flotarán sobre la superficie de ellos\, siempre sin tocarla\. Cualquier mínimo contacto podría dañar la superficie y dejar el disco duro inutilizable\.
 
-![](assets/img/Unidad06/Unidad0619.jpg)
+![](assets%5Cimg%5CUnidad06%5CUnidad0619.jpg)
 
 ### Geometría o direccionamiento de los HDD
 
@@ -117,13 +120,13 @@ Hace referencia al número físico real de cabezas\, cilindros\, pistas y sector
 
 LBA0 representa el primer sector lógico del dispositivo
 
-![](assets/img/Unidad06/Unidad0621.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0621.png)
 
 La capacidad del disco se puede calcular si se conocen estos valores que normalmente podemos encontrar en la etiqueta de los discos\. El tamaño físico de un sector es de 512 bytes\.
 
-![](assets/img/Unidad06/Unidad0622.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0622.png)
 
-![](assets/img/Unidad06/Unidad0623.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0623.png)
 
 Capacidad\(CHS\)= C\*H\*S\*512B
 
@@ -155,11 +158,11 @@ Menor capacidad\.
 
 Menor tiempo de vida\.   
 
-![](assets/img/Unidad06/Unidad0624.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0624.png)
 
-![](assets/img/Unidad06/Unidad0625.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0625.png)
 
-![](assets/img/Unidad06/Unidad0626.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0626.png)
 
 # 2.2 SSD. Estructura interna
 
@@ -173,15 +176,15 @@ __Conector:__  Las SSDs se conectan a la placa madre a través de un conector qu
 
 __Firmware:__  El firmware es el software interno que reside en la SSD y es gestionado por el controlador\. Este software controla las operaciones\, la gestión de errores y las funciones avanzadas de la unidad SSD\.
 
-![](assets/img/Unidad06/Unidad0627.jpg)
+![](assets%5Cimg%5CUnidad06%5CUnidad0627.jpg)
 
 # 2.2 SSD. Tipos de conexión
 
-![](assets/img/Unidad06/Unidad0628.jpg)
+![](assets%5Cimg%5CUnidad06%5CUnidad0628.jpg)
 
-![](assets/img/Unidad06/Unidad0629.jpg)
+![](assets%5Cimg%5CUnidad06%5CUnidad0629.jpg)
 
-![](assets/img/Unidad06/Unidad0630.jpg)
+![](assets%5Cimg%5CUnidad06%5CUnidad0630.jpg)
 
 # 2.2 Disco duro SSD. Chips de Memoria NAND FLASH
 
@@ -191,17 +194,17 @@ __Firmware:__  El firmware es el software interno que reside en la SSD y es gest
 
 <span style="color:#1E1E1E">Los electrones son almacenados en el puente flotante \( style="color:#1E1E1E">Flaoting style="color:#1E1E1E"> Gate\)\, de forma que toma una lectura de 0 cuando está cargado\, o 1 si está vacío\. Son unos valores opuestos a lo que se suelen utilizar\. De ahí el nombre  style="color:#1E1E1E"> __N style="color:#1E1E1E">egated style="color:#1E1E1E">  style="color:#1E1E1E"> __AND
 
-![](assets/img/Unidad06/Unidad0631.jpg)
+![](assets%5Cimg%5CUnidad06%5CUnidad0631.jpg)
 
-![](assets/img/Unidad06/Unidad0632.jpg)
+![](assets%5Cimg%5CUnidad06%5CUnidad0632.jpg)
 
-![](assets/img/Unidad06/Unidad0633.jpg)
+![](assets%5Cimg%5CUnidad06%5CUnidad0633.jpg)
 
-![](assets/img/Unidad06/Unidad0634.jpg)
+![](assets%5Cimg%5CUnidad06%5CUnidad0634.jpg)
 
 Los transistores que componen la memoria almacenan la información en   celdas   en las que se almacenan datos en forma de voltajes\. Dichas celdas forman matrices o   bloques   de las que a cada fila se le conoce como   página  ; 
 
-![](assets/img/Unidad06/Unidad0635.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0635.png)
 
 __¿En cada celda se almacena un bit?__
 
@@ -225,7 +228,7 @@ NAND QLC
 
 Cada celda almacena 4 bits\, lo que significa 16 estados de voltaje\.
 
-![](assets/img/Unidad06/Unidad0636.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0636.png)
 
 https://www\.profesionalreview\.com/2024/01/30/samsung\-memorias\-nand\-qlc\-280\-capas/
 
@@ -233,11 +236,11 @@ NAND 3D
 
 Las celdas se apilan también verticalmente \(3D\) y no solo a lo largo y ancho \(2D\)\. Esto permite hacer las celdas más grandes y\, por lo tanto\, mejor aisladas\, minimizando los defectos de las memorias TLC considerablemente\, y acercándolas a las MLC en durabilidad\. La mayor densidad de memoria posibilita mayores capacidades de almacenamiento sin un enorme incremento de precio\. Por otra parte\, NAND 3D se caracteriza por su mayor resistencia y menor consumo eléctrico\.
 
-![](assets/img/Unidad06/Unidad0637.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0637.png)
 
 # 2.2 Disco duro SSD.
 
-![](assets/img/Unidad06/Unidad0638.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0638.png)
 
 # 3. Características generales disco duro
 
@@ -250,7 +253,7 @@ Las celdas se apilan también verticalmente \(3D\) y no solo a lo largo y ancho 
 * Memoria caché\.   La memoria caché del disco duro almacenará la información más solicitada\, de manera que la controladora pueda acceder a ella de manera más rápida sin tener que ir a leerla internamente\. Esta memoria se mide en Megabytes\.
 * Tiempo de acceso\.   El tiempo de acceso es el tiempo medio que tarda el disco duro en estar preparado para transferir datos \(ya sea de lectura o de escritura\)\. Este tiempo se mide en nanosegundos \(ns\)
 
-![](assets/img/Unidad06/Unidad0639.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0639.png)
 
 Temperatura\.   Indica el rango de temperaturas a las que el disco puede funcionar\.
 
@@ -278,7 +281,7 @@ Altitud\.   Indica el rango de altitud  a las que el disco puede funcionar\.
 
 I  DE \(Integrated Drive Electronics\)\,   ha sido la interfaz más utilizada hasta hace pocos años para la conexión de dispositivos de almacenamiento en los equipos microinformáticos\. Aunque actualmente no se fabrican dispositivos para esta interfaz\, es muy común encontrarnos equipos antiguos que la utilicen\.
 
-![](assets/img/Unidad06/Unidad0640.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0640.png)
 
 Cada conector IDE de la placa base  admite como máximo dos dispositivos IDE\, como por ejemplo dos discos duros\, o un disco y una unidad de DVD\-ROM o CD\. Uno se identificará como maestro \(master\) y otro como esclavo \(slave\)\. Para configurar un dispositivo IDE como maestro y esclavo se utilizan jumpers \(o puentes\) que se sitúan en la parte posterior del disco\.
 
@@ -286,11 +289,11 @@ La conexión de datos del dispositivo IDE a la placa base se hará mediante un c
 
 Para suministrar energía al dispositivo se utiliza el conector Molex que parte directamente de la fuente de alimentación\.
 
-![](assets/img/Unidad06/Unidad0641.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0641.png)
 
-![](assets/img/Unidad06/Unidad0642.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0642.png)
 
-![](assets/img/Unidad06/Unidad0643.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0643.png)
 
 # 4. Interfaz SATA
 
@@ -298,9 +301,9 @@ El interfaz SATA \(Serial Advanced Technology Attachment\)\,   es el sustituto d
 
 Estándares:
 
-![](assets/img/Unidad06/Unidad0644.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0644.png)
 
-![](assets/img/Unidad06/Unidad0645.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0645.png)
 
 La velocidad de transferencia efectiva sólo tiene en cuenta los datos finales del usuario\, mientras que la velocidad de transferencia en bruto cuenta también los bits de control del interfaz \(bit de arranque y bit de parada\)\.
 
@@ -308,9 +311,9 @@ Los cables de datos solo poseen dos conectores\, uno en cada extremo\, por lo qu
 
 Conector de alimentación SATA directo desde la fuente\.
 
-![](assets/img/Unidad06/Unidad0646.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0646.png)
 
-![](assets/img/Unidad06/Unidad0647.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0647.png)
 
 # 4. Interfaz NVMe - M.2
 
@@ -318,15 +321,15 @@ NVMe son las siglas de «Non\-Volatile Memory Express»\, o memoria exprés no v
 
 Utiliza la tecnología PCI\-Express lo que le permite al disco duro ofrecer un ancho de banda mucho más amplio en   _[comparación con la interfaz SATA\.](https://www.geeknetic.es/Guia/2189/SSD-M2-NVMe-y-SATA-Caracteristicas-y-Diferencias.html)_
 
-![](assets/img/Unidad06/Unidad0648.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0648.png)
 
-![](assets/img/Unidad06/Unidad0649.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0649.png)
 
-![](assets/img/Unidad06/Unidad0650.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0650.png)
 
 # 4. Interfaz SCSI
 
-![](assets/img/Unidad06/Unidad0651.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0651.png)
 
  __La interfaz SCSI \(Small Computers System Interface \- Interfaz de Sistema para Pequeñas Computadoras\)\.   Todo lo contrario a lo que su nombre indica\, se utilizaba en entorno profesionales\. 
 
@@ -344,13 +347,13 @@ El interfaz SAS \(Serial Attached SCSI\) es una interfaz de conexión de disposi
 
 Aumenta la velocidad de transferencia al aumentar el número de dispositivos conectados\, hasta 128 dispositivos
 
-![](assets/img/Unidad06/Unidad0652.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0652.png)
 
 Las placas base no suelen tener este tipo de controladoras integradas\, necesitando tarjetas de expansión adicionales para poder utilizar este tipo de interfaz\.
 
 Similar al conector de la interfaz SATA\, pero el conector del disco duro posee una particularidad\, el conector de datos y el de alimentación están unidos sin separación entre ellos\. Debido a esta particularidad\, los discos duros SATA pueden ser utilizados en una controladoras SAS\, pero no a la inversa
 
-![](assets/img/Unidad06/Unidad0653.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0653.png)
 
 # 5. Discos duros externos
 
@@ -360,19 +363,19 @@ Thunderbolt
 
 eSATA
 
-![](assets/img/Unidad06/Unidad0654.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0654.png)
 
-![](assets/img/Unidad06/Unidad0655.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0655.png)
 
-![](assets/img/Unidad06/Unidad0656.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0656.png)
 
-![](assets/img/Unidad06/Unidad0657.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0657.png)
 
-![](assets/img/Unidad06/Unidad0658.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0658.png)
 
 # 6. Factor de forma
 
-![](assets/img/Unidad06/Unidad0659.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0659.png)
 
 # 6. Factor de forma 3,5”
 
@@ -382,7 +385,7 @@ Discos duros actuales →  Interfaz SATA / SAS
 
 Medidas típicas de 101 x 25\,4 x 146   mm\.
 
-![](assets/img/Unidad06/Unidad0660.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0660.png)
 
 <span style="color:#202124">Suelen tener unas dimensiones de 6\,9 x 10 x 9\,7 centímetros
 
@@ -390,17 +393,17 @@ Medidas típicas de 101 x 25\,4 x 146   mm\.
 
 <span style="color:#212529">Actualmente → Interfaz SATA\.
 
-![](assets/img/Unidad06/Unidad0661.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0661.png)
 
-![](assets/img/Unidad06/Unidad0662.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0662.png)
 
-![](assets/img/Unidad06/Unidad0663.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0663.png)
 
 # 6. Factor de forma 1.8”
 
 <span style="color:#212529">Hay que distinguir entre discos con factor de forma 1\.8” con conexión mSATA y conexión  style="color:#212529"> _PCI\-Express \(NVMe M\.2\)_ 
 
-![](assets/img/Unidad06/Unidad0664.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0664.png)
 
 <span style="color:#666666">Arriba disco mSATA\, Abajo disco M\.2\.
 
@@ -414,9 +417,9 @@ Medidas típicas de 101 x 25\,4 x 146   mm\.
 
 <span style="color:#212529">Dentro del formato M\.2 existen varios tipos\, por ejemplo M\.2 2242\, M\.2 2260 y M\.2 2280\, esto hace referencia a las dimensiones del dispositivo\, en el primer caso son 22 mm de ancho x 42 mm de largo mientras que en el segundo tiene un largo de 60 mm y el último un largo de 80 mm\.
 
-![](assets/img/Unidad06/Unidad0665.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0665.png)
 
-![](assets/img/Unidad06/Unidad0666.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0666.png)
 
 # 7. Almacenamiento en red. NAS
 
@@ -426,19 +429,19 @@ Medidas típicas de 101 x 25\,4 x 146   mm\.
 
 <span style="color:#212529">Hay discos duros exclusivos para NAS que tienen más durabilidad\, los discos utilizados suelen ser magnéticos de 3\,5”
 
-![](assets/img/Unidad06/Unidad0667.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0667.png)
 
-![](assets/img/Unidad06/Unidad0668.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0668.png)
 
-![](assets/img/Unidad06/Unidad0669.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0669.png)
 
 # 7. Almacenamiento en red. Cabina de discos
 
-![](assets/img/Unidad06/Unidad0670.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0670.png)
 
-![](assets/img/Unidad06/Unidad0671.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0671.png)
 
-![](assets/img/Unidad06/Unidad0672.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0672.png)
 
 _[https://www1\.la\.dell\.com/ue/es/gen/Empresarial/pvaul\_md1000/pd\.aspx?refid=pvaul\_md1000&s=gen](https://www1.la.dell.com/ue/es/gen/Empresarial/pvaul_md1000/pd.aspx?refid=pvaul_md1000&s=gen)_   
 
@@ -448,7 +451,7 @@ _[https://www1\.la\.dell\.com/ue/es/gen/Empresarial/pvaul\_md1000/pd\.aspx?refid
 
 <span style="color:#212529">Existen varios tipo de RAID
 
-![](assets/img/Unidad06/Unidad0673.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0673.png)
 
 # 8.1. RAID 0
 
@@ -458,7 +461,7 @@ _[https://www1\.la\.dell\.com/ue/es/gen/Empresarial/pvaul\_md1000/pd\.aspx?refid
 
 <span style="color:#333333">No hay paridad de datos ni volumen de respaldo\.
 
-![](assets/img/Unidad06/Unidad0674.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0674.png)
 
 # 8.2 RAID 1
 
@@ -470,7 +473,7 @@ _[https://www1\.la\.dell\.com/ue/es/gen/Empresarial/pvaul\_md1000/pd\.aspx?refid
 
 <span style="color:#333333">Perdemos el 50% del espacio total de los discos\. El espacio total de un RAID 1 es la mitad del espacio total de los discos duros\. Por ejemplo\, si hacemos un RAID 1 con dos discos duros de 4 TB solo tendremos un espacio total de 4 TB\.
 
-![](assets/img/Unidad06/Unidad0675.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0675.png)
 
 # 8.3. RAID 5
 
@@ -484,7 +487,7 @@ _[https://www1\.la\.dell\.com/ue/es/gen/Empresarial/pvaul\_md1000/pd\.aspx?refid
 
 <span style="color:#333333">Si falla uno de los discos duros\, cualquiera de ellos\, se puede reemplazar y recuperar todos los datos\.
 
-![](assets/img/Unidad06/Unidad0676.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0676.png)
 
 # 8.4. RAID 6
 
@@ -492,11 +495,11 @@ _[https://www1\.la\.dell\.com/ue/es/gen/Empresarial/pvaul\_md1000/pd\.aspx?refid
 
 <span style="color:#333333">El espacio total de los discos es X\-2\, igual que la mejora de la velocidad de lectura\. A cambio de esta doble paridad incluida en el RAID 6 se pierde el espacio total de dos de los discos duros\. Por ejemplo\, en una configuración de 4 discos duros de 4 TB\, el espacio total que tendríamos es de 8 TB\, con el doble de velocidad de lectura\.
 
-![](assets/img/Unidad06/Unidad0677.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0677.png)
 
 # 9. Almacenamiento en la nube
 
-![](assets/img/Unidad06/Unidad0678.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0678.png)
 
 * <span style="color:#212529">Un sistema de almacenamiento en la nube o Cloud Storage es un modelo de almacenamiento de datos basado en redes de ordenadores donde nuestros datos están alojados en espacios de almacenamiento virtualizados\. Por lo tanto\, el espacio no se encuentra en el propio equipo físico del usuario\, sino en uno o varios servidores ofrecidos por la compañía que contratemos el servicio\. 
 * <span style="color:#212529">Tipos:
@@ -538,9 +541,9 @@ _[https://www1\.la\.dell\.com/ue/es/gen/Empresarial/pvaul\_md1000/pd\.aspx?refid
 
 <span style="color:#333333">xD\-Picture Card \(xD\)
 
-![](assets/img/Unidad06/Unidad0679.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0679.png)
 
-![](assets/img/Unidad06/Unidad0680.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0680.png)
 
 # 10.1 Memorias Flash SD
 
@@ -562,9 +565,9 @@ _[https://www1\.la\.dell\.com/ue/es/gen/Empresarial/pvaul\_md1000/pd\.aspx?refid
 
 <span style="color:#333333">SD\, miniSD\, microSD\.
 
-![](assets/img/Unidad06/Unidad0681.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0681.png)
 
-![](assets/img/Unidad06/Unidad0682.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0682.png)
 
 <span style="color:#333333">Las tarjetas SD también se diferencian entre ellas mediante su clase \(velocidad\)
 
@@ -580,13 +583,13 @@ _[https://www1\.la\.dell\.com/ue/es/gen/Empresarial/pvaul\_md1000/pd\.aspx?refid
 
 <span style="color:#333333"> __UHS Speed Class 3 \(U3\): style="color:#333333"> Tienen una velocidad de escritura mínima de 30 MB/s\, y es la más indicada para grabar vídeos en resoluciones 4K\.
 
-![](assets/img/Unidad06/Unidad0683.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0683.png)
 
-![](assets/img/Unidad06/Unidad0684.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0684.png)
 
-![](assets/img/Unidad06/Unidad0685.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0685.png)
 
-![](assets/img/Unidad06/Unidad0686.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0686.png)
 
 <span style="color:#333333">Las tarjetas SD también pueden diferenciarse por su clase para grabación de vídeo:
 
@@ -600,15 +603,15 @@ _[https://www1\.la\.dell\.com/ue/es/gen/Empresarial/pvaul\_md1000/pd\.aspx?refid
 
 <span style="color:#333333"> __Clase V90: style="color:#333333"> En las tarjetas de Clase U3\, para vídeos 8K a 60/120 fps
 
-![](assets/img/Unidad06/Unidad0687.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0687.png)
 
-![](assets/img/Unidad06/Unidad0688.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0688.png)
 
-![](assets/img/Unidad06/Unidad0689.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0689.png)
 
-![](assets/img/Unidad06/Unidad0690.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0690.png)
 
-![](assets/img/Unidad06/Unidad0691.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0691.png)
 
 # 10.2 Memorias Flash. Pendrive
 
@@ -618,7 +621,7 @@ _[https://www1\.la\.dell\.com/ue/es/gen/Empresarial/pvaul\_md1000/pd\.aspx?refid
 
 <span style="color:#333333">Aquí\, el almacenamiento de cada pendrive lo puedes formatear con diferentes tipos de   _[sistema de archivos](https://www.xataka.com/basics/megaguia-formatos-que-sistema-archivos-formatear-usb-disco-duro-uso-que-vas-a-darle)_ style="color:#333333">\,
 
-![](assets/img/Unidad06/Unidad0692.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0692.png)
 
 <span style="color:#333333">Usos:
 
@@ -630,7 +633,7 @@ _[https://www1\.la\.dell\.com/ue/es/gen/Empresarial/pvaul\_md1000/pd\.aspx?refid
 
 <span style="color:#333333">Utilizar el pendrive como llave de seguridad\, que sirve para verificar tu identidad en procesos de identificación en dos pasos\.
 
-![](assets/img/Unidad06/Unidad0693.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0693.png)
 
 # 11. Unidades ópticas
 
@@ -638,11 +641,11 @@ _[https://www1\.la\.dell\.com/ue/es/gen/Empresarial/pvaul\_md1000/pd\.aspx?refid
 
 <span style="color:#333333">Los discos compactos \(CD\)\, discos versátiles digitales \(DVD\) y discos Blu\-ray \(BD\) son los tipos de medios ópticos más comunes que pueden ser leídos y grabados por estas unidades\.
 
-![](assets/img/Unidad06/Unidad0694.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0694.png)
 
 # 11.1 CD-ROM
 
-![](assets/img/Unidad06/Unidad0695.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0695.png)
 
 * <span style="color:#333333">El CD\-ROM \( style="color:#202124">Compact Disc Read\-Only Memory style="color:#333333">\) estándar fue establecido en 1985 por Sony y Philips\. 
 * <span style="color:#333333">Actualmente en desuso al menos en los equipos microinformáticos
@@ -655,9 +658,9 @@ _[https://www1\.la\.dell\.com/ue/es/gen/Empresarial/pvaul\_md1000/pd\.aspx?refid
   * <span style="color:#333333">CD\-RW \(CD Rewritable\)
 * <span style="color:#202122">Un CD de audio se reproduce a una velocidad tal que se leen 150 __[KB](https://es.wikipedia.org/wiki/Kilobyte)__ por segundo\. Esta velocidad base se usa como referencia para identificar otros lectores como los de __[ordenador](https://es.wikipedia.org/wiki/Computadora_electr%C3%B3nica)__\, de modo que si un lector indica 24x\, significa que puede llegar a leer hasta 24 x 150 KB/S = 3\.600 KB/__[s](https://es.wikipedia.org/wiki/Segundo)__
 
-![](assets/img/Unidad06/Unidad0696.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0696.png)
 
-![](assets/img/Unidad06/Unidad0697.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0697.png)
 
 Velocidad de lectura/escritura CD CAV \(Constant Angular Velocity\)
 
@@ -665,23 +668,23 @@ Si un lector indica 24x\, significa que puede llegar a leer hasta:
 
 Velocidad = 24 x 150 KB = 3\.600 KB/s
 
-![](assets/img/Unidad06/Unidad0698.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0698.png)
 
-![](assets/img/Unidad06/Unidad0699.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad0699.png)
 
-![](assets/img/Unidad06/Unidad06100.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06100.png)
 
-![](assets/img/Unidad06/Unidad06101.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06101.png)
 
-![](assets/img/Unidad06/Unidad06102.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06102.png)
 
-![](assets/img/Unidad06/Unidad06103.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06103.png)
 
 # 11.2 DVD
 
-![](assets/img/Unidad06/Unidad06104.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06104.png)
 
-![](assets/img/Unidad06/Unidad06105.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06105.png)
 
 * Digital Versatile Disc \(disco versátil digital\)
 * 1995→ style="color:#202122"> _DVD Consortium_ 
@@ -697,19 +700,19 @@ Velocidad = 24 x 150 KB = 3\.600 KB/s
   * DVD\-R DL \(dual layer\) / DVD\+R DL
 * \.
 
-![](assets/img/Unidad06/Unidad06106.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06106.png)
 
-![](assets/img/Unidad06/Unidad06107.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06107.png)
 
-![](assets/img/Unidad06/Unidad06108.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06108.png)
 
-![](assets/img/Unidad06/Unidad06109.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06109.png)
 
-![](assets/img/Unidad06/Unidad06110.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06110.png)
 
-![](assets/img/Unidad06/Unidad06111.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06111.png)
 
-![](assets/img/Unidad06/Unidad06112.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06112.png)
 
 # 11.3 Blu-Ray
 
@@ -724,15 +727,15 @@ Velocidad = 24 x 150 KB = 3\.600 KB/s
 * <span style="color:#333333">La velocidad de transferencia va a venir expresada por un número seguido de una “X”\. En este caso la “X” se refiere a una velocidad de 4\,5MB/s\. Actualmente existen unidades lectoras de BD con una velocidad de 12x\.
 * <span style="color:#333333">Pueden leer y escribir\* también CD y DVD
 
-![](assets/img/Unidad06/Unidad06113.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06113.png)
 
-![](assets/img/Unidad06/Unidad06114.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06114.png)
 
 # 11. Unidades ópticas
 
-![](assets/img/Unidad06/Unidad06115.jpg)
+![](assets%5Cimg%5CUnidad06%5CUnidad06115.jpg)
 
-![](assets/img/Unidad06/Unidad06116.jpg)
+![](assets%5Cimg%5CUnidad06%5CUnidad06116.jpg)
 
 # 12. Cintas magnéticas
 
@@ -746,23 +749,23 @@ Velocidad = 24 x 150 KB = 3\.600 KB/s
 
 <span style="color:#333333">La grabación y lectura se efectúan de forma secuencial\, que significa que para encontrar algo que está en medio de la cinta debes “hacerla avanzar” previamente hasta que el cabezal de lectoescritura se posicione sobre el lugar correcto\, proceso que puede demorar varios minutos
 
-![](assets/img/Unidad06/Unidad06117.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06117.png)
 
-![](assets/img/Unidad06/Unidad06118.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06118.png)
 
 # 12. Cintas magnéticas.LTO
 
 <span style="color:#333333"> __Linear Tape\-Open \(LTO\)  style="color:#333333">es una tecnología de cinta magnética de almacenamiento de datos\, desarrollada originalmente a finales de 1990\.
 
-![](assets/img/Unidad06/Unidad06119.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06119.png)
 
-![](assets/img/Unidad06/Unidad06120.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06120.png)
 
-![](assets/img/Unidad06/Unidad06121.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06121.png)
 
-![](assets/img/Unidad06/Unidad06122.jpg)
+![](assets%5Cimg%5CUnidad06%5CUnidad06122.jpg)
 
-![](assets/img/Unidad06/Unidad06123.jpg)
+![](assets%5Cimg%5CUnidad06%5CUnidad06123.jpg)
 
 # 13. Estructura lógica de los discos
 
@@ -780,7 +783,7 @@ Espacio sin particionar\.   Es espacio no accesible del disco ya que todavía no
   * <span style="color:#333333">si es o no la partición activa \(que es la que está configurada para arrancar\)\.
 * <span style="color:#333333">De esta forma\, cuando arranca un ordenador la BIOS intenta localizar el MBR donde identifica la partición definida como activa y se inicia el proceso de arranque\. Dicho de otra forma\, el MBR apunta a la partición activa y el equipo comenzará a cargar el sistema operativo almacenado en esa partición activa o un menú de arranque que permita elegir el sistema operativo \(si tiene varios instalados\) a arrancar\.
 
-![](assets/img/Unidad06/Unidad06124.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06124.png)
 
 * Tamaño de 512 bytes  
 * Consta de tres partes
@@ -788,15 +791,15 @@ Espacio sin particionar\.   Es espacio no accesible del disco ya que todavía no
   * Tabla de particiones   \(64 Bytes\)\. Posee información sobre las distribuciones del disco duro\. Información de hasta 4 particiones de 16 bytes cada una\.
   * Firma   \(2 bytes\) → 0x5AA\. Los sistemas operativos utilizan la firma de disco para identificar y diferenciar diferentes dispositivos de almacenamiento de datos y unidades de disco duro en la computadora para el acceso a los datos\.
 
-![](assets/img/Unidad06/Unidad06125.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06125.png)
 
-![](assets/img/Unidad06/Unidad06126.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06126.png)
 
-![](assets/img/Unidad06/Unidad06127.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06127.png)
 
 # 13. GPT (GUID Partition Table)
 
-![](assets/img/Unidad06/Unidad06128.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06128.png)
 
 GPT \(GUID Partition Table\) es un nuevo estándar para colocar tablas de particiones en medios de almacenamiento\. Forma parte de la \(UEFI\)\.
 
@@ -804,7 +807,7 @@ GPT se localiza al comienzo del disco duro \(  _[Primary GUID](https://es.wikipe
 
 Los datos críticos para el funcionamiento de la plataforma se almacenan en particiones en lugar de hacerlo en sectores ocultos o no particionados \(como en el caso de MBR\)\.  Además\, los discos GPT incluyen tablas de partición principales redundantes \(Primary GUID\) y de copia de seguridad \(Backup GUID\) a fin de mejorar la integridad de la estructura de datos de la partición\.
 
-![](assets/img/Unidad06/Unidad06129.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06129.png)
 
 # 13. MBR vs GPT
 
@@ -818,43 +821,43 @@ MBR→ BIOS // GPT→ UEFI
 
 MBR es soportado por sistemas operativos tanto antiguos como modernos mientras que GPT solo es soportado por SO modernos \(a partir de Windows 8\)
 
-![](assets/img/Unidad06/Unidad06130.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06130.png)
 
 ¿Qué pasa si se corrompe MBR?
 
 ¿Qué pasa si se corrompe GPT?
 
-![](assets/img/Unidad06/Unidad06131.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06131.png)
 
-![](assets/img/Unidad06/Unidad06132.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06132.png)
 
 # 13. Estructura lógica de los discos
 
 <span style="color:#333333"> __Partición primaria\. style="color:#333333"> Puede ser reconocida como una partición de arranque y puede contener un sistema operativo que realice el arranque del equipo\. Una de las particiones primarias se llama la partición activa y es la de arranque\. El ordenador busca en esa partición activa el arranque del sistema\. Cuando hay varios sistemas operativos instalados la partición activa tiene un pequeño programa llamado gestor de arranque que presenta un pequeño menú que permite elegir qué sistema operativo se arranca\. Los sistemas operativos detectarán las particiones primarias y les asignará una unidad\. Límite de 4 en MBR y 128 en GPT\.
 
-![](assets/img/Unidad06/Unidad06133.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06133.png)
 
-![](assets/img/Unidad06/Unidad06134.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06134.png)
 
-![](assets/img/Unidad06/Unidad06135.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06135.png)
 
 <span style="color:#333333"> __Partición extendida\. style="color:#333333"> También conocida como partición secundaria\, sirve para contener múltiples unidades lógicas en su interior\. Fue ideada para romper la limitación de 4 particiones primarias en un solo disco físico por tanto sólo se utiliza en MBR\. Solo puede existir una partición de este tipo por disco\, y solo sirve para contener particiones lógicas\. Por lo tanto\, es el único tipo de partición que  style="color:#333333"> _no_  style="color:#333333"> soporta un sistema de archivos directamente\. No se puede instalar un sistema operativo en ella\.  style="color:#333333"> _Solo aplicable a MBR\._ 
 
-![](assets/img/Unidad06/Unidad06136.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06136.png)
 
 Disco duro con tres particiones primarias y una extendida\.
 
 <span style="color:#333333"> __Partición lógica\.  style="color:#333333">Ocupa una porción de la partición extendida o la totalidad de la misma\, y se puede formatear con un sistema de archivos diferente \(FAT32\, NTFS\, ext3\, ext4\, etc\.\) y se le asignan una unidad\, así el sistema operativo reconoce las particiones lógicas o su sistema de archivos\.  style="color:#333333"> _Solo aplicable a MBR\._ 
 
-![](assets/img/Unidad06/Unidad06137.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06137.png)
 
 Disco duro MBR con tres particiones primarias y  una extendida con cuatro lógicas
 
-![](assets/img/Unidad06/Unidad06138.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06138.png)
 
 Disk Management \- Administrador de discos
 
-![](assets/img/Unidad06/Unidad06139.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06139.png)
 
 # 14. Sistema de archivos
 
@@ -864,7 +867,7 @@ Para ello\, el sistema operativo utiliza las famosas “carpetas” o “directo
 
 La estructura de directorios suele ser jerárquica\, ramificada o en árbol invertido\.
 
-![](assets/img/Unidad06/Unidad06140.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06140.png)
 
 Los principales tipos sistemas de archivos que encontramos son los siguientes:
 
@@ -896,21 +899,21 @@ MacOS:   APFS\,   HFS\, HFS EXT4 y NTFS con limitaciones\.
 
 <span  __Actividad sistema de archivos
 
-![](assets/img/Unidad06/Unidad06141.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06141.png)
 
-![](assets/img/Unidad06/Unidad06142.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06142.png)
 
-![](assets/img/Unidad06/Unidad06143.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06143.png)
 
 # 14. Comandos disco duro
 
 Info del disco:   wmic diskdrive get caption\,serialnumber
 
-![](assets/img/Unidad06/Unidad06144.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06144.png)
 
 Espacio libre:   fsutil volume diskfree c:
 
-![](assets/img/Unidad06/Unidad06145.png)
+![](assets%5Cimg%5CUnidad06%5CUnidad06145.png)
 
 # Bibliografía
 
