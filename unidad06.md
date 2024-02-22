@@ -2,13 +2,13 @@
 
 # Definición
 
-Los dispositivos de almacenamiento de un equipo microinformático\, también conocidos como memoria secundaria\, es el lugar donde se almacenan permanentemente los programas y datos con los que se trabaja en el mismo\. Se caracteriza por tener gran capacidad de almacenamiento\, ser   _no volátil_   y por un tiempo de acceso más lento que el acceso a la memoria principal\.
+Los dispositivos de almacenamiento de un equipo microinformático\, también conocidos como memoria secundaria\, es el lugar donde se almacenan permanentemente los programas y datos con los que se trabaja en el mismo\. Se caracteriza por tener gran capacidad de almacenamiento\, ser no volátil y por un tiempo de acceso más lento que el acceso a la memoria principal\.
 
 ![](assets%5Cimg%5CUnidad06%5CUnidad062.png)
 
 # Unidad de almacenamiento principal
 
-Actualmete los dispositivos de almacenamiento principal en un equipo microinformático y donde se suele instalar el sistema operativo son los **discos duros magnéticos o HDD (Hard Disk Drive)** y las **unidades de estado sólido SDD (Solid State Drive)**
+Actualmete los dispositivos de almacenamiento secundario principal en un equipo microinformático y donde se suele instalar el sistema operativo, además de tener la posibilidad de almacenar programas y datos son los **discos duros magnéticos o HDD (Hard Disk Drive)** y las **unidades de estado sólido o SDD (Solid State Drive)**
 
 Sus características principales son:
 
