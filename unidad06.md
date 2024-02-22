@@ -1,13 +1,3 @@
-
-<style>
-img {
-    display: block;
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
-}
-</style>
-
 # Unidad 6. Dispositivos de almacenamiento
 
 # Definición

@@ -1,11 +1,3 @@
-<style>
-img {
-    display: block;
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
-}
-</style>
 # Unidad 5. Memoria RAM
 
 # Definición de memoria RAM
