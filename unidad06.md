@@ -6,15 +6,15 @@ Los dispositivos de almacenamiento de un equipo microinformático\, también con
 
 ![](assets%5Cimg%5CUnidad06%5CUnidad062.png)
 
-# Disco duro
+# Unidad de almacenamiento principal
 
-Actualmete los dispositivos de almacenamiento principal en un equipo microinformático son los **discos duros magnéticos o HDD (Hard Disk Drive)** y las **unidades de estado sólido SDD (Solid State Drive)**
+Actualmete los dispositivos de almacenamiento principal en un equipo microinformático y donde se suele instalar el sistema operativo son los **discos duros magnéticos o HDD (Hard Disk Drive)** y las **unidades de estado sólido SDD (Solid State Drive)**
 
-Sus características principales son :
+Sus características principales son:
 
 + Gran capacidad de almacenamiento\.
 + No volátil\.
-+ Acceso más lento que la memoria principal\.
++ Acceso más lento que la memoria principal(RAM)\.
 
 ![](assets%5Cimg%5CUnidad06%5CUnidad063.png)
 
