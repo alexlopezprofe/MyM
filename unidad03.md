@@ -108,7 +108,7 @@ La clasificación se hace normalmente por su tamaño dependiendo de las placas b
 
 ![](assets/img/Unidad03/U315.png)
 
-<span style="color:#394649">Las medidas de los cables eléctricos se suelen categorizar en calibres si se habla del sistema AWG (American Wire Gauge), sin embargo es más común conocerlos dependiendo del   <span style="color:#394649"> **diámetro del cable**   <span style="color:#394649"> en el sistema métrico decimal y categorizarlos en milímetros cuadrados dependiendo del diámetro de la sección
+<span style="color:#394649">Las medidas de los cables eléctricos se suelen categorizar en calibres si se habla del sistema AWG (American Wire Gauge), sin embargo es más común conocerlos dependiendo del  style="color:#394649"> **diámetro del cable**  style="color:#394649"> en el sistema métrico decimal y categorizarlos en milímetros cuadrados dependiendo del diámetro de la sección
 
 ![](assets/img/Unidad03/U316.png)
 
@@ -490,7 +490,7 @@ _[Chipsets AMD](https://www.amd.com/en/products/chipsets-motherboards-desktop) /
 
 ## La BIOS
 
- **BIOS**  es el acrónimo (Basic Input/Output System, Sistema Básico de Entrada/Salida) es un conjunto de programas, grabados en un chip de la placa base que se encarga de realizar las funciones necesarias para que el ordenador arranque.   <span style="color:#202122">Viene configurada de fábrica con los valores de la placa base por defecto, sin embargo, estos valores pueden ser modificados por el usuario según las necesidades.
+ **BIOS**  es el acrónimo (Basic Input/Output System, Sistema Básico de Entrada/Salida) es un conjunto de programas, grabados en un chip de la placa base que se encarga de realizar las funciones necesarias para que el ordenador arranque.  style="color:#202122">Viene configurada de fábrica con los valores de la placa base por defecto, sin embargo, estos valores pueden ser modificados por el usuario según las necesidades.
 
 <span style="color:#202122">Cuando enciendes el ordenador lo primero que arranca es la BIOS. Este firmware entonces se encarga de iniciar, configurar y comprobar que se encuentre en buen estado el hardware del ordenador, incluyendo la memoria RAM, los discos duros, la placa base, la tarjeta gráfica.... Cuando termina selecciona el dispositivo de arranque (disco duro, CD, USB etcétera) y procede a iniciar el sistema operativo.
 

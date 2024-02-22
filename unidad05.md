@@ -209,12 +209,12 @@ _[https://pcpro.es/guias/latencia-memoria-ram-que-es-y-tipos/](https://pcpro.es/
 **Timings.**  Suelen visualizarse en formato numérico: 9-9-9-24 es un ejemplo de tiempos o timings de una memoria DDR.
 
 ¿Qué significa cada uno de los cuatro números? 
-* Latencia CAS (Column Address Strobe) (CL):   <span style="color:#58585A">   Ciclos de reloj que pasan desde que se realiza una petición para leer o escribir un dato hasta que dicha información está disponible, o los ciclos de reloj que transcurre entre que el controlador de memoria envía una petición para leer una posición de memoria y el momento en que los datos son enviados a los pines de salida del módulo.  _Es el dato más importante de esta lista de números._ 
+* Latencia CAS (Column Address Strobe) (CL):  style="color:#58585A">   Ciclos de reloj que pasan desde que se realiza una petición para leer o escribir un dato hasta que dicha información está disponible, o los ciclos de reloj que transcurre entre que el controlador de memoria envía una petición para leer una posición de memoria y el momento en que los datos son enviados a los pines de salida del módulo.  _Es el dato más importante de esta lista de números._ 
   * Los tipos de memoria nueva suelen tener una latencia CAS mucho más alta que sus modelos comparables más antiguos.
 * _[https://www.crucial.es/articles/about-memory/difference-between-speed-and-latency](https://www.crucial.es/articles/about-memory/difference-between-speed-and-latency)_   
-* <span style="color:#58585A"> Retardo de columna y fila (tRCD o Time RAS to CAS Delay)   <span style="color:#58585A">: Número mínimo de ciclos de reloj necesarios para abrir una fila y acceder a una columna. Se puede considerar el tiempo mínimo que tarda la RAM en llegar a la nueva dirección. El tiempo para leer el primer bit de memoria de una DRAM sin ninguna fila activa seria tRCD + CL
-* <span style="color:#58585A"> Tiempo de precarga de fila (tRP o Time RAS Precharge):   <span style="color:#58585A"> Tiempo que tarda la memoria en tener lista una fila nueva para usar datos. Significa básicamente el tiempo que tarda en hacer un salto de línea es decir estoy leyendo la fila "5" y paso a la fila "6" el TRP mide el tiempo que tardó en hacer ese cambio de fila "5" a fila "6".
-* <span style="color:#58585A"> Tiempo activo de fila (tRAS):   <span style="color:#58585A"> Número mínimo de ciclos para los que debe estar activa una fila para garantizar que tengamos tiempo suficiente para acceder a la información que contiene.
+* <span style="color:#58585A"> Retardo de columna y fila (tRCD o Time RAS to CAS Delay)  style="color:#58585A">: Número mínimo de ciclos de reloj necesarios para abrir una fila y acceder a una columna. Se puede considerar el tiempo mínimo que tarda la RAM en llegar a la nueva dirección. El tiempo para leer el primer bit de memoria de una DRAM sin ninguna fila activa seria tRCD + CL
+* <span style="color:#58585A"> Tiempo de precarga de fila (tRP o Time RAS Precharge):  style="color:#58585A"> Tiempo que tarda la memoria en tener lista una fila nueva para usar datos. Significa básicamente el tiempo que tarda en hacer un salto de línea es decir estoy leyendo la fila "5" y paso a la fila "6" el TRP mide el tiempo que tardó en hacer ese cambio de fila "5" a fila "6".
+* <span style="color:#58585A"> Tiempo activo de fila (tRAS):  style="color:#58585A"> Número mínimo de ciclos para los que debe estar activa una fila para garantizar que tengamos tiempo suficiente para acceder a la información que contiene.
 
 ### Cálculo de latencia real
 
@@ -226,7 +226,7 @@ _[Corsair Value Select DDR4 2666Mhz PC4-21300 8GB CL18](https://www.memoryc.com/
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | DD4 | 2666 | 1333 | 0.75 | 18 | 13.5 |
 
-<span style="color:#58585A">Latencia real   <span style="color:#58585A">(ns)  <span style="color:#58585A"> = tiempo de ciclo de reloj   <span style="color:#58585A">(ns)  <span style="color:#58585A"> x números de ciclos de reloj(CAS)
+<span style="color:#58585A">Latencia real  style="color:#58585A">(ns) style="color:#58585A"> = tiempo de ciclo de reloj  style="color:#58585A">(ns) style="color:#58585A"> x números de ciclos de reloj(CAS)
 
 * **Frecuencia real=** 2666(MT/s) /2 = 1333MHz
 
@@ -254,7 +254,7 @@ Disminuye a la vez que la tecnología avanza, es decir el consumo de los módulo
 
 ## Factor de forma
 
-* **DIMM:** <span style="color:#333333">El término   <span style="color:#333333"> DIMM   <span style="color:#333333"> es el acrónimo de la expresión “Dual In-line Memory Module”
+* **DIMM:** <span style="color:#333333">El término  style="color:#333333"> DIMM  style="color:#333333"> es el acrónimo de la expresión “Dual In-line Memory Module”
 * **SO-DIMM:** “Small Outline Dual In-line Memory Module”, y es precisamente esas palabras «Small Outline» lo que las diferencia de los módulos DIMM habituales. La diferencia es meramente física, ocupan un menor espacio y así se pueden instalar en equipos de tamaño reducido como los portátiles.
 
 ![](assets/img/Unidad05/Unidad537.png)
@@ -279,7 +279,7 @@ Disminuye a la vez que la tecnología avanza, es decir el consumo de los módulo
 
 <span style="color:#58585A">En la memoria principal, los contenidos son almacenados en forma de código binario, en otras palabras, están compuestos por unos y ceros para que el ordenador pueda procesarlos. Los dígitos binarios se conocen como bits. Factores como (fluctuaciones del voltaje, overclocking, módulos de memoria defectuosos y viejos, o radiación de alta energía) pueden generar un error de bit. Estos fallos de bit se presentan cuando un bit toma el valor falso, es decir “1” en vez de “0” y viceversa. En muchas aplicaciones, las consecuencias de estos fallos son apenas perceptibles, pero en otros ámbitos esos fallos no son asumibles
 
-<span style="color:#58585A">La solución a este problema se llama   <span style="color:#58585A"> Error Correcting Code   <span style="color:#58585A"> (ECC), un código que tiene la capacidad de detectar y corregir errores de bit
+<span style="color:#58585A">La solución a este problema se llama  style="color:#58585A"> Error Correcting Code  style="color:#58585A"> (ECC), un código que tiene la capacidad de detectar y corregir errores de bit
 
 <span style="color:#58585A">La memoria ECC (Error Correcting Code) o código de corrección de errores es un tipo de memoria de ordenador que detecta y corrige los tipos más comunes de corrupción de datos de la memoria.
 
@@ -287,7 +287,7 @@ Disminuye a la vez que la tecnología avanza, es decir el consumo de los módulo
 
 <span style="color:#58585A">El Rank en DDR5 contiene 2*8 bits de memoria adicionales, lo que hace un total de 80 bits.
 
-<span style="color:#58585A">A medida que se procesan los datos, la memoria ECC está constantemente analizando código con un algoritmo especial para detectar y corregir errores de memoria de un solo bit → (  _[código Hamming](https://es.wikipedia.org/wiki/C%C3%B3digo_Hamming)_  <span style="color:#58585A">)
+<span style="color:#58585A">A medida que se procesan los datos, la memoria ECC está constantemente analizando código con un algoritmo especial para detectar y corregir errores de memoria de un solo bit → (  _[código Hamming](https://es.wikipedia.org/wiki/C%C3%B3digo_Hamming)_ style="color:#58585A">)
 
 <span style="color:#58585A">Se utiliza en servidores, sitios con información sensible o cálculos complejos.
 
@@ -309,7 +309,7 @@ Más cara de construir y utilizada en servidores.
 
 Cuando se fabrica como un módulo de memoria dual en línea (DIMM), un módulo de memoria registrado se denomina RDIMM , mientras que la memoria no registrada se denomina UDIMM o simplemente DIMM
 
-<span style="color:#222222">Cuando no poseen esta característica nos puede venir indicado como   <span style="color:#222222"> _Unbuffered o Unregistered_   <span style="color:#222222">.
+Cuando no poseen esta característica nos puede venir indicado como    _Unbuffered o Unregistered_   .
 
 ![](assets/img/Unidad05/Unidad544.png)
 
@@ -438,7 +438,7 @@ CMK. Corsair
 
 ![](assets/img/Unidad05/Unidad554.png)
 
-<span style="color:#58585A">HBM(High Bandwidth Memory), tipo de memoria gráfica que tiene un ancho de banda mucho mayor que GDDR6, alto coste (HBM,   _[HBM2](https://www.pccomponentes.com/amd-radeon-pro-wx-9100-16gb-gddr5-hbm2)_  <span style="color:#58585A">,   _[HBM2E](https://hardzone.es/tutoriales/rendimiento/memoria-hbm2e-caracteristicas-especificaciones/)_  <span style="color:#58585A">)
+<span style="color:#58585A">HBM(High Bandwidth Memory), tipo de memoria gráfica que tiene un ancho de banda mucho mayor que GDDR6, alto coste (HBM,   _[HBM2](https://www.pccomponentes.com/amd-radeon-pro-wx-9100-16gb-gddr5-hbm2)_ style="color:#58585A">,   _[HBM2E](https://hardzone.es/tutoriales/rendimiento/memoria-hbm2e-caracteristicas-especificaciones/)_ style="color:#58585A">)
 
 # Bibliografia
 
