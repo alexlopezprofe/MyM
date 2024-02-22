@@ -10,7 +10,8 @@ Se denominan «de acceso aleatorio» porque se puede leer o escribir en una posi
 
 Físicamente es un conjunto de chips soldados sobre una PCB, a este conjunto de chips, se le denomina _módulo_ de memoria RAM.
 
-Los fabricantes tienen que fabricar los módulos de memoria siguiendo los estándares marcados por _[JEDEC](https://www.jedec.org/_ (Joint Electron Device Engineering Council)
+Los fabricantes tienen que fabricar los módulos de memoria siguiendo los estándares marcados por JEDEC ((Joint Electron Device Engineering Council)
+(https://www.jedec.org/)
 
 ![](assets/img/Unidad05/Unidad51.png)
 
@@ -20,21 +21,21 @@ Los fabricantes tienen que fabricar los módulos de memoria siguiendo los están
 
 ![](assets/img/Unidad05/Unidad53.png)
 
-![](assets/img/Unidad05/Unidad54.png)
 
 ![](assets/img/Unidad05/Unidad55.png)
 
-![](assets/img/Unidad05/Unidad56.png)
+
 
 ## SPD. Serial Presence Detect chip
 
-**Circuito SPD (Serial Presence Detect chip):** Es el encargado de almacenar datos relativos al módulo de memoria RAM, como el tamaño de la memoria, el tiempo de acceso, la velocidad y el tipo de memoria. De esta forma el ordenador conocerá que memoria RAM tiene instalada de manera automática sin intervención del usuario.
+**El Circuito SPD (Serial Presence Detect Chip):** Es el encargado de almacenar datos relativos al módulo de memoria RAM, como el tamaño de la memoria, el tiempo de acceso, la velocidad y el tipo de memoria. De esta forma el ordenador conocerá que memoria RAM tiene instalada de manera automática sin intervención del usuario.
+
+![](assets/img/Unidad05/Unidad54.png)
 
 ![](assets/img/Unidad05/Unidad57.png)
 
-![](assets/img/Unidad05/Unidad58.png)
 
-**Circuito SPD (Serial Presence Detect chip):** Es el encargado de almacenar datos relativos al módulo de memoria RAM, como el tamaño de la memoria, el tiempo de acceso, la velocidad y el tipo de memoria. De esta forma el ordenador conocerá que memoria RAM tiene instalada de manera automática sin intervención del usuario.
+
 
 ## PMIC - Power management integrated circuits
 
