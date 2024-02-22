@@ -8,9 +8,11 @@ Es una memoria volátil, es decir, la información se pierde al interrumpirse el
 
 Se denominan «de acceso aleatorio» porque se puede leer o escribir en una posición de memoria con un tiempo de espera igual para cualquier posición.
 
-Físicamente es un conjunto de chips soldados sobre una PCB, a este conjunto de chips, se le denomina _módulo_ de memoria RAM.
+![alt text](image-1.png)
 
-Los fabricantes tienen que fabricar los módulos de memoria siguiendo los estándares marcados por JEDEC ((Joint Electron Device Engineering Council)
+Físicamente es un conjunto de chips soldados sobre una PCB, a este conjunto de chips, se le denomina **módulo** de memoria RAM.
+
+Los fabricantes tienen que fabricar los módulos de memoria siguiendo los estándares marcados por **JEDEC** (Joint Electron Device Engineering Council)
 (https://www.jedec.org/)
 
 ![](assets/img/Unidad05/Unidad51.png)
@@ -49,9 +51,6 @@ Los fabricantes tienen que fabricar los módulos de memoria siguiendo los están
 
 ![](assets/img/Unidad05/Unidad510.png)
 
-# Making Memory Chips – Process Steps
-
-![](assets/img/Unidad05/Unidad511.jpg)
 
 [https://www.crucial.es/articles/about-memory/how-is-memory-made](https://www.crucial.es/articles/about-memory/how-is-memory-made)
 
@@ -77,11 +76,11 @@ No todas las memorias tienen el mismo número de chips ni la misma capacidad, es
 
 ## Single vs Dual vs Quad Rank 
 
-<span style="color:#2C2F34"> Single Rank   <span style="color:#2C2F34">: Memoria RAM con un solo bus de datos de 64 bits será determinada como Single Rank o 1R. Un módulo Single Rank tendrá una nomenclatura similar a alguna de estas → 1Rx4, 1Rx8 o 1Rx16. 
+**Single Rank:** Memoria RAM con un solo bus de datos de 64 bits será determinada como Single Rank o 1R. Un módulo Single Rank tendrá una nomenclatura similar a alguna de estas → 1Rx4, 1Rx8 o 1Rx16. 
 
-<span style="color:#2C2F34"> Dual Rank   <span style="color:#2C2F34">: Si un módulo tiene 2 buses de datos de 64 bits. (2R) →  2Rx4, 2Rx8 o 2Rx16
+ **Dual Rank:** Si un módulo tiene 2 buses de datos de 64 bits. (2R) →  2Rx4, 2Rx8 o 2Rx16
 
-<span style="color:#2C2F34"> Quad Rank:   <span style="color:#2C2F34">   <span style="color:#2C2F34">Si un módulo tiene 4 buses de datos de 64 bits  <span style="color:#2C2F34">. (4R) → 4Rx8 o 4Rx16
+ **Quad Rank:** Si un módulo tiene 4 buses de datos de 64 bits  . (4R) → 4Rx8 o 4Rx16
 
 > El **Rank** no da pistas claras de la capacidad del módulo de memoria, ya que los chips pueden ser de 512 MB, 1 GB, 2 GB, 4GB o incluso más. Claro que sabiendo los ranks que dispone un módulo y la capacidad, podremos calcular el bus y la capacidad individual de ellos.
 
