@@ -115,15 +115,13 @@ La capacidad del disco se puede calcular si se conocen estos valores que normalm
 
 ![](assets/img/Unidad06/Unidad0622.png)  ![](assets/img/Unidad06/Unidad0623.png)
 
-**Capacidad(CHS)** = C\*H\*S\*512B
+$Capacidad(CHS) = C*H*S*512B$
 
-$Capacidad = C*S*H*512B$
+Ejemplo CHS &rarr; $Capacidad=19.390*16*63*512B=10.007.101.440B ≈ 10GB$
 
-> Ejemplo CHS &rarr; $Capacidad=19.390*16*63*512B=10.007.101.440B ≈ 10GB$
+$Capacidad (LBA) = SectoresLBA*512B$
 
-**Capacidad (LBA)** = $SectoresLBA*512B$
-
-> Ejemplo LBA &rarr; $Capacidad = 3.907.029.168*512B=2.000.398.934.016B ≈ 2TB$
+Ejemplo LBA &rarr; $Capacidad = 3.907.029.168*512B=2.000.398.934.016B ≈ 2TB$
 
 # SSD.
 
