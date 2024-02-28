@@ -111,7 +111,7 @@ LBA0 representa el primer sector lógico del dispositivo
 
 La capacidad del disco se puede calcular si se conocen estos valores que normalmente podemos encontrar en la etiqueta de los discos. 
 
-> Se recuerda que el tamaño físico de un sector es de 512 bytes.
+> **Recordatorio:** El tamaño físico de un sector es de 512 bytes.
 
 ![](assets/img/Unidad06/Unidad0622.png)
 
