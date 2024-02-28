@@ -84,7 +84,7 @@ El motor gira a una determinadas **RPM: revoluciones por minuto**
 
   > En Windows &rarr; [Tamaño de asignación](https://www.xataka.com/basics/tamano-unidad-asignacion-disco-duro-que-cual-mejor-escoger)
 
-Tamaño de la unidad de asignación en Windows →  Tamaño lógico del cluster
+Tamaño de la unidad de asignación en Windows = Tamaño lógico del cluster
 
 ![](assets%5Cimg%5CUnidad06%5CUnidad0618.png)
 
