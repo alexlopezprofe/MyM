@@ -113,19 +113,17 @@ La capacidad del disco se puede calcular si se conocen estos valores que normalm
 
 > **Recordatorio:** El tamaño físico de un sector es de 512 bytes.
 
-![](assets/img/Unidad06/Unidad0622.png)
+![](assets/img/Unidad06/Unidad0622.png)  ![](assets/img/Unidad06/Unidad0623.png)
 
-![](assets/img/Unidad06/Unidad0623.png)
+**Capacidad(CHS)** = C\*H\*S\*512B
 
-Capacidad(CHS)= C\*H\*S\*512B
+Ejemplo CHS: Capacidad=19390\*16\*63\*512B=10.007.101.440B ≈ 10GB
 
-Capacidad=19390\*16\*63\*512B=10.007.101.440B style="color:#202124"> \_\_≈ 10GB
+**Capacidad (LBA)** =Sectores\*512B
 
-Capacidad (LBA)=Sectores\*512B
+Ejemplo LBA. Capacidad = 3907029168\*512B=2.000.398.934.016B ≈ 2TB
 
-Capacidad=3907029168\*512B=2.000.398.934.016B style="color:#202124"> \_\_≈ 2TB
-
-# 2.2 SSD.
+# SSD.
 
 SSD (Solid State Drive - Unidad de Estado Sólido) utilizan un tipo de memoria flash NAND.
 
@@ -153,21 +151,17 @@ Menor tiempo de vida.
 
 ![](assets/img/Unidad06/Unidad0626.png)
 
-# 2.2 SSD. Estructura interna
+## Estructura interna
 
-<strong>Controlador (Controller</strong>): El controlador es el cerebro de la unidad SSD. Se encarga de gestionar las operaciones de lectura y escritura, así como de llevar a cabo la administración de la memoria. Además, controla la interfaz de conexión con la placa madre, que suele ser SATA, PCIe o NVMe.
-
-**Chips de memoria NAND Flash:** La memoria NAND Flash es el componente fundamental de almacenamiento en una SSD. Está compuesta por celdas de memoria que retienen los datos de forma no volátil. Hay varios tipos de memoria NAND.
-
-**Cache DRAM** : Algunas SSDs incorporan una memoria caché DRAM (memoria de acceso aleatorio dinámica) para mejorar el rendimiento. Esta memoria se utiliza para almacenar temporalmente datos que se acceden con frecuencia, acelerando las operaciones de lectura y escritura.
-
-**Conector:** Las SSDs se conectan a la placa madre a través de un conector que puede ser SATA (o mSATA), NVMe o incluso PCI-E, dependiendo del modelo y la interfaz de conexión utilizada.
-
-**Firmware:** El firmware es el software interno que reside en la SSD y es gestionado por el controlador. Este software controla las operaciones, la gestión de errores y las funciones avanzadas de la unidad SSD.
+* **Controlador (Controller)**: El controlador es el cerebro de la unidad SSD. Se encarga de gestionar las operaciones de lectura y escritura, así como de llevar a cabo la administración de la memoria. Además, controla la interfaz de conexión con la placa madre, que suele ser SATA, PCIe o NVMe.
+* **Chips de memoria NAND Flash:** La memoria NAND Flash es el componente fundamental de almacenamiento en una SSD. Está compuesta por celdas de memoria que retienen los datos de forma no volátil. Hay varios tipos de memoria NAND.
+* **Cache DRAM** : Algunas SSDs incorporan una memoria caché DRAM (memoria de acceso aleatorio dinámica) para mejorar el rendimiento. Esta memoria se utiliza para almacenar temporalmente datos que se acceden con frecuencia, acelerando las operaciones de lectura y escritura.
+* **Conector:** Las SSDs se conectan a la placa madre a través de un conector que puede ser SATA (o mSATA), NVMe o incluso PCI-E, dependiendo del modelo y la interfaz de conexión utilizada.
+* **Firmware:** El firmware es el software interno que reside en la SSD y es gestionado por el controlador. Este software controla las operaciones, la gestión de errores y las funciones avanzadas de la unidad SSD.
 
 ![](assets/img/Unidad06/Unidad0627.jpg)
 
-# 2.2 SSD. Tipos de conexión
+## Tipos de conexión
 
 ![](assets/img/Unidad06/Unidad0628.jpg)
 
@@ -175,13 +169,13 @@ Menor tiempo de vida.
 
 ![](assets/img/Unidad06/Unidad0630.jpg)
 
-# 2.2 Disco duro SSD. Chips de Memoria NAND FLASH
+## Chips de memoria NAND FLASH
 
-Los chips de estas memorias basan su estructura en transistores de puerta flotante (o transistores style="color:#1E1E1E">floating style="color:#1E1E1E">-gate). La diferencia entre este tipo de transistores y los que usan la memoria DRAM, es que estos últimos deben tener una carga eléctrica con una frecuencia de refresco constante para mantener los datos almacenados. Este es el motivo por el que la memoria RAM de nuestro ordenador se vacía al apagar el ordenador.
+Los chips de estas memorias basan su estructura en transistores de puerta flotante (floating gate). La diferencia entre este tipo de transistores y los que usan la memoria DRAM, es que estos últimos deben tener una carga eléctrica con una frecuencia de refresco constante para mantener los datos almacenados. Este es el motivo por el que la memoria RAM de nuestro ordenador se vacía al apagar el ordenador.
 
 La memoria NAND está diseñada para mantener su estado de carga aun cuando no está recibiendo corriente eléctrica, con lo que se consigue mantener la información. Por lo tanto, es un tipo de memoria no volátil
 
-Los electrones son almacenados en el puente flotante ( style="color:#1E1E1E">Flaoting style="color:#1E1E1E"> Gate), de forma que toma una lectura de 0 cuando está cargado, o 1 si está vacío. Son unos valores opuestos a lo que se suelen utilizar. De ahí el nombre style="color:#1E1E1E"> \_\_N style="color:#1E1E1E">egated style="color:#1E1E1E"> style="color:#1E1E1E"> \_\_AND
+Los electrones son almacenados en el puente flotante (Flaoting Gate), de forma que toma una lectura de 0 cuando está cargado, o 1 si está vacío. Son unos valores opuestos a lo que se suelen utilizar. De ahí el nombre Negated AND
 
 ![](assets/img/Unidad06/Unidad0631.jpg)
 
@@ -197,23 +191,21 @@ Los transistores que componen la memoria almacenan la información en  celdas �
 
 **¿En cada celda se almacena un bit?**
 
-# 2.2 Disco duro SSD. Chips de Memoria
+## Chips de **memoria**
 
-NAND SLC (Single Level  Cell) - *Ventaja: Mayor resistencia - Desventaja: Cara y de baja capacidad*
+* **NAND SLC (Single Level  Cell)** - *Ventaja: Mayor resistencia - Desventaja: Cara y de baja capacidad*
 
 La NAND SLC almacena 1 bit de información por celda. La celda guarda un 0 o un 1 y, en consecuencia, los datos pueden escribirse y recuperarse más rápido. SLC ofrece el mejor rendimiento y la mayor resistencia con 100.000 ciclos de P/E ( *[Ciclo de programación de borrado](https://uruguayoc.wordpress.com/2018/02/23/que-es-un-p-e-cycle-o-ciclo-de-programacion-borrado-de-una-celda-de-memoria-nand-flash/)* ) por lo cual durará más que otros tipos de NAND. Sin embargo, por su baja densidad el SLC es el tipo de NAND más caro y, por consiguiente, no suele utilizarse en productos de consumo. Normalmente se emplea en servidores y otras aplicaciones industriales que requieren rapidez y durabilidad.
 
-NAND MLC (Multi Level  Cell) - *Ventaja: Más barato que SLC - Desventaja: Más lento y menos resistente que SLC*
+* **NAND MLC (Multi Level  Cell)** - *Ventaja: Más barato que SLC - Desventaja: Más lento y menos resistente que SLC*
 
 La NAND MLD almacena 2 bits por celda (00, 01, 10 y 11), lo cual se traduce en poder almacenar el doble de información que un SLC en el mismo espacio. Debido a esto MLC tiene una mayor densidad de datos que SLC y, por consiguiente, puede producirse con mayores capacidades. MLC se caracteriza por una buena combinación de precio, rendimiento y resistencia. No obstante, MLC es más sensible a errores de datos, con 10.000 ciclos de P/E por consiguiente, su resistencia es inferior a SLC. Normalmente, MLC se utiliza en productos de consumo en los que la resistencia es menos importante.
 
-NAND TLC (Triple Level  Cell) - *Ventaja: Más barata y mayor capacidad - Desventaja: Baja resistencia*
+* **NAND TLC** (Triple Level  Cell) - *Ventaja: Más barata y mayor capacidad - Desventaja: Baja resistencia*
 
 La NAND TLC (celda de triple nivel) guarda 3 bits por celda, es decir, hasta 8 estados diferentes. Al agregarse más bits por celda, el costo se reduce y la capacidad se incrementa. No obstante, esto tiene efectos negativos en el rendimiento y en la resistencia, con solamente 3.000 ciclos de P/E. Muchos productos de consumo emplean TLC, dado que es la opción más barata.
 
-# 2.2 Disco duro SSD. Memorias
-
-NAND QLC
+* **NAND QLC**
 
 Cada celda almacena 4 bits, lo que significa 16 estados de voltaje.
 
@@ -221,17 +213,15 @@ Cada celda almacena 4 bits, lo que significa 16 estados de voltaje.
 
 https://www.profesionalreview.com/2024/01/30/samsung-memorias-nand-qlc-280-capas/
 
-NAND 3D
+* **NAND 3D**
 
 Las celdas se apilan también verticalmente (3D) y no solo a lo largo y ancho (2D). Esto permite hacer las celdas más grandes y, por lo tanto, mejor aisladas, minimizando los defectos de las memorias TLC considerablemente, y acercándolas a las MLC en durabilidad. La mayor densidad de memoria posibilita mayores capacidades de almacenamiento sin un enorme incremento de precio. Por otra parte, NAND 3D se caracteriza por su mayor resistencia y menor consumo eléctrico.
 
 ![](assets/img/Unidad06/Unidad0637.png)
 
-# 2.2 Disco duro SSD.
-
 ![](assets/img/Unidad06/Unidad0638.png)
 
-# 3\. Características generales disco duro
+## Características generales disco duro
 
 * Factor de forma: El factor de forma nos da las dimensiones del disco duro. Se mide en pulgadas, las cuales indican el diámetro de los platos (en el caso de que lleven). Podemos encontrar los siguientes factores de forma
     * 3,5 pulgadas.
