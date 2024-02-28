@@ -907,37 +907,37 @@ Espacio libre:   fsutil volume diskfree c:
 
 # Bibliografía
 
-_[https://www\.ticarte\.com/contenido/caracteristicas\-fisicas\-de\-los\-discos\-duros\-magneticos](https://www.ticarte.com/contenido/caracteristicas-fisicas-de-los-discos-duros-magneticos)_
+[https://www\.ticarte\.com/contenido/caracteristicas\-fisicas\-de\-los\-discos\-duros\-magneticos](https://www.ticarte.com/contenido/caracteristicas-fisicas-de-los-discos-duros-magneticos)
 
-_[https://www\.adslzone\.net/reportajes/internet/comparativa\-almacenamiento\-nube/](https://www.adslzone.net/reportajes/internet/comparativa-almacenamiento-nube/)_
+[https://www\.adslzone\.net/reportajes/internet/comparativa\-almacenamiento\-nube/](https://www.adslzone.net/reportajes/internet/comparativa-almacenamiento-nube/)
 
-_[https://www\.seagate\.com/es/es/tech\-insights/what\-is\-nas\-master\-ti/](https://www.seagate.com/es/es/tech-insights/what-is-nas-master-ti/)_
+[https://www\.seagate\.com/es/es/tech\-insights/what\-is\-nas\-master\-ti/](https://www.seagate.com/es/es/tech-insights/what-is-nas-master-ti/)
 
-_[https://pokde\.net/system/pc/storage/sd\-card\-types\-speed\-class\-explained](https://pokde.net/system/pc/storage/sd-card-types-speed-class-explained)_
+[https://pokde\.net/system/pc/storage/sd\-card\-types\-speed\-class\-explained](https://pokde.net/system/pc/storage/sd-card-types-speed-class-explained)
 
-_[https://www\.xataka\.com/basics/tipos\-tarjetas\-sd\-que\-significan\-sus\-clases\-tipos\-numeraciones](https://www.xataka.com/basics/tipos-tarjetas-sd-que-significan-sus-clases-tipos-numeraciones)_
+[https://www\.xataka\.com/basics/tipos\-tarjetas\-sd\-que\-significan\-sus\-clases\-tipos\-numeraciones](https://www.xataka.com/basics/tipos-tarjetas-sd-que-significan-sus-clases-tipos-numeraciones)
 
-_[https://www\.xataka\.com/basics/pen\-drive\-memoria\-usb\-que\-sirve](https://www.xataka.com/basics/pen-drive-memoria-usb-que-sirve)_
+[https://www\.xataka\.com/basics/pen\-drive\-memoria\-usb\-que\-sirve](https://www.xataka.com/basics/pen-drive-memoria-usb-que-sirve)
 
-_[https://es\.wikipedia\.org/wiki/Disco\_compacto](https://es.wikipedia.org/wiki/Disco_compacto)_
+[https://es\.wikipedia\.org/wiki/Disco\_compacto](https://es.wikipedia.org/wiki/Disco_compacto)
 
-_[https://hardzone\.es/reportajes/que\-es/que\-es\-blu\-ray/](https://hardzone.es/reportajes/que-es/que-es-blu-ray/)_
+[https://hardzone\.es/reportajes/que\-es/que\-es\-blu\-ray/](https://hardzone.es/reportajes/que-es/que-es-blu-ray/)
 
-_[https://www\.ticarte\.com/contenido/el\-cd\-rom\-dvd\-y\-blu\-ray\-de\-los\-equipos\-microinformaticos](https://www.ticarte.com/contenido/el-cd-rom-dvd-y-blu-ray-de-los-equipos-microinformaticos)_
+[https://www\.ticarte\.com/contenido/el\-cd\-rom\-dvd\-y\-blu\-ray\-de\-los\-equipos\-microinformaticos](https://www.ticarte.com/contenido/el-cd-rom-dvd-y-blu-ray-de-los-equipos-microinformaticos)
 
-_[http://cuartoinformatica\.tecnojulio\.com/2015/10/22/estructura\-logica\-del\-disco\-duro\-actividad\_12/](http://cuartoinformatica.tecnojulio.com/2015/10/22/estructura-logica-del-disco-duro-actividad_12/)_
+[http://cuartoinformatica\.tecnojulio\.com/2015/10/22/estructura\-logica\-del\-disco\-duro\-actividad\_12/](http://cuartoinformatica.tecnojulio.com/2015/10/22/estructura-logica-del-disco-duro-actividad_12/)
 
-_[http://www\.carm\.es/edu/pub/04\_2015/2\_5\_2\_contenido\.html](http://www.carm.es/edu/pub/04_2015/2_5_2_contenido.html)_
+[http://www\.carm\.es/edu/pub/04\_2015/2\_5\_2\_contenido\.html](http://www.carm.es/edu/pub/04_2015/2_5_2_contenido.html)
 
-_[https://informaticoalrescate\.com/2019/08/08/diferencias\-entre\-los\-sistemas\-de\-archivos/](https://informaticoalrescate.com/2019/08/08/diferencias-entre-los-sistemas-de-archivos/)_
+[https://informaticoalrescate\.com/2019/08/08/diferencias\-entre\-los\-sistemas\-de\-archivos/](https://informaticoalrescate.com/2019/08/08/diferencias-entre-los-sistemas-de-archivos/)
 
-_[https://www\.kingston\.com/spain/es/solutions/pc\-performance/difference\-between\-slc\-mlc\-tlc\-3d\-nand\#:~:text=SLC%20ofrece%20el%20mejor%20rendimiento\,utilizarse%20en%20productos%20de%20consumo](https://www.kingston.com/spain/es/solutions/pc-performance/difference-between-slc-mlc-tlc-3d-nand#:~:text=SLC%20ofrece%20el%20mejor%20rendimiento,utilizarse%20en%20productos%20de%20consumo)_  \.
+[https://www\.kingston\.com/spain/es/solutions/pc\-performance/difference\-between\-slc\-mlc\-tlc\-3d\-nand\#:~:text=SLC%20ofrece%20el%20mejor%20rendimiento\,utilizarse%20en%20productos%20de%20consumo](https://www.kingston.com/spain/es/solutions/pc-performance/difference-between-slc-mlc-tlc-3d-nand#:~:text=SLC%20ofrece%20el%20mejor%20rendimiento,utilizarse%20en%20productos%20de%20consumo)_  \.
 
-_[https://www\.profesionalreview\.com/2018/03/10/discos\-mbr\-y\-gtp\-diferencias\-entre\-los\-dos\-estandares\-de\-la\-actualidad/](https://www.profesionalreview.com/2018/03/10/discos-mbr-y-gtp-diferencias-entre-los-dos-estandares-de-la-actualidad/)_
+[https://www\.profesionalreview\.com/2018/03/10/discos\-mbr\-y\-gtp\-diferencias\-entre\-los\-dos\-estandares\-de\-la\-actualidad/](https://www.profesionalreview.com/2018/03/10/discos-mbr-y-gtp-diferencias-entre-los-dos-estandares-de-la-actualidad/)
 
-_[http://www\.carm\.es/edu/pub/04\_2015/2\_5\_1\_contenido\.htmlb](http://www.carm.es/edu/pub/04_2015/2_5_1_contenido.htmlb)_
+[http://www\.carm\.es/edu/pub/04\_2015/2\_5\_1\_contenido\.htmlb](http://www.carm.es/edu/pub/04_2015/2_5_1_contenido.htmlb)
 
-_[https://www\.idiskhome\.com/resource/backup/mbr\-vs\-gpt\.shtml](https://www.idiskhome.com/resource/backup/mbr-vs-gpt.shtml)_
+[https://www\.idiskhome\.com/resource/backup/mbr\-vs\-gpt\.shtml](https://www.idiskhome.com/resource/backup/mbr-vs-gpt.shtml)
 
 [https://www\.profesionalreview\.com/disco\-duro/](https://www.profesionalreview.com/disco-duro/)
 
@@ -946,4 +946,6 @@ _[https://www\.idiskhome\.com/resource/backup/mbr\-vs\-gpt\.shtml](https://www.i
 [https://computerhoy\.com/noticias/hardware/que\-es\-ssd\-como\-funciona\-que\-tipos\-existen\-50726](https://computerhoy.com/noticias/hardware/que-es-ssd-como-funciona-que-tipos-existen-50726)
 
 https://gamersnexus\.net/guides/1497\-ssd\-architecture\-1\-what\-is\-tlc\-nand\-mlc\-anatomy
+
+https://www.profesionalreview.com/2023/01/22/u-2-vs-u-3/
 
