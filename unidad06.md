@@ -190,7 +190,7 @@ Los transistores que componen la memoria almacenan la información en  celdas �
 
 **¿En cada celda se almacena un bit?**
 
-## Chips de **memoria**
+## Chips de memoria
 
 * **NAND SLC (Single Level  Cell)** - *Ventaja: Mayor resistencia - Desventaja: Cara y de baja capacidad*
 
