@@ -125,25 +125,24 @@ Ejemplo LBA &rarr; $Capacidad = 3.907.029.168*512B=2.000.398.934.016B ≈ 2TB$
 
 # SSD.
 
-SSD (Solid State Drive - Unidad de Estado Sólido) utilizan un tipo de memoria flash NAND.
+**SSD (Solid State Drive - Unidad de Estado Sólido)** utilizan memorias de tipo **flash NAND**.
 
-Ventajas:
+**Ventajas:**
 
-Rapidez. Tanto en la búsqueda de los datos como en las lecturas posteriores. En una unidad de este tipo el tiempo que tienes que esperar hasta obtener los datos es siempre el mismo (similar a la RAM). No es necesario desfragmentarlo.
+* Velocidad o Tasa de transferencia de datos. Tanto en la búsqueda de los datos como en las lecturas posteriores. En una unidad de este tipo el tiempo que tienes que esperar hasta obtener los datos es siempre el mismo (similar a la RAM). 
+* Mayor resistencia a golpes. Al no tener componentes móviles responden mejor tanto a las vibraciones como a los golpes.
+* Menor consumo de energía. Necesitan menos potencia para funcionar al no disponer de partes móviles
+* Menor ruido. Otra ventaja más de no tener partes móviles.
+* No tiene fragmentación.
 
-Mayor resistencia a golpes. Al no tener componentes móviles responden mejor tanto a las vibraciones como a los golpes.
+**Inconvenientes:**
 
-Menor consumo de energía. Necesitan menos potencia para funcionar.
+* Precio por bit mayor.
+* Menor capacidad.
+* Menor tiempo de vida. Sus celdas pueden reescribirse un número limitado de veces.
 
-Menor ruido. Otra ventaja más de no tener partes móviles.
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/17f4e79a-c9df-4a97-aa14-c990e9d075b0)
 
-Inconvenientes:
-
-Precio mayor.
-
-Menor capacidad.
-
-Menor tiempo de vida.
 
 ![](assets/img/Unidad06/Unidad0624.png)
 
