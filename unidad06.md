@@ -160,6 +160,9 @@ Ejemplo LBA &rarr; $Capacidad = 3.907.029.168*512B=2.000.398.934.016B ≈ 2TB$
 
 ![](assets/img/Unidad06/Unidad0627.jpg)
 
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/03660486-4ead-4756-b44e-cb2f87c85cb4)
+
+
 ## Tipos de conexión
 
 ![](assets/img/Unidad06/Unidad0628.jpg)
@@ -220,44 +223,40 @@ Las celdas se apilan también verticalmente (3D) y no solo a lo largo y ancho (2
 
 ![](assets/img/Unidad06/Unidad0638.png)
 
-## Características generales disco duro
+## Características generales de las unidades de almacenamiento
 
 * Factor de forma: El factor de forma nos da las dimensiones del disco duro. Se mide en pulgadas, las cuales indican el diámetro de los platos (en el caso de que lleven). Podemos encontrar los siguientes factores de forma
-    * 3,5 pulgadas.
-    * 2,5 pulgadas.
-    * 1,8 pulgadas.
+    * 3,5" pulgadas.
+    * 2,5" pulgadas.
+    * M.2
+    * U.2
+    * U.3
+
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/3423e367-3467-4c21-97cc-72cfcd331045)
+
+![](assets/img/Unidad06/Unidad0639.png)
+      
 * Interfaz. ( Conexión al PC o dispositivo ). Podemos encontrar discos duros con la interfaz IDE, SATA, SCSI, SAS o SATA Express, pero también interfaces de conexión externos como USB, Thunderbolt, Firewire o eSATA.
 * Capacidad de almacenamiento. Se mide GB o TB
 * Memoria caché. La memoria caché del disco duro almacenará la información más solicitada, de manera que la controladora pueda acceder a ella de manera más rápida sin tener que ir a leerla internamente. Esta memoria se mide en Megabytes.
 * Tiempo de acceso. El tiempo de acceso es el tiempo medio que tarda el disco duro en estar preparado para transferir datos (ya sea de lectura o de escritura). Este tiempo se mide en nanosegundos (ns)
+* Velocidad de rotación del motor de los discos duros magnéticos. Marca la velocidad de giro en los discos duros magnéticos. Los discos con interfaz IDE y SATA giran a 5.400 o 7.200 rpm (revoluciones por minuto). En los discos duros con interfaz SCSI o SAS las velocidades de giro son mayores, de 10.000 e incluso 15.000 rpm, aunque son ruidosos y consumen más energía.
+* Velocidad lectura/escritura \_\_en discos SSD. Velocidad a la que el disco es capaz de leer y escribir información. 
+* Temperatura. Indica el rango de temperaturas a las que el disco puede funcionar.
+* Nivel sonoro: Nos indica el nivel de ruido que emitirá el disco duro en funcionamiento. Se mide en decibelios (dB).
+* Resistencia a golpes: Mediría el golpe máximo que el disco duro es capaz de soportar sin romperse. Se utiliza la medida de fuerza (G), donde 1G es la fuerza de la gravedad cuando estás parado, sentado o acostado.
+* Vida útil - Terabytes Written (TBW ). Se define por el JEDEC como el número de terabytes que pueden ser escritos en un SSD hasta que sus células de memoria se «agoten»
+* Tiempo medio entre fallos - Mean Time Between Failures (MTBF) \_\_en discos SSD.
+* Humedad. Indica el rango de humedad a las que el disco puede funcionar.
+* Altitud. Indica el rango de altitud a las que el disco puede funcionar.
 
-![](assets/img/Unidad06/Unidad0639.png)
 
-Temperatura. Indica el rango de temperaturas a las que el disco puede funcionar.
 
-Nivel sonoro: Nos indica el nivel de ruido que emitirá el disco duro en funcionamiento. Se mide en decibelios (dB).
+## Interfaces
 
-Resistencia a golpes: Mediría el golpe máximo que el disco duro es capaz de soportar sin romperse. Se utiliza la medida de fuerza (G), donde 1G es la fuerza de la gravedad cuando estás parado, sentado o acostado.
+### **IDE (Integrated Drive Electronics)
 
-Velocidad de rotación en \_\_discos duros magnéticos . Marca la velocidad de giro en los discos duros magnéticos. Los discos con interfaz IDE y SATA giran a 5.400 o 7.200 rpm (revoluciones por minuto). En los discos duros con interfaz SCSI o SAS las velocidades de giro son mayores, de 10.000 e incluso 15.000 rpm, aunque son ruidosos y consumen más energía.
-
-Velocidad lectura/escritura \_\_en discos SSD. Velocidad a la que el disco es capaz de leer y escribir información
-
-Vida útil - Terabytes Written (TBW ). Se define por el JEDEC como el número de terabytes que pueden ser escritos en un SSD hasta que sus células de memoria se «agoten»
-
-Tiempo medio entre fallos - Mean Time Between Failures (MTBF) \_\_en discos SSD.
-
-Humedad. Indica el rango de humedad a las que el disco puede funcionar.
-
-Altitud. Indica el rango de altitud a las que el disco puede funcionar.
-
-………….
-
-………….
-
-# 4\. Interfaz IDE
-
-I DE (Integrated Drive Electronics), ha sido la interfaz más utilizada hasta hace pocos años para la conexión de dispositivos de almacenamiento en los equipos microinformáticos. Aunque actualmente no se fabrican dispositivos para esta interfaz, es muy común encontrarnos equipos antiguos que la utilicen.
+Ha sido la interfaz más utilizada hasta hace pocos años para la conexión de dispositivos de almacenamiento en los equipos microinformáticos. Aunque actualmente no se fabrican dispositivos para esta interfaz, es muy común encontrarnos equipos antiguos que la utilicen.
 
 ![](assets/img/Unidad06/Unidad0640.png)
 
@@ -273,11 +272,11 @@ Para suministrar energía al dispositivo se utiliza el conector Molex que parte 
 
 ![](assets/img/Unidad06/Unidad0643.png)
 
-# 4\. Interfaz SATA
+### Interfaz SATA
 
 El interfaz SATA (Serial Advanced Technology Attachment), es el sustituto de IDE para conectar dispositivos de almacenamiento en los equipos microinformáticos (Discos duros/Unidades ópticas)
 
-Estándares:
+**Estándares:**
 
 ![](assets/img/Unidad06/Unidad0644.png)
 
@@ -293,9 +292,9 @@ Conector de alimentación SATA directo desde la fuente.
 
 ![](assets/img/Unidad06/Unidad0647.png)
 
-# 4\. Interfaz NVMe \- M\.2
+### Interfaz NVMe - M.2
 
-NVMe son las siglas de «Non-Volatile Memory Express», o memoria exprés no volátil.
+**NVMe** son las siglas de «Non-Volatile Memory Express», o memoria exprés no volátil.
 
 Utiliza la tecnología PCI-Express lo que le permite al disco duro ofrecer un ancho de banda mucho más amplio en *[comparación con la interfaz SATA.](https://www.geeknetic.es/Guia/2189/SSD-M2-NVMe-y-SATA-Caracteristicas-y-Diferencias.html)*
 
@@ -305,7 +304,15 @@ Utiliza la tecnología PCI-Express lo que le permite al disco duro ofrecer un an
 
 ![](assets/img/Unidad06/Unidad0650.png)
 
-# 4\. Interfaz SCSI
+sión	Código en línea	Velocidad de transferencia	Por carril	En x1	En x4
+1.0	8b/10b	2,5 GT/s	2 Gbit/s (250 MB/s)	250 MB/s	1 GB/s
+2.0	8b/10b	5 GT/s	4 Gbit/s (500 MB/s)	500 MB/s	2 GB/s
+3.0	128b/130b	8 GT/s	7,9 Gbit/s (984,6 MB/s)	985 MB/s	3,9 GB/s
+4.0	128b/130b	16 GT/s	15,8 Gbit/s (1969,2 MB/s)	1,9 GB/s	7,8 GB/s
+5.0	128b/130b	32 GT/s	31,6 Gbit/s (3938,4 MB/s)	3,9 GB/s	15,8 GB/s
+6.0	242b/256b	64 GT/s	64 Gbit/s (7877 MB/s)	7,5 GB/s	30,2 GB/s
+
+### Interfaz SCSI
 
 ![](assets/img/Unidad06/Unidad0651.png)
 
@@ -319,7 +326,7 @@ Utiliza el modo de transmisión paralelo y permite la conexión de hasta 16 disp
 
 Las placas bases no solían disponer de conectores SCSI integrados, por lo que se necesitaba una tarjeta de expansión SCSI adicional para poder conectarlos.
 
-# 4\. Interfaz SAS
+### Interfaz SAS
 
 El interfaz SAS (Serial Attached SCSI) es una interfaz de conexión de dispositivos de almacenamiento que ha sido la sucesora del interfaz SCSI. → Servidores
 
@@ -333,13 +340,13 @@ Similar al conector de la interfaz SATA, pero el conector del disco duro posee u
 
 ![](assets/img/Unidad06/Unidad0653.png)
 
-# 5\. Discos duros externos
+### Unidades de almacenamiento externas
 
 USB
 
 Thunderbolt
 
-eSATA
+
 
 ![](assets/img/Unidad06/Unidad0654.png)
 
@@ -351,11 +358,11 @@ eSATA
 
 ![](assets/img/Unidad06/Unidad0658.png)
 
-# 6\. Factor de forma
+## Factor de forma
 
 ![](assets/img/Unidad06/Unidad0659.png)
 
-# 6\. Factor de forma 3\,5”
+#### Factor de forma 3\,5”
 
 Son los discos duros usados comúnmente en los ordenadores de sobremesa.
 
