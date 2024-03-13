@@ -139,7 +139,7 @@ Ejemplo LBA &rarr; $Capacidad = 3.907.029.168*512B=2.000.398.934.016B ≈ 2TB$
 
 * Precio por bit mayor.
 * Menor capacidad.
-* Menor tiempo de vida. Sus celdas pueden reescribirse un número limitado de veces.
+* Sus celdas pueden reescribirse un número limitado de veces.
 
 ![image](https://github.com/alexlopezprofe/MyM/assets/148449360/17f4e79a-c9df-4a97-aa14-c990e9d075b0)
 
