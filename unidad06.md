@@ -1,7 +1,7 @@
 # Unidad 6. Dispositivos de almacenamiento
 
 # Definición
-
+``
 Los dispositivos de almacenamiento de un equipo microinformático, también conocidos como memoria secundaria, es el lugar donde se almacenan permanentemente los programas y datos con los que se trabaja en el mismo. Se caracteriza por tener gran capacidad de almacenamiento, ser no volátil y por un tiempo de acceso más lento que el acceso a la memoria principal.
 
 ![](assets/img/Unidad06/Unidad062.png)
@@ -223,20 +223,15 @@ Las celdas se apilan también verticalmente (3D) y no solo a lo largo y ancho (2
 
 ![](assets/img/Unidad06/Unidad0638.png)
 
-## Características generales de las unidades de almacenamiento
+# Características generales de las unidades de almacenamiento
 
+* Interfaz. ( Conexión al PC o dispositivo ). Podemos encontrar discos duros con la interfaz IDE, SATA, SCSI, SAS o SATA Express, pero también interfaces de conexión externos como USB, Thunderbolt, Firewire o eSATA.
 * Factor de forma: El factor de forma nos da las dimensiones del disco duro. Se mide en pulgadas, las cuales indican el diámetro de los platos (en el caso de que lleven). Podemos encontrar los siguientes factores de forma
-    * 3,5" pulgadas.
-    * 2,5" pulgadas.
+    * 3,5" pulgadas o LFF
+    * 2,5" pulgadas o SFF
     * M.2
     * U.2
     * U.3
-
-![image](https://github.com/alexlopezprofe/MyM/assets/148449360/3423e367-3467-4c21-97cc-72cfcd331045)
-
-![](assets/img/Unidad06/Unidad0639.png)
-      
-* Interfaz. ( Conexión al PC o dispositivo ). Podemos encontrar discos duros con la interfaz IDE, SATA, SCSI, SAS o SATA Express, pero también interfaces de conexión externos como USB, Thunderbolt, Firewire o eSATA.
 * Capacidad de almacenamiento. Se mide GB o TB
 * Memoria caché. La memoria caché del disco duro almacenará la información más solicitada, de manera que la controladora pueda acceder a ella de manera más rápida sin tener que ir a leerla internamente. Esta memoria se mide en Megabytes.
 * Tiempo de acceso. El tiempo de acceso es el tiempo medio que tarda el disco duro en estar preparado para transferir datos (ya sea de lectura o de escritura). Este tiempo se mide en nanosegundos (ns)
@@ -251,10 +246,9 @@ Las celdas se apilan también verticalmente (3D) y no solo a lo largo y ancho (2
 * Altitud. Indica el rango de altitud a las que el disco puede funcionar.
 
 
+# Interfaces de dispositivos de almacenamiento
 
-## Interfaces
-
-### **IDE (Integrated Drive Electronics)
+## **IDE (Integrated Drive Electronics)
 
 Ha sido la interfaz más utilizada hasta hace pocos años para la conexión de dispositivos de almacenamiento en los equipos microinformáticos. Aunque actualmente no se fabrican dispositivos para esta interfaz, es muy común encontrarnos equipos antiguos que la utilicen.
 
@@ -272,7 +266,7 @@ Para suministrar energía al dispositivo se utiliza el conector Molex que parte 
 
 ![](assets/img/Unidad06/Unidad0643.png)
 
-### Interfaz SATA
+## Interfaz SATA
 
 El interfaz SATA (Serial Advanced Technology Attachment), es el sustituto de IDE para conectar dispositivos de almacenamiento en los equipos microinformáticos (Discos duros/Unidades ópticas)
 
@@ -292,7 +286,7 @@ Conector de alimentación SATA directo desde la fuente.
 
 ![](assets/img/Unidad06/Unidad0647.png)
 
-### Interfaz NVMe - M.2
+## Interfaz NVMe - M.2
 
 **NVMe** son las siglas de «Non-Volatile Memory Express», o memoria exprés no volátil.
 
@@ -304,19 +298,20 @@ Utiliza la tecnología PCI-Express lo que le permite al disco duro ofrecer un an
 
 ![](assets/img/Unidad06/Unidad0650.png)
 
-sión	Código en línea	Velocidad de transferencia	Por carril	En x1	En x4
-1.0	8b/10b	2,5 GT/s	2 Gbit/s (250 MB/s)	250 MB/s	1 GB/s
-2.0	8b/10b	5 GT/s	4 Gbit/s (500 MB/s)	500 MB/s	2 GB/s
-3.0	128b/130b	8 GT/s	7,9 Gbit/s (984,6 MB/s)	985 MB/s	3,9 GB/s
-4.0	128b/130b	16 GT/s	15,8 Gbit/s (1969,2 MB/s)	1,9 GB/s	7,8 GB/s
-5.0	128b/130b	32 GT/s	31,6 Gbit/s (3938,4 MB/s)	3,9 GB/s	15,8 GB/s
-6.0	242b/256b	64 GT/s	64 Gbit/s (7877 MB/s)	7,5 GB/s	30,2 GB/s
 
-### Interfaz SCSI
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/bc76e869-d578-49fa-b74e-9fb38a9ef430)
+
+¿Qué diferencias de velocidades hay entre SSD PCIe 3.0 vs 4.0 vs 5.0?
+
+* Alrededor de 3500 MB/s de lectura/escritura en SSD PCIe 3.0 NVMe.
+* En torno a los 7000 MB/s de lectura/escritura en SSD PCIe 4.0 NVMe.
+* Unos 12.000 MB/s de lectura/escritura en SSD PCIe 5.0.
+
+## Interfaz SCSI
 
 ![](assets/img/Unidad06/Unidad0651.png)
 
-\_\_La interfaz SCSI (Small Computers System Interface - Interfaz de Sistema para Pequeñas Computadoras). Todo lo contrario a lo que su nombre indica, se utilizaba en entorno profesionales.
+La interfaz SCSI (Small Computers System Interface - Interfaz de Sistema para Pequeñas Computadoras). Todo lo contrario a lo que su nombre indica, se utilizaba en entorno profesionales.
 
 Los discos duros de esta interfaz son más caros y suelen ser más rápidos a la hora de transmitir datos ya que usan menos el microprocesador para esa tarea.
 
@@ -326,7 +321,7 @@ Utiliza el modo de transmisión paralelo y permite la conexión de hasta 16 disp
 
 Las placas bases no solían disponer de conectores SCSI integrados, por lo que se necesitaba una tarjeta de expansión SCSI adicional para poder conectarlos.
 
-### Interfaz SAS
+## Interfaz SAS
 
 El interfaz SAS (Serial Attached SCSI) es una interfaz de conexión de dispositivos de almacenamiento que ha sido la sucesora del interfaz SCSI. → Servidores
 
@@ -340,12 +335,22 @@ Similar al conector de la interfaz SATA, pero el conector del disco duro posee u
 
 ![](assets/img/Unidad06/Unidad0653.png)
 
-### Unidades de almacenamiento externas
+## Interfaz U.2
+
+la interfaz U.2 permite conectar dispositivos de almacenamiento a través del bus PCIe mediante un conector de factor de forma pequeño (SFF) que también es compatible con discos mecánicos SAS y SATA. Dicho de otra manera, esta interfaz permite utilizar SSD en formatos estándar de 2,5″ pero con interfaz PCI-Express.
+La interfaz U.2 hoy en día está completamente en desuso en el ámbito del mercado de consumo pero que se sigue utilizando en el empresarial (Servidores y Data Centers)
+
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/e2b36767-f021-4cda-a789-daeca8593f50)
+
+## Interfaz U.3
+
+Evolución de U.2
+
+### Interfaces para unidades de almacenamiento externas
 
 USB
 
 Thunderbolt
-
 
 
 ![](assets/img/Unidad06/Unidad0654.png)
@@ -358,13 +363,14 @@ Thunderbolt
 
 ![](assets/img/Unidad06/Unidad0658.png)
 
+
 ## Factor de forma
 
 ![](assets/img/Unidad06/Unidad0659.png)
 
-#### Factor de forma 3\,5”
+### Factor de forma 3\,5” o LFF
 
-Son los discos duros usados comúnmente en los ordenadores de sobremesa.
+3.5" o 3.5 pulgadas o LFF(Large Form Factor) Se refiere a los discos duros "grandes" usados comúnmente en los ordenadores de sobremesa y servidores.
 
 Discos duros actuales →  Interfaz SATA / SAS
 
@@ -372,9 +378,13 @@ Medidas típicas de 101 x 25,4 x 146 mm.
 
 ![](assets/img/Unidad06/Unidad0660.png)
 
+### Factor de forma 2\,5” o SFF
+
+2.5" o 2.5 pulgadas o SFF(Short Form Factor) Se refiere a los discos duros "grandes" usados comúnmente en los ordenadores de sobremesa y servidores
+
 Suelen tener unas dimensiones de 6,9 x 10 x 9,7 centímetros
 
-Podemos encontrar discos de 2.5” tanta magnéticos como SSD.
+Podemos encontrar unidades de 2.5” tanto magnéticos, SSD SATA o SSD U.2
 
 Actualmente → Interfaz SATA.
 
@@ -384,15 +394,8 @@ Actualmente → Interfaz SATA.
 
 ![](assets/img/Unidad06/Unidad0663.png)
 
-# 6\. Factor de forma 1\.8”
 
-Hay que distinguir entre discos con factor de forma 1.8” con conexión mSATA y conexión style="color:#212529"> *PCI-Express (NVMe M.2)*
-
-![](assets/img/Unidad06/Unidad0664.png)
-
-Arriba disco mSATA, Abajo disco M.2.
-
-# 6\. NVMe M\.2
+### NVMe M\.2
 
 El formato M.2 se ha convertido en el más popular para la construcción de discos SSD de altas prestaciones, pues permite la construcción de modelos muy rápidos, con una alta capacidad y con un tamaño muy reducido.
 
@@ -406,8 +409,16 @@ Dentro del formato M.2 existen varios tipos, por ejemplo M.2 2242, M.2 2260 y M.
 
 ![](assets/img/Unidad06/Unidad0666.png)
 
-# 7\. Almacenamiento en red\. NAS
 
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/3423e367-3467-4c21-97cc-72cfcd331045)
+
+![](assets/img/Unidad06/Unidad0639.png)
+
+
+
+# Dispositivos de almacenamiento en red
+
+## NAS
 El almacenamiento conectado en red, Network Attached Storage (NAS), es el nombre dado a una tecnología de almacenamiento dedicada a compartir la capacidad de almacenamiento de un computador/ordenador (servidor) con computadoras personales o servidores clientes a través de una red (normalmente TCP/IP), haciendo uso de un sistema operativo optimizado para dar acceso con los protocolos CIFS, NFS, FTP o TFTP.
 
 Suelen tener varios discos y se pueden configurar en *[RAID](https://es.wikipedia.org/wiki/RAID)*
@@ -420,7 +431,7 @@ Hay discos duros exclusivos para NAS que tienen más durabilidad, los discos uti
 
 ![](assets/img/Unidad06/Unidad0669.png)
 
-# 7\. Almacenamiento en red\. Cabina de discos
+## Cabina de discos. Servidores de almacenamiento
 
 ![](assets/img/Unidad06/Unidad0670.png)
 
@@ -430,7 +441,7 @@ Hay discos duros exclusivos para NAS que tienen más durabilidad, los discos uti
 
 *[https://www1.la.dell.com/ue/es/gen/Empresarial/pvaul_md1000/pd.aspx?refid=pvaul_md1000&s=gen](https://www1.la.dell.com/ue/es/gen/Empresarial/pvaul_md1000/pd.aspx?refid=pvaul_md1000&s=gen)*
 
-# 8\. RAID
+# RAID
 
 Un RAID es un grupo de discos duros independientes configurados para funcionar como uno solo, ya sea sumando su espacio total, mejorando la velocidad de lectura y escritura o configurados para duplicar la información para estar seguros de que, en caso de que uno de los discos duros se rompa, no vamos a perder los datos.
 
@@ -438,9 +449,9 @@ Existen varios tipo de RAID
 
 ![](assets/img/Unidad06/Unidad0673.png)
 
-# 8.1. RAID 0
+## RAID 0
 
- \_\_RAID 0 style="color:#333333">. En esta configuración todos los discos duros funcionan como un único volumen, y su espacio total es la suma del espacio de todos los discos duros.
+En esta configuración todos los discos duros funcionan como un único volumen, y su espacio total es la suma del espacio de todos los discos duros.
 
 Doble velocidad de lectura y escritura.
 
@@ -448,9 +459,9 @@ No hay paridad de datos ni volumen de respaldo.
 
 ![](assets/img/Unidad06/Unidad0674.png)
 
-# 8.2 RAID 1
+## RAID 1
 
- \_\_RAID 1 style="color:#333333">es uno de los tipos de RAID más utilizados para quienes buscan duplicidad de los datos para estar seguros de que los datos nunca se pierden. En este tipo de RAID, los datos se duplican en los discos duros como si fuese un espejo.
+Es uno de los tipos de RAID más utilizados para quienes buscan duplicidad de los datos para estar seguros de que los datos nunca se pierden. En este tipo de RAID, los datos se duplican en los discos duros como si fuese un espejo.
 
 Mayor velocidad de lectura. Sin mejora en la velocidad de escritura.
 
@@ -460,9 +471,9 @@ Perdemos el 50% del espacio total de los discos. El espacio total de un RAID 1 e
 
 ![](assets/img/Unidad06/Unidad0675.png)
 
-# 8.3. RAID 5
+## RAID 5
 
- \_\_RAID 5, style="color:#333333"> la información se distribuye a lo largo de todos los discos duros, aunque se reserva dicho espacio (el tamaño de una de las unidades) para paridad. Esta paridad, además, se reparte entre todos los discos duros.
+La información se distribuye a lo largo de todos los discos duros, aunque se reserva dicho espacio (el tamaño de una de las unidades) para paridad. Esta paridad, además, se reparte entre todos los discos duros.
 
 Si fallan dos discos se pierde absolutamente toda la información del RAID.
 
@@ -474,15 +485,15 @@ Si falla uno de los discos duros, cualquiera de ellos, se puede reemplazar y rec
 
 ![](assets/img/Unidad06/Unidad0676.png)
 
-# 8.4. RAID 6
+## RAID 6
 
- \_\_RAID 6, style="color:#333333">Prácticamente igual que el RAID 5, pero añade un segundo nivel de paridad, lo que nos permite que fallen hasta dos discos duros del RAID y poder sustituirlos. Si fallan 3, entonces toda la información del RAID se pierde.
+Prácticamente igual que el RAID 5, pero añade un segundo nivel de paridad, lo que nos permite que fallen hasta dos discos duros del RAID y poder sustituirlos. Si fallan 3, entonces toda la información del RAID se pierde.
 
 El espacio total de los discos es X-2, igual que la mejora de la velocidad de lectura. A cambio de esta doble paridad incluida en el RAID 6 se pierde el espacio total de dos de los discos duros. Por ejemplo, en una configuración de 4 discos duros de 4 TB, el espacio total que tendríamos es de 8 TB, con el doble de velocidad de lectura.
 
 ![](assets/img/Unidad06/Unidad0677.png)
 
-# 9\. Almacenamiento en la nube
+# Almacenamiento en la nube
 
 ![](assets/img/Unidad06/Unidad0678.png)
 
@@ -494,7 +505,7 @@ El espacio total de los discos es X-2, igual que la mejora de la velocidad de le
     * CA Technologies, Cisco, Dell, Egenera, EMC, HotLink, Hewlett Packard Enterprise, IBM, Joyent, Microsoft, Mirantis, OpenStack, Oracle, Rackspace, Red Hat, RightScale, VMware
 *  \_\_Híbridos, style="color:#212529"> son una combinación de los sistemas de almacenamiento públicos y privados. De esta manera, los datos más importantes se pueden guardar en una nube privada, mientras que la información menos importante se almacena en un servicio de almacenamiento en la nube público.
 
-# 10\. Memorias Flash
+# Memorias Flash
 
 Es una memoria de tipo EEPROM (Electrically-Erasable Programmable Read-Only Memory).
 
