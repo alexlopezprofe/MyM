@@ -509,75 +509,54 @@ El espacio total de los discos es X-2, igual que la mejora de la velocidad de le
 
 Es una memoria de tipo EEPROM (Electrically-Erasable Programmable Read-Only Memory).
 
-Características
+## Características
 
-Gran resistencia a los golpes.
+* Gran resistencia a los golpes.
+* Bajo consumo.
+* Silencioso, (no contiene partes móviles).
+* Pequeño tamaño y ligereza.
+* Gran versatilidad (cámaras digitales, teléfonos móviles, etc.)
 
-Bajo consumo.
+## Formatos:
 
-Silencioso, (no contiene partes móviles).
-
-Pequeño tamaño y ligereza.
-
-Gran versatilidad (cámaras digitales, teléfonos móviles, etc.)
-
-Formatos:
-
- \_\_Secure Digital (SD)
-
- \_\_Pendrive (memorias USB)
-
-CompactFlash (CF)
-
-SmartMedia Card (SMC)
-
-Memory Stick (MS)
-
-Multimedia Card o MMC.
-
-xD-Picture Card (xD)
+* **Secure Digital (SD)**
+* **Pendrive (memorias USB)**
+* CompactFlash (CF)
+* SmartMedia Card (SMC)
+* Memory Stick (MS)
+* Multimedia Card o MMC.
+* xD-Picture Card (xD)
 
 ![](assets/img/Unidad06/Unidad0679.png)
 
 ![](assets/img/Unidad06/Unidad0680.png)
 
-# 10.1 Memorias Flash SD
+## Memorias Flash SD
 
-Secure Digital (SD) es un formato de tarjeta de memoria para dispositivos portátiles, cámaras digitales (fotográficas o video), teléfonos móviles, ordenadores portátiles etc..
+Secure Digital (SD)* es un formato de tarjeta de memoria para dispositivos portátiles, cámaras digitales (fotográficas o video), teléfonos móviles, ordenadores portátiles etc..
 
 SD Association - *[https://www.sdcard.org/](https://www.sdcard.org/)* style="color:#333333">
 
- \_\_Versiones:
+ ### Versiones:
 
-SDSC: Standard Capacity - hasta 2 GB de datos.
+![](assets/img/Unidad06/Unidad0682.png
 
-SDHC: High Capacity - hasta 32 GB de datos.
-
-SDXC: Extended Capacity - hasta 2 TB de datos
-
-SDUC: Ultra Capacity - hasta 128TB
-
- \_\_Factor de forma: style="color:#333333">
+ ### Factor de forma
 
 SD, miniSD, microSD.
 
 ![](assets/img/Unidad06/Unidad0681.png)
 
-![](assets/img/Unidad06/Unidad0682.png)
+)
 
-Las tarjetas SD también se diferencian entre ellas mediante su clase (velocidad)
 
- \_\_Clase 2: style="color:#333333">Tienen una velocidad de escritura mínima de 2 MB/s, y pueden ser usadas para hacer fotos y grabar vídeos en baja resolución.
 
- \_\_Clase 4: style="color:#333333">Tienen una velocidad de escritura mínima de 4 MB/s, y pueden ser usadas para grabar vídeos en HD de 720p.
 
- \_\_Clase 6: style="color:#333333"> Tienen una velocidad de escritura mínima de 6 MB/s, y pueden ser usadas para grabar vídeos en HD de 720p.
+### Clasificación
 
- \_\_Clase 10: style="color:#333333"> Tienen una velocidad de escritura mínima de 10 MB/s, y pueden ser usadas para sacar fotos de alta definición consecutivas y grabar vídeos en FullHD de 1080p o resoluciones inferiores.
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/6b291ca2-ef81-4fa9-857b-6326e3d05b8e)
 
- \_\_UHS Speed Class 1 (U1): style="color:#333333"> Tienen una velocidad de escritura mínima de 10 MB/s, pero como tiene un bus mejor que la Clase 10 es mejor para grabar vídeos FullHD a 1080p que son más pesados.
 
- \_\_UHS Speed Class 3 (U3): style="color:#333333"> Tienen una velocidad de escritura mínima de 30 MB/s, y es la más indicada para grabar vídeos en resoluciones 4K.
 
 ![](assets/img/Unidad06/Unidad0683.png)
 
@@ -588,16 +567,6 @@ Las tarjetas SD también se diferencian entre ellas mediante su clase (velocidad
 ![](assets/img/Unidad06/Unidad0686.png)
 
 Las tarjetas SD también pueden diferenciarse por su clase para grabación de vídeo:
-
- \_\_Clase V6 style="color:#333333">: Está en las tarjetas de Clase 6, para la grabación de vídeo HD a 720p.
-
- \_\_Clase V10: style="color:#333333">Está en las tarjetas de Clase 10 y UHS1, para sacar fotos de alta definición consecutivas y grabar vídeos en FullHD de 1080p o resoluciones inferiores
-
- \_\_Clase V30: style="color:#333333"> En las tarjetas de Clase U3, para vídeos 4K a 24/30 fps
-
- \_\_Clase V60: style="color:#333333"> En las tarjetas de Clase U3, para vídeos 4K a 60/120 fps
-
- \_\_Clase V90: style="color:#333333"> En las tarjetas de Clase U3, para vídeos 8K a 60/120 fps
 
 ![](assets/img/Unidad06/Unidad0687.png)
 
