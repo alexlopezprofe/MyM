@@ -1,7 +1,7 @@
 # Unidad 6. Dispositivos de almacenamiento
 
 # Definición
-``
+
 Los dispositivos de almacenamiento de un equipo microinformático, también conocidos como memoria secundaria, es el lugar donde se almacenan permanentemente los programas y datos con los que se trabaja en el mismo. Se caracteriza por tener gran capacidad de almacenamiento, ser no volátil y por un tiempo de acceso más lento que el acceso a la memoria principal.
 
 ![](assets/img/Unidad06/Unidad062.png)
@@ -395,9 +395,9 @@ Actualmente → Interfaz SATA.
 ![](assets/img/Unidad06/Unidad0663.png)
 
 
-### NVMe M\.2
+### NVMe M.2
 
-El formato M.2 se ha convertido en el más popular para la construcción de discos SSD de altas prestaciones, pues permite la construcción de modelos muy rápidos, con una alta capacidad y con un tamaño muy reducido.
+El formato **NVMe M.2** se ha convertido en el más popular para la construcción de discos SSD de altas prestaciones, pues permite la construcción de modelos muy rápidos, con una alta capacidad y con un tamaño muy reducido.
 
 Se conectan mediante tecnología PCI-Express a la placa base para evitar los cuellos de botella.
 
@@ -547,7 +547,7 @@ SD, miniSD, microSD.
 
 ![](assets/img/Unidad06/Unidad0681.png)
 
-)
+
 
 
 
