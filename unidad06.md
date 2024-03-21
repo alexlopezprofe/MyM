@@ -554,24 +554,16 @@ SD Association - *[https://www.sdcard.org/](https://www.sdcard.org/)* style="col
 
  ### Versiones:
 
-![](assets/img/Unidad06/Unidad0682.png
+![](assets/img/Unidad06/Unidad0682.png)
 
  ### Factor de forma
 
-SD, miniSD, microSD.
 
 ![](assets/img/Unidad06/Unidad0681.png)
-
-
-
-
-
 
 ### Clasificación
 
 ![image](https://github.com/alexlopezprofe/MyM/assets/148449360/6b291ca2-ef81-4fa9-857b-6326e3d05b8e)
-
-
 
 ![](assets/img/Unidad06/Unidad0683.png)
 
@@ -589,9 +581,7 @@ Las tarjetas SD también pueden diferenciarse por su clase para grabación de v�
 
 ![](assets/img/Unidad06/Unidad0689.png)
 
-![](assets/img/Unidad06/Unidad0690.png)
-
-![](assets/img/Unidad06/Unidad0691.png)
+![](assets/img/Unidad06/Unidad0690.png) ![](assets/img/Unidad06/Unidad0691.png)
 
 # 10.2 Memorias Flash. Pendrive
 
