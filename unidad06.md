@@ -497,13 +497,28 @@ El espacio total de los discos es X-2, igual que la mejora de la velocidad de le
 
 ![](assets/img/Unidad06/Unidad0678.png)
 
-* Un sistema de almacenamiento en la nube o Cloud Storage es un modelo de almacenamiento de datos basado en redes de ordenadores donde nuestros datos están alojados en espacios de almacenamiento virtualizados. Por lo tanto, el espacio no se encuentra en el propio equipo físico del usuario, sino en uno o varios servidores ofrecidos por la compañía que contratemos el servicio.
-* Tipos:
-*  \_\_Público: style="color:#212529">Ofrece recursos informáticos de un proveedor externo compartidos entre varias organizaciones o «clientes», lo que permite reducir los costes y el mantenimiento y facilitar la escalabilidad. La gestión de la infraestructura la realiza el proveedor
-    * Microsoft Azure, AWS, Google Cloud,
-*  \_\_Privados style="color:#212529">. La infraestructura y los servicios se alojan en el centro de datos propio de una empresa, garantiza un mayor control sobre los datos y más seguridad. Las empresas o los usuarios los que tienen el control administrativo y tienen la posibilidad de diseñar y configurar el sistema en base a sus necesidades.
-    * CA Technologies, Cisco, Dell, Egenera, EMC, HotLink, Hewlett Packard Enterprise, IBM, Joyent, Microsoft, Mirantis, OpenStack, Oracle, Rackspace, Red Hat, RightScale, VMware
-*  \_\_Híbridos, style="color:#212529"> son una combinación de los sistemas de almacenamiento públicos y privados. De esta manera, los datos más importantes se pueden guardar en una nube privada, mientras que la información menos importante se almacena en un servicio de almacenamiento en la nube público.
+Un sistema de almacenamiento en la nube o Cloud Storage es un modelo de almacenamiento de datos basado en redes de ordenadores donde nuestros datos están alojados en espacios de almacenamiento virtualizados. Por lo tanto, el espacio no se encuentra en el propio equipo físico del usuario, sino en uno o varios servidores ofrecidos por la compañía que contratemos el servicio.
+
+## Ventajas 
+
+### Rentabilidad
+
+Con el almacenamiento en la nube, no hay que comprar hardware, ni aprovisionar almacenamiento, ni utilizar capital adicional para los picos de la empresa. Puede agregar o eliminar capacidad de almacenamiento bajo demanda, cambiar rápidamente las características de rendimiento y retención, y pagar solo por el almacenamiento que realmente utiliza. A medida que se accede a los datos con poca frecuencia y en contadas ocasiones, puede incluso trasladarlos automáticamente a un almacenamiento de menor costo, con lo que se consigue un ahorro de costos aún mayor. Al trasladar las cargas de trabajo de almacenamiento de las instalaciones a la nube, puede reducir el costo total de propiedad al eliminar el exceso de aprovisionamiento y el costo de mantenimiento de la infraestructura de almacenamiento.
+
+### Mayor agilidad
+
+Con el almacenamiento en la nube, los recursos están a un solo clic. Se reduce el tiempo para poner esos recursos a disposición de su organización de semanas a solo minutos. Esto se traduce en un aumento espectacular de la agilidad de su organización. El personal se libera en gran medida de las tareas de adquisición, instalación, administración y mantenimiento. Y como el almacenamiento en la nube se integra con una amplia gama de herramientas de análisis, su personal puede ahora extraer más información de sus datos para impulsar la innovación.
+
+### Despliegue más rápido
+
+Cuando los equipos de desarrollo están listos para comenzar, la infraestructura nunca debería ralentizarlos. Los servicios de almacenamiento en la nube permiten al Departamento de TI suministrar rápidamente la cantidad exacta de almacenamiento que se necesita, cuando y donde sea necesario. Los desarrolladores pueden centrarse en resolver problemas complejos de las aplicaciones en vez de tener que administrar los sistemas de almacenamiento.
+
+### Administración eficiente de los datos
+
+Al utilizar políticas de administración del ciclo de vida del almacenamiento en la nube, puede realizar potentes tareas de administración de la información, incluida la separación por niveles automatizada o el bloqueo de datos para cumplir con los requisitos de conformidad. También puede utilizar el almacenamiento en la nube para crear un almacenamiento multirregional o global para sus equipos distribuidos mediante el uso de herramientas como la replicación. Puede organizar y administrar los datos de manera que admitan casos de uso específicos, creen eficiencias de costos, refuercen la seguridad y cumplan con los requisitos de conformidad.
+
+### Escalabilidad 
+El almacenamiento en la nube ofrece una capacidad de almacenamiento casi ilimitada, lo que le permite escalar verticalmente tanto y tan rápido como necesite. Esto elimina las limitaciones de la capacidad de almacenamiento local. Puede escalar o desescalar verticalmente de forma eficaz el almacenamiento en la nube según sea necesario para los análisis, los lagos de datos, copias de seguridad o aplicaciones nativas de la nube. Los usuarios pueden acceder al almacenamiento desde cualquier lugar y en cualquier momento, sin preocuparse de los complejos procesos de asignación de almacenamiento ni de esperar a que haya nuevo hardware
 
 # Memorias Flash
 
