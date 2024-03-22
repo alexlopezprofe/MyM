@@ -715,7 +715,9 @@ Velocidad = 24 x 150 KB = 3.600 KB/s
 
 
 
-# Cintas magnéticas
+# Cintas magnéticas LTO
+
+![](assets/img/Unidad06/Unidad06118.png)
 
 Las cintas magnéticas de almacenamiento de datos han sido usadas para el almacenamiento de datos durante los últimos 50 años.
 
@@ -729,24 +731,19 @@ La grabación y lectura se efectúan de forma secuencial, que significa que para
 
 ![](assets/img/Unidad06/Unidad06117.png)
 
-![](assets/img/Unidad06/Unidad06118.png)
-
-# Cintas magnéticas.LTO
 
  **Linear Tape-Open (LTO)** es una tecnología de cinta magnética de almacenamiento de datos, desarrollada originalmente a finales de 1990.
 
 ![](assets/img/Unidad06/Unidad06119.png)
 
-![](assets/img/Unidad06/Unidad06120.png)
 
-![](assets/img/Unidad06/Unidad06121.png)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=1yUZ81dCqBg" target="_blank">
+ <img src="http://img.youtube.com/vi/1yUZ81dCqBg/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
+</a>
 
-![](assets/img/Unidad06/Unidad06122.jpg)
-
-![](assets/img/Unidad06/Unidad06123.jpg)
-
-https://www.youtube.com/watch?v=hY5OmDLJJPU 
-
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=CVN93H6EuAU" target="_blank">
+ <img src="http://img.youtube.com/vi/CVN93H6EuAU/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
+</a>
 
 
 # Estructura lógica de los discos
@@ -757,7 +754,7 @@ Espacio particionado . Es el espacio del disco que ha sido asignado a alguna par
 
 Espacio sin particionar. Es espacio no accesible del disco ya que todavía no ha sido asignado a ninguna partición y está sin formatear.
 
-## MBR \(Master Boot Record\)
+## MBR (Master Boot Record)
 
 * En discos duros que tienen tabla de particiones con el esquema MBR, cuando se crean las particiones, se graba dicha información en el sector de arranque del disco (MBR). Básicamente, el MBR es un tipo especial de sector de arranque que se encuentra en el comienzo de los dispositivos de almacenamiento de datos particionados, como un disco duro fijo o una unidad de almacenamiento externa, y que contiene una tabla de particiones que indica el lugar del disco donde se encuentran las particiones. Normalmente, en dicha tabla se guarda información sobre:
     * el tipo de partición,
