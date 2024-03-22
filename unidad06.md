@@ -737,7 +737,7 @@ La grabación y lectura se efectúan de forma secuencial, que significa que para
 
 ![](assets/img/Unidad06/Unidad06123.jpg)
 
-# 13\. Estructura lógica de los discos
+# Estructura lógica de los discos
 
 La estructura de partición . Se encarga de definir cómo se organiza la información en el disco duro. Independientemente del hardware o del sistema operativo, todas las computadoras se inician utilizando MBR (BIOS) o GPT (UEFI) .
 
@@ -745,7 +745,7 @@ Espacio particionado . Es el espacio del disco que ha sido asignado a alguna par
 
 Espacio sin particionar. Es espacio no accesible del disco ya que todavía no ha sido asignado a ninguna partición y está sin formatear.
 
-# 13\. MBR \(Master Boot Record\)
+## MBR \(Master Boot Record\)
 
 * En discos duros que tienen tabla de particiones con el esquema MBR, cuando se crean las particiones, se graba dicha información en el sector de arranque del disco (MBR). Básicamente, el MBR es un tipo especial de sector de arranque que se encuentra en el comienzo de los dispositivos de almacenamiento de datos particionados, como un disco duro fijo o una unidad de almacenamiento externa, y que contiene una tabla de particiones que indica el lugar del disco donde se encuentran las particiones. Normalmente, en dicha tabla se guarda información sobre:
     * el tipo de partición,
@@ -767,43 +767,37 @@ Espacio sin particionar. Es espacio no accesible del disco ya que todavía no ha
 
 ![](assets/img/Unidad06/Unidad06127.png)
 
-# 13\. GPT \(GUID Partition Table\)
+## GPT (GUID Partition Table)
 
-![](assets/img/Unidad06/Unidad06128.png)
-
-GPT (GUID Partition Table) es un nuevo estándar para colocar tablas de particiones en medios de almacenamiento. Forma parte de la (UEFI).
+** GPT (GUID Partition Table)** es un nuevo estándar para colocar tablas de particiones en medios de almacenamiento. Forma parte de la (UEFI).
 
 GPT se localiza al comienzo del disco duro ( *[Primary GUID](https://es.wikipedia.org/wiki/Tabla_de_particiones_GUID)* ), al igual que el MBR, pero no en el primero, sino en el segundo sector. El primer sector todavía está reservado para MBR (Protective MBR) por motivos de seguridad y para conservar la compatibilidad con sistemas más antiguos.
 
 Los datos críticos para el funcionamiento de la plataforma se almacenan en particiones en lugar de hacerlo en sectores ocultos o no particionados (como en el caso de MBR). Además, los discos GPT incluyen tablas de partición principales redundantes (Primary GUID) y de copia de seguridad (Backup GUID) a fin de mejorar la integridad de la estructura de datos de la partición.
 
+![](assets/img/Unidad06/Unidad06128.png)
+
 ![](assets/img/Unidad06/Unidad06129.png)
 
-# 13\. MBR vs GPT
+MBR &rarr; BIOS // GPT &rarr; UEFI
 
-Con MBR se pueden crear hasta cuatro particiones primarias por disco o bien se pueden crear hasta tres particiones primarias y una partición extendida. Dentro de la partición extendida se pueden crear un número ilimitado de unidades lógicas. Los sistemas operativos sólo pueden ir en particiones primarias
-
-Con GPT se pueden crear hasta 128 particiones primarias. Desaparece el concepto de particiones extendidas ni unidades lógicas, todas las particiones son primarias.
-
-GPT admite volúmenes de un tamaño máximo de 9.44 ZB, MBR hasta de 2TB
-
-MBR→ BIOS // GPT→ UEFI
-
-MBR es soportado por sistemas operativos tanto antiguos como modernos mientras que GPT solo es soportado por SO modernos (a partir de Windows 8)
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/a87824f1-d580-4b4d-9680-04bb863b2291)
 
 ![](assets/img/Unidad06/Unidad06130.png)
 
-¿Qué pasa si se corrompe MBR?
+> ¿Qué pasa si se corrompe MBR?
 
-¿Qué pasa si se corrompe GPT?
+> ¿Qué pasa si se corrompe GPT?
 
 ![](assets/img/Unidad06/Unidad06131.png)
 
 ![](assets/img/Unidad06/Unidad06132.png)
 
-# 13\. Estructura lógica de los discos
+## Tipos de particiones
 
- \_\_Partición primaria. style="color:#333333"> Puede ser reconocida como una partición de arranque y puede contener un sistema operativo que realice el arranque del equipo. Una de las particiones primarias se llama la partición activa y es la de arranque. El ordenador busca en esa partición activa el arranque del sistema. Cuando hay varios sistemas operativos instalados la partición activa tiene un pequeño programa llamado gestor de arranque que presenta un pequeño menú que permite elegir qué sistema operativo se arranca. Los sistemas operativos detectarán las particiones primarias y les asignará una unidad. Límite de 4 en MBR y 128 en GPT.
+### Partición primaria.
+
+Puede ser reconocida como una partición de arranque y puede contener un sistema operativo que realice el arranque del equipo. Una de las particiones primarias se llama la partición activa y es la de arranque. El ordenador busca en esa partición activa el arranque del sistema. Cuando hay varios sistemas operativos instalados la partición activa tiene un pequeño programa llamado gestor de arranque que presenta un pequeño menú que permite elegir qué sistema operativo se arranca. Los sistemas operativos detectarán las particiones primarias y les asignará una unidad. Límite de 4 en MBR y 128 en GPT.
 
 ![](assets/img/Unidad06/Unidad06133.png)
 
@@ -811,13 +805,17 @@ MBR es soportado por sistemas operativos tanto antiguos como modernos mientras q
 
 ![](assets/img/Unidad06/Unidad06135.png)
 
- \_\_Partición extendida. style="color:#333333"> También conocida como partición secundaria, sirve para contener múltiples unidades lógicas en su interior. Fue ideada para romper la limitación de 4 particiones primarias en un solo disco físico por tanto sólo se utiliza en MBR. Solo puede existir una partición de este tipo por disco, y solo sirve para contener particiones lógicas. Por lo tanto, es el único tipo de partición que style="color:#333333"> *no* style="color:#333333"> soporta un sistema de archivos directamente. No se puede instalar un sistema operativo en ella. style="color:#333333"> *Solo aplicable a MBR.*
+### Partición extendida.
+
+También conocida como partición secundaria, sirve para contener múltiples unidades lógicas en su interior. Fue ideada para romper la limitación de 4 particiones primarias en un solo disco físico por tanto sólo se utiliza en MBR. Solo puede existir una partición de este tipo por disco, y solo sirve para contener particiones lógicas. Por lo tanto, es el único tipo de partición que style="color:#333333"> *no* style="color:#333333"> soporta un sistema de archivos directamente. No se puede instalar un sistema operativo en ella. style="color:#333333"> *Solo aplicable a MBR.*
 
 ![](assets/img/Unidad06/Unidad06136.png)
 
 Disco duro con tres particiones primarias y una extendida.
 
- \_\_Partición lógica. style="color:#333333">Ocupa una porción de la partición extendida o la totalidad de la misma, y se puede formatear con un sistema de archivos diferente (FAT32, NTFS, ext3, ext4, etc.) y se le asignan una unidad, así el sistema operativo reconoce las particiones lógicas o su sistema de archivos. style="color:#333333"> *Solo aplicable a MBR.*
+### Partición lógica.
+
+Ocupa una porción de la partición extendida o la totalidad de la misma, y se puede formatear con un sistema de archivos diferente (FAT32, NTFS, ext3, ext4, etc.) y se le asignan una unidad, así el sistema operativo reconoce las particiones lógicas o su sistema de archivos. **Solo aplicable a MBR.**
 
 ![](assets/img/Unidad06/Unidad06137.png)
 
@@ -825,11 +823,11 @@ Disco duro MBR con tres particiones primarias y una extendida con cuatro lógica
 
 ![](assets/img/Unidad06/Unidad06138.png)
 
-Disk Management - Administrador de discos
+**Disk Management - Administrador de discos**
 
 ![](assets/img/Unidad06/Unidad06139.png)
 
-# 14\. Sistema de archivos
+# Sistema de archivos
 
 El sistema de archivos o File System es un método para el almacenamiento y organización de archivos y los datos que estos contienen, para hacer más fácil la tarea encontrarlos y acceder a ellos.
 
@@ -841,33 +839,21 @@ La estructura de directorios suele ser jerárquica, ramificada o en árbol inver
 
 Los principales tipos sistemas de archivos que encontramos son los siguientes:
 
-NTFS (New Technology File System).
-
-HPFS (High Performance File System).
-
-EXT (Extended file System).
-
-HFS+ (Hierarchical File System).
-
-APFS (Apple File System).
-
-FAT (File Allocation Table).
-
-exFAT (Extended File Allocation)
-
-FAT32.
-
-ReFS
+* NTFS (New Technology File System).
+* HPFS (High Performance File System).
+* EXT (Extended file System).
+* HFS+ (Hierarchical File System).
+* APFS (Apple File System).
+* FAT (File Allocation Table).
+* exFAT (Extended File Allocation)
+* FAT32.
+* ReFS
 
 Para saber cuál de estos tipos debemos elegir debemos saber el sistema operativo que estamos usando o usaremos Windows, Linux o MacOS. Esto es importante porque hay algunos sistemas de ficheros que no son compatibles con algunos sistemas operativos:
 
-Windows: NTFS, FAT32 y exFAT
-
-Linux: EXT4, NTFS, exFAT y FAT32
-
-MacOS: APFS, HFS, HFS EXT4 y NTFS con limitaciones.
-
-<span \_\_Actividad sistema de archivos
+* Windows: NTFS, FAT32 y exFAT
+* Linux: EXT4, NTFS, exFAT y FAT32
+* MacOS: APFS, HFS, HFS EXT4 y NTFS con limitaciones.
 
 ![](assets/img/Unidad06/Unidad06141.png)
 
@@ -875,7 +861,7 @@ MacOS: APFS, HFS, HFS EXT4 y NTFS con limitaciones.
 
 ![](assets/img/Unidad06/Unidad06143.png)
 
-# 14\. Comandos disco duro
+# Comandos disco duro
 
 Info del disco: wmic diskdrive get caption,serialnumber
 
