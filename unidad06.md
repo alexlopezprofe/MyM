@@ -723,9 +723,9 @@ La grabación y lectura se efectúan de forma secuencial, que significa que para
 
 ![](assets/img/Unidad06/Unidad06118.png)
 
-# 12\. Cintas magnéticas\.LTO
+# Cintas magnéticas.LTO
 
- \_\_Linear Tape-Open (LTO) style="color:#333333">es una tecnología de cinta magnética de almacenamiento de datos, desarrollada originalmente a finales de 1990.
+ **Linear Tape-Open (LTO)** es una tecnología de cinta magnética de almacenamiento de datos, desarrollada originalmente a finales de 1990.
 
 ![](assets/img/Unidad06/Unidad06119.png)
 
@@ -736,6 +736,10 @@ La grabación y lectura se efectúan de forma secuencial, que significa que para
 ![](assets/img/Unidad06/Unidad06122.jpg)
 
 ![](assets/img/Unidad06/Unidad06123.jpg)
+
+https://www.youtube.com/watch?v=hY5OmDLJJPU 
+
+
 
 # Estructura lógica de los discos
 
