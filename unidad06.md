@@ -617,10 +617,10 @@ Los discos compactos (CD), discos versátiles digitales (DVD) y discos Blu-ray (
 
 ![](assets/img/Unidad06/Unidad0695.png)
 
-* El CD-ROM ( style="color:#202124">Compact Disc Read-Only Memory style="color:#333333">) estándar fue establecido en 1985 por Sony y Philips.
+* El **CD-ROM (Compact Disc Read-Only Memory)** fue establecido en 1985 por Sony y Philips.
 * Actualmente en desuso al menos en los equipos microinformáticos
 * Conexiones: IDE-SATA o externos
-* Puede albergar 650 ( style="color:#333333">74 minutos de música style="color:#333333">) o 700 MB de datos (80 minutos de música) y los especiales de gran capacidad pueden llegar a los 800 y 900 MB.
+* Puede albergar 650 (74 minutos de música) o 700 MB de datos (80 minutos de música).
 * Existen los siguientes formatos:
     * CD-ROM (CD Read Only Memory)
     * CD-DA (Compact Disk Digital Audio)
@@ -631,8 +631,6 @@ Los discos compactos (CD), discos versátiles digitales (DVD) y discos Blu-ray (
 ![](assets/img/Unidad06/Unidad0696.png)
 
 ![](assets/img/Unidad06/Unidad0697.png)
-
-Velocidad de lectura/escritura CD CAV (Constant Angular Velocity)
 
 Si un lector indica 24x, significa que puede llegar a leer hasta:
 
@@ -657,9 +655,9 @@ Velocidad = 24 x 150 KB = 3.600 KB/s
 ![](assets/img/Unidad06/Unidad06105.png)
 
 * Digital Versatile Disc (disco versátil digital)
-* 1995→ style="color:#202122"> *DVD Consortium*
+* 1995→ *DVD Consortium*
 * Un DVD puede tener dos capas y dos caras, su capacidad va de 4,7 GB a 17 GB
-* Pueden leer y escribir\* también CDs
+* Pueden leer y escribir también CDs
 * La velocidad de transferencia de datos de una unidad DVD está dada en múltiplos de 1350 KB/s
 * Existen los siguientes formatos:
     * DVD-ROM
@@ -668,7 +666,7 @@ Velocidad = 24 x 150 KB = 3.600 KB/s
     * DVD-R (recordable) / DVD+R
     * DVD-RW (rewritable) / DVD+RW
     * DVD-R DL (dual layer) / DVD+R DL
-* .
+  
 
 ![](assets/img/Unidad06/Unidad06106.png)
 
@@ -686,28 +684,36 @@ Velocidad = 24 x 150 KB = 3.600 KB/s
 
 ## Blu-Ray
 
-* La tecnología Blu-Ray (https://us.blu-raydisc.com/) hace uso de un rayo láser de color style="color:#0000FF">azul style="color:#333333">con una longitud de onda de 405 nanómetros. style="color:#0645AD"> *[¿Por qué es azul?](https://www.adslzone.net/2017/10/30/por-que-laser-blu-ray-azul/)*
+La tecnología Blu-Ray (https://us.blu-raydisc.com/) hace uso de un rayo láser de color azul con una longitud de onda de 405 nanómetros. 
+
+> [¿Por qué es azul?](https://www.adslzone.net/2017/10/30/por-que-laser-blu-ray-azul/)
+
 * Desarrollado por la Blu-ray Disc Association (BDA) (2002)
 * La capacidad del Blu-ray es de 25 GB para una capa, 50 GB para doble capa , 100 GB para triple capa y 128 GB para cuádruple capa (BD-XL)
+
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/86731e2a-f6bd-4531-83fd-d727069c2beb)
+
 * Los usos principales del Blu-ray son la grabación y, la distribución del vídeo de alta definición, el almacenamiento de datos y la gestión de activos digitales. Por otro lado, uno de los usos más recurrentes son los videojuegos
 * Existen los siguientes formatos:
     * BD-ROM
     * BD-R (recordable)
     * BD-RE (rewritable)
 * La velocidad de transferencia va a venir expresada por un número seguido de una “X”. En este caso la “X” se refiere a una velocidad de 4,5MB/s. Actualmente existen unidades lectoras de BD con una velocidad de 12x.
-* Pueden leer y escribir\* también CD y DVD
+* Pueden leer y escribir también CD y DVD
 
 ![](assets/img/Unidad06/Unidad06113.png)
 
 ![](assets/img/Unidad06/Unidad06114.png)
 
-
-
 ![](assets/img/Unidad06/Unidad06115.jpg)
 
 ![](assets/img/Unidad06/Unidad06116.jpg)
 
-## Comparación
+## Comparación CD vs DVD vs Blu-Ray
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=H-jxTzFrnpg" target="_blank">
+ <img src="http://img.youtube.com/vi/H-jxTzFrnpg/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
+</a>
 
 ![image](https://github.com/alexlopezprofe/MyM/assets/148449360/ece245f2-3371-4678-a612-bd64145b4bd2)
 
@@ -730,7 +736,6 @@ Se utilizan para copias de seguridad.
 La grabación y lectura se efectúan de forma secuencial, que significa que para encontrar algo que está en medio de la cinta debes “hacerla avanzar” previamente hasta que el cabezal de lectoescritura se posicione sobre el lugar correcto, proceso que puede demorar varios minutos
 
 ![](assets/img/Unidad06/Unidad06117.png)
-
 
  **Linear Tape-Open (LTO)** es una tecnología de cinta magnética de almacenamiento de datos, desarrollada originalmente a finales de 1990.
 
