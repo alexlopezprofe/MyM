@@ -605,7 +605,7 @@ Utilizar el pendrive como llave de seguridad, que sirve para verificar tu identi
 
 ![](assets/img/Unidad06/Unidad0693.png)
 
-# 11\. Unidades ópticas
+# Unidades ópticas
 
 Las unidades de almacenamiento óptico son aquellas que son capaces de leer y escribir datos por medio de un rayo láser en un soporte óptico, ya que se almacenan por medio de ranuras microscópicas quemadas. La información queda grabada en la superficie de manera física, por lo que solo el calor (puede producir deformaciones en la superficie del disco) y las ralladuras pueden producir la pérdida de los datos, en cambio es inmune a los campos magnéticos y la humedad.
 
@@ -613,7 +613,7 @@ Los discos compactos (CD), discos versátiles digitales (DVD) y discos Blu-ray (
 
 ![](assets/img/Unidad06/Unidad0694.png)
 
-# 11.1 CD-ROM
+## CD-ROM
 
 ![](assets/img/Unidad06/Unidad0695.png)
 
@@ -650,7 +650,7 @@ Velocidad = 24 x 150 KB = 3.600 KB/s
 
 ![](assets/img/Unidad06/Unidad06103.png)
 
-# 11.2 DVD
+## DVD
 
 ![](assets/img/Unidad06/Unidad06104.png)
 
@@ -684,7 +684,7 @@ Velocidad = 24 x 150 KB = 3.600 KB/s
 
 ![](assets/img/Unidad06/Unidad06112.png)
 
-# 11.3 Blu-Ray
+## Blu-Ray
 
 * La tecnología Blu-Ray (https://us.blu-raydisc.com/) hace uso de un rayo láser de color style="color:#0000FF">azul style="color:#333333">con una longitud de onda de 405 nanómetros. style="color:#0645AD"> *[¿Por qué es azul?](https://www.adslzone.net/2017/10/30/por-que-laser-blu-ray-azul/)*
 * Desarrollado por la Blu-ray Disc Association (BDA) (2002)
@@ -701,13 +701,21 @@ Velocidad = 24 x 150 KB = 3.600 KB/s
 
 ![](assets/img/Unidad06/Unidad06114.png)
 
-# 11\. Unidades ópticas
+
 
 ![](assets/img/Unidad06/Unidad06115.jpg)
 
 ![](assets/img/Unidad06/Unidad06116.jpg)
 
-# 12\. Cintas magnéticas
+## Comparación
+
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/ece245f2-3371-4678-a612-bd64145b4bd2)
+
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/88fc81c8-4c22-4e48-adfc-caccc93ee479)
+
+
+
+# Cintas magnéticas
 
 Las cintas magnéticas de almacenamiento de datos han sido usadas para el almacenamiento de datos durante los últimos 50 años.
 
