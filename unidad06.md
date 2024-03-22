@@ -16,11 +16,7 @@ Sus características principales son:
 * No volátil.
 * Acceso más lento que la memoria principal(RAM).
 
-![](assets/img/Unidad06/Unidad063.png)
-
-![](assets/img/Unidad06/Unidad064.png)
-
-![](assets/img/Unidad06/Unidad065.png)
+![](assets/img/Unidad06/Unidad063.png) ![](assets/img/Unidad06/Unidad064.png) ![](assets/img/Unidad06/Unidad065.png)
 
 ## Disco duro magnético. Estructura mecánica
 
