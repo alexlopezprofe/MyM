@@ -16,11 +16,7 @@ Sus características principales son:
 * No volátil.
 * Acceso más lento que la memoria principal(RAM).
 
-![](assets/img/Unidad06/Unidad063.png)
-
-![](assets/img/Unidad06/Unidad064.png)
-
-![](assets/img/Unidad06/Unidad065.png)
+![](assets/img/Unidad06/Unidad063.png) ![](assets/img/Unidad06/Unidad064.png) ![](assets/img/Unidad06/Unidad065.png)
 
 ## Disco duro magnético. Estructura mecánica
 
@@ -125,25 +121,24 @@ Ejemplo LBA &rarr; $Capacidad = 3.907.029.168*512B=2.000.398.934.016B ≈ 2TB$
 
 # SSD.
 
-SSD (Solid State Drive - Unidad de Estado Sólido) utilizan un tipo de memoria flash NAND.
+**SSD (Solid State Drive - Unidad de Estado Sólido)** utilizan memorias de tipo **flash NAND**.
 
-Ventajas:
+**Ventajas:**
 
-Rapidez. Tanto en la búsqueda de los datos como en las lecturas posteriores. En una unidad de este tipo el tiempo que tienes que esperar hasta obtener los datos es siempre el mismo (similar a la RAM). No es necesario desfragmentarlo.
+* Velocidad o Tasa de transferencia de datos. Tanto en la búsqueda de los datos como en las lecturas posteriores. En una unidad de este tipo el tiempo que tienes que esperar hasta obtener los datos es siempre el mismo (similar a la RAM). 
+* Mayor resistencia a golpes. Al no tener componentes móviles responden mejor tanto a las vibraciones como a los golpes.
+* Menor consumo de energía. Necesitan menos potencia para funcionar al no disponer de partes móviles
+* Menor ruido. Otra ventaja más de no tener partes móviles.
+* No tiene fragmentación.
 
-Mayor resistencia a golpes. Al no tener componentes móviles responden mejor tanto a las vibraciones como a los golpes.
+**Inconvenientes:**
 
-Menor consumo de energía. Necesitan menos potencia para funcionar.
+* Precio por bit mayor.
+* Menor capacidad.
+* Sus celdas pueden reescribirse un número limitado de veces.
 
-Menor ruido. Otra ventaja más de no tener partes móviles.
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/17f4e79a-c9df-4a97-aa14-c990e9d075b0)
 
-Inconvenientes:
-
-Precio mayor.
-
-Menor capacidad.
-
-Menor tiempo de vida.
 
 ![](assets/img/Unidad06/Unidad0624.png)
 
@@ -160,6 +155,9 @@ Menor tiempo de vida.
 * **Firmware:** El firmware es el software interno que reside en la SSD y es gestionado por el controlador. Este software controla las operaciones, la gestión de errores y las funciones avanzadas de la unidad SSD.
 
 ![](assets/img/Unidad06/Unidad0627.jpg)
+
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/03660486-4ead-4756-b44e-cb2f87c85cb4)
+
 
 ## Tipos de conexión
 
@@ -191,7 +189,7 @@ Los transistores que componen la memoria almacenan la información en  celdas �
 
 **¿En cada celda se almacena un bit?**
 
-## Chips de **memoria**
+## Chips de memoria
 
 * **NAND SLC (Single Level  Cell)** - *Ventaja: Mayor resistencia - Desventaja: Cara y de baja capacidad*
 
@@ -221,44 +219,34 @@ Las celdas se apilan también verticalmente (3D) y no solo a lo largo y ancho (2
 
 ![](assets/img/Unidad06/Unidad0638.png)
 
-## Características generales disco duro
+# Características generales de las unidades de almacenamiento
 
-* Factor de forma: El factor de forma nos da las dimensiones del disco duro. Se mide en pulgadas, las cuales indican el diámetro de los platos (en el caso de que lleven). Podemos encontrar los siguientes factores de forma
-    * 3,5 pulgadas.
-    * 2,5 pulgadas.
-    * 1,8 pulgadas.
 * Interfaz. ( Conexión al PC o dispositivo ). Podemos encontrar discos duros con la interfaz IDE, SATA, SCSI, SAS o SATA Express, pero también interfaces de conexión externos como USB, Thunderbolt, Firewire o eSATA.
+* Factor de forma: El factor de forma nos da las dimensiones del disco duro. Se mide en pulgadas, las cuales indican el diámetro de los platos (en el caso de que lleven). Podemos encontrar los siguientes factores de forma
+    * 3,5" pulgadas o LFF
+    * 2,5" pulgadas o SFF
+    * M.2
+    * U.2
+    * U.3
 * Capacidad de almacenamiento. Se mide GB o TB
 * Memoria caché. La memoria caché del disco duro almacenará la información más solicitada, de manera que la controladora pueda acceder a ella de manera más rápida sin tener que ir a leerla internamente. Esta memoria se mide en Megabytes.
 * Tiempo de acceso. El tiempo de acceso es el tiempo medio que tarda el disco duro en estar preparado para transferir datos (ya sea de lectura o de escritura). Este tiempo se mide en nanosegundos (ns)
+* Velocidad de rotación del motor de los discos duros magnéticos. Marca la velocidad de giro en los discos duros magnéticos. Los discos con interfaz IDE y SATA giran a 5.400 o 7.200 rpm (revoluciones por minuto). En los discos duros con interfaz SCSI o SAS las velocidades de giro son mayores, de 10.000 e incluso 15.000 rpm, aunque son ruidosos y consumen más energía.
+* Velocidad lectura/escritura \_\_en discos SSD. Velocidad a la que el disco es capaz de leer y escribir información. 
+* Temperatura. Indica el rango de temperaturas a las que el disco puede funcionar.
+* Nivel sonoro: Nos indica el nivel de ruido que emitirá el disco duro en funcionamiento. Se mide en decibelios (dB).
+* Resistencia a golpes: Mediría el golpe máximo que el disco duro es capaz de soportar sin romperse. Se utiliza la medida de fuerza (G), donde 1G es la fuerza de la gravedad cuando estás parado, sentado o acostado.
+* Vida útil - Terabytes Written (TBW ). Se define por el JEDEC como el número de terabytes que pueden ser escritos en un SSD hasta que sus células de memoria se «agoten»
+* Tiempo medio entre fallos - Mean Time Between Failures (MTBF) \_\_en discos SSD.
+* Humedad. Indica el rango de humedad a las que el disco puede funcionar.
+* Altitud. Indica el rango de altitud a las que el disco puede funcionar.
 
-![](assets/img/Unidad06/Unidad0639.png)
 
-Temperatura. Indica el rango de temperaturas a las que el disco puede funcionar.
+# Interfaces de dispositivos de almacenamiento
 
-Nivel sonoro: Nos indica el nivel de ruido que emitirá el disco duro en funcionamiento. Se mide en decibelios (dB).
+## **IDE (Integrated Drive Electronics)
 
-Resistencia a golpes: Mediría el golpe máximo que el disco duro es capaz de soportar sin romperse. Se utiliza la medida de fuerza (G), donde 1G es la fuerza de la gravedad cuando estás parado, sentado o acostado.
-
-Velocidad de rotación en \_\_discos duros magnéticos . Marca la velocidad de giro en los discos duros magnéticos. Los discos con interfaz IDE y SATA giran a 5.400 o 7.200 rpm (revoluciones por minuto). En los discos duros con interfaz SCSI o SAS las velocidades de giro son mayores, de 10.000 e incluso 15.000 rpm, aunque son ruidosos y consumen más energía.
-
-Velocidad lectura/escritura \_\_en discos SSD. Velocidad a la que el disco es capaz de leer y escribir información
-
-Vida útil - Terabytes Written (TBW ). Se define por el JEDEC como el número de terabytes que pueden ser escritos en un SSD hasta que sus células de memoria se «agoten»
-
-Tiempo medio entre fallos - Mean Time Between Failures (MTBF) \_\_en discos SSD.
-
-Humedad. Indica el rango de humedad a las que el disco puede funcionar.
-
-Altitud. Indica el rango de altitud a las que el disco puede funcionar.
-
-………….
-
-………….
-
-# 4\. Interfaz IDE
-
-I DE (Integrated Drive Electronics), ha sido la interfaz más utilizada hasta hace pocos años para la conexión de dispositivos de almacenamiento en los equipos microinformáticos. Aunque actualmente no se fabrican dispositivos para esta interfaz, es muy común encontrarnos equipos antiguos que la utilicen.
+Ha sido la interfaz más utilizada hasta hace pocos años para la conexión de dispositivos de almacenamiento en los equipos microinformáticos. Aunque actualmente no se fabrican dispositivos para esta interfaz, es muy común encontrarnos equipos antiguos que la utilicen.
 
 ![](assets/img/Unidad06/Unidad0640.png)
 
@@ -274,11 +262,11 @@ Para suministrar energía al dispositivo se utiliza el conector Molex que parte 
 
 ![](assets/img/Unidad06/Unidad0643.png)
 
-# 4\. Interfaz SATA
+## Interfaz SATA
 
 El interfaz SATA (Serial Advanced Technology Attachment), es el sustituto de IDE para conectar dispositivos de almacenamiento en los equipos microinformáticos (Discos duros/Unidades ópticas)
 
-Estándares:
+**Estándares:**
 
 ![](assets/img/Unidad06/Unidad0644.png)
 
@@ -294,9 +282,9 @@ Conector de alimentación SATA directo desde la fuente.
 
 ![](assets/img/Unidad06/Unidad0647.png)
 
-# 4\. Interfaz NVMe \- M\.2
+## Interfaz NVMe - M.2
 
-NVMe son las siglas de «Non-Volatile Memory Express», o memoria exprés no volátil.
+**NVMe** son las siglas de «Non-Volatile Memory Express», o memoria exprés no volátil.
 
 Utiliza la tecnología PCI-Express lo que le permite al disco duro ofrecer un ancho de banda mucho más amplio en *[comparación con la interfaz SATA.](https://www.geeknetic.es/Guia/2189/SSD-M2-NVMe-y-SATA-Caracteristicas-y-Diferencias.html)*
 
@@ -306,11 +294,20 @@ Utiliza la tecnología PCI-Express lo que le permite al disco duro ofrecer un an
 
 ![](assets/img/Unidad06/Unidad0650.png)
 
-# 4\. Interfaz SCSI
+
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/bc76e869-d578-49fa-b74e-9fb38a9ef430)
+
+¿Qué diferencias de velocidades hay entre SSD PCIe 3.0 vs 4.0 vs 5.0?
+
+* Alrededor de 3500 MB/s de lectura/escritura en SSD PCIe 3.0 NVMe.
+* En torno a los 7000 MB/s de lectura/escritura en SSD PCIe 4.0 NVMe.
+* Unos 12.000 MB/s de lectura/escritura en SSD PCIe 5.0.
+
+## Interfaz SCSI
 
 ![](assets/img/Unidad06/Unidad0651.png)
 
-\_\_La interfaz SCSI (Small Computers System Interface - Interfaz de Sistema para Pequeñas Computadoras). Todo lo contrario a lo que su nombre indica, se utilizaba en entorno profesionales.
+La interfaz SCSI (Small Computers System Interface - Interfaz de Sistema para Pequeñas Computadoras). Todo lo contrario a lo que su nombre indica, se utilizaba en entorno profesionales.
 
 Los discos duros de esta interfaz son más caros y suelen ser más rápidos a la hora de transmitir datos ya que usan menos el microprocesador para esa tarea.
 
@@ -320,7 +317,7 @@ Utiliza el modo de transmisión paralelo y permite la conexión de hasta 16 disp
 
 Las placas bases no solían disponer de conectores SCSI integrados, por lo que se necesitaba una tarjeta de expansión SCSI adicional para poder conectarlos.
 
-# 4\. Interfaz SAS
+## Interfaz SAS
 
 El interfaz SAS (Serial Attached SCSI) es una interfaz de conexión de dispositivos de almacenamiento que ha sido la sucesora del interfaz SCSI. → Servidores
 
@@ -334,13 +331,23 @@ Similar al conector de la interfaz SATA, pero el conector del disco duro posee u
 
 ![](assets/img/Unidad06/Unidad0653.png)
 
-# 5\. Discos duros externos
+## Interfaz U.2
+
+la interfaz U.2 permite conectar dispositivos de almacenamiento a través del bus PCIe mediante un conector de factor de forma pequeño (SFF) que también es compatible con discos mecánicos SAS y SATA. Dicho de otra manera, esta interfaz permite utilizar SSD en formatos estándar de 2,5″ pero con interfaz PCI-Express.
+La interfaz U.2 hoy en día está completamente en desuso en el ámbito del mercado de consumo pero que se sigue utilizando en el empresarial (Servidores y Data Centers)
+
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/e2b36767-f021-4cda-a789-daeca8593f50)
+
+## Interfaz U.3
+
+Evolución de U.2
+
+### Interfaces para unidades de almacenamiento externas
 
 USB
 
 Thunderbolt
 
-eSATA
 
 ![](assets/img/Unidad06/Unidad0654.png)
 
@@ -352,13 +359,14 @@ eSATA
 
 ![](assets/img/Unidad06/Unidad0658.png)
 
-# 6\. Factor de forma
+
+## Factor de forma
 
 ![](assets/img/Unidad06/Unidad0659.png)
 
-# 6\. Factor de forma 3\,5”
+### Factor de forma 3\,5” o LFF
 
-Son los discos duros usados comúnmente en los ordenadores de sobremesa.
+3.5" o 3.5 pulgadas o LFF(Large Form Factor) Se refiere a los discos duros "grandes" usados comúnmente en los ordenadores de sobremesa y servidores.
 
 Discos duros actuales →  Interfaz SATA / SAS
 
@@ -366,9 +374,13 @@ Medidas típicas de 101 x 25,4 x 146 mm.
 
 ![](assets/img/Unidad06/Unidad0660.png)
 
+### Factor de forma 2\,5” o SFF
+
+2.5" o 2.5 pulgadas o SFF(Short Form Factor) Se refiere a los discos duros "grandes" usados comúnmente en los ordenadores de sobremesa y servidores
+
 Suelen tener unas dimensiones de 6,9 x 10 x 9,7 centímetros
 
-Podemos encontrar discos de 2.5” tanta magnéticos como SSD.
+Podemos encontrar unidades de 2.5” tanto magnéticos, SSD SATA o SSD U.2
 
 Actualmente → Interfaz SATA.
 
@@ -378,17 +390,10 @@ Actualmente → Interfaz SATA.
 
 ![](assets/img/Unidad06/Unidad0663.png)
 
-# 6\. Factor de forma 1\.8”
 
-Hay que distinguir entre discos con factor de forma 1.8” con conexión mSATA y conexión style="color:#212529"> *PCI-Express (NVMe M.2)*
+### NVMe M.2
 
-![](assets/img/Unidad06/Unidad0664.png)
-
-Arriba disco mSATA, Abajo disco M.2.
-
-# 6\. NVMe M\.2
-
-El formato M.2 se ha convertido en el más popular para la construcción de discos SSD de altas prestaciones, pues permite la construcción de modelos muy rápidos, con una alta capacidad y con un tamaño muy reducido.
+El formato **NVMe M.2** se ha convertido en el más popular para la construcción de discos SSD de altas prestaciones, pues permite la construcción de modelos muy rápidos, con una alta capacidad y con un tamaño muy reducido.
 
 Se conectan mediante tecnología PCI-Express a la placa base para evitar los cuellos de botella.
 
@@ -400,8 +405,16 @@ Dentro del formato M.2 existen varios tipos, por ejemplo M.2 2242, M.2 2260 y M.
 
 ![](assets/img/Unidad06/Unidad0666.png)
 
-# 7\. Almacenamiento en red\. NAS
 
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/3423e367-3467-4c21-97cc-72cfcd331045)
+
+![](assets/img/Unidad06/Unidad0639.png)
+
+
+
+# Dispositivos de almacenamiento en red
+
+## NAS
 El almacenamiento conectado en red, Network Attached Storage (NAS), es el nombre dado a una tecnología de almacenamiento dedicada a compartir la capacidad de almacenamiento de un computador/ordenador (servidor) con computadoras personales o servidores clientes a través de una red (normalmente TCP/IP), haciendo uso de un sistema operativo optimizado para dar acceso con los protocolos CIFS, NFS, FTP o TFTP.
 
 Suelen tener varios discos y se pueden configurar en *[RAID](https://es.wikipedia.org/wiki/RAID)*
@@ -414,7 +427,7 @@ Hay discos duros exclusivos para NAS que tienen más durabilidad, los discos uti
 
 ![](assets/img/Unidad06/Unidad0669.png)
 
-# 7\. Almacenamiento en red\. Cabina de discos
+## Cabina de discos. Servidores de almacenamiento
 
 ![](assets/img/Unidad06/Unidad0670.png)
 
@@ -424,7 +437,7 @@ Hay discos duros exclusivos para NAS que tienen más durabilidad, los discos uti
 
 *[https://www1.la.dell.com/ue/es/gen/Empresarial/pvaul_md1000/pd.aspx?refid=pvaul_md1000&s=gen](https://www1.la.dell.com/ue/es/gen/Empresarial/pvaul_md1000/pd.aspx?refid=pvaul_md1000&s=gen)*
 
-# 8\. RAID
+# RAID
 
 Un RAID es un grupo de discos duros independientes configurados para funcionar como uno solo, ya sea sumando su espacio total, mejorando la velocidad de lectura y escritura o configurados para duplicar la información para estar seguros de que, en caso de que uno de los discos duros se rompa, no vamos a perder los datos.
 
@@ -432,9 +445,9 @@ Existen varios tipo de RAID
 
 ![](assets/img/Unidad06/Unidad0673.png)
 
-# 8.1. RAID 0
+## RAID 0
 
- \_\_RAID 0 style="color:#333333">. En esta configuración todos los discos duros funcionan como un único volumen, y su espacio total es la suma del espacio de todos los discos duros.
+En esta configuración todos los discos duros funcionan como un único volumen, y su espacio total es la suma del espacio de todos los discos duros.
 
 Doble velocidad de lectura y escritura.
 
@@ -442,9 +455,9 @@ No hay paridad de datos ni volumen de respaldo.
 
 ![](assets/img/Unidad06/Unidad0674.png)
 
-# 8.2 RAID 1
+## RAID 1
 
- \_\_RAID 1 style="color:#333333">es uno de los tipos de RAID más utilizados para quienes buscan duplicidad de los datos para estar seguros de que los datos nunca se pierden. En este tipo de RAID, los datos se duplican en los discos duros como si fuese un espejo.
+Es uno de los tipos de RAID más utilizados para quienes buscan duplicidad de los datos para estar seguros de que los datos nunca se pierden. En este tipo de RAID, los datos se duplican en los discos duros como si fuese un espejo.
 
 Mayor velocidad de lectura. Sin mejora en la velocidad de escritura.
 
@@ -454,9 +467,9 @@ Perdemos el 50% del espacio total de los discos. El espacio total de un RAID 1 e
 
 ![](assets/img/Unidad06/Unidad0675.png)
 
-# 8.3. RAID 5
+## RAID 5
 
- \_\_RAID 5, style="color:#333333"> la información se distribuye a lo largo de todos los discos duros, aunque se reserva dicho espacio (el tamaño de una de las unidades) para paridad. Esta paridad, además, se reparte entre todos los discos duros.
+La información se distribuye a lo largo de todos los discos duros, aunque se reserva dicho espacio (el tamaño de una de las unidades) para paridad. Esta paridad, además, se reparte entre todos los discos duros.
 
 Si fallan dos discos se pierde absolutamente toda la información del RAID.
 
@@ -468,99 +481,85 @@ Si falla uno de los discos duros, cualquiera de ellos, se puede reemplazar y rec
 
 ![](assets/img/Unidad06/Unidad0676.png)
 
-# 8.4. RAID 6
+## RAID 6
 
- \_\_RAID 6, style="color:#333333">Prácticamente igual que el RAID 5, pero añade un segundo nivel de paridad, lo que nos permite que fallen hasta dos discos duros del RAID y poder sustituirlos. Si fallan 3, entonces toda la información del RAID se pierde.
+Prácticamente igual que el RAID 5, pero añade un segundo nivel de paridad, lo que nos permite que fallen hasta dos discos duros del RAID y poder sustituirlos. Si fallan 3, entonces toda la información del RAID se pierde.
 
 El espacio total de los discos es X-2, igual que la mejora de la velocidad de lectura. A cambio de esta doble paridad incluida en el RAID 6 se pierde el espacio total de dos de los discos duros. Por ejemplo, en una configuración de 4 discos duros de 4 TB, el espacio total que tendríamos es de 8 TB, con el doble de velocidad de lectura.
 
 ![](assets/img/Unidad06/Unidad0677.png)
 
-# 9\. Almacenamiento en la nube
+# Almacenamiento en la nube
 
 ![](assets/img/Unidad06/Unidad0678.png)
 
-* Un sistema de almacenamiento en la nube o Cloud Storage es un modelo de almacenamiento de datos basado en redes de ordenadores donde nuestros datos están alojados en espacios de almacenamiento virtualizados. Por lo tanto, el espacio no se encuentra en el propio equipo físico del usuario, sino en uno o varios servidores ofrecidos por la compañía que contratemos el servicio.
-* Tipos:
-*  \_\_Público: style="color:#212529">Ofrece recursos informáticos de un proveedor externo compartidos entre varias organizaciones o «clientes», lo que permite reducir los costes y el mantenimiento y facilitar la escalabilidad. La gestión de la infraestructura la realiza el proveedor
-    * Microsoft Azure, AWS, Google Cloud,
-*  \_\_Privados style="color:#212529">. La infraestructura y los servicios se alojan en el centro de datos propio de una empresa, garantiza un mayor control sobre los datos y más seguridad. Las empresas o los usuarios los que tienen el control administrativo y tienen la posibilidad de diseñar y configurar el sistema en base a sus necesidades.
-    * CA Technologies, Cisco, Dell, Egenera, EMC, HotLink, Hewlett Packard Enterprise, IBM, Joyent, Microsoft, Mirantis, OpenStack, Oracle, Rackspace, Red Hat, RightScale, VMware
-*  \_\_Híbridos, style="color:#212529"> son una combinación de los sistemas de almacenamiento públicos y privados. De esta manera, los datos más importantes se pueden guardar en una nube privada, mientras que la información menos importante se almacena en un servicio de almacenamiento en la nube público.
+Un sistema de almacenamiento en la nube o Cloud Storage es un modelo de almacenamiento de datos basado en redes de ordenadores donde nuestros datos están alojados en espacios de almacenamiento virtualizados. Por lo tanto, el espacio no se encuentra en el propio equipo físico del usuario, sino en uno o varios servidores ofrecidos por la compañía que contratemos el servicio.
 
-# 10\. Memorias Flash
+## Ventajas 
+
+### Rentabilidad
+
+Con el almacenamiento en la nube, no hay que comprar hardware, ni aprovisionar almacenamiento, ni utilizar capital adicional para los picos de la empresa. Puede agregar o eliminar capacidad de almacenamiento bajo demanda, cambiar rápidamente las características de rendimiento y retención, y pagar solo por el almacenamiento que realmente utiliza. A medida que se accede a los datos con poca frecuencia y en contadas ocasiones, puede incluso trasladarlos automáticamente a un almacenamiento de menor costo, con lo que se consigue un ahorro de costos aún mayor. Al trasladar las cargas de trabajo de almacenamiento de las instalaciones a la nube, puede reducir el costo total de propiedad al eliminar el exceso de aprovisionamiento y el costo de mantenimiento de la infraestructura de almacenamiento.
+
+### Mayor agilidad
+
+Con el almacenamiento en la nube, los recursos están a un solo clic. Se reduce el tiempo para poner esos recursos a disposición de su organización de semanas a solo minutos. Esto se traduce en un aumento espectacular de la agilidad de su organización. El personal se libera en gran medida de las tareas de adquisición, instalación, administración y mantenimiento. Y como el almacenamiento en la nube se integra con una amplia gama de herramientas de análisis, su personal puede ahora extraer más información de sus datos para impulsar la innovación.
+
+### Despliegue más rápido
+
+Cuando los equipos de desarrollo están listos para comenzar, la infraestructura nunca debería ralentizarlos. Los servicios de almacenamiento en la nube permiten al Departamento de TI suministrar rápidamente la cantidad exacta de almacenamiento que se necesita, cuando y donde sea necesario. Los desarrolladores pueden centrarse en resolver problemas complejos de las aplicaciones en vez de tener que administrar los sistemas de almacenamiento.
+
+### Administración eficiente de los datos
+
+Al utilizar políticas de administración del ciclo de vida del almacenamiento en la nube, puede realizar potentes tareas de administración de la información, incluida la separación por niveles automatizada o el bloqueo de datos para cumplir con los requisitos de conformidad. También puede utilizar el almacenamiento en la nube para crear un almacenamiento multirregional o global para sus equipos distribuidos mediante el uso de herramientas como la replicación. Puede organizar y administrar los datos de manera que admitan casos de uso específicos, creen eficiencias de costos, refuercen la seguridad y cumplan con los requisitos de conformidad.
+
+### Escalabilidad 
+El almacenamiento en la nube ofrece una capacidad de almacenamiento casi ilimitada, lo que le permite escalar verticalmente tanto y tan rápido como necesite. Esto elimina las limitaciones de la capacidad de almacenamiento local. Puede escalar o desescalar verticalmente de forma eficaz el almacenamiento en la nube según sea necesario para los análisis, los lagos de datos, copias de seguridad o aplicaciones nativas de la nube. Los usuarios pueden acceder al almacenamiento desde cualquier lugar y en cualquier momento, sin preocuparse de los complejos procesos de asignación de almacenamiento ni de esperar a que haya nuevo hardware
+
+# Memorias Flash
 
 Es una memoria de tipo EEPROM (Electrically-Erasable Programmable Read-Only Memory).
 
-Características
+## Características
 
-Gran resistencia a los golpes.
+* Gran resistencia a los golpes.
+* Bajo consumo.
+* Silencioso, (no contiene partes móviles).
+* Pequeño tamaño y ligereza.
+* Gran versatilidad (cámaras digitales, teléfonos móviles, etc.)
 
-Bajo consumo.
+## Formatos:
 
-Silencioso, (no contiene partes móviles).
-
-Pequeño tamaño y ligereza.
-
-Gran versatilidad (cámaras digitales, teléfonos móviles, etc.)
-
-Formatos:
-
- \_\_Secure Digital (SD)
-
- \_\_Pendrive (memorias USB)
-
-CompactFlash (CF)
-
-SmartMedia Card (SMC)
-
-Memory Stick (MS)
-
-Multimedia Card o MMC.
-
-xD-Picture Card (xD)
+* **Secure Digital (SD)**
+* **Pendrive (memorias USB)**
+* CompactFlash (CF)
+* SmartMedia Card (SMC)
+* Memory Stick (MS)
+* Multimedia Card o MMC.
+* xD-Picture Card (xD)
 
 ![](assets/img/Unidad06/Unidad0679.png)
 
 ![](assets/img/Unidad06/Unidad0680.png)
 
-# 10.1 Memorias Flash SD
+## Memorias Flash SD
 
-Secure Digital (SD) es un formato de tarjeta de memoria para dispositivos portátiles, cámaras digitales (fotográficas o video), teléfonos móviles, ordenadores portátiles etc..
+Secure Digital (SD)* es un formato de tarjeta de memoria para dispositivos portátiles, cámaras digitales (fotográficas o video), teléfonos móviles, ordenadores portátiles etc..
 
 SD Association - *[https://www.sdcard.org/](https://www.sdcard.org/)* style="color:#333333">
 
- \_\_Versiones:
-
-SDSC: Standard Capacity - hasta 2 GB de datos.
-
-SDHC: High Capacity - hasta 32 GB de datos.
-
-SDXC: Extended Capacity - hasta 2 TB de datos
-
-SDUC: Ultra Capacity - hasta 128TB
-
- \_\_Factor de forma: style="color:#333333">
-
-SD, miniSD, microSD.
-
-![](assets/img/Unidad06/Unidad0681.png)
+ ### Versiones:
 
 ![](assets/img/Unidad06/Unidad0682.png)
 
-Las tarjetas SD también se diferencian entre ellas mediante su clase (velocidad)
+ ### Factor de forma
 
- \_\_Clase 2: style="color:#333333">Tienen una velocidad de escritura mínima de 2 MB/s, y pueden ser usadas para hacer fotos y grabar vídeos en baja resolución.
 
- \_\_Clase 4: style="color:#333333">Tienen una velocidad de escritura mínima de 4 MB/s, y pueden ser usadas para grabar vídeos en HD de 720p.
+![](assets/img/Unidad06/Unidad0681.png)
 
- \_\_Clase 6: style="color:#333333"> Tienen una velocidad de escritura mínima de 6 MB/s, y pueden ser usadas para grabar vídeos en HD de 720p.
+### Clasificación
 
- \_\_Clase 10: style="color:#333333"> Tienen una velocidad de escritura mínima de 10 MB/s, y pueden ser usadas para sacar fotos de alta definición consecutivas y grabar vídeos en FullHD de 1080p o resoluciones inferiores.
-
- \_\_UHS Speed Class 1 (U1): style="color:#333333"> Tienen una velocidad de escritura mínima de 10 MB/s, pero como tiene un bus mejor que la Clase 10 es mejor para grabar vídeos FullHD a 1080p que son más pesados.
-
- \_\_UHS Speed Class 3 (U3): style="color:#333333"> Tienen una velocidad de escritura mínima de 30 MB/s, y es la más indicada para grabar vídeos en resoluciones 4K.
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/6b291ca2-ef81-4fa9-857b-6326e3d05b8e)
 
 ![](assets/img/Unidad06/Unidad0683.png)
 
@@ -572,25 +571,13 @@ Las tarjetas SD también se diferencian entre ellas mediante su clase (velocidad
 
 Las tarjetas SD también pueden diferenciarse por su clase para grabación de vídeo:
 
- \_\_Clase V6 style="color:#333333">: Está en las tarjetas de Clase 6, para la grabación de vídeo HD a 720p.
-
- \_\_Clase V10: style="color:#333333">Está en las tarjetas de Clase 10 y UHS1, para sacar fotos de alta definición consecutivas y grabar vídeos en FullHD de 1080p o resoluciones inferiores
-
- \_\_Clase V30: style="color:#333333"> En las tarjetas de Clase U3, para vídeos 4K a 24/30 fps
-
- \_\_Clase V60: style="color:#333333"> En las tarjetas de Clase U3, para vídeos 4K a 60/120 fps
-
- \_\_Clase V90: style="color:#333333"> En las tarjetas de Clase U3, para vídeos 8K a 60/120 fps
-
 ![](assets/img/Unidad06/Unidad0687.png)
 
 ![](assets/img/Unidad06/Unidad0688.png)
 
 ![](assets/img/Unidad06/Unidad0689.png)
 
-![](assets/img/Unidad06/Unidad0690.png)
-
-![](assets/img/Unidad06/Unidad0691.png)
+![](assets/img/Unidad06/Unidad0690.png) ![](assets/img/Unidad06/Unidad0691.png)
 
 # 10.2 Memorias Flash. Pendrive
 
@@ -614,7 +601,7 @@ Utilizar el pendrive como llave de seguridad, que sirve para verificar tu identi
 
 ![](assets/img/Unidad06/Unidad0693.png)
 
-# 11\. Unidades ópticas
+# Unidades ópticas
 
 Las unidades de almacenamiento óptico son aquellas que son capaces de leer y escribir datos por medio de un rayo láser en un soporte óptico, ya que se almacenan por medio de ranuras microscópicas quemadas. La información queda grabada en la superficie de manera física, por lo que solo el calor (puede producir deformaciones en la superficie del disco) y las ralladuras pueden producir la pérdida de los datos, en cambio es inmune a los campos magnéticos y la humedad.
 
@@ -622,14 +609,14 @@ Los discos compactos (CD), discos versátiles digitales (DVD) y discos Blu-ray (
 
 ![](assets/img/Unidad06/Unidad0694.png)
 
-# 11.1 CD-ROM
+## CD-ROM
 
 ![](assets/img/Unidad06/Unidad0695.png)
 
-* El CD-ROM ( style="color:#202124">Compact Disc Read-Only Memory style="color:#333333">) estándar fue establecido en 1985 por Sony y Philips.
+* El **CD-ROM (Compact Disc Read-Only Memory)** fue establecido en 1985 por Sony y Philips.
 * Actualmente en desuso al menos en los equipos microinformáticos
 * Conexiones: IDE-SATA o externos
-* Puede albergar 650 ( style="color:#333333">74 minutos de música style="color:#333333">) o 700 MB de datos (80 minutos de música) y los especiales de gran capacidad pueden llegar a los 800 y 900 MB.
+* Puede albergar 650 (74 minutos de música) o 700 MB de datos (80 minutos de música).
 * Existen los siguientes formatos:
     * CD-ROM (CD Read Only Memory)
     * CD-DA (Compact Disk Digital Audio)
@@ -640,8 +627,6 @@ Los discos compactos (CD), discos versátiles digitales (DVD) y discos Blu-ray (
 ![](assets/img/Unidad06/Unidad0696.png)
 
 ![](assets/img/Unidad06/Unidad0697.png)
-
-Velocidad de lectura/escritura CD CAV (Constant Angular Velocity)
 
 Si un lector indica 24x, significa que puede llegar a leer hasta:
 
@@ -659,16 +644,16 @@ Velocidad = 24 x 150 KB = 3.600 KB/s
 
 ![](assets/img/Unidad06/Unidad06103.png)
 
-# 11.2 DVD
+## DVD
 
 ![](assets/img/Unidad06/Unidad06104.png)
 
 ![](assets/img/Unidad06/Unidad06105.png)
 
 * Digital Versatile Disc (disco versátil digital)
-* 1995→ style="color:#202122"> *DVD Consortium*
+* 1995→ *DVD Consortium*
 * Un DVD puede tener dos capas y dos caras, su capacidad va de 4,7 GB a 17 GB
-* Pueden leer y escribir\* también CDs
+* Pueden leer y escribir también CDs
 * La velocidad de transferencia de datos de una unidad DVD está dada en múltiplos de 1350 KB/s
 * Existen los siguientes formatos:
     * DVD-ROM
@@ -677,7 +662,7 @@ Velocidad = 24 x 150 KB = 3.600 KB/s
     * DVD-R (recordable) / DVD+R
     * DVD-RW (rewritable) / DVD+RW
     * DVD-R DL (dual layer) / DVD+R DL
-* .
+  
 
 ![](assets/img/Unidad06/Unidad06106.png)
 
@@ -693,30 +678,48 @@ Velocidad = 24 x 150 KB = 3.600 KB/s
 
 ![](assets/img/Unidad06/Unidad06112.png)
 
-# 11.3 Blu-Ray
+## Blu-Ray
 
-* La tecnología Blu-Ray (https://us.blu-raydisc.com/) hace uso de un rayo láser de color style="color:#0000FF">azul style="color:#333333">con una longitud de onda de 405 nanómetros. style="color:#0645AD"> *[¿Por qué es azul?](https://www.adslzone.net/2017/10/30/por-que-laser-blu-ray-azul/)*
+La tecnología Blu-Ray (https://us.blu-raydisc.com/) hace uso de un rayo láser de color azul con una longitud de onda de 405 nanómetros. 
+
+> [¿Por qué es azul?](https://www.adslzone.net/2017/10/30/por-que-laser-blu-ray-azul/)
+
 * Desarrollado por la Blu-ray Disc Association (BDA) (2002)
 * La capacidad del Blu-ray es de 25 GB para una capa, 50 GB para doble capa , 100 GB para triple capa y 128 GB para cuádruple capa (BD-XL)
+
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/86731e2a-f6bd-4531-83fd-d727069c2beb)
+
 * Los usos principales del Blu-ray son la grabación y, la distribución del vídeo de alta definición, el almacenamiento de datos y la gestión de activos digitales. Por otro lado, uno de los usos más recurrentes son los videojuegos
 * Existen los siguientes formatos:
     * BD-ROM
     * BD-R (recordable)
     * BD-RE (rewritable)
 * La velocidad de transferencia va a venir expresada por un número seguido de una “X”. En este caso la “X” se refiere a una velocidad de 4,5MB/s. Actualmente existen unidades lectoras de BD con una velocidad de 12x.
-* Pueden leer y escribir\* también CD y DVD
+* Pueden leer y escribir también CD y DVD
 
 ![](assets/img/Unidad06/Unidad06113.png)
 
 ![](assets/img/Unidad06/Unidad06114.png)
 
-# 11\. Unidades ópticas
-
 ![](assets/img/Unidad06/Unidad06115.jpg)
 
 ![](assets/img/Unidad06/Unidad06116.jpg)
 
-# 12\. Cintas magnéticas
+## Comparación CD vs DVD vs Blu-Ray
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=H-jxTzFrnpg" target="_blank">
+ <img src="http://img.youtube.com/vi/H-jxTzFrnpg/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
+</a>
+
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/ece245f2-3371-4678-a612-bd64145b4bd2)
+
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/88fc81c8-4c22-4e48-adfc-caccc93ee479)
+
+
+
+# Cintas magnéticas LTO
+
+![](assets/img/Unidad06/Unidad06118.png)
 
 Las cintas magnéticas de almacenamiento de datos han sido usadas para el almacenamiento de datos durante los últimos 50 años.
 
@@ -730,23 +733,21 @@ La grabación y lectura se efectúan de forma secuencial, que significa que para
 
 ![](assets/img/Unidad06/Unidad06117.png)
 
-![](assets/img/Unidad06/Unidad06118.png)
-
-# 12\. Cintas magnéticas\.LTO
-
- \_\_Linear Tape-Open (LTO) style="color:#333333">es una tecnología de cinta magnética de almacenamiento de datos, desarrollada originalmente a finales de 1990.
+ **Linear Tape-Open (LTO)** es una tecnología de cinta magnética de almacenamiento de datos, desarrollada originalmente a finales de 1990.
 
 ![](assets/img/Unidad06/Unidad06119.png)
 
-![](assets/img/Unidad06/Unidad06120.png)
 
-![](assets/img/Unidad06/Unidad06121.png)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=1yUZ81dCqBg" target="_blank">
+ <img src="http://img.youtube.com/vi/1yUZ81dCqBg/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
+</a>
 
-![](assets/img/Unidad06/Unidad06122.jpg)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=CVN93H6EuAU" target="_blank">
+ <img src="http://img.youtube.com/vi/CVN93H6EuAU/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
+</a>
 
-![](assets/img/Unidad06/Unidad06123.jpg)
 
-# 13\. Estructura lógica de los discos
+# Estructura lógica de los discos
 
 La estructura de partición . Se encarga de definir cómo se organiza la información en el disco duro. Independientemente del hardware o del sistema operativo, todas las computadoras se inician utilizando MBR (BIOS) o GPT (UEFI) .
 
@@ -754,7 +755,7 @@ Espacio particionado . Es el espacio del disco que ha sido asignado a alguna par
 
 Espacio sin particionar. Es espacio no accesible del disco ya que todavía no ha sido asignado a ninguna partición y está sin formatear.
 
-# 13\. MBR \(Master Boot Record\)
+## MBR (Master Boot Record)
 
 * En discos duros que tienen tabla de particiones con el esquema MBR, cuando se crean las particiones, se graba dicha información en el sector de arranque del disco (MBR). Básicamente, el MBR es un tipo especial de sector de arranque que se encuentra en el comienzo de los dispositivos de almacenamiento de datos particionados, como un disco duro fijo o una unidad de almacenamiento externa, y que contiene una tabla de particiones que indica el lugar del disco donde se encuentran las particiones. Normalmente, en dicha tabla se guarda información sobre:
     * el tipo de partición,
@@ -776,43 +777,37 @@ Espacio sin particionar. Es espacio no accesible del disco ya que todavía no ha
 
 ![](assets/img/Unidad06/Unidad06127.png)
 
-# 13\. GPT \(GUID Partition Table\)
+## GPT (GUID Partition Table)
 
-![](assets/img/Unidad06/Unidad06128.png)
-
-GPT (GUID Partition Table) es un nuevo estándar para colocar tablas de particiones en medios de almacenamiento. Forma parte de la (UEFI).
+** GPT (GUID Partition Table)** es un nuevo estándar para colocar tablas de particiones en medios de almacenamiento. Forma parte de la (UEFI).
 
 GPT se localiza al comienzo del disco duro ( *[Primary GUID](https://es.wikipedia.org/wiki/Tabla_de_particiones_GUID)* ), al igual que el MBR, pero no en el primero, sino en el segundo sector. El primer sector todavía está reservado para MBR (Protective MBR) por motivos de seguridad y para conservar la compatibilidad con sistemas más antiguos.
 
 Los datos críticos para el funcionamiento de la plataforma se almacenan en particiones en lugar de hacerlo en sectores ocultos o no particionados (como en el caso de MBR). Además, los discos GPT incluyen tablas de partición principales redundantes (Primary GUID) y de copia de seguridad (Backup GUID) a fin de mejorar la integridad de la estructura de datos de la partición.
 
+![](assets/img/Unidad06/Unidad06128.png)
+
 ![](assets/img/Unidad06/Unidad06129.png)
 
-# 13\. MBR vs GPT
+MBR &rarr; BIOS // GPT &rarr; UEFI
 
-Con MBR se pueden crear hasta cuatro particiones primarias por disco o bien se pueden crear hasta tres particiones primarias y una partición extendida. Dentro de la partición extendida se pueden crear un número ilimitado de unidades lógicas. Los sistemas operativos sólo pueden ir en particiones primarias
-
-Con GPT se pueden crear hasta 128 particiones primarias. Desaparece el concepto de particiones extendidas ni unidades lógicas, todas las particiones son primarias.
-
-GPT admite volúmenes de un tamaño máximo de 9.44 ZB, MBR hasta de 2TB
-
-MBR→ BIOS // GPT→ UEFI
-
-MBR es soportado por sistemas operativos tanto antiguos como modernos mientras que GPT solo es soportado por SO modernos (a partir de Windows 8)
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/a87824f1-d580-4b4d-9680-04bb863b2291)
 
 ![](assets/img/Unidad06/Unidad06130.png)
 
-¿Qué pasa si se corrompe MBR?
+> ¿Qué pasa si se corrompe MBR?
 
-¿Qué pasa si se corrompe GPT?
+> ¿Qué pasa si se corrompe GPT?
 
 ![](assets/img/Unidad06/Unidad06131.png)
 
 ![](assets/img/Unidad06/Unidad06132.png)
 
-# 13\. Estructura lógica de los discos
+## Tipos de particiones
 
- \_\_Partición primaria. style="color:#333333"> Puede ser reconocida como una partición de arranque y puede contener un sistema operativo que realice el arranque del equipo. Una de las particiones primarias se llama la partición activa y es la de arranque. El ordenador busca en esa partición activa el arranque del sistema. Cuando hay varios sistemas operativos instalados la partición activa tiene un pequeño programa llamado gestor de arranque que presenta un pequeño menú que permite elegir qué sistema operativo se arranca. Los sistemas operativos detectarán las particiones primarias y les asignará una unidad. Límite de 4 en MBR y 128 en GPT.
+### Partición primaria.
+
+Puede ser reconocida como una partición de arranque y puede contener un sistema operativo que realice el arranque del equipo. Una de las particiones primarias se llama la partición activa y es la de arranque. El ordenador busca en esa partición activa el arranque del sistema. Cuando hay varios sistemas operativos instalados la partición activa tiene un pequeño programa llamado gestor de arranque que presenta un pequeño menú que permite elegir qué sistema operativo se arranca. Los sistemas operativos detectarán las particiones primarias y les asignará una unidad. Límite de 4 en MBR y 128 en GPT.
 
 ![](assets/img/Unidad06/Unidad06133.png)
 
@@ -820,13 +815,17 @@ MBR es soportado por sistemas operativos tanto antiguos como modernos mientras q
 
 ![](assets/img/Unidad06/Unidad06135.png)
 
- \_\_Partición extendida. style="color:#333333"> También conocida como partición secundaria, sirve para contener múltiples unidades lógicas en su interior. Fue ideada para romper la limitación de 4 particiones primarias en un solo disco físico por tanto sólo se utiliza en MBR. Solo puede existir una partición de este tipo por disco, y solo sirve para contener particiones lógicas. Por lo tanto, es el único tipo de partición que style="color:#333333"> *no* style="color:#333333"> soporta un sistema de archivos directamente. No se puede instalar un sistema operativo en ella. style="color:#333333"> *Solo aplicable a MBR.*
+### Partición extendida.
+
+También conocida como partición secundaria, sirve para contener múltiples unidades lógicas en su interior. Fue ideada para romper la limitación de 4 particiones primarias en un solo disco físico por tanto sólo se utiliza en MBR. Solo puede existir una partición de este tipo por disco, y solo sirve para contener particiones lógicas. Por lo tanto, es el único tipo de partición que style="color:#333333"> *no* style="color:#333333"> soporta un sistema de archivos directamente. No se puede instalar un sistema operativo en ella. style="color:#333333"> *Solo aplicable a MBR.*
 
 ![](assets/img/Unidad06/Unidad06136.png)
 
 Disco duro con tres particiones primarias y una extendida.
 
- \_\_Partición lógica. style="color:#333333">Ocupa una porción de la partición extendida o la totalidad de la misma, y se puede formatear con un sistema de archivos diferente (FAT32, NTFS, ext3, ext4, etc.) y se le asignan una unidad, así el sistema operativo reconoce las particiones lógicas o su sistema de archivos. style="color:#333333"> *Solo aplicable a MBR.*
+### Partición lógica.
+
+Ocupa una porción de la partición extendida o la totalidad de la misma, y se puede formatear con un sistema de archivos diferente (FAT32, NTFS, ext3, ext4, etc.) y se le asignan una unidad, así el sistema operativo reconoce las particiones lógicas o su sistema de archivos. **Solo aplicable a MBR.**
 
 ![](assets/img/Unidad06/Unidad06137.png)
 
@@ -834,11 +833,11 @@ Disco duro MBR con tres particiones primarias y una extendida con cuatro lógica
 
 ![](assets/img/Unidad06/Unidad06138.png)
 
-Disk Management - Administrador de discos
+**Disk Management - Administrador de discos**
 
 ![](assets/img/Unidad06/Unidad06139.png)
 
-# 14\. Sistema de archivos
+# Sistema de archivos
 
 El sistema de archivos o File System es un método para el almacenamiento y organización de archivos y los datos que estos contienen, para hacer más fácil la tarea encontrarlos y acceder a ellos.
 
@@ -850,33 +849,21 @@ La estructura de directorios suele ser jerárquica, ramificada o en árbol inver
 
 Los principales tipos sistemas de archivos que encontramos son los siguientes:
 
-NTFS (New Technology File System).
-
-HPFS (High Performance File System).
-
-EXT (Extended file System).
-
-HFS+ (Hierarchical File System).
-
-APFS (Apple File System).
-
-FAT (File Allocation Table).
-
-exFAT (Extended File Allocation)
-
-FAT32.
-
-ReFS
+* NTFS (New Technology File System).
+* HPFS (High Performance File System).
+* EXT (Extended file System).
+* HFS+ (Hierarchical File System).
+* APFS (Apple File System).
+* FAT (File Allocation Table).
+* exFAT (Extended File Allocation)
+* FAT32.
+* ReFS
 
 Para saber cuál de estos tipos debemos elegir debemos saber el sistema operativo que estamos usando o usaremos Windows, Linux o MacOS. Esto es importante porque hay algunos sistemas de ficheros que no son compatibles con algunos sistemas operativos:
 
-Windows: NTFS, FAT32 y exFAT
-
-Linux: EXT4, NTFS, exFAT y FAT32
-
-MacOS: APFS, HFS, HFS EXT4 y NTFS con limitaciones.
-
-<span \_\_Actividad sistema de archivos
+* Windows: NTFS, FAT32 y exFAT
+* Linux: EXT4, NTFS, exFAT y FAT32
+* MacOS: APFS, HFS, HFS EXT4 y NTFS con limitaciones.
 
 ![](assets/img/Unidad06/Unidad06141.png)
 
@@ -884,7 +871,7 @@ MacOS: APFS, HFS, HFS EXT4 y NTFS con limitaciones.
 
 ![](assets/img/Unidad06/Unidad06143.png)
 
-# 14\. Comandos disco duro
+# Comandos disco duro
 
 Info del disco: wmic diskdrive get caption,serialnumber
 
