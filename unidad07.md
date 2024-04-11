@@ -1,148 +1,92 @@
-![](assets%5Cimg%5CUnidad07%5Cu70.png)
-
 # U7- Adaptadores gráficos, red y multimedia
 
-# MONTAJE Y MANTENIMIENTO DE EQUIPOS
 
-# 1º Ciclo Formativo de Grado Medio de  
-Sistemas Microinformáticos y Redes
+# Tarjetas gráficas
 
-# Curso 2022/2023
+La tarjeta gráfica, también llamada tarjeta de vídeo, adaptador de pantalla o simplemente GPU (heredado del nombre de su procesador gráfico) es una tarjeta de expansión o un circuito integrado que se encarga de procesar los datos que le envía el procesador del ordenador y transformarlos en información visible y comprensible para el usuario, representándolos en el dispositivo de salida, el monitor.
 
-# 1. Tarjetas gráficas
-
-Definición
-
-GPU
-
-Características
-
-Salidas/Conectores de la tarjeta gráfica
-
-Adaptadores
-
-Alimentación
-
-Multi monitor
-
-# Contenidos. Adaptadores de red
-
-Tarjetas de red para LAN
-
-Conectores
-
-Dirección MAC
-
-Velocidad
-
-Wake on LAN (WoL)
-
-Tarjetas de red para Wi-Fi
-
-Estándares WiFi
-
-Bluetooth
-
-# Contenidos. Tarjetas multimedia
-
-Tarjetas de sonido
-
-Funciones de la tarjeta de sonido
-
-Conectores
-
-Componentes de una tarjeta de sonido
-
-Tarjeta capturadora de video
-
-Tarjeta sintonizadora de televisión
-
-# 1.1 Tarjetas gráficas
-
-* La tarjeta gráfica, también llamada  __tarjeta de vídeo,__  adaptador de pantalla o simplemente GPU (heredado del nombre de su procesador gráfico) es una tarjeta de expansión o un circuito integrado que se encarga de procesar los datos que le envía el procesador del ordenador y transformarlos en información visible y comprensible para el usuario, representándolos en el dispositivo de salida, el monitor.
-* Tipos:
-* __Integradas en __  _CPU_ : Estas gráficas integradas tienen normalmente una potencia reducida y además necesitan recursos de memoria RAM del sistema.
+Tipos:
+* Integradas en CPU: Estas gráficas integradas tienen normalmente una potencia reducida y además necesitan recursos de memoria RAM del sistema.
   * Intel
   * Amd → APU
-  * Apple M1
-* __Tarjetas de expansión:__
+  * Apple M
+* Tarjetas de expansión
   * PCI-Express x16
   * PCI → Obsoleto
   * AGP → Obsoleto
 
-# 1.1 Componentes tarjetas gráficas
+## Componentes tarjetas gráficas
 
-![](assets%5Cimg%5CUnidad07%5Cu71.png)
+![](assets/img/Unidad07/u71.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu72.png)
 
-# 1.2 GPU
+### GPU - Graphics Processing Unit
 
-__GPU, Graphics Processing Unit o Unidad de Procesamiento de Gráficos__ , se encarga de procesar los gráficos que utiliza el sistema de computación, es decir es una unidad de procesamiento gráfico con una alta capacidad de paralelizado, capaz de trabajar y de procesar gráficos, y de convertir información y datos en elementos visibles por el usuario, pero que también de sacar adelante tareas que requieran de la realización de una gran cantidad de operaciones concurrentes en paralelo
+La GPU, o Unidad de Procesamiento de Gráficos, se encarga de procesar los gráficos que utiliza el sistema de computación, es decir es una unidad de procesamiento gráfico con una alta capacidad de paralelizado, capaz de trabajar y de procesar gráficos, y de convertir información y datos en elementos visibles por el usuario, pero que también de sacar adelante tareas que requieran de la realización de una gran cantidad de operaciones concurrentes en paralelo
 
 Físicamente es un circuito muy complejo que integra varios miles de millones de transistores y varios núcleos que tienen capacidad de procesamiento independiente.
 
 Así como las CPU, están diseñados con pocos núcleos pero altas frecuencias de reloj, las GPU tienden al concepto opuesto, contando con grandes cantidades de núcleos con frecuencias de reloj relativamente bajas.
 
-![](assets%5Cimg%5CUnidad07%5Cu73.png)
+![](assets/img/Unidad07/u73.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu74.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu75.png)
+### Características GPU
 
-# 1.3 Características GPU
+**Núcleos**. Cada uno de ellos contribuye al rendimiento en conjunto de la tarjeta gráfica. Cada fabricante utiliza diferentes arquitecturas, y no es un buen dato para comparar modelos de fabricantes distintos.
 
-* __Núcleos. __  __Cada uno de ellos contribuye al rendimiento en conjunto de la tarjeta gráfica. Cada fabricante utiliza diferentes arquitecturas, y no es un buen dato para comparar modelos de fabricantes distintos.__
-  * __AMD→ Stream Processors__
-  * __NVIDIA → CUDA Cores__
-* __Velocidad o frecuencia base de reloj.__  __ Indica la velocidad a la que operan los núcleos de la tarjeta gráfica. Las frecuencias de las tarjetas gráficas son mucho menores que las de los procesadores.__
-  * __Frecuencia de Boost.   __  __Aumento por tiempo limitado de la frecuencia base para acelerar el renderizado de la escena. Lo que se traduce en un aumento de la tasa de fotogramas y/o de la calidad de imagen.__
+* AMD → Stream Processors
+* NVIDIA → CUDA Cores
 
-![](assets%5Cimg%5CUnidad07%5Cu76.png)
+![](assets/img/Unidad07/u74.png) ![](assets/img/Unidad07/u75.png)
+  
+**Velocidad o frecuencia base de reloj**. Indica la velocidad a la que operan los núcleos de la tarjeta gráfica. Las frecuencias de las tarjetas gráficas son mucho menores que las de los procesadores.
 
-__                 __  __     Representación de imágenes__
+**Frecuencia de Boost**. Aumento por tiempo limitado de la frecuencia base para acelerar el renderizado de la escena. Lo que se traduce en un aumento de la tasa de fotogramas y/o de la calidad de imagen.
 
-![](assets%5Cimg%5CUnidad07%5Cu77.png)
 
-__Imagen vectorial__
 
-Objeto definido como un punto central en alguna parte del plano, con un radio de un tamaño concreto, una línea que lo envuelve con un grosor determinado y un color de relleno, rojo en este caso. Las imágenes vectoriales se describen mediante líneas, formas y otros componentes gráficos de imagen almacenados en un formato que incorpora fórmulas geométricas para interpretar los elementos de la imagen.
+# Representación de imágenes
 
-__Mapa de bits o imagen rasterizada__
+## Imagen vectorial
 
-Objeto definido como una serie de píxeles de la pantalla pintados en rojo. Consiste en definir el color de cada pixel. Se describen mediante un conjunto o mapa de bits dentro de una cuadrícula rectangular de píxeles o puntos.
+Una imagen vectorial es un objeto definido como un punto central en alguna parte del plano, con un radio de un tamaño concreto, una línea que lo envuelve con un grosor determinado y un color de relleno, rojo en este caso. Las imágenes vectoriales se describen mediante líneas, formas y otros componentes gráficos de imagen almacenados en un formato que incorpora fórmulas geométricas para interpretar los elementos de la imagen.
 
-![](assets%5Cimg%5CUnidad07%5Cu78.png)
+## Mapa de bits o imagen rasterizada
 
-__Imagen rasterizada →__
+Un mapa de bits o imagen resterizada es un objeto definido como una serie de píxeles de la pantalla. Consiste en definir el color de cada pixel. Se describen mediante un conjunto o mapa de bits dentro de una cuadrícula rectangular de píxeles o puntos.
 
-![](assets%5Cimg%5CUnidad07%5Cu79.png)
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/adbdc737-e671-4b77-ab55-d5fa911ed847)
 
-__← Imagen vectorial__
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/b2585586-91f0-451c-890d-a263d1a8d637)
 
+## Rasterización
 Los objetos 3D se guardan en la memoria de forma vectorial, pero para ser representados en un medio 2D, como una pantalla o un papel, se deben convertir a un mapa de bits, a este proceso se le llama rasterización.
+La  rasterización o rasterizar, consiste en pasar un objeto vectorial a un conjunto de bits. El proceso contrario sería **vectorizar**.
 
-La  __rasterización o rasterizar,__  consiste en pasar un objeto vectorial a un conjunto de bits. El proceso contrario sería  __vectorizar.__
+## ROPs. (Render/Raster Output Units).
 
-__ROPs. (Render/Raster Output Units)__ . Se encargan del proceso de rasterizado. Gestiona la salida de píxeles en la pantalla y así como otras tareas básicas de renderizado y el antialiasing.
+Se encargan del proceso de rasterizado. Gestiona la salida de píxeles en la pantalla y así como otras tareas básicas de renderizado y el antialiasing.
 
-![](assets%5Cimg%5CUnidad07%5Cu710.png)
+![](assets/img/Unidad07/u710.png)
 
-__TMUs o Texture Mapping Unit__  es una unidad fija que se encarga del llamado mapeo de texturas donde lógicamente se encarga de darle las texturas a las formas y píxeles ya trabajados para finalmente rotar o redimensionar estas para hacerlas más reales. Básicamente le da textura a los píxeles procesados.
+## TMUs o Texture Mapping Unit
 
-![](assets%5Cimg%5CUnidad07%5Cu711.png)
+Es una unidad fija que se encarga del llamado mapeo de texturas donde lógicamente se encarga de darle las texturas a las formas y píxeles ya trabajados para finalmente rotar o redimensionar estas para hacerlas más reales. Básicamente le da textura a los píxeles procesados.
 
-![](assets%5Cimg%5CUnidad07%5Cu712.png)
+![](assets/img/Unidad07/u711.png)
 
-__Pixel Fill Rate o tasa de relleno de píxeles__ . Número de píxeles que una tarjeta de video puede renderizar en pantalla y escribir en la memoria de video, en un segundo.  _Megapíxeles por segundo(MPx/s)_
+![](assets/img/Unidad07/u712.png)
 
-__Texture Fill Rate o tasa de relleno de texturas. __ número de elementos de mapa de textura (téxeles) que una GPU puede mapear a píxeles en un segundo.  _Megatéxeles(MT/s) o gigatexels por segundo(GT/s)._
+* **Pixel Fill Rate o tasa de relleno de píxeles**. Número de píxeles que una tarjeta de video puede renderizar en pantalla y escribir en la memoria de video, en un segundo.  La unidad es el Megapíxeles por segundo(MPx/s)
 
-La GTX 1080 Ti tiene un Texture Fillrate de 332  __GTexel/s__ , mientras que tiene un Pixel Fillrate de  __130,2 Gpixel/s.__
+* **Texture Fill Rate o tasa de relleno de texturas**. Número de elementos de mapa de textura (téxeles) que una GPU puede mapear a píxeles en un segundo. La unidad es el Megatéxeles(MT/s) o gigatexels por segundo(GT/s).
 
-![](assets%5Cimg%5CUnidad07%5Cu713.png)
+> La GTX 1080 Ti tiene un Texture Fillrate de 332 GTexel/s, mientras que tiene un Pixel Fillrate de 130,2 Gpixel/s.
 
-![](assets%5Cimg%5CUnidad07%5Cu714.png)
+![](assets/img/Unidad07/u713.png)
+
+![](assets/img/Unidad07/u714.png)
 
 # 1.3 VRAM
 
@@ -165,7 +109,7 @@ __Ancho de bus de memoria (memory bus width)__  __. Número de bits de datos que
 
 __La NVIDIA GT 1030 tiene 64 bits de ancho de bus, la RTX 3080 tiene 320 bits (imagen) y la RTX 3090 tiene 384 bits de ancho de bus.__
 
-![](assets%5Cimg%5CUnidad07%5Cu715.png)
+![](assets/img/Unidad07/u715.png)
 
 * RTX 3080:
   * 10 chips
@@ -174,7 +118,7 @@ __La NVIDIA GT 1030 tiene 64 bits de ancho de bus, la RTX 3080 tiene 320 bits (i
 
 __Frecuencia/ velocidad de reloj de la memoria. __  __Operaciones por ciclo de reloj que es capaz de realizar. __  _No confundir con la frecuencia de la GPU_
 
-![](assets%5Cimg%5CUnidad07%5Cu716.png)
+![](assets/img/Unidad07/u716.png)
 
 __Ancho de banda (BW) de la memoria . __  __El ancho de banda de la memoria es la cantidad de datos a los que la GPU puede acceder en cada ciclo de reloj y depende directamente de la frecuencia de la memoria (MHZ) o velocidad de la memoria(Gbps) y del ancho de bus. Normalmente se mide en GB/s__
 
@@ -186,27 +130,27 @@ __Ejemplo: Una __  _[FX 5900XT](https://technical.city/es/video/GeForce-FX-5900-
 
 __BW__  __memoria__  __= __  __700 MHz*256 bits = 179200 bits/s ⇒ __  __179200 bits/s__  __ / 8 bytes = 22400 MB/s = 22,4 GB/s.__
 
-![](assets%5Cimg%5CUnidad07%5Cu717.png)
+![](assets/img/Unidad07/u717.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu718.png)
+![](assets/img/Unidad07/u718.png)
 
 __BW__  __memoria__  __= Ancho de bus(bits) * Velocidad de la memoria(Gbps)__
 
 __BW__  __memoria__  __=  384 bits * 14 Gbps / 8 bytes= 672 GB/s__
 
-![](assets%5Cimg%5CUnidad07%5Cu719.png)
+![](assets/img/Unidad07/u719.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu720.png)
+![](assets/img/Unidad07/u720.png)
 
 __Capacidad.__  La cantidad de memoria de la tarjeta gráfica viene dada por la capacidad individual de cada uno de sus chips
 
-![](assets%5Cimg%5CUnidad07%5Cu721.png)
+![](assets/img/Unidad07/u721.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu722.png)
+![](assets/img/Unidad07/u722.png)
 
 __VRM - Voltage Regulator Modules - Módulo de regulación de voltaje. __ Es un componente electrónico que permite regular, con mayor o menor eficiencia, el voltaje que se suministra en un circuito electrónico y en el caso que nos ocupa a la tarjeta gráfica aunque también está presente en procesadores y placas base
 
-![](assets%5Cimg%5CUnidad07%5Cu723.png)
+![](assets/img/Unidad07/u723.png)
 
 # 1.6 Alimentación
 
@@ -214,13 +158,13 @@ Cuanto más potente sea una tarjeta gráfica mayor es su consumo eléctrico, y e
 
 Cada uno de los conectores de los cables PCIe de la fuente de alimentación es capaz de proporcionar 12,5 vatios adicionales. En otras palabras, un conector PCIe de 6 pines es capaz de entregar hasta 75 vatios, mientras que esto se eleva hasta los 100 vatios en los conectores de 8 pines.
 
-![](assets%5Cimg%5CUnidad07%5Cu724.png)
+![](assets/img/Unidad07/u724.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu725.jpg)
+![](assets/img/Unidad07/u725.jpg)
 
 Una tarjeta gráfica que tenga un consumo eléctrico de 150 vatios, necesitaría los 75 que proporciona la placa base y otros 75 a través de la alimentación adicional de la fuente. En este ejemplo, necesitaríamos 75 vatios adicionales, y con un conector de 6 pines sería suficiente. Si la gráfica tuviera un consumo de 225 vatios, necesitaríamos los 75 de la placa y otros 150 adicionales, que podríamos proporcionarle mediante dos conectores de 6 pines, o incluso uno de 6 y otro de 8 para alcanzar los 250 vatios
 
-![](assets%5Cimg%5CUnidad07%5Cu726.png)
+![](assets/img/Unidad07/u726.png)
 
 # 1.3 TDP vs TGP vs TBP
 
@@ -230,7 +174,7 @@ __TGP - Total Graphics Power o  consumo gráfico total__  __. Cantidad máxima d
 
 __TBP - __  __Total Board Power. __ Concepto equivalente a TGP pero para gráficas con chip  _AMD._
 
-![](assets%5Cimg%5CUnidad07%5Cu727.png)
+![](assets/img/Unidad07/u727.png)
 
 __TDP - Thermal Design Power. __  __En tarjetas gráficas el término TDP se refiere al __  __consumo de energía que tiene la GPU de la tarjeta.__
 
@@ -238,13 +182,13 @@ __TGP - Total Graphics Power o  consumo gráfico total__  __. Cantidad máxima d
 
 __TBP - __  __Total Board Power. __ Concepto equivalente a TGP pero para gráficas con chip  _AMD._
 
-![](assets%5Cimg%5CUnidad07%5Cu728.png)
+![](assets/img/Unidad07/u728.png)
 
 # 1.3 Flops / FPS
 
-![](assets%5Cimg%5CUnidad07%5Cu729.png)
+![](assets/img/Unidad07/u729.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu730.png)
+![](assets/img/Unidad07/u730.png)
 
 __FLOPS -Floating (point) Operations Per Second - Operaciones en punto flotante por segundo__  __. Se trata de una tasa de velocidad de las tarjetas gráficas. Se suele medir en Gflops o TFlops__
 
@@ -252,11 +196,11 @@ __FPS - Frames Per Second - Imágenes por segundo__  __. Se utiliza ampliamente 
 
 # 1.3 Especificaciones tarjeta
 
-![](assets%5Cimg%5CUnidad07%5Cu731.png)
+![](assets/img/Unidad07/u731.png)
 
 _[https://www.profesionalreview.com/hardware/mejores-tarjetas-graficas/](https://www.profesionalreview.com/hardware/mejores-tarjetas-graficas/)_
 
-![](assets%5Cimg%5CUnidad07%5Cu732.png)
+![](assets/img/Unidad07/u732.png)
 
 # 1.3 Resolución y aspect ratio
 
@@ -264,11 +208,11 @@ __Resolución. __ Es el número de píxeles que puede ser mostrado en la pantall
 
 Un  __pixel__ , en  plural píxeles (acrónimo del inglés picture element) es la menor unidad homogénea en color que forma parte de una imagen digital, ya sea esta una fotografía, un fotograma de vídeo o un gráfico.
 
-![](assets%5Cimg%5CUnidad07%5Cu733.png)
+![](assets/img/Unidad07/u733.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu734.png)
+![](assets/img/Unidad07/u734.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu735.png)
+![](assets/img/Unidad07/u735.png)
 
 # 1.3 Profundidad de color
 
@@ -276,17 +220,17 @@ Un  __pixel__ , en  plural píxeles (acrónimo del inglés picture element) es l
   * Escala grises → Colores = 2 bits
   * RGB →  Colores = 23*bits
 
-![](assets%5Cimg%5CUnidad07%5Cu736.png)
+![](assets/img/Unidad07/u736.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu737.png)
+![](assets/img/Unidad07/u737.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu738.png)
+![](assets/img/Unidad07/u738.png)
 
 # 1.3 Frecuencia de actualización.
 
 __Frecuencia de actualización (velocidad de refresco). __ Es el número de veces por segundo que se dibuja la imagen en la pantalla en un segundo. Se mide en Hercios.
 
-![](assets%5Cimg%5CUnidad07%5Cu739.png)
+![](assets/img/Unidad07/u739.png)
 
 _[https://hardzone.es/tutoriales/rendimiento/fps-ojo-humano/](https://hardzone.es/tutoriales/rendimiento/fps-ojo-humano/)_
 
@@ -299,17 +243,17 @@ _[https://hardzone.es/tutoriales/rendimiento/fps-ojo-humano/](https://hardzone.e
     * _[ProPhoto RGB](https://es.wikipedia.org/w/index.php?title=Espacio_de_color_ProPhoto_RGB&action=edit&redlink=1)_
   * __CMYK (siglas de Cyan, Magenta, Yellow y Key) es un modelo de color sustractivo que se utiliza en la impresión en colores.__
 
-![](assets%5Cimg%5CUnidad07%5Cu740.png)
+![](assets/img/Unidad07/u740.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu741.png)
+![](assets/img/Unidad07/u741.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu742.png)
+![](assets/img/Unidad07/u742.png)
 
 # 1.4 Salidad tarjetas gráficas
 
 Las tarjetas gráficas disponen de unos conectores de salida que sirven para conectarla con los monitores.
 
-![](assets%5Cimg%5CUnidad07%5Cu743.png)
+![](assets/img/Unidad07/u743.png)
 
 # 1.4 VGA. Video Graphics Array
 
@@ -319,13 +263,13 @@ Resolución máxima: 2048 x 1536 píxeles a 85 Hz
 
 Conector DB de 15 pines
 
-![](assets%5Cimg%5CUnidad07%5Cu744.png)
+![](assets/img/Unidad07/u744.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu745.png)
+![](assets/img/Unidad07/u745.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu746.png)
+![](assets/img/Unidad07/u746.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu747.png)
+![](assets/img/Unidad07/u747.png)
 
 # 1.4 DVI (Digital Visual Interface)
 
@@ -334,67 +278,67 @@ Conector DB de 15 pines
   * SL →1.65 Gbps de ancho de banda lo que permite llegar a 1920 x 1200 píxeles a 60Hz
   * DL→ 2 Gbps de ancho de banda lo que permite llegar 2560 x 1600 píxeles a  60 Hz
 
-![](assets%5Cimg%5CUnidad07%5Cu748.png)
+![](assets/img/Unidad07/u748.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu749.png)
+![](assets/img/Unidad07/u749.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu750.png)
+![](assets/img/Unidad07/u750.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu751.png)
+![](assets/img/Unidad07/u751.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu752.png)
+![](assets/img/Unidad07/u752.png)
 
 # 1.4 HDMI (High-Definition Multimedia Interface)
 
 __HDMI__  responde a las siglas High Definition Multimedia Interface (interfaz multimedia de alta definición) y hace referencia a la norma de conexión que permite transmitir audio y vídeo digital sin comprimir desde un equipo a otro y con un único cable.
 
-![](assets%5Cimg%5CUnidad07%5Cu753.png)
+![](assets/img/Unidad07/u753.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu754.png)
+![](assets/img/Unidad07/u754.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu755.png)
+![](assets/img/Unidad07/u755.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu756.png)
+![](assets/img/Unidad07/u756.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu757.png)
+![](assets/img/Unidad07/u757.png)
 
 # 1.4 DisplayPort
 
 __DisplayPort__  es una interfaz digital para todo tipo de dispositivos, la cual ha sido desarrollada por VESA, por lo que estamos ante una interfaz que está libre de cualquier tipo de licencia o canon.
 
-![](assets%5Cimg%5CUnidad07%5Cu758.png)
+![](assets/img/Unidad07/u758.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu759.png)
+![](assets/img/Unidad07/u759.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu760.png)
+![](assets/img/Unidad07/u760.png)
 
 # DisplayPort
 
-![](assets%5Cimg%5CUnidad07%5Cu761.png)
+![](assets/img/Unidad07/u761.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu762.png)
+![](assets/img/Unidad07/u762.png)
 
 # 1.4 DisplayPort
 
-![](assets%5Cimg%5CUnidad07%5Cu763.png)
+![](assets/img/Unidad07/u763.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu764.png)
+![](assets/img/Unidad07/u764.png)
 
 # 1.5 Adaptadores
 
-![](assets%5Cimg%5CUnidad07%5Cu765.png)
+![](assets/img/Unidad07/u765.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu766.png)
+![](assets/img/Unidad07/u766.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu767.png)
+![](assets/img/Unidad07/u767.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu768.png)
+![](assets/img/Unidad07/u768.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu769.png)
+![](assets/img/Unidad07/u769.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu770.png)
+![](assets/img/Unidad07/u770.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu771.png)
+![](assets/img/Unidad07/u771.png)
 
 # 1.7 Multi-monitor
 
@@ -404,9 +348,9 @@ Duplicación de pantalla
 
 Extensión de escritorio
 
-![](assets%5Cimg%5CUnidad07%5Cu772.png)
+![](assets/img/Unidad07/u772.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu773.png)
+![](assets/img/Unidad07/u773.png)
 
 # 
 
@@ -428,17 +372,17 @@ Combinación de ambas ya que que con los elementos hardware adecuados son compat
 
 Los adaptadores de red, tarjeta de red, interfaz de red o NIC (Network interface card) es la parte hardware que comunica los diferentes nodos (ordenador, dispositivos móviles, televisiones….) de la red con el medio de transmisión que a su vez interconecta con los demás dispositivos que conforman la red. Pueden ser cableados o inalámbricos.
 
-![](assets%5Cimg%5CUnidad07%5Cu774.png)
+![](assets/img/Unidad07/u774.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu775.png)
+![](assets/img/Unidad07/u775.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu776.png)
+![](assets/img/Unidad07/u776.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu777.png)
+![](assets/img/Unidad07/u777.png)
 
 # 2.3- Interfaces de red cableados
 
-![](assets%5Cimg%5CUnidad07%5Cu778.png)
+![](assets/img/Unidad07/u778.png)
 
 RJ45→ cable par trenzado
 
@@ -446,31 +390,31 @@ SPF→ fibra óptica
 
 BNC→ cable coaxial
 
-![](assets%5Cimg%5CUnidad07%5Cu779.png)
+![](assets/img/Unidad07/u779.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu780.png)
+![](assets/img/Unidad07/u780.png)
 
 # 2.3.1- Interfaces de red RJ45
 
-![](assets%5Cimg%5CUnidad07%5Cu781.png)
+![](assets/img/Unidad07/u781.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu782.png)
+![](assets/img/Unidad07/u782.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu783.png)
+![](assets/img/Unidad07/u783.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu784.png)
+![](assets/img/Unidad07/u784.png)
 
 # 2.3.2. Interfaces de red fibra óptica
 
 Un transceptor SFP (small form-factor pluggable transceptor ) o Mini_GBIC permiten conectar cables de fibra óptica de diferentes tipos, como son monomodo y multimodo, así como diferentes velocidades.
 
-![](assets%5Cimg%5CUnidad07%5Cu785.png)
+![](assets/img/Unidad07/u785.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu786.png)
+![](assets/img/Unidad07/u786.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu787.png)
+![](assets/img/Unidad07/u787.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu788.png)
+![](assets/img/Unidad07/u788.png)
 
 # 2.3.3. Interfaces de red coaxial
 
@@ -478,15 +422,15 @@ Obsoleto
 
 Redes topologia anillo
 
-![](assets%5Cimg%5CUnidad07%5Cu789.png)
+![](assets/img/Unidad07/u789.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu790.png)
+![](assets/img/Unidad07/u790.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu791.png)
+![](assets/img/Unidad07/u791.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu792.png)
+![](assets/img/Unidad07/u792.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu793.png)
+![](assets/img/Unidad07/u793.png)
 
 # 2.3.4- Velocidad Ethernet
 
@@ -500,7 +444,7 @@ SR: Corto alcance (Short Range)
 
 LR: Largo alcance (Long Range)
 
-![](assets%5Cimg%5CUnidad07%5Cu794.png)
+![](assets/img/Unidad07/u794.png)
 
 # 2.4- Tarjetas de red inalámbricas
 
@@ -508,19 +452,19 @@ Las redes Wi-Fi permiten la conectividad de equipos y dispositivos mediante onda
 
 Estándar IEEE 802.11 → WiFi
 
-![](assets%5Cimg%5CUnidad07%5Cu795.png)
+![](assets/img/Unidad07/u795.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu796.png)
+![](assets/img/Unidad07/u796.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu797.png)
+![](assets/img/Unidad07/u797.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu798.png)
+![](assets/img/Unidad07/u798.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu799.png)
+![](assets/img/Unidad07/u799.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7100.png)
+![](assets/img/Unidad07/u7100.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7101.png)
+![](assets/img/Unidad07/u7101.png)
 
 # 2.5- Bluetooth
 
@@ -530,9 +474,9 @@ IEEE 802.15.1
 
 Frecuencia 2,402 GHz y los 2,480 GHz
 
-![](assets%5Cimg%5CUnidad07%5Cu7102.png)
+![](assets/img/Unidad07/u7102.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7103.png)
+![](assets/img/Unidad07/u7103.png)
 
 Actividad: ¿NFC?
 
@@ -548,21 +492,21 @@ __Actividad: Identifica la MAC de tu ordenador y de tu teléfono móvil__
 
 # 2.7- Dispositivos interconexión. Router/Switch
 
-![](assets%5Cimg%5CUnidad07%5Cu7104.png)
+![](assets/img/Unidad07/u7104.png)
 
 # 2.7- Dispositivos interconexión. AP
 
-![](assets%5Cimg%5CUnidad07%5Cu7105.png)
+![](assets/img/Unidad07/u7105.png)
 
 # 2.7- Dispositivos interconexión. Firewall
 
-![](assets%5Cimg%5CUnidad07%5Cu7106.png)
+![](assets/img/Unidad07/u7106.png)
 
 # 2.8- VoIP - Voice Over IP
 
 VoIP es un acrónimo de Voz sobre Protocolo de Internet (Voice Over Internet Protocol), el cual por sí mismo significa voz a través de internet. Es una tecnología que proporciona la comunicación de voz y sesiones multimedia (tales como vídeo) sobre Protocolo de Internet (IP).
 
-![](assets%5Cimg%5CUnidad07%5Cu7107.png)
+![](assets/img/Unidad07/u7107.png)
 
 # 3- Tarjetas multimedia
 
@@ -590,17 +534,17 @@ Síntesis. Es el procedimiento mediante el cual estas tarjetas reproducen sonido
 
 La familia Sound Blaster de tarjetas de sonido, ha sido durante muchos años el estándar para el audio de los PC, antes de que el audio de PC se hiciera común. El creador de Sound Blaster es una empresa de Singapur llamada Creative Technology, también conocida por el nombre de su empresa satélite en los Estados Unidos, Creative Labs.
 
-![](assets%5Cimg%5CUnidad07%5Cu7108.png)
+![](assets/img/Unidad07/u7108.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7109.png)
+![](assets/img/Unidad07/u7109.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7110.jpg)
+![](assets/img/Unidad07/u7110.jpg)
 
 # 3.1- Componentes de una tarjetas de sonido
 
 # 3.1- In/Out de una tarjeta de sonido
 
-![](assets%5Cimg%5CUnidad07%5Cu7111.png)
+![](assets/img/Unidad07/u7111.png)
 
 Analógicos
 
@@ -620,59 +564,59 @@ __Coaxial__
 
 __Óptico__
 
-![](assets%5Cimg%5CUnidad07%5Cu7112.png)
+![](assets/img/Unidad07/u7112.png)
 
 Actividad: explicar conectores
 
 # 3.1- Tarjetas de sonido. Home Cinema 5.1
 
-![](assets%5Cimg%5CUnidad07%5Cu7113.png)
+![](assets/img/Unidad07/u7113.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7114.png)
+![](assets/img/Unidad07/u7114.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7115.png)
+![](assets/img/Unidad07/u7115.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7116.png)
+![](assets/img/Unidad07/u7116.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7117.png)
+![](assets/img/Unidad07/u7117.png)
 
 # 3.1- Tipos de tarjetas de sonido
 
 __    Integradas en placa base: __
 
-![](assets%5Cimg%5CUnidad07%5Cu7118.png)
+![](assets/img/Unidad07/u7118.png)
 
 __   PCI/PCI Express __
 
-![](assets%5Cimg%5CUnidad07%5Cu7119.png)
+![](assets/img/Unidad07/u7119.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7120.png)
+![](assets/img/Unidad07/u7120.png)
 
 __USB:__
 
-![](assets%5Cimg%5CUnidad07%5Cu7121.png)
+![](assets/img/Unidad07/u7121.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7122.png)
+![](assets/img/Unidad07/u7122.png)
 
 __Interfaces de audio:__
 
 Similares a las tarjetas de sonido, pero muy enfocadas al uso profesional y a la producción, las interfaces de audio son herramientas dedicadas al uso profesional que cuentan suelen contar con mejores capacidades que sus homónimas internas. Suelen conectarse a través de USB o Firewire de manera externa a nuestros equipos.
 
-![](assets%5Cimg%5CUnidad07%5Cu7123.png)
+![](assets/img/Unidad07/u7123.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7124.png)
+![](assets/img/Unidad07/u7124.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7125.png)
+![](assets/img/Unidad07/u7125.png)
 
 __Mesa de mezclas:__
 
 Dispositivo electrónico al cual se conectan diversos elementos emisores de audio, tales como micrófonos, entradas de línea, samplers, sintetizadores, reproductores de CD, etc. Una vez que las señales sonoras entran en la mesa estas pueden ser procesadas y tratadas de diversos modos para dar como resultado de salida una mezcla de audio, mono, multicanal o estéreo
 
-![](assets%5Cimg%5CUnidad07%5Cu7126.png)
+![](assets/img/Unidad07/u7126.png)
 
 # 3.1- Conectores de audio
 
-![](assets%5Cimg%5CUnidad07%5Cu7127.png)
+![](assets/img/Unidad07/u7127.png)
 
 # 3.2- Capturadora de video
 
@@ -680,11 +624,11 @@ Las capturadoras de vídeo son un dispositivo que recibe información de una fue
 
 Internas y externas
 
-![](assets%5Cimg%5CUnidad07%5Cu7128.png)
+![](assets/img/Unidad07/u7128.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7129.png)
+![](assets/img/Unidad07/u7129.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7130.png)
+![](assets/img/Unidad07/u7130.png)
 
 Una capturadora de vídeo cuenta con dos partes esenciales: una conexión desde el dispositivo a grabar (analógico o digital) a la capturadora y otra desde la propia capturadora dirigida al PC. El tipo de cable empleado suele variar dependiendo de los periféricos, dado que aquellos que consideramos “analógicos” a menudo no cuentan con puertos USB o HDMI, empleando en su lugar variantes como el RCA. En ese momento nuestro ordenador decodifica la señal y, o bien se graba o bien se envía a través de la plataforma de streaming que estemos utilizando. En general podemos distinguir cuatro funciones:
 
@@ -696,25 +640,25 @@ __Transmitir/streaming:__  compartimos nuestra actividad en directo con una audi
 
 __Codificar:__  toma nuestra grabación y la convierte a un formato diferente, como el códec de vídeo de alta compresión H.264.
 
-![](assets%5Cimg%5CUnidad07%5Cu7131.png)
+![](assets/img/Unidad07/u7131.png)
 
 A la hora de escoger una capturadora de vídeo tenemos que tener en cuenta el dispositivo de origen (consola, PC, Playstation 4, Xbox One, Xbox series X Playstation 5, Nintendo Switch, etc…) para así adquirir un modelo compatible.
 
 También tenemos que vigilar el número de complementos (cables, conectores, adaptadores) incluidos inicialmente con la capturadora o que debamos adquirir a parte
 
-![](assets%5Cimg%5CUnidad07%5Cu7132.jpg)
+![](assets/img/Unidad07/u7132.jpg)
 
 _[https://obsproject.com/es](https://obsproject.com/es)_
 
-![](assets%5Cimg%5CUnidad07%5Cu7133.png)
+![](assets/img/Unidad07/u7133.png)
 
 # 3.2- Capturar pantalla
 
-![](assets%5Cimg%5CUnidad07%5Cu7134.png)
+![](assets/img/Unidad07/u7134.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7135.png)
+![](assets/img/Unidad07/u7135.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7136.png)
+![](assets/img/Unidad07/u7136.png)
 
 _[https://getgreenshot.org/](https://getgreenshot.org/)_
 
@@ -730,33 +674,33 @@ Satélite. Sintonizan los canales recibidos por antena parabólica.
 
 Híbridas. Sintonizan dos o más tipos de señal.
 
-![](assets%5Cimg%5CUnidad07%5Cu7137.png)
+![](assets/img/Unidad07/u7137.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7138.png)
+![](assets/img/Unidad07/u7138.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7139.png)
+![](assets/img/Unidad07/u7139.png)
 
 # 3.4- Otras tarjetas de expansión
 
 Además de estas tarjetas más habituales, en el mercado hay otros tipos de tarjetas de expansión, entre las que se encuentran las de ampliación de puertos, las adaptadoras y controladoras de disco, etc.
 
-![](assets%5Cimg%5CUnidad07%5Cu7140.png)
+![](assets/img/Unidad07/u7140.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7141.png)
+![](assets/img/Unidad07/u7141.png)
 
 __Tarjetas controladoras de disco: __  La tarjeta controladora de discos se utiliza para añadir más puertos de una determinado interfaz a nuestra placa base, ya sea más puertos a una ya existente o nuevos puertos a una interfaz que no poseía nuestra placa base. Aunque se denomine comúnmente "controladora de discos", en estos puertos se puede conectar cualquier dispositivo de almacenamiento, no solamente discos duros. Además, algunas de estas controladoras de discos, poseen tecnología RAID que podremos aplicar a los discos duros que conectemos a ella.
 
-![](assets%5Cimg%5CUnidad07%5Cu7142.png)
+![](assets/img/Unidad07/u7142.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7143.png)
+![](assets/img/Unidad07/u7143.png)
 
 __Tarjetas de ampliación de puertos: __  En el caso de que en un equipo informático sean necesarios más puertos de algún tipo específico, una de las soluciones más utilizadas es la instalación de una tarjeta de ampliación de puertos (USB, Firewire, Thunderbolt)
 
-![](assets%5Cimg%5CUnidad07%5Cu7144.png)
+![](assets/img/Unidad07/u7144.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7145.png)
+![](assets/img/Unidad07/u7145.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7146.png)
+![](assets/img/Unidad07/u7146.png)
 
 __Tarjetas adaptadoras: __  Se utilizan cuando se dispone de un periférico o dispositivo diseñado para un sistema hardware específico y se quiere instalar en un ordenador que no dispone de ese tipo de bus, socket, conector, etc.
 
@@ -766,9 +710,9 @@ PCI Express a PCI
 
 PCI Express a NVMe
 
-![](assets%5Cimg%5CUnidad07%5Cu7147.png)
+![](assets/img/Unidad07/u7147.png)
 
-![](assets%5Cimg%5CUnidad07%5Cu7148.png)
+![](assets/img/Unidad07/u7148.png)
 
 # Bibliografía
 
