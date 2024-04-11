@@ -2,6 +2,8 @@
 
 # Tarjetas gráficas
 
+
+
 La tarjeta gráfica, también llamada tarjeta de vídeo, adaptador de pantalla o simplemente GPU (heredado del nombre de su procesador gráfico) es una tarjeta de expansión o un circuito integrado que se encarga de procesar los datos que le envía el procesador del ordenador y transformarlos en información visible y comprensible para el usuario, representándolos en el dispositivo de salida, el monitor.
 
 Tipos:
@@ -130,17 +132,19 @@ En la siguiente imagen vemos el esquema de una RTX 3080
  * 10 chips
  * 32 bits cada chip
 
- $Ancho de bus = 10 * 32bits = 320 bits$
-
+ |$\text{Ancho de bus} = 10 * 32bits = 320 bits$|
+|-----|
 
 #### Frecuencia/ velocidad de reloj de la memoria.
 
-La frecuiencia establece el número de operaciones por ciclo de reloj que la memoroia es capaz de realizar.
+La frecuencia establece el número de operaciones por ciclo de reloj que la memoroia es capaz de realizar.
 
 > [!NOTE] 
 > No confundir la velocidad de la meorias de la VRAM con la frecuencia de la GPU
 
+
 ![](assets/img/Unidad07/u716.png)
+
 
 #### Ancho de banda (BW) de la memoria.
 
@@ -218,7 +222,7 @@ Una tarjeta gráfica que tenga un consumo eléctrico de 150 vatios, necesitaría
 
 ![](assets/img/Unidad07/u731.png)
 
-## Concepto de señales de imágenes y video digitales
+## Conceptos de imágenes y video digitales
 
 ### Resolución, aspect ratio y pixel
 
@@ -246,20 +250,20 @@ La **profundidad de color**La profundidad de color o bits por píxel (bpp)  se r
 
 ### Frecuencia de actualización.
 
-__Frecuencia de actualización (velocidad de refresco). __ Es el número de veces por segundo que se dibuja la imagen en la pantalla en un segundo. Se mide en Hercios.
+La frecuencia de actualización o velocidad de refresco es el número de veces por segundo que se dibuja la imagen en la pantalla en un segundo. Se mide en Hercios.
 
 ![](assets/img/Unidad07/u739.png)
 
-_[https://hardzone.es/tutoriales/rendimiento/fps-ojo-humano/](https://hardzone.es/tutoriales/rendimiento/fps-ojo-humano/)_
+* [https://hardzone.es/tutoriales/rendimiento/fps-ojo-humano/](https://hardzone.es/tutoriales/rendimiento/fps-ojo-humano/)
 
-### 1.3 Espacio de color
+### Espacio de color
 
-* __Un espacio de color__  es un sistema de interpretación del color, es decir, una organización específica de los colores en una imagen o video. Depende del modelo de color en combinación con los dispositivos físicos que permiten las representaciones reproducibles de color, por ejemplo las que se aplican en señales analógicas (televisión a color) o representaciones digitales.
-  * __RGB __ es un modelo de color basado en la síntesis aditiva, con el que es posible representar un color mediante la mezcla por adición de los tres colores de luz primarios.
+Un espacio de color es un sistema de interpretación del color, es decir, una organización específica de los colores en una imagen o video. Depende del modelo de color en combinación con los dispositivos físicos que permiten las representaciones reproducibles de color, por ejemplo las que se aplican en señales analógicas (televisión a color) o representaciones digitales.
+  * **RGB** es un modelo de color basado en la síntesis aditiva, con el que es posible representar un color mediante la mezcla por adición de los tres colores de luz primarios.
     * [sRGB](https://es.wikipedia.org/wiki/Espacio_de_color_sRGB)
     * [Adobe RGB](https://es.wikipedia.org/wiki/Adobe_RGB)
-    * _[ProPhoto RGB](https://es.wikipedia.org/w/index.php?title=Espacio_de_color_ProPhoto_RGB&action=edit&redlink=1)_
-  * __CMYK (siglas de Cyan, Magenta, Yellow y Key) es un modelo de color sustractivo que se utiliza en la impresión en colores.__
+    * [ProPhoto RGB](https://es.wikipedia.org/w/index.php?title=Espacio_de_color_ProPhoto_RGB&action=edit&redlink=1)
+  * **CMYK** (siglas de Cyan, Magenta, Yellow y Key) es un modelo de color sustractivo que se utiliza en la impresión en colores.
 
 ![](assets/img/Unidad07/u740.png)
 
@@ -267,13 +271,13 @@ _[https://hardzone.es/tutoriales/rendimiento/fps-ojo-humano/](https://hardzone.e
 
 ![](assets/img/Unidad07/u742.png)
 
-# Conectores de señales de video
+## Conectores de señales de video
 
 Las tarjetas gráficas disponen de unos conectores de salida que sirven para conectarla con los monitores, algunas de estas tarjetas también pueden emitir audio digital.
 
 ![](assets/img/Unidad07/u743.png)
 
-# 1.4 VGA. Video Graphics Array
+### VGA. Video Graphics Array
 
 Sólo puede llevar información analógica de tipo RGBHV (Red, Green, Blue, frecuencia Horizontal, frecuencia Vertical)
 
@@ -289,12 +293,18 @@ Conector DB de 15 pines
 
 ![](assets/img/Unidad07/u747.png)
 
-# 1.4 DVI (Digital Visual Interface)
+### DVI (Digital Visual Interface)
 
-* Su parte izquierda está destinada a llevar las señales digitales de la tarjeta gráfica al monitor, mientras  que en su lado derecho están los pines destinados a transmitir la señal analógica.
-* Los tres tipos de conectores DVI que podemos encontrar son DVI-A (analógico), DVI-D (digital) y DVI-I (integrado; analógico y digital). Los conectores DVI-I y DVI-D tienen dos velocidades de datos distintas, conocidas como Single-Link (SL) y Dual-Link(DL)
-  * SL →1.65 Gbps de ancho de banda lo que permite llegar a 1920 x 1200 píxeles a 60Hz
-  * DL→ 2 Gbps de ancho de banda lo que permite llegar 2560 x 1600 píxeles a  60 Hz
+Su parte izquierda está destinada a llevar las señales digitales de la tarjeta gráfica al monitor, mientras  que en su lado derecho están los pines destinados a transmitir la señal analógica.
+
+Los tres tipos de conectores DVI que podemos encontrar son:
+* DVI-A (analógico)
+* DVI-D (digital)
+* DVI-I (integrado; analógico y digital).
+
+Además los conectores DVI-I y DVI-D tienen dos velocidades de datos distintas, conocidas como Single-Link (SL) y Dual-Link(DL)
+* SL →1.65 Gbps de ancho de banda lo que permite llegar a 1920 x 1200 píxeles a 60Hz
+* DL→ 2 Gbps de ancho de banda lo que permite llegar 2560 x 1600 píxeles a  60 Hz
 
 ![](assets/img/Unidad07/u748.png)
 
@@ -306,9 +316,9 @@ Conector DB de 15 pines
 
 ![](assets/img/Unidad07/u752.png)
 
-# 1.4 HDMI (High-Definition Multimedia Interface)
+### HDMI (High-Definition Multimedia Interface)
 
-__HDMI__  responde a las siglas High Definition Multimedia Interface (interfaz multimedia de alta definición) y hace referencia a la norma de conexión que permite transmitir audio y vídeo digital sin comprimir desde un equipo a otro y con un único cable.
+**HDMI** responde a las siglas High Definition Multimedia Interface (interfaz multimedia de alta definición) y hace referencia a la norma de conexión que permite transmitir audio y vídeo digital sin comprimir desde un equipo a otro y con un único cable.
 
 ![](assets/img/Unidad07/u753.png)
 
@@ -320,9 +330,9 @@ __HDMI__  responde a las siglas High Definition Multimedia Interface (interfaz m
 
 ![](assets/img/Unidad07/u757.png)
 
-# 1.4 DisplayPort
+### DisplayPort
 
-__DisplayPort__  es una interfaz digital para todo tipo de dispositivos, la cual ha sido desarrollada por VESA, por lo que estamos ante una interfaz que está libre de cualquier tipo de licencia o canon.
+**DisplayPort** es una interfaz digital para todo tipo de dispositivos, la cual ha sido desarrollada por VESA, por lo que estamos ante una interfaz que está **libre** de cualquier tipo de licencia o canon.
 
 ![](assets/img/Unidad07/u758.png)
 
@@ -332,17 +342,8 @@ __DisplayPort__  es una interfaz digital para todo tipo de dispositivos, la cual
 
 # DisplayPort
 
-![](assets/img/Unidad07/u761.png)
 
-![](assets/img/Unidad07/u762.png)
-
-# 1.4 DisplayPort
-
-![](assets/img/Unidad07/u763.png)
-
-![](assets/img/Unidad07/u764.png)
-
-# 1.5 Adaptadores
+### Adaptadores de video
 
 ![](assets/img/Unidad07/u765.png)
 
@@ -356,49 +357,47 @@ __DisplayPort__  es una interfaz digital para todo tipo de dispositivos, la cual
 
 ![](assets/img/Unidad07/u770.png)
 
-![](assets/img/Unidad07/u771.png)
 
-# 1.7 Multi-monitor
+
+### Multi-monitor
+
+
 
 Conexión de varios monitores a un ordenador
+* Duplicación de pantalla
+* Extensión de escritorio
 
-Duplicación de pantalla
-
-Extensión de escritorio
+![](assets/img/Unidad07/u771.png)
 
 ![](assets/img/Unidad07/u772.png)
 
 ![](assets/img/Unidad07/u773.png)
 
-# 
 
-# 2.1- Red de área local
+
+# Adaptadores de red 
+
+## Red de área local
 
 Un sistema en red , o una red, es aquel que está formado por dos o más dispositivos conectados entre sí para compartir información, recursos y servicios.
 
-Si nos centramos en una red de área local o LAN es una red de datos de alta velocidad y bajo nivel de errores que abarca un área geográfica relativamente pequeña. La penetración en el mercado de las redes lan es muy alto, es raro no ver una red lan en una empresa o instituciones y cada vez más podemos encontrar redes lan en los hogares.
+Si nos centramos en una red de área local o LAN es una red de datos de alta velocidad y bajo nivel de errores que abarca un área geográfica relativamente pequeña. La penetración en el mercado de las redes LAN es muy alto ya que están 
 
-__Según el medio de transmisión __ podemos encontrar redes de área local
+Según el medio de transmisión podemos encontrar redes de área local:
 
-Cableadas basadas en el estándar Ethernet o IEEE 802.3. → Par trenzado (RJ45) o fibra óptica (SPF), Coaxial (BNC) obsoleto
+* Cableadas basadas en el estándar Ethernet o IEEE 802.3.
+ * Par trenzado (RJ45)
+ * Fibra óptica (SPF)
+ * Coaxial (BNC) obsoleto
 
-Inalámbricas basadas en el estándar WiFi o IEEE 802.11 → Aire o vacío (Ondas electromagnéticas)
+* Inalámbricas basadas en el estándar WiFi o IEEE 802.11 → Aire o vacío (Ondas electromagnéticas)
+* Combinación de ambas ya que que con los elementos hardware adecuados son compatibles entre sí.
 
-Combinación de ambas ya que que con los elementos hardware adecuados son compatibles entre sí.
-
-# 2.2- Interfaz de red
+## Interfaz de red
 
 Los adaptadores de red, tarjeta de red, interfaz de red o NIC (Network interface card) es la parte hardware que comunica los diferentes nodos (ordenador, dispositivos móviles, televisiones….) de la red con el medio de transmisión que a su vez interconecta con los demás dispositivos que conforman la red. Pueden ser cableados o inalámbricos.
 
-![](assets/img/Unidad07/u774.png)
-
-![](assets/img/Unidad07/u775.png)
-
-![](assets/img/Unidad07/u776.png)
-
-![](assets/img/Unidad07/u777.png)
-
-# 2.3- Interfaces de red cableados
+### Interfaces de red cableados
 
 ![](assets/img/Unidad07/u778.png)
 
@@ -412,7 +411,7 @@ BNC→ cable coaxial
 
 ![](assets/img/Unidad07/u780.png)
 
-# 2.3.1- Interfaces de red RJ45
+### Interfaces de red RJ45
 
 ![](assets/img/Unidad07/u781.png)
 
@@ -422,7 +421,7 @@ BNC→ cable coaxial
 
 ![](assets/img/Unidad07/u784.png)
 
-# 2.3.2. Interfaces de red fibra óptica
+### Interfaces de red fibra óptica
 
 Un transceptor SFP (small form-factor pluggable transceptor ) o Mini_GBIC permiten conectar cables de fibra óptica de diferentes tipos, como son monomodo y multimodo, así como diferentes velocidades.
 
@@ -434,7 +433,7 @@ Un transceptor SFP (small form-factor pluggable transceptor ) o Mini_GBIC permit
 
 ![](assets/img/Unidad07/u788.png)
 
-# 2.3.3. Interfaces de red coaxial
+### Interfaces de red coaxial
 
 Obsoleto
 
@@ -450,7 +449,7 @@ Redes topologia anillo
 
 ![](assets/img/Unidad07/u793.png)
 
-# 2.3.4- Velocidad Ethernet
+### Velocidad Ethernet
 
 Las redes cableadas están basadas en el protocolo Ethernet según IEEE 802.3
 
@@ -464,7 +463,7 @@ LR: Largo alcance (Long Range)
 
 ![](assets/img/Unidad07/u794.png)
 
-# 2.4- Tarjetas de red inalámbricas
+### Tarjetas de red inalámbricas
 
 Las redes Wi-Fi permiten la conectividad de equipos y dispositivos mediante ondas de radio.
 
@@ -484,7 +483,7 @@ Estándar IEEE 802.11 → WiFi
 
 ![](assets/img/Unidad07/u7101.png)
 
-# 2.5- Bluetooth
+### Bluetooth
 
 El Bluetooth es un estándar de conectividad inalámbrica presente en nuestros dispositivos electrónicos
 
@@ -496,9 +495,9 @@ Frecuencia 2,402 GHz y los 2,480 GHz
 
 ![](assets/img/Unidad07/u7103.png)
 
-Actividad: ¿NFC?
 
-# 2.6- Dirección MAC (MAC Address)
+
+### Dirección MAC (MAC Address)
 
 La dirección MAC (Media Access Control; control de acceso al medio) es un identificador de 48 bits (6 bloques hexadecimales) que corresponde de forma única a una tarjeta o dispositivo de red, es decir cada tarjeta de red tiene su propia y única dirección MAC
 
@@ -506,35 +505,18 @@ Las direcciones MAC son únicas a nivel mundial, y es asignada por el fabricante
 
 Se conoce también como dirección física, un ejemplo de MAC es: 00-0F-EA-3F-64-22
 
-__Actividad: Identifica la MAC de tu ordenador y de tu teléfono móvil__
 
-# 2.7- Dispositivos interconexión. Router/Switch
+### Dispositivos interconexión
 
 ![](assets/img/Unidad07/u7104.png)
 
-# 2.7- Dispositivos interconexión. AP
 
 ![](assets/img/Unidad07/u7105.png)
 
-# 2.7- Dispositivos interconexión. Firewall
+# Tarjetas multimedia
 
-![](assets/img/Unidad07/u7106.png)
 
-# 2.8- VoIP - Voice Over IP
-
-VoIP es un acrónimo de Voz sobre Protocolo de Internet (Voice Over Internet Protocol), el cual por sí mismo significa voz a través de internet. Es una tecnología que proporciona la comunicación de voz y sesiones multimedia (tales como vídeo) sobre Protocolo de Internet (IP).
-
-![](assets/img/Unidad07/u7107.png)
-
-# 3- Tarjetas multimedia
-
-3.1 Tarjetas de sonido
-
-3.2 Tarjeta capturadora de video
-
-3.3 Tarjeta sintonizadora de TV
-
-# 3.1- Tarjetas de sonido
+## Tarjetas de sonido
 
 Es un dispositivo que permite la reproducción, la grabación y la digitalización del sonido, normalmente a través de un software específico.
 
@@ -542,13 +524,11 @@ Las placas base de los equipos actuales normalmente disponen del sistema de soni
 
 Las operaciones más usuales que ejecuta una tarjeta de sonido son:
 
-Grabación. El sonido que se recoge normalmente a través de un micrófono llega a la tarjeta a través de los conectores. Esta señal se recoge, se procesa y se almacena en el formato seleccionado.
+* Grabación. El sonido que se recoge normalmente a través de un micrófono llega a la tarjeta a través de los conectores. Esta señal se recoge, se procesa y se almacena en el formato seleccionado.
+* Reproducción. La señal digitalizada de un sonido se envía a la tarjeta que la procesa y la manda a través de los conectores de salida hacia los altavoces, auriculares, etcétera.
+* Síntesis. Es el procedimiento mediante el cual estas tarjetas reproducen sonidos a partir de datos o representaciones simbólicas.
 
-Reproducción. La señal digitalizada de un sonido se envía a la tarjeta que la procesa y la manda a través de los conectores de salida hacia los altavoces, auriculares, etcétera.
-
-Síntesis. Es el procedimiento mediante el cual estas tarjetas reproducen sonidos a partir de datos o representaciones simbólicas.
-
-# 3.1- Tarjetas de sonido Sound Blaster
+### Tarjetas de sonido Sound Blaster
 
 La familia Sound Blaster de tarjetas de sonido, ha sido durante muchos años el estándar para el audio de los PC, antes de que el audio de PC se hiciera común. El creador de Sound Blaster es una empresa de Singapur llamada Creative Technology, también conocida por el nombre de su empresa satélite en los Estados Unidos, Creative Labs.
 
@@ -556,37 +536,30 @@ La familia Sound Blaster de tarjetas de sonido, ha sido durante muchos años el 
 
 ![](assets/img/Unidad07/u7109.png)
 
+
+### Componentes de una tarjetas de sonido
+
 ![](assets/img/Unidad07/u7110.jpg)
 
-# 3.1- Componentes de una tarjetas de sonido
-
-# 3.1- In/Out de una tarjeta de sonido
+### In/Out de una tarjeta de sonido
 
 ![](assets/img/Unidad07/u7111.png)
 
-Analógicos
-
-__Verde __ : Salida de línea. Altavoces frontales. Auriculares.
-
-__Rosa__ : Micrófono
-
-__Azul claro__ : Entrada de Línea
-
-__Naranja:__  Altavoz Subwoofer y Altavoz Central
-
-__Negro:__  Altavoces de sonido envolvente 5.1 ó 7.1 traseros
-
-Digitales S/PDIF
-
-__Coaxial__
-
-__Óptico__
+* Analógicos
+ * Verde __ : Salida de línea. Altavoces frontales. Auriculares.
+ * Rosa__ : Micrófono
+ * Azul claro__ : Entrada de Línea
+ * Naranja:__  Altavoz Subwoofer y Altavoz Central
+ * Negro:__  Altavoces de sonido envolvente 5.1 ó 7.1 traseros
+* Digitales S/PDIF
+  * Coaxial
+  * Óptico
 
 ![](assets/img/Unidad07/u7112.png)
 
-Actividad: explicar conectores
 
-# 3.1- Tarjetas de sonido. Home Cinema 5.1
+
+### Sistemas de Home Cinema
 
 ![](assets/img/Unidad07/u7113.png)
 
@@ -598,25 +571,25 @@ Actividad: explicar conectores
 
 ![](assets/img/Unidad07/u7117.png)
 
-# 3.1- Tipos de tarjetas de sonido
+### Tipos de tarjetas de sonido
 
-__    Integradas en placa base: __
+#### Integradas en placa base: 
 
 ![](assets/img/Unidad07/u7118.png)
 
-__   PCI/PCI Express __
+#### PCI/PCI Express
 
 ![](assets/img/Unidad07/u7119.png)
 
 ![](assets/img/Unidad07/u7120.png)
 
-__USB:__
+#### USB:
 
 ![](assets/img/Unidad07/u7121.png)
 
 ![](assets/img/Unidad07/u7122.png)
 
-__Interfaces de audio:__
+#### Interfaces de audio
 
 Similares a las tarjetas de sonido, pero muy enfocadas al uso profesional y a la producción, las interfaces de audio son herramientas dedicadas al uso profesional que cuentan suelen contar con mejores capacidades que sus homónimas internas. Suelen conectarse a través de USB o Firewire de manera externa a nuestros equipos.
 
@@ -626,17 +599,17 @@ Similares a las tarjetas de sonido, pero muy enfocadas al uso profesional y a la
 
 ![](assets/img/Unidad07/u7125.png)
 
-__Mesa de mezclas:__
+#### Mesa de mezclas
 
 Dispositivo electrónico al cual se conectan diversos elementos emisores de audio, tales como micrófonos, entradas de línea, samplers, sintetizadores, reproductores de CD, etc. Una vez que las señales sonoras entran en la mesa estas pueden ser procesadas y tratadas de diversos modos para dar como resultado de salida una mezcla de audio, mono, multicanal o estéreo
 
 ![](assets/img/Unidad07/u7126.png)
 
-# 3.1- Conectores de audio
+#### Conectores de audio
 
 ![](assets/img/Unidad07/u7127.png)
 
-# 3.2- Capturadora de video
+### Capturadora de video
 
 Las capturadoras de vídeo son un dispositivo que recibe información de una fuente ajena a nuestro PC o portátil y la codifica como señal digital antes de que se retransmita  o grabe en este último. Técnicamente se consideran un periférico de entrada y pueden recibir señales tanto analógicas como digitales según el modelo de capturadora.
 
@@ -650,13 +623,10 @@ Internas y externas
 
 Una capturadora de vídeo cuenta con dos partes esenciales: una conexión desde el dispositivo a grabar (analógico o digital) a la capturadora y otra desde la propia capturadora dirigida al PC. El tipo de cable empleado suele variar dependiendo de los periféricos, dado que aquellos que consideramos “analógicos” a menudo no cuentan con puertos USB o HDMI, empleando en su lugar variantes como el RCA. En ese momento nuestro ordenador decodifica la señal y, o bien se graba o bien se envía a través de la plataforma de streaming que estemos utilizando. En general podemos distinguir cuatro funciones:
 
-__Capturar__ : se extrae tanto audio como vídeo en S-Video, o compuesto o RGB, bien con cable analógico o vídeo digital HDMI o  HD-SDI.
-
-__Grabar__ : guardamos nuestra actividad en formato digital compatible con cualquier ordenador.
-
-__Transmitir/streaming:__  compartimos nuestra actividad en directo con una audiencia gracias a una plataforma específica.
-
-__Codificar:__  toma nuestra grabación y la convierte a un formato diferente, como el códec de vídeo de alta compresión H.264.
+* Capturar: se extrae tanto audio como vídeo en S-Video, o compuesto o RGB, bien con cable analógico o vídeo digital HDMI o  HD-SDI.
+* Grabar: Se guerda la actividad en formato digital compatible con cualquier ordenador.
+* Transmitir/streaming: Se comprime la actividad en directo con una audiencia gracias a una plataforma específica.
+* Codificar: toma nuestra grabación y la convierte a un formato diferente, como el códec de vídeo de alta compresión H.264.
 
 ![](assets/img/Unidad07/u7131.png)
 
@@ -670,7 +640,7 @@ _[https://obsproject.com/es](https://obsproject.com/es)_
 
 ![](assets/img/Unidad07/u7133.png)
 
-# 3.2- Capturar pantalla
+#### Capturar pantalla
 
 ![](assets/img/Unidad07/u7134.png)
 
@@ -680,25 +650,9 @@ _[https://obsproject.com/es](https://obsproject.com/es)_
 
 _[https://getgreenshot.org/](https://getgreenshot.org/)_
 
-# 3.3- Sintonizadora TV
 
-Son dispositivos que permiten sintonizar diferentes canales de televisión en la pantalla del ordenador a través de la señal que proviene de una antena externa o portátil.
 
-Externas o internas
-
-Digitales. Sintonizan los canales digitales de la Televisión Digital Terrestre (TDT).
-
-Satélite. Sintonizan los canales recibidos por antena parabólica.
-
-Híbridas. Sintonizan dos o más tipos de señal.
-
-![](assets/img/Unidad07/u7137.png)
-
-![](assets/img/Unidad07/u7138.png)
-
-![](assets/img/Unidad07/u7139.png)
-
-# 3.4- Otras tarjetas de expansión
+## Otras tarjetas de expansión
 
 Además de estas tarjetas más habituales, en el mercado hay otros tipos de tarjetas de expansión, entre las que se encuentran las de ampliación de puertos, las adaptadoras y controladoras de disco, etc.
 
@@ -706,13 +660,17 @@ Además de estas tarjetas más habituales, en el mercado hay otros tipos de tarj
 
 ![](assets/img/Unidad07/u7141.png)
 
-__Tarjetas controladoras de disco: __  La tarjeta controladora de discos se utiliza para añadir más puertos de una determinado interfaz a nuestra placa base, ya sea más puertos a una ya existente o nuevos puertos a una interfaz que no poseía nuestra placa base. Aunque se denomine comúnmente "controladora de discos", en estos puertos se puede conectar cualquier dispositivo de almacenamiento, no solamente discos duros. Además, algunas de estas controladoras de discos, poseen tecnología RAID que podremos aplicar a los discos duros que conectemos a ella.
+### Tarjetas controladoras de disco:
+
+La tarjeta controladora de discos se utiliza para añadir más puertos de una determinado interfaz a nuestra placa base, ya sea más puertos a una ya existente o nuevos puertos a una interfaz que no poseía nuestra placa base. Aunque se denomine comúnmente "controladora de discos", en estos puertos se puede conectar cualquier dispositivo de almacenamiento, no solamente discos duros. Además, algunas de estas controladoras de discos, poseen tecnología RAID que podremos aplicar a los discos duros que conectemos a ella.
 
 ![](assets/img/Unidad07/u7142.png)
 
 ![](assets/img/Unidad07/u7143.png)
 
-__Tarjetas de ampliación de puertos: __  En el caso de que en un equipo informático sean necesarios más puertos de algún tipo específico, una de las soluciones más utilizadas es la instalación de una tarjeta de ampliación de puertos (USB, Firewire, Thunderbolt)
+### Tarjetas de ampliación de puertos
+
+En el caso de que en un equipo informático sean necesarios más puertos de algún tipo específico, una de las soluciones más utilizadas es la instalación de una tarjeta de ampliación de puertos (USB, Firewire, Thunderbolt)
 
 ![](assets/img/Unidad07/u7144.png)
 
@@ -720,7 +678,7 @@ __Tarjetas de ampliación de puertos: __  En el caso de que en un equipo inform�
 
 ![](assets/img/Unidad07/u7146.png)
 
-__Tarjetas adaptadoras: __  Se utilizan cuando se dispone de un periférico o dispositivo diseñado para un sistema hardware específico y se quiere instalar en un ordenador que no dispone de ese tipo de bus, socket, conector, etc.
+### Tarjetas adaptadoras: Se utilizan cuando se dispone de un periférico o dispositivo diseñado para un sistema hardware específico y se quiere instalar en un ordenador que no dispone de ese tipo de bus, socket, conector, etc.
 
 PCI a PCI Express
 
