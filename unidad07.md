@@ -5,7 +5,7 @@
 La tarjeta gráfica, también llamada tarjeta de vídeo, adaptador de pantalla o simplemente GPU (heredado del nombre de su procesador gráfico) es una tarjeta de expansión o un circuito integrado que se encarga de procesar los datos que le envía el procesador del ordenador y transformarlos en información visible y comprensible para el usuario, representándolos en el dispositivo de salida, el monitor.
 
 Tipos:
-* Integradas en CPU: Estas gráficas integradas tienen normalmente una potencia reducida y además necesitan recursos de memoria RAM del sistema.
+* Integradas en CPU(iGPU - Integrated GPU): Estas gráficas integradas tienen normalmente una potencia reducida y además necesitan recursos de memoria RAM del sistema.
   * Intel
   * Amd → APU
   * Apple M
@@ -89,6 +89,7 @@ Para calcular el Pixel y el Texture Fill Rate se pueden utilizar estas fórmulas
 ![](assets/img/Unidad07/u714.png)
 
 
+> [!NOTE]
 > La GTX 1080 Ti tiene un $Texture Fillrate = 332 GTexel/s$, mientras que tiene un $Pixel Fillrate=130,2 Gpixel/s$.
 
 
@@ -99,7 +100,7 @@ La Video Ram o memoria de vídeo está integrada en forma de chips sobre el PCB 
 En la memoria VRAM se cargan las texturas y los modelos que la GPU va a utilizar y procesar para crear la imagen después. Por tanto, es muy importante que nuestra tarjeta gráfica posea suficiente memoria VRAM.
 
 #### Tipo de VRAM
-  * GDDR Graphics Double Data Rate, es el tipo de VRAM de gráficos más popular, y es lo que encontrará en la gran mayoría de las GPUs actuales. → JEDEC
+  * GDDR Graphics Double Data Rate, es el tipo de VRAM de gráficos más popular, y es lo que encontrará en la gran mayoría de las GPUs actuales. → **JEDEC**
     * GDDR5
     * GDDR5X
     * GDDR6
@@ -111,61 +112,77 @@ En la memoria VRAM se cargan las texturas y los modelos que la GPU va a utilizar
 
 #### Bus de memoria de la GPU. 
 
-Es el bus que Realiza la interconexión entre la memoria VRAM de la gráfica y la GPU.
+Es el bus que realiza la interconexión entre la memoria VRAM de la gráfica y la GPU.
 
 **El Ancho de bus de memoria (Memory Bus Width)** es el número de bits de datos que pasan por él. El ancho del bus de memoria dictamina cuántos canales distintos tiene el controlador de memorias de la GPU, esto es, la cantidad de chips que pueden procesar datos a la vez. En el caso de las memorias GDDR actuales, estaremos hablando de 32 bits por chip, por lo que una tarjeta gráfica podrá acceder a la vez a la siguiente cantidad de chips.
 
-$Anchodebus = Numero de chips * 32$
+$Ancho de bus = Numero de chips * 32$
 
 $Número de chips = Ancho del bus / 32$
 
-> La NVIDIA GT 1030 tiene 64 bits de ancho de bus, la RTX 3080 tiene 320 bits y la RTX 3090 tiene 384 bits de ancho de bus.
+> [!NOTE]
+>  La NVIDIA GT 1030 tiene 64 bits de ancho de bus, la RTX 3080 tiene 320 bits y la RTX 3090 tiene 384 bits de ancho de bus.
+
+En la siguiente imagen vemos el esquema de una RTX 3080
 
 ![](assets/img/Unidad07/u715.png)
-
 * RTX 3080:
-  * 10 chips
-  * 32 bits cada chip
+ * 10 chips
+ * 32 bits cada chip
 
-> $Ancho de bus = 10 * 32bits = 320 bits$
+ $Ancho de bus = 10 * 32bits = 320 bits$
 
-** Frecuencia/ velocidad de reloj de la memoria. __  __Operaciones por ciclo de reloj que es capaz de realizar. __  _No confundir con la frecuencia de la GPU_
+
+#### Frecuencia/ velocidad de reloj de la memoria.
+
+La frecuiencia establece el número de operaciones por ciclo de reloj que la memoroia es capaz de realizar.
+
+> [!NOTE] 
+> No confundir la velocidad de la meorias de la VRAM con la frecuencia de la GPU
 
 ![](assets/img/Unidad07/u716.png)
 
-__Ancho de banda (BW) de la memoria . __  __El ancho de banda de la memoria es la cantidad de datos a los que la GPU puede acceder en cada ciclo de reloj y depende directamente de la frecuencia de la memoria (MHZ) o velocidad de la memoria(Gbps) y del ancho de bus. Normalmente se mide en GB/s__
+#### Ancho de banda (BW) de la memoria.
 
-__BW__  __memoria__  __= Ancho de bus(bits) * Frecuencia(Mhz) / 8 bytes__
+El ancho de banda de la memoria es la cantidad de datos a los que la GPU puede acceder en cada ciclo de reloj y depende directamente de la frecuencia de la memoria (MHZ) o velocidad de la memoria(Gbps) y del ancho de bus. Normalmente se mide en GB/s
 
-__BW__  __memoria__  __= Ancho de bus(bits) * Velocidad de la memoria(Gbps) / 8 bytes__
+$\text{BW vram (bytes)} = \text{Ancho de bus(bits)} * \text{Frecuencia(Mhz)} / 8$
 
-__Ejemplo: Una __  _[FX 5900XT](https://technical.city/es/video/GeForce-FX-5900-XT)_  __, cuya velocidad de memoria es de 700MHz y cuyo bus de memoria es de 256bits:__
+#\text{BW vram (bytes)}= \text{Ancho de bus(bits)} * \text{Velocidad de la memoria(Gbps)} / 8$
 
-__BW__  __memoria__  __= __  __700 MHz*256 bits = 179200 bits/s ⇒ __  __179200 bits/s__  __ / 8 bytes = 22400 MB/s = 22,4 GB/s.__
+
+* Ejemplo: Una [FX 5900XT](https://technical.city/es/video/GeForce-FX-5900-XT), cuya velocidad de memoria es de 700MHz y cuyo bus de memoria es de 256bits
+
+
+$\text{BW vram}= 700 MHz*256 bits = 179.200Mbits/s ⇒ 179200 Mbits/s / 8 bytes = 22400 MB/s = 22,4 GB/s$
+
 
 ![](assets/img/Unidad07/u717.png)
 
 ![](assets/img/Unidad07/u718.png)
 
-__BW__  __memoria__  __= Ancho de bus(bits) * Velocidad de la memoria(Gbps)__
-
-__BW__  __memoria__  __=  384 bits * 14 Gbps / 8 bytes= 672 GB/s__
 
 ![](assets/img/Unidad07/u719.png)
 
 ![](assets/img/Unidad07/u720.png)
 
-__Capacidad.__  La cantidad de memoria de la tarjeta gráfica viene dada por la capacidad individual de cada uno de sus chips
+### Capacidad.
+
+La cantidad de memoria de la tarjeta gráfica viene dada por la capacidad individual de cada uno de sus chips
 
 ![](assets/img/Unidad07/u721.png)
 
-![](assets/img/Unidad07/u722.png)
 
-__VRM - Voltage Regulator Modules - Módulo de regulación de voltaje. __ Es un componente electrónico que permite regular, con mayor o menor eficiencia, el voltaje que se suministra en un circuito electrónico y en el caso que nos ocupa a la tarjeta gráfica aunque también está presente en procesadores y placas base
+
+### VRM - Voltage Regulator Modules - Módulo de regulación de voltaje.
+
+Es un componente electrónico que permite regular, con mayor o menor eficiencia, el voltaje que se suministra en un circuito electrónico y en el caso que nos ocupa a la tarjeta gráfica.
+
+![](assets/img/Unidad07/u722.png)
 
 ![](assets/img/Unidad07/u723.png)
 
-# 1.6 Alimentación
+### Alimentación
 
 Cuanto más potente sea una tarjeta gráfica mayor es su consumo eléctrico, y el problema radica en que todas las gráficas que necesitan alimentación adicional consumen más energía de lo que el zócalo PCI-Express es capaz de proporcionar, limitado actualmente en 75 vatios. En otras palabras, cualquier tarjeta gráfica que tenga un consumo mayor de 75W necesitará alimentación adicional, y la manera de proporcionársela es conectándola directamente a la fuente de alimentación mediante los cables PCI-E de 6 y 8 pines.
 
@@ -179,47 +196,35 @@ Una tarjeta gráfica que tenga un consumo eléctrico de 150 vatios, necesitaría
 
 ![](assets/img/Unidad07/u726.png)
 
-# 1.3 TDP vs TGP vs TBP
+### TDP vs TGP vs TBP
 
-__TDP - Thermal Design Power. __  __En tarjetas gráficas el término TDP se refiere al __  __consumo de energía que tiene la GPU de la tarjeta.__
-
-__TGP - Total Graphics Power o  consumo gráfico total__  __. Cantidad máxima de potencia que la fuente de alimentación del sistema debería ser capaz de proveer a la tarjeta gráfica. Es decir se tiene en cuenta el consumo de la GPU, que nos lo daba el TDP,  y se le suma el consumo de todo el sistema de memoria (que es bastante significativo) y el del VRM que alimenta a la gráfica. Se usa en gráficas con chip __  _Nvidia._
-
-__TBP - __  __Total Board Power. __ Concepto equivalente a TGP pero para gráficas con chip  _AMD._
+* **TDP - Thermal Design Power.** En tarjetas gráficas el término TDP se refiere al consumo de energía que tiene la **GPU** de la tarjeta.
+* * **TGP - Total Graphics Power**. Cantidad máxima de potencia que la fuente de alimentación del sistema debería ser capaz de proveer a la tarjeta gráfica. Es decir se tiene en cuenta el consumo de la GPU, que nos lo daba el TDP,  y se le suma el consumo de todo el sistema de memoria (que es bastante significativo) y el del VRM que alimenta a la gráfica. Se usa en gráficas con chip **Nvidia**.
+* **TBP - Total Board Power.** Concepto equivalente a TGP pero para gráficas con chip **AMD**
 
 ![](assets/img/Unidad07/u727.png)
 
-__TDP - Thermal Design Power. __  __En tarjetas gráficas el término TDP se refiere al __  __consumo de energía que tiene la GPU de la tarjeta.__
 
-__TGP - Total Graphics Power o  consumo gráfico total__  __. Cantidad máxima de potencia que la fuente de alimentación del sistema debería ser capaz de proveer a la tarjeta gráfica. Es decir se tiene en cuenta el consumo de la GPU, que nos lo daba el TDP,  y se le suma el consumo de todo el sistema de memoria (que es bastante significativo) y el del VRM que alimenta a la gráfica. Se usa en gráficas con chip __  _Nvidia._
-
-__TBP - __  __Total Board Power. __ Concepto equivalente a TGP pero para gráficas con chip  _AMD._
-
-![](assets/img/Unidad07/u728.png)
-
-# 1.3 Flops / FPS
+#### Flops / FPS
 
 ![](assets/img/Unidad07/u729.png)
 
 ![](assets/img/Unidad07/u730.png)
 
-__FLOPS -Floating (point) Operations Per Second - Operaciones en punto flotante por segundo__  __. Se trata de una tasa de velocidad de las tarjetas gráficas. Se suele medir en Gflops o TFlops__
+* **FLOPS -Floating (point) Operations Per Second - Operaciones en punto flotante por segundo**. Se trata de una tasa de velocidad de las tarjetas gráficas. Se suele medir en Gflops o TFlops.
+* **FPS - Frames Per Second - Imágenes por segundo** . Se utiliza ampliamente en el mundo de los videojuegos, ya que a mayor número de FPS, más fluido correrá el juego. Comparando dos tarjetas gráficas diferentes, en el mismo juego y bajo las mismas condiciones, podemos estimar cuál de las dos da más rendimiento simplemente mirando la cantidad de FPS que ofrecen de media.
 
-__FPS - Frames Per Second - Imágenes por segundo__  __. Se utiliza ampliamente en el mundo de los videojuegos, ya que a mayor número de FPS, más fluido correrá el juego. Comparando dos tarjetas gráficas diferentes, en el mismo juego y bajo las mismas condiciones, podemos estimar cuál de las dos da más rendimiento simplemente mirando la cantidad de FPS que ofrecen de media.__
-
-# 1.3 Especificaciones tarjeta
+#### Ejemplo especificaciones tarjeta
 
 ![](assets/img/Unidad07/u731.png)
 
-_[https://www.profesionalreview.com/hardware/mejores-tarjetas-graficas/](https://www.profesionalreview.com/hardware/mejores-tarjetas-graficas/)_
+## Concepto de señales de imágenes y video digitales
 
-![](assets/img/Unidad07/u732.png)
+### Resolución, aspect ratio y pixel
 
-# 1.3 Resolución y aspect ratio
+* La Resolución. Es el número de píxeles que puede ser mostrado en la pantalla. Viene dada por el producto del ancho por el alto, medidos ambos en píxeles, con lo que se obtiene una relación, llamada **relación de aspecto(aspect ratio)**. La máxima resolución que puede mostrar una tarjeta gráfica viene directamente determinada por el puerto a través del que lo hagamos.
 
-__Resolución. __ Es el número de píxeles que puede ser mostrado en la pantalla. Viene dada por el producto del ancho por el alto, medidos ambos en píxeles, con lo que se obtiene una relación, llamada  __relación de aspecto(aspect ratio)__ . La máxima resolución que puede mostrar una tarjeta gráfica viene directamente determinada por el puerto a través del que lo hagamos.
-
-Un  __pixel__ , en  plural píxeles (acrónimo del inglés picture element) es la menor unidad homogénea en color que forma parte de una imagen digital, ya sea esta una fotografía, un fotograma de vídeo o un gráfico.
+* Un **pixel**, (acrónimo del inglés picture element) es la menor unidad homogénea en color que forma parte de una imagen digital, ya sea esta una fotografía, un fotograma de vídeo o un gráfico.
 
 ![](assets/img/Unidad07/u733.png)
 
@@ -227,9 +232,9 @@ Un  __pixel__ , en  plural píxeles (acrónimo del inglés picture element) es l
 
 ![](assets/img/Unidad07/u735.png)
 
-# 1.3 Profundidad de color
+### Profundidad de color
 
-* __Profundidad de color. __ La profundidad de color o bits por píxel (bpp)  se refiere a la cantidad de bits para representar el color de un píxel en una imagen.
+La **profundidad de color**La profundidad de color o bits por píxel (bpp)  se refiere a la cantidad de bits para representar el color de un píxel en una imagen.
   * Escala grises → Colores = 2 bits
   * RGB →  Colores = 23*bits
 
@@ -239,7 +244,7 @@ Un  __pixel__ , en  plural píxeles (acrónimo del inglés picture element) es l
 
 ![](assets/img/Unidad07/u738.png)
 
-# 1.3 Frecuencia de actualización.
+### Frecuencia de actualización.
 
 __Frecuencia de actualización (velocidad de refresco). __ Es el número de veces por segundo que se dibuja la imagen en la pantalla en un segundo. Se mide en Hercios.
 
@@ -247,7 +252,7 @@ __Frecuencia de actualización (velocidad de refresco). __ Es el número de vece
 
 _[https://hardzone.es/tutoriales/rendimiento/fps-ojo-humano/](https://hardzone.es/tutoriales/rendimiento/fps-ojo-humano/)_
 
-# 1.3 Espacio de color
+### 1.3 Espacio de color
 
 * __Un espacio de color__  es un sistema de interpretación del color, es decir, una organización específica de los colores en una imagen o video. Depende del modelo de color en combinación con los dispositivos físicos que permiten las representaciones reproducibles de color, por ejemplo las que se aplican en señales analógicas (televisión a color) o representaciones digitales.
   * __RGB __ es un modelo de color basado en la síntesis aditiva, con el que es posible representar un color mediante la mezcla por adición de los tres colores de luz primarios.
@@ -262,9 +267,9 @@ _[https://hardzone.es/tutoriales/rendimiento/fps-ojo-humano/](https://hardzone.e
 
 ![](assets/img/Unidad07/u742.png)
 
-# 1.4 Salidad tarjetas gráficas
+# Conectores de señales de video
 
-Las tarjetas gráficas disponen de unos conectores de salida que sirven para conectarla con los monitores.
+Las tarjetas gráficas disponen de unos conectores de salida que sirven para conectarla con los monitores, algunas de estas tarjetas también pueden emitir audio digital.
 
 ![](assets/img/Unidad07/u743.png)
 
