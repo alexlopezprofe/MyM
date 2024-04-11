@@ -9,3 +9,5 @@ Sitio web para el módulo Mantenimiento y Montaje de equipos de 1º de SMR
 [Unidad 5. Memoria RAM](unidad05.md) 
 
 [Unidad 6. Dispositivos de almacenamiento](unidad06.md)
+
+[Unidad 7. Tarjetas gráficas y otras tarjetas](unidad07.md)
