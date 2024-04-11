@@ -158,23 +158,21 @@ $\text{BW vram (bytes)} = \text{Ancho de bus(bits)} * \text{Frecuencia(Mhz)} / 8
 * Ejemplo: Una [FX 5900XT](https://technical.city/es/video/GeForce-FX-5900-XT), cuya velocidad de memoria es de 700MHz y cuyo bus de memoria es de 256bits
 
 
-$\text{BW vram}= 700 MHz*256 bits = 179.200Mbits/s ⇒ 179200 Mbits/s / 8 bytes = 22400 MB/s = 22,4 GB/s$
+$\text{BWvram}= 700 MHz*256 bits = 179.200Mbits/s ⇒ 179200 Mbits/s / 8 bytes = 22400 MB/s = 22,4 GB/s$
 
-
-![](assets/img/Unidad07/u717.png)
 
 ![](assets/img/Unidad07/u718.png)
 
-
 ![](assets/img/Unidad07/u719.png)
 
-![](assets/img/Unidad07/u720.png)
+
 
 ### Capacidad.
 
 La cantidad de memoria de la tarjeta gráfica viene dada por la capacidad individual de cada uno de sus chips
 
 ![](assets/img/Unidad07/u721.png)
+![](assets/img/Unidad07/u720.png)
 
 
 
@@ -193,7 +191,6 @@ Cuanto más potente sea una tarjeta gráfica mayor es su consumo eléctrico, y e
 Cada uno de los conectores de los cables PCIe de la fuente de alimentación es capaz de proporcionar 12,5 vatios adicionales. En otras palabras, un conector PCIe de 6 pines es capaz de entregar hasta 75 vatios, mientras que esto se eleva hasta los 100 vatios en los conectores de 8 pines.
 
 ![](assets/img/Unidad07/u724.png)
-
 ![](assets/img/Unidad07/u725.jpg)
 
 Una tarjeta gráfica que tenga un consumo eléctrico de 150 vatios, necesitaría los 75 que proporciona la placa base y otros 75 a través de la alimentación adicional de la fuente. En este ejemplo, necesitaríamos 75 vatios adicionales, y con un conector de 6 pines sería suficiente. Si la gráfica tuviera un consumo de 225 vatios, necesitaríamos los 75 de la placa y otros 150 adicionales, que podríamos proporcionarle mediante dos conectores de 6 pines, o incluso uno de 6 y otro de 8 para alcanzar los 250 vatios
@@ -203,20 +200,25 @@ Una tarjeta gráfica que tenga un consumo eléctrico de 150 vatios, necesitaría
 ### TDP vs TGP vs TBP
 
 * **TDP - Thermal Design Power.** En tarjetas gráficas el término TDP se refiere al consumo de energía que tiene la **GPU** de la tarjeta.
-* * **TGP - Total Graphics Power**. Cantidad máxima de potencia que la fuente de alimentación del sistema debería ser capaz de proveer a la tarjeta gráfica. Es decir se tiene en cuenta el consumo de la GPU, que nos lo daba el TDP,  y se le suma el consumo de todo el sistema de memoria (que es bastante significativo) y el del VRM que alimenta a la gráfica. Se usa en gráficas con chip **Nvidia**.
+* **TGP - Total Graphics Power**. Cantidad máxima de potencia que la fuente de alimentación del sistema debería ser capaz de proveer a la tarjeta gráfica. Es decir se tiene en cuenta el consumo de la GPU, que nos lo daba el TDP,  y se le suma el consumo de todo el sistema de memoria (que es bastante significativo) y el del VRM que alimenta a la gráfica. Se usa en gráficas con chip **Nvidia**.
 * **TBP - Total Board Power.** Concepto equivalente a TGP pero para gráficas con chip **AMD**
 
 ![](assets/img/Unidad07/u727.png)
 
+[Power Consumption: TDP, TBP and TGP for Nvidia and AMD](https://www.igorslab.de/en/performance-tdp-tbp-and-tgp-at-nvidia-and-amd-graphics-cards-demystified-and-calculated-igorslab/)
+
 
 #### Flops / FPS
 
-![](assets/img/Unidad07/u729.png)
+
 
 ![](assets/img/Unidad07/u730.png)
 
-* **FLOPS -Floating (point) Operations Per Second - Operaciones en punto flotante por segundo**. Se trata de una tasa de velocidad de las tarjetas gráficas. Se suele medir en Gflops o TFlops.
 * **FPS - Frames Per Second - Imágenes por segundo** . Se utiliza ampliamente en el mundo de los videojuegos, ya que a mayor número de FPS, más fluido correrá el juego. Comparando dos tarjetas gráficas diferentes, en el mismo juego y bajo las mismas condiciones, podemos estimar cuál de las dos da más rendimiento simplemente mirando la cantidad de FPS que ofrecen de media.
+
+![](assets/img/Unidad07/u729.png)
+
+* **FLOPS -Floating (point) Operations Per Second - Operaciones en punto flotante por segundo**. Se trata de una tasa de velocidad de las tarjetas gráficas. Se suele medir en Gflops o TFlops.
 
 #### Ejemplo especificaciones tarjeta
 
@@ -234,13 +236,15 @@ Una tarjeta gráfica que tenga un consumo eléctrico de 150 vatios, necesitaría
 
 ![](assets/img/Unidad07/u734.png)
 
-![](assets/img/Unidad07/u735.png)
+
 
 ### Profundidad de color
 
 La **profundidad de color**La profundidad de color o bits por píxel (bpp)  se refiere a la cantidad de bits para representar el color de un píxel en una imagen.
   * Escala grises → Colores = 2 bits
   * RGB →  Colores = 23*bits
+
+![](assets/img/Unidad07/u735.png)
 
 ![](assets/img/Unidad07/u736.png)
 
@@ -314,8 +318,6 @@ Además los conectores DVI-I y DVI-D tienen dos velocidades de datos distintas, 
 
 ![](assets/img/Unidad07/u751.png)
 
-![](assets/img/Unidad07/u752.png)
-
 ### HDMI (High-Definition Multimedia Interface)
 
 **HDMI** responde a las siglas High Definition Multimedia Interface (interfaz multimedia de alta definición) y hace referencia a la norma de conexión que permite transmitir audio y vídeo digital sin comprimir desde un equipo a otro y con un único cable.
@@ -324,11 +326,10 @@ Además los conectores DVI-I y DVI-D tienen dos velocidades de datos distintas, 
 
 ![](assets/img/Unidad07/u754.png)
 
-![](assets/img/Unidad07/u755.png)
-
 ![](assets/img/Unidad07/u756.png)
 
 ![](assets/img/Unidad07/u757.png)
+
 
 ### DisplayPort
 
@@ -346,24 +347,17 @@ Además los conectores DVI-I y DVI-D tienen dos velocidades de datos distintas, 
 ### Adaptadores de video
 
 ![](assets/img/Unidad07/u765.png)
-
 ![](assets/img/Unidad07/u766.png)
-
 ![](assets/img/Unidad07/u767.png)
-
 ![](assets/img/Unidad07/u768.png)
-
 ![](assets/img/Unidad07/u769.png)
-
 ![](assets/img/Unidad07/u770.png)
 
 
 
 ### Multi-monitor
 
-
-
-Conexión de varios monitores a un ordenador
+Conexión de varios monitores a un adaptador:
 * Duplicación de pantalla
 * Extensión de escritorio
 
@@ -415,7 +409,7 @@ BNC→ cable coaxial
 
 ![](assets/img/Unidad07/u781.png)
 
-![](assets/img/Unidad07/u782.png)
+ <img src="assets/img/Unidad07/u782.png" width="200" height="200">
 
 ![](assets/img/Unidad07/u783.png)
 
@@ -461,13 +455,15 @@ SR: Corto alcance (Short Range)
 
 LR: Largo alcance (Long Range)
 
-![](assets/img/Unidad07/u794.png)
+
 
 ### Tarjetas de red inalámbricas
 
+![](assets/img/Unidad07/u794.png)
+
 Las redes Wi-Fi permiten la conectividad de equipos y dispositivos mediante ondas de radio.
 
-Estándar IEEE 802.11 → WiFi
+El estándar para las redes inalámbricas es el **IEEE 802.11** → WiFi
 
 ![](assets/img/Unidad07/u795.png)
 
@@ -485,6 +481,8 @@ Estándar IEEE 802.11 → WiFi
 
 ### Bluetooth
 
+
+
 El Bluetooth es un estándar de conectividad inalámbrica presente en nuestros dispositivos electrónicos
 
 IEEE 802.15.1
@@ -494,7 +492,6 @@ Frecuencia 2,402 GHz y los 2,480 GHz
 ![](assets/img/Unidad07/u7102.png)
 
 ![](assets/img/Unidad07/u7103.png)
-
 
 
 ### Dirección MAC (MAC Address)
@@ -507,6 +504,8 @@ Se conoce también como dirección física, un ejemplo de MAC es: 00-0F-EA-3F-64
 
 
 ### Dispositivos interconexión
+
+Routers y switches
 
 ![](assets/img/Unidad07/u7104.png)
 
