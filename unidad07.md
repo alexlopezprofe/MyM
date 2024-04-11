@@ -1,6 +1,5 @@
 # U7- Adaptadores gráficos, red y multimedia
 
-
 # Tarjetas gráficas
 
 La tarjeta gráfica, también llamada tarjeta de vídeo, adaptador de pantalla o simplemente GPU (heredado del nombre de su procesador gráfico) es una tarjeta de expansión o un circuito integrado que se encarga de procesar los datos que le envía el procesador del ordenador y transformarlos en información visible y comprensible para el usuario, representándolos en el dispositivo de salida, el monitor.
@@ -31,12 +30,12 @@ Así como las CPU, están diseñados con pocos núcleos pero altas frecuencias d
 ![](assets/img/Unidad07/u73.png)
 
 
-### Características GPU
+#### Características GPU
 
 **Núcleos**. Cada uno de ellos contribuye al rendimiento en conjunto de la tarjeta gráfica. Cada fabricante utiliza diferentes arquitecturas, y no es un buen dato para comparar modelos de fabricantes distintos.
 
-* AMD → Stream Processors
-* NVIDIA → CUDA Cores
+* Los núcleos en chips AMD se denominan **Stream Processors**
+* Los núcleos en chips NVIDIA se denominan **CUDA Cores**
 
 ![](assets/img/Unidad07/u74.png) ![](assets/img/Unidad07/u75.png)
   
@@ -60,13 +59,14 @@ Un mapa de bits o imagen resterizada es un objeto definido como una serie de pí
 
 ![image](https://github.com/alexlopezprofe/MyM/assets/148449360/b2585586-91f0-451c-890d-a263d1a8d637)
 
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/9590e954-00f3-4b96-ac91-f73e1123eb45)
+
+
 ## Rasterización
 Los objetos 3D se guardan en la memoria de forma vectorial, pero para ser representados en un medio 2D, como una pantalla o un papel, se deben convertir a un mapa de bits, a este proceso se le llama rasterización.
 La  rasterización o rasterizar, consiste en pasar un objeto vectorial a un conjunto de bits. El proceso contrario sería **vectorizar**.
 
-## ROPs. (Render/Raster Output Units).
-
-Se encargan del proceso de rasterizado. Gestiona la salida de píxeles en la pantalla y así como otras tareas básicas de renderizado y el antialiasing.
+El componente encargado del rasterizado son los **ROPs o Render/Raster Output Units**
 
 ![](assets/img/Unidad07/u710.png)
 
@@ -82,41 +82,54 @@ Es una unidad fija que se encarga del llamado mapeo de texturas donde lógicamen
 
 * **Texture Fill Rate o tasa de relleno de texturas**. Número de elementos de mapa de textura (téxeles) que una GPU puede mapear a píxeles en un segundo. La unidad es el Megatéxeles(MT/s) o gigatexels por segundo(GT/s).
 
-> La GTX 1080 Ti tiene un Texture Fillrate de 332 GTexel/s, mientras que tiene un Pixel Fillrate de 130,2 Gpixel/s.
+Para calcular el Pixel y el Texture Fill Rate se pueden utilizar estas fórmulas:
 
 ![](assets/img/Unidad07/u713.png)
 
 ![](assets/img/Unidad07/u714.png)
 
-# 1.3 VRAM
 
-* __Video Ram o memoria de vídeo__  __  está integrada en forma de chips sobre el PCB de la tarjeta gráfica, y que cuenta con su propio bus de datos. Es un tipo de memoria diseñada especialmente para llevar a cabo un tipo concreto de tareas en aplicaciones gráficas y videojuegos. __
-* __En la memoria VRAM se cargan las texturas y los modelos que la GPU va a utilizar y procesar para crear la imagen después. Por tanto, es muy importante que nuestra tarjeta gráfica posea suficiente memoria VRAM. __
-* __Tipo de VRAM:__
-  * __GDDR SDRAM__  __ (__  __Graphics Double Data Rate Synchronous Dynamic Random-Access Memory__  __), es el tipo de VRAM de gráficos más popular, y es lo que encontrará en la gran mayoría de las GPUs actuales. → JEDEC__
-    * __GDDR5__
-    * __GDDR5X__
-    * __GDDR6__
-    * __GDDR6X__
-  * __HBM__  __(High Bandwidth Memory), tipo de memoria gráfica que tiene un ancho de banda mucho mayor que GDDR6, alto coste __
-    * __HBM__
-    * _[HBM2](https://www.pccomponentes.com/amd-radeon-pro-wx-9100-16gb-gddr5-hbm2)_
-    * _[HBM2E](https://hardzone.es/tutoriales/rendimiento/memoria-hbm2e-caracteristicas-especificaciones/)_
+> La GTX 1080 Ti tiene un $Texture Fillrate = 332 GTexel/s$, mientras que tiene un $Pixel Fillrate=130,2 Gpixel/s$.
 
-__Bus de memoria de la GPU. __  __Realiza la interconexión entre la memoria VRAM de la gráfica la GPU.__
 
-__Ancho de bus de memoria (memory bus width)__  __. Número de bits de datos que pasan por él. El ancho del bus de memoria dictamina cuántos canales distintos tiene el controlador de memorias de la GPU, esto es, la cantidad de chips que puede servir a la vez. En el caso de las memorias GDDR actuales, estaremos hablando de __  _32 bits por chip_  __, por lo que una tarjeta gráfica podrá acceder a la vez a la siguiente cantidad de chips __  __→ __  __Número de chips = Ancho del bus / 32__
+### VRAM
 
-__La NVIDIA GT 1030 tiene 64 bits de ancho de bus, la RTX 3080 tiene 320 bits (imagen) y la RTX 3090 tiene 384 bits de ancho de bus.__
+La Video Ram o memoria de vídeo está integrada en forma de chips sobre el PCB de la tarjeta gráfica, y que cuenta con su propio bus de datos. Es un tipo de memoria diseñada especialmente para llevar a cabo un tipo concreto de tareas en aplicaciones gráficas y videojuegos.
+
+En la memoria VRAM se cargan las texturas y los modelos que la GPU va a utilizar y procesar para crear la imagen después. Por tanto, es muy importante que nuestra tarjeta gráfica posea suficiente memoria VRAM.
+
+#### Tipo de VRAM
+  * GDDR Graphics Double Data Rate, es el tipo de VRAM de gráficos más popular, y es lo que encontrará en la gran mayoría de las GPUs actuales. → JEDEC
+    * GDDR5
+    * GDDR5X
+    * GDDR6
+    * GDDR6X
+  * HBM (High Bandwidth Memory), tipo de memoria gráfica que tiene un ancho de banda mucho mayor que GDDR6X, utilizadas en el ámbito profesional
+    * HBM
+    * HBM2
+    * HBM2E
+
+#### Bus de memoria de la GPU. 
+
+Es el bus que Realiza la interconexión entre la memoria VRAM de la gráfica y la GPU.
+
+**El Ancho de bus de memoria (Memory Bus Width)** es el número de bits de datos que pasan por él. El ancho del bus de memoria dictamina cuántos canales distintos tiene el controlador de memorias de la GPU, esto es, la cantidad de chips que pueden procesar datos a la vez. En el caso de las memorias GDDR actuales, estaremos hablando de 32 bits por chip, por lo que una tarjeta gráfica podrá acceder a la vez a la siguiente cantidad de chips.
+
+$Anchodebus = Numero de chips * 32$
+
+$Número de chips = Ancho del bus / 32$
+
+> La NVIDIA GT 1030 tiene 64 bits de ancho de bus, la RTX 3080 tiene 320 bits y la RTX 3090 tiene 384 bits de ancho de bus.
 
 ![](assets/img/Unidad07/u715.png)
 
 * RTX 3080:
   * 10 chips
   * 32 bits cada chip
-* Ancho de bus = 10*32 = 320 bits
 
-__Frecuencia/ velocidad de reloj de la memoria. __  __Operaciones por ciclo de reloj que es capaz de realizar. __  _No confundir con la frecuencia de la GPU_
+> $Ancho de bus = 10 * 32bits = 320 bits$
+
+** Frecuencia/ velocidad de reloj de la memoria. __  __Operaciones por ciclo de reloj que es capaz de realizar. __  _No confundir con la frecuencia de la GPU_
 
 ![](assets/img/Unidad07/u716.png)
 
