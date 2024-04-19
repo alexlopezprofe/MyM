@@ -1,4 +1,4 @@
-# U7- Adaptadores gráficos, red y multimedia
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/242a18f7-520c-4dfa-a01f-fe7267d2bf97)# U7- Adaptadores gráficos, red y multimedia
 
 # Tarjetas gráficas
 
@@ -202,11 +202,20 @@ Una tarjeta gráfica que tenga un consumo eléctrico de 150 vatios, necesitaría
 
 Es un nuevo tipo de conector de alimentación utilizado por tarjetas de gama alta de NVIDIA.
 
-Tiene la capacidad de entregar 600W de potencia bajo un voltaje de 12V, es decir, 50 amperios en un pequeño conector. Sus dimensiones son de apenas 0.7cm para los 12 pines que proporcionan energía, a lo que les suma 4 pequeños pines sensoriales que no dan energía. y que llevan la anchura total a 0.845cm y 1.4cm de largo.
+Tiene la capacidad de entregar 600W de potencia bajo un voltaje de 12V, es decir, 50 amperios en un pequeño conector. Sus dimensiones son de apenas 0.7cm para los 12 pines que proporcionan energía, a lo que les suma 4 pequeños pines sensoriales que no dan energía. y que llevan la anchura. total a 0.845cm y 1.4cm de largo.
 
 ![image](https://github.com/alexlopezprofe/MyM/assets/148449360/2f05d45f-44ac-40d0-9a30-d513bf24d360)
 
 ![image](https://github.com/alexlopezprofe/MyM/assets/148449360/9d3175e9-b96d-45f0-8fb2-8eec9e4c7633)
+
+
+**¿Qué ocurre si no tenemos este comector en nuestra fuente de alimentación?**  Se puede utilizar un adaptador
+
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/918e50e5-8c90-4185-bd35-dd0daace354c)
+
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/4744f138-f1af-419e-a33e-e7ff4c128d64)
+
+
 
 ### TDP vs TGP vs TBP
 
@@ -217,6 +226,7 @@ Tiene la capacidad de entregar 600W de potencia bajo un voltaje de 12V, es decir
 ![](assets/img/Unidad07/u727.png)
 
 [Power Consumption: TDP, TBP and TGP for Nvidia and AMD](https://www.igorslab.de/en/performance-tdp-tbp-and-tgp-at-nvidia-and-amd-graphics-cards-demystified-and-calculated-igorslab/)
+
 
 
 #### Flops / FPS
