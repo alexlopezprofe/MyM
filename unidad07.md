@@ -197,6 +197,17 @@ Una tarjeta gráfica que tenga un consumo eléctrico de 150 vatios, necesitaría
 
 ![](assets/img/Unidad07/u726.png)
 
+
+#### Conector 12VHPWR
+
+Es un nuevo tipo de conector de alimentación utilizado por tarjetas de gama alta de NVIDIA.
+
+Tiene la capacidad de entregar 600W de potencia bajo un voltaje de 12V, es decir, 50 amperios en un pequeño conector. Sus dimensiones son de apenas 0.7cm para los 12 pines que proporcionan energía, a lo que les suma 4 pequeños pines sensoriales que no dan energía. y que llevan la anchura total a 0.845cm y 1.4cm de largo.
+
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/2f05d45f-44ac-40d0-9a30-d513bf24d360)
+
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/9d3175e9-b96d-45f0-8fb2-8eec9e4c7633)
+
 ### TDP vs TGP vs TBP
 
 * **TDP - Thermal Design Power.** En tarjetas gráficas el término TDP se refiere al consumo de energía que tiene la **GPU** de la tarjeta.
