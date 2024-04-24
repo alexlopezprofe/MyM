@@ -1,7 +1,6 @@
-![image](https://github.com/alexlopezprofe/MyM/assets/148449360/242a18f7-520c-4dfa-a01f-fe7267d2bf97)# U7- Adaptadores gráficos, red y multimedia
+# U7- Adaptadores gráficos, red y multimedia
 
 # Tarjetas gráficas
-
 
 
 La tarjeta gráfica, también llamada tarjeta de vídeo, adaptador de pantalla o simplemente GPU (heredado del nombre de su procesador gráfico) es una tarjeta de expansión o un circuito integrado que se encarga de procesar los datos que le envía el procesador del ordenador y transformarlos en información visible y comprensible para el usuario, representándolos en el dispositivo de salida, el monitor.
@@ -231,8 +230,6 @@ Tiene la capacidad de entregar 600W de potencia bajo un voltaje de 12V, es decir
 
 #### Flops / FPS
 
-
-
 ![](assets/img/Unidad07/u730.png)
 
 * **FPS - Frames Per Second - Imágenes por segundo** . Se utiliza ampliamente en el mundo de los videojuegos, ya que a mayor número de FPS, más fluido correrá el juego. Comparando dos tarjetas gráficas diferentes, en el mismo juego y bajo las mismas condiciones, podemos estimar cuál de las dos da más rendimiento simplemente mirando la cantidad de FPS que ofrecen de media.
@@ -262,8 +259,6 @@ Tiene la capacidad de entregar 600W de potencia bajo un voltaje de 12V, es decir
 ### Profundidad de color
 
 La **profundidad de color**La profundidad de color o bits por píxel (bpp)  se refiere a la cantidad de bits para representar el color de un píxel en una imagen.
-  * Escala grises → Colores = 2 bits
-  * RGB →  Colores = 23*bits
 
 ![](assets/img/Unidad07/u735.png)
 
