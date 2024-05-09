@@ -11,3 +11,7 @@ Sitio web para el módulo Mantenimiento y Montaje de equipos de 1º de SMR
 [Unidad 6. Dispositivos de almacenamiento](unidad06.md)
 
 [Unidad 7. Tarjetas gráficas y otras tarjetas](unidad07.md)
+
+[Unidad 8. Periféricos](unidad08.md)
+
+[Unidad 9. Ensamblaje de un equipo informático](unidad09.md)
