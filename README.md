@@ -2,7 +2,9 @@
 
 Sitio web para el módulo Mantenimiento y Montaje de equipos de 1º de SMR
 
-[Unidad 3. Cajas, fuentes, y cajas](unidad03.md)
+[Unidad 2. ](unidad02.md)
+
+[Unidad 3. Cajas, fuentes, y placas](unidad03.md)
 
 [Unidad 4. Procesador](unidad04.md) 
 
