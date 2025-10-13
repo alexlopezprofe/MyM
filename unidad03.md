@@ -1,24 +1,7 @@
-<style>figcaption {
-  font-weight: bold;
-}
-</style>
+
 # Unidad 3. Cajas, fuentes y placa base
 
-<details open markdown="block">
-  <summary>
-    Contenidos
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
-
-
 # Cajas
-
-[comment]: <>  <pre>
-[comment]: <>   <p style="text-align:center">Este texto estará centrado.</p>
-[comment]: <>  </pre>
 
 La **caja o chasis o carcasa** es la parte del ordenador que sirve de soporte y de esqueleto para alojar las piezas básicas de un ordenador (placa base, dispositivos de almacenamiento, fuente de alimentación, etc...). El tamaño ha de ser lo suficientemente grande para que albergue los diferentes componentes del ordenador. 
 
@@ -807,4 +790,5 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 _[https://tech-fairy.com/what-is-the-meaning-of-the-different-usb-port-colors-blue-teal-blue-yellow-red-black/](https://tech-fairy.com/what-is-the-meaning-of-the-different-usb-port-colors-blue-teal-blue-yellow-red-black/)_
 
 _[https://download.gigabyte.com/FileList/Manual/mb_manual_z790-aorus-xtreme_1001_e_221011.pdf](https://download.gigabyte.com/FileList/Manual/mb_manual_z790-aorus-xtreme_1001_e_221011.pdf)_
+
 
